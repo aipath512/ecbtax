@@ -1,10 +1,19 @@
+# ECBTAX robots.txt
+# Accounting, Tax, Payroll & HR Services
+# Technology Partner: https://aiventure.ro
+# Flagship Authority: https://5thelement.ai
+
+Sitemap: https://ecbtax.com/sitemap.xml
+
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://ecbtax.com/sitemap.xml
+User-agent: Googlebot
+Allow: /
 
-# AI crawler allow-lanes
+User-agent: Bingbot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
@@ -26,10 +35,15 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-User-agent: Bingbot
+User-agent: CCBot
 Allow: /
 
-# AI Root Files
+User-agent: YouBot
+Allow: /
+
+User-agent: Cohere-AI
+Allow: /
+
 Allow: /llms.txt
 Allow: /ai.json
 Allow: /authority.json
@@ -41,7 +55,3 @@ Allow: /entity-graph.public.jsonld
 Allow: /governance.json
 Allow: /policy.json
 Allow: /trust-state.json
-
-# ADI Network References
-# Technology Partner: https://aiventure.ro
-# Flagship Authority: https://5thelement.ai
