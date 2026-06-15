@@ -1,1374 +1,957 @@
 <!doctype html>
 <html lang="ro">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ECB TAX ACCOUNTING HR SRL — Contabilitate, Taxe & Consultanță Verificabile</title>
-  <meta name="description" content="ECB TAX ACCOUNTING HR SRL oferă servicii de contabilitate, conformitate fiscală și consultanță pentru companii care operează în UE, construite pe un strat de încredere verificabil, lizibil de AI." />
-  <meta name="robots" content="index,follow,max-image-preview:large" />
-  <link rel="canonical" href="https://ecbtax.com/" />
-
-  <style>
-    :root {
-      --bg:#000000;
-      --card:#1a1a1a;
-      --card2:#202020;
-      --text:#fff;
-      --muted:#b8c0cc;
-      --muted2:#8892a3;
-      --gold:#f5c842;
-      --line:rgba(255,255,255,.12);
-      --line2:rgba(255,255,255,.22);
-      --max:1180px;
-      --radius:24px;
-    }
-
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      font-family:Inter,Arial,Helvetica,sans-serif;
-      background:var(--bg);
-      color:var(--text);
-      line-height:1.55;
-    }
-
-    a{color:inherit;text-decoration:none}
-    img{max-width:100%;display:block}
-    .container{width:min(var(--max),92%);margin:auto}
-
-    /* language toggle visibility */
-    [lang-ro]{display:inline}
-    [lang-en]{display:none}
-    body.lang-en [lang-ro]{display:none}
-    body.lang-en [lang-en]{display:inline}
-    [lang-ro].block,[lang-en].block{display:block}
-    body.lang-en [lang-ro].block{display:none}
-    body.lang-en [lang-en].block{display:block}
-
-    header{
-      position:sticky;
-      top:0;
-      z-index:100;
-      background:rgba(7,9,13,.94);
-      backdrop-filter:blur(16px);
-      border-bottom:1px solid var(--line);
-    }
-
-    .nav{
-      min-height:78px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:24px;
-    }
-
-    .brand{
-      display:flex;
-      align-items:center;
-      gap:12px;
-      font-family:'Playfair Display',Georgia,serif;
-      font-weight:900;
-      font-size:18px;
-      letter-spacing:-.01em;
-    }
-    .brand img{height:38px;width:38px;border-radius:8px;object-fit:contain;background:#000}
-    .brand-text{display:flex;flex-direction:column;line-height:1.15}
-    .brand-text .small-sub{font-family:Inter,sans-serif;font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--gold);text-transform:uppercase}
-
-    .navlinks{
-      display:flex;
-      align-items:center;
-      gap:18px;
-      color:var(--muted);
-      font-size:14px;
-      font-weight:700;
-    }
-
-    .navlinks a:hover{color:var(--gold)}
-
-    .nav-right{
-      display:flex;
-      align-items:center;
-      gap:14px;
-    }
-
-    .lang-switch{
-      display:flex;
-      align-items:center;
-      gap:6px;
-      border:1px solid var(--line2);
-      border-radius:999px;
-      padding:4px;
-      font-size:12px;
-      font-weight:800;
-      font-family:Inter,sans-serif;
-    }
-    .lang-switch button{
-      border:none;
-      background:transparent;
-      color:var(--muted);
-      padding:6px 12px;
-      border-radius:999px;
-      cursor:pointer;
-      font-weight:800;
-      font-family:Inter,sans-serif;
-      font-size:12px;
-    }
-    .lang-switch button.active{background:var(--gold);color:#111}
-
-    .header-cta{
-      padding:10px 22px;
-      border-radius:2px;
-      background:transparent;
-      color:var(--gold);
-      font-weight:500;
-      font-size:12px;
-      letter-spacing:.16em;
-      text-transform:uppercase;
-      white-space:nowrap;
-      border:1px solid var(--gold);
-      position:relative;
-      overflow:hidden;
-      z-index:0;
-      transition:color .25s ease;
-    }
-
-    .header-cta::before{
-      content:"";
-      position:absolute;
-      inset:0;
-      background:var(--gold);
-      transform:scaleX(0);
-      transform-origin:left;
-      transition:transform .35s cubic-bezier(.65,0,.35,1);
-      z-index:-1;
-    }
-
-    .header-cta:hover{color:#0a0a0a}
-    .header-cta:hover::before{transform:scaleX(1)}
-
-    .menu-toggle{
-      display:none;
-      flex-direction:column;
-      justify-content:center;
-      gap:5px;
-      width:40px;
-      height:40px;
-      border:1px solid var(--line2);
-      border-radius:10px;
-      background:transparent;
-      cursor:pointer;
-    }
-    .menu-toggle span{
-      display:block;
-      width:18px;
-      height:2px;
-      background:var(--text);
-      margin:0 auto;
-    }
-
-    h1,h2,h3{margin:0;color:var(--text);letter-spacing:-.03em;font-family:'Playfair Display',Georgia,serif;font-weight:900}
-    h1{
-      font-size:clamp(46px,8vw,96px);
-      line-height:1.02;
-      margin-bottom:20px;
-      font-weight:900;
-    }
-    h1 em{color:var(--gold);font-style:italic}
-    h2{font-size:clamp(30px,4.4vw,48px);line-height:1.1;margin-bottom:20px;font-weight:800}
-    p{margin:0 0 18px;color:var(--muted);font-size:18px;font-family:Inter,sans-serif}
-    .lead{max-width:680px;font-size:20px;color:#e6e9ee}
-    .small{font-size:14px;color:var(--muted2)}
-    .small a{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
-    .small a:hover{color:var(--gold)}
-
-    .badges-strip{
-      padding:36px 0;
-      border-bottom:1px solid var(--line);
-      background:#0d0d0d;
-    }
-    .badges-strip .container{
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      gap:48px;
-      flex-wrap:wrap;
-    }
-    .badges-strip img{
-      height:90px;
-      width:auto;
-      filter:invert(1) brightness(1.15);
-      opacity:.92;
-    }
-    @media(max-width:720px){
-      .badges-strip img{height:64px}
-      .badges-strip .container{gap:28px}
-    }
-    .eyebrow{
-      color:var(--gold);
-      text-transform:uppercase;
-      letter-spacing:.16em;
-      font-size:13px;
-      font-weight:800;
-      margin-bottom:18px;
-      font-family:Inter,sans-serif;
-    }
-
-    .btn{
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      min-height:50px;
-      padding:14px 34px;
-      border-radius:2px;
-      background:transparent;
-      color:var(--gold);
-      font-weight:500;
-      font-size:13px;
-      letter-spacing:.18em;
-      text-transform:uppercase;
-      font-family:Inter,sans-serif;
-      border:1px solid var(--gold);
-      cursor:pointer;
-      position:relative;
-      overflow:hidden;
-      transition:color .25s ease;
-      z-index:0;
-    }
-
-    .btn::before{
-      content:"";
-      position:absolute;
-      inset:0;
-      background:var(--gold);
-      transform:scaleX(0);
-      transform-origin:left;
-      transition:transform .35s cubic-bezier(.65,0,.35,1);
-      z-index:-1;
-    }
-
-    .btn:hover{color:#0a0a0a}
-    .btn:hover::before{transform:scaleX(1)}
-
-    .btn.secondary{
-      background:transparent;
-      color:var(--muted);
-      font-weight:500;
-      border:1px solid var(--line2);
-    }
-
-    .btn.secondary::before{background:rgba(255,255,255,.06)}
-    .btn.secondary:hover{color:var(--text)}
-
-    .hero{
-      position:relative;
-      background:#000000;
-      border-bottom:1px solid var(--line);
-    }
-
-    .hero-inner{
-      position:relative;
-      z-index:1;
-      padding:90px 0;
-    }
-
-    .hero-banner{
-      position:relative;
-      width:100%;
-      border-radius:24px;
-      overflow:hidden;
-      border:1px solid var(--line2);
-      box-shadow:0 30px 90px rgba(0,0,0,.5);
-      margin-bottom:50px;
-    }
-
-    .hero-banner img{
-      width:100%;
-      height:clamp(320px,52vw,560px);
-      object-fit:cover;
-      display:block;
-    }
-
-    .hero-banner::after{
-      content:"";
-      position:absolute;
-      inset:0;
-      background:linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,.65) 100%);
-    }
-
-    .hero-banner-title{
-      position:absolute;
-      inset:0;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-      z-index:1;
-      padding:24px;
-      gap:14px;
-    }
-
-    .hero-banner-title h1{
-      color:#fff;
-      font-size:clamp(40px,7.5vw,88px);
-      line-height:1.0;
-      text-shadow:0 4px 24px rgba(0,0,0,.6);
-      margin:0;
-      font-weight:900;
-    }
-
-    .hero-banner-title .eyebrow{
-      margin-bottom:0;
-      text-shadow:0 2px 12px rgba(0,0,0,.7);
-    }
-
-    .hero-banner-subtitle{
-      color:#fff;
-      font-family:'Playfair Display',Georgia,serif;
-      font-style:italic;
-      font-weight:800;
-      font-size:clamp(28px,5vw,58px);
-      line-height:1.1;
-      text-shadow:0 4px 24px rgba(0,0,0,.6);
-      max-width:900px;
-      margin:0;
-    }
-
-    .hero-banner-subtitle em{
-      color:var(--gold);
-      font-style:italic;
-    }
-
-    .hero-actions{
-      display:flex;
-      flex-wrap:wrap;
-      gap:14px;
-      margin-top:30px;
-    }
-
-    .trust-row{
-      display:flex;
-      flex-wrap:wrap;
-      gap:10px;
-      margin-top:30px;
-    }
-
-    .pill{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:8px 14px;
-      border:1px solid var(--line2);
-      border-radius:999px;
-      color:#e6e9ee;
-      background:rgba(0,0,0,.35);
-      font-size:14px;
-      font-weight:600;
-      font-family:Inter,sans-serif;
-    }
-
-    .pill:before{
-      content:"";
-      width:7px;
-      height:7px;
-      border-radius:50%;
-      background:var(--gold);
-    }
-
-    section{padding:88px 0;border-bottom:1px solid var(--line)}
-    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
-
-    .card{
-      background:var(--card);
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      padding:28px;
-    }
-
-    .section-label{
-      color:var(--gold);
-      text-transform:uppercase;
-      letter-spacing:.16em;
-      font-size:13px;
-      font-weight:800;
-      margin-bottom:16px;
-      font-family:Inter,sans-serif;
-    }
-
-    ul{margin:16px 0 0;padding-left:20px;color:var(--muted);font-size:17px}
-    li{margin:8px 0}
-
-    .check-list{list-style:none;padding:0}
-    .check-list li{position:relative;padding-left:28px}
-    .check-list li:before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:900}
-
-    .location-card{
-      border-left:1px solid var(--line2);
-      padding-left:40px;
-    }
-    .location-card h3{margin-bottom:14px}
-    .location-row{
-      display:flex;
-      gap:14px;
-      margin-bottom:14px;
-      align-items:flex-start;
-    }
-    .location-row:last-child{margin-bottom:0}
-    .location-label{
-      color:var(--gold);
-      font-size:13px;
-      text-transform:uppercase;
-      letter-spacing:.12em;
-      font-weight:700;
-      min-width:90px;
-      flex-shrink:0;
-      padding-top:2px;
-    }
-    .location-value{color:var(--muted);font-size:16px}
-    .location-value a{color:var(--text);text-decoration:underline;text-underline-offset:3px}
-    .location-value a:hover{color:var(--gold)}
-    .location-status{color:#4ee08a}
-
-    .bio-card{
-      display:flex;
-      align-items:center;
-      gap:28px;
-      margin-bottom:40px;
-      flex-wrap:wrap;
-    }
-    .bio-card img{
-      width:110px;
-      height:110px;
-      border-radius:50%;
-      border:2px solid var(--gold);
-      flex-shrink:0;
-      object-fit:cover;
-    }
-    .bio-card-name{
-      font-family:'Playfair Display',Georgia,serif;
-      font-weight:900;
-      font-size:28px;
-      color:#fff;
-      margin-bottom:6px;
-    }
-    .bio-card-creds{
-      color:var(--gold);
-      font-size:14px;
-      letter-spacing:.12em;
-      text-transform:uppercase;
-      font-weight:700;
-      margin-bottom:6px;
-    }
-    .bio-card-meta{
-      color:var(--muted);
-      font-size:15px;
-    }
-    .bio-card-affiliations{
-      display:flex;
-      gap:24px;
-      margin-top:10px;
-      flex-wrap:wrap;
-    }
-    .bio-card-affiliations span{
-      font-size:14px;
-      color:var(--muted);
-      border-left:2px solid var(--gold);
-      padding-left:10px;
-    }
-    .bio-card-affiliations strong{color:#fff}
-
-    .contact-grid{
-      display:grid;
-      grid-template-columns:1.1fr .9fr;
-      gap:60px;
-      align-items:start;
-      margin-top:44px;
-    }
-
-    .contact-form{
-      display:flex;
-      flex-direction:column;
-      gap:24px;
-    }
-
-    .field{
-      position:relative;
-      display:flex;
-      flex-direction:column;
-    }
-
-    .field label{
-      font-size:12px;
-      letter-spacing:.16em;
-      text-transform:uppercase;
-      color:var(--gold);
-      margin-bottom:10px;
-      font-weight:600;
-    }
-
-    .field input,
-    .field textarea{
-      background:transparent;
-      border:none;
-      border-bottom:1px solid var(--line2);
-      color:var(--text);
-      font-family:Inter,sans-serif;
-      font-size:17px;
-      padding:8px 2px 12px;
-      outline:none;
-      transition:border-color .25s ease;
-      resize:none;
-    }
-
-    .field input:focus,
-    .field textarea:focus{border-color:var(--gold)}
-
-    .field input::placeholder,
-    .field textarea::placeholder{color:var(--muted2)}
-
-    .field-row{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:24px;
-    }
-
-    .form-note{
-      font-size:13px;
-      color:var(--muted2);
-      margin-top:-8px;
-    }
-
-    @media(max-width:820px){
-      .contact-grid{grid-template-columns:1fr;gap:50px}
-      .field-row{grid-template-columns:1fr}
-      .location-card{border-left:none;padding-left:0;border-top:1px solid var(--line2);padding-top:40px}
-    }
-
-    .timeline{margin-top:34px}
-    .timeline-item{
-      border-left:1px solid var(--line2);
-      padding:0 0 32px 28px;
-      position:relative;
-    }
-    .timeline-item:last-child{padding-bottom:0}
-    .timeline-item::before{
-      content:"";
-      position:absolute;
-      left:-5px;
-      top:6px;
-      width:9px;
-      height:9px;
-      border-radius:50%;
-      background:var(--gold);
-    }
-    .timeline-role{
-      font-family:'Playfair Display',Georgia,serif;
-      font-size:20px;
-      color:#fff;
-      margin-bottom:4px;
-    }
-    .timeline-meta{
-      font-size:13px;
-      letter-spacing:.08em;
-      text-transform:uppercase;
-      color:var(--gold);
-      margin-bottom:10px;
-      font-family:Inter,sans-serif;
-    }
-    .timeline-meta a{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(245,200,66,.3)}
-    .timeline-meta a:hover{border-bottom-color:var(--gold)}
-    .timeline-location{
-      font-size:14px;
-      color:var(--muted2);
-      margin-bottom:10px;
-    }
-    .timeline-skills{
-      font-size:14px;
-      color:var(--muted);
-    }
-    .timeline-skills a{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
-    .timeline-skills a:hover{color:var(--gold)}
-    .timeline-desc{
-      font-size:15px;
-      color:var(--muted);
-      margin-top:10px;
-    }
-
-    footer{
-      padding:50px 0;
-      color:var(--muted2);
-      font-size:14px;
-      background:#000000;
-      text-align:center;
-      border-top:1px solid var(--line);
-    }
-
-    .footer-brand{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      gap:14px;
-      margin-bottom:18px;
-    }
-    .footer-brand img{height:64px;width:64px;border-radius:12px;object-fit:contain;background:#000;border:1px solid var(--line)}
-    .footer-brand strong{font-family:'Playfair Display',Georgia,serif;font-size:18px;color:var(--text)}
-
-    .social-row{
-      display:flex;
-      justify-content:center;
-      gap:14px;
-      margin:18px 0;
-      flex-wrap:wrap;
-    }
-    .social-row a{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:10px 18px;
-      border-radius:999px;
-      border:1px solid var(--line2);
-      background:var(--card);
-      color:var(--text);
-      font-weight:700;
-      font-size:14px;
-      font-family:Inter,sans-serif;
-      transition:border-color .15s,color .15s;
-    }
-    .social-row a:hover{border-color:var(--gold);color:var(--gold)}
-
-    .social-row svg{width:16px;height:16px;flex-shrink:0}
-
-    .footer-contact-line{
-      margin-top:10px;
-      font-size:14px;
-      color:var(--muted2);
-    }
-    .footer-contact-line a{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
-    .footer-contact-line a:hover{color:var(--gold)}
-
-    /* Floating contact widget */
-    .floating-contact{
-      position:fixed;
-      right:18px;
-      bottom:18px;
-      z-index:200;
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-    }
-    .floating-btn{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      justify-content:center;
-      min-width:130px;
-      min-height:46px;
-      padding:12px 18px;
-      border-radius:2px;
-      font-weight:500;
-      font-size:12px;
-      letter-spacing:.14em;
-      text-transform:uppercase;
-      font-family:Inter,sans-serif;
-      border:1px solid var(--line2);
-      box-shadow:0 10px 30px rgba(0,0,0,.5);
-      transition:border-color .2s ease, background .2s ease;
-    }
-    .floating-btn.whatsapp{background:#0f1a14;color:#4ee08a;border-color:rgba(78,224,138,.35)}
-    .floating-btn.whatsapp:hover{background:#13241b;border-color:#4ee08a}
-    .floating-btn.call{background:#1a1610;color:var(--gold);border-color:rgba(245,200,66,.35)}
-    .floating-btn.call:hover{background:#241e12;border-color:var(--gold)}
-    .floating-btn svg{width:18px;height:18px;flex-shrink:0}
-
-    @media(max-width:980px){
-      .grid-3,.grid-2{grid-template-columns:1fr}
-      .hero{min-height:auto}
-      .hero-inner{padding:80px 0 60px}
-
-      .navlinks{
-        display:none;
-        position:absolute;
-        top:78px;
-        left:0;
-        right:0;
-        flex-direction:column;
-        align-items:flex-start;
-        gap:0;
-        background:#050505;
-        border-bottom:1px solid var(--line);
-        padding:8px 5%;
-      }
-      .navlinks.open{display:flex}
-      .navlinks a{
-        width:100%;
-        padding:14px 0;
-        border-bottom:1px solid var(--line);
-      }
-      .navlinks a:last-child{border-bottom:none}
-
-      .menu-toggle{display:flex}
-      .header-cta{display:none}
-
-      .lang-switch{order:1}
-    }
-
-    @media(max-width:720px){
-      footer{padding-bottom:96px}
-      .floating-contact{
-        left:14px;
-        right:14px;
-        bottom:14px;
-        flex-direction:row;
-      }
-      .floating-btn{flex:1;min-width:0}
-    }
-  </style>
+<meta charset="utf-8" />
+<title>ECB Tax Accounting &amp; HR — Contabilitate la zecimală</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="ECB Tax Accounting &amp; HR — contabilitate, salarizare și consultanță fiscală pentru SRL, PFA și ONG din România și UE. FCCA, CPA, CCF, CECCAR. Conectat la ANAF SPV, e-Factura și SAF-T." />
+<link rel="canonical" href="https://ecbtax.com/" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/ledger.css" />
 </head>
-
 <body>
 
-<header>
-  <div class="container nav">
-    <nav class="navlinks" id="navlinks">
-      <a href="#servicii"><span lang-ro>Servicii</span><span lang-en>Services</span></a>
-      <a href="#despre"><span lang-ro>Despre Noi</span><span lang-en>About</span></a>
-      <a href="#incredere"><span lang-ro>Încredere</span><span lang-en>Trust</span></a>
-      <a href="#contact">Contact</a>
-    </nav>
+<!-- STATUS BAR -->
+<div class="status-bar" style="border-bottom:1px solid var(--dimmer); padding:10px 56px; font-family:var(--mono); font-size:11px; color:var(--dim); display:flex; justify-content:space-between; letter-spacing:0.02em; background:var(--ink);">
+  <span><span class="blink" style="color:var(--gold);">●</span>&nbsp; <span lang-ro>live · ECB Tax Accounting &amp; HR</span><span lang-en>live · ECB Tax Accounting &amp; HR</span></span>
+  <span><span lang-ro>Răspundem &lt; 4h în ziua lucrătoare</span><span lang-en>We reply &lt; 4h on business days</span></span>
+  <span class="lang-switch" style="cursor:pointer;">
+    <span onclick="setLang('ro')" style="color:var(--gold);">RO</span>
+    <span style="color:var(--dim);"> / </span>
+    <span onclick="setLang('en')">EN</span>
+  </span>
+</div>
 
-    <div class="nav-right">
-      <div class="lang-switch">
-        <button type="button" id="btn-ro" class="active" onclick="setLang('ro')">RO</button>
-        <button type="button" id="btn-en" onclick="setLang('en')">EN</button>
+<div class="l-page">
+
+  <!-- NAV -->
+  <nav class="main-nav" style="display:flex; justify-content:space-between; align-items:center; padding:24px 56px; border-bottom:1px solid var(--dimmer); background:var(--ink); position:sticky; top:0; z-index:50; backdrop-filter:blur(8px);">
+    <a href="#top" style="display:flex; align-items:center; gap:14px; text-decoration:none; color:inherit;">
+      <div style="width:38px; height:38px; border:1.5px solid var(--gold); display:grid; place-items:center; font-family:var(--serif); font-size:24px; color:var(--gold); font-style:italic; line-height:1;">e</div>
+      <div style="display:flex; flex-direction:column; line-height:1.1;">
+        <span style="font-family:var(--serif); font-size:21px; letter-spacing:0.01em;">ECB Tax</span>
+        <span style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em;">accounting &amp; hr · srl</span>
       </div>
-      <a class="header-cta" href="#contact"><span lang-ro>Programează o Consultație</span><span lang-en>Book a Consultation</span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
+    </a>
 
-<section class="hero">
-  <div class="container hero-inner">
-
-    <div class="hero-banner">
-      <img src="assets/hero-desk-plain-hd.webp" alt="" />
-      <div class="hero-banner-title">
-        <div class="eyebrow"><span lang-ro>Contabilitate · Fiscalitate · Consultanță · HR</span><span lang-en>Accounting · Tax · Advisory · HR</span></div>
-        <h1>ECB Tax Accounting HR</h1>
-        <p class="hero-banner-subtitle">
-          <span lang-ro class="block">Cifre În Care Poți Avea Încredere.<br /><em>Conformitate Pe Care O Poți Verifica.</em></span>
-        </p>
-      </div>
+    <div class="nav-links" style="display:flex; gap:32px; font-family:var(--mono); font-size:12px;">
+      <a href="#servicii" style="color:var(--text); text-decoration:none;">servicii<span style="color:var(--dim);">.ts</span></a>
+      <a href="#echipa" style="color:var(--text); text-decoration:none;">echipă<span style="color:var(--dim);">.ts</span></a>
+      <a href="#process" style="color:var(--text); text-decoration:none;">proces<span style="color:var(--dim);">.ts</span></a>
+      <a href="#resurse" style="color:var(--text); text-decoration:none;">resurse<span style="color:var(--dim);">.md</span></a>
+      <a href="#contact" style="color:var(--text); text-decoration:none;">contact<span style="color:var(--dim);">.ts</span></a>
     </div>
 
-    <p class="lead">
-      <span lang-ro>
-        Servicii de contabilitate, conformitate fiscală și consultanță financiară pentru companii SRL, PFA, ONG-uri care operează în UE
-      </span>
-      <span lang-en>
-        ECB TAX ACCOUNTING HR SRL provides accounting, tax compliance and financial advisory
-        services for businesses operating across the EU — backed by a transparent, AI-readable
-        trust layer that makes our credentials and engagements verifiable at every step.
-      </span>
-    </p>
+    <a href="#contact" class="btn btn-primary">$ ./programeaza_discutie</a>
+  </nav>
 
-    <div class="hero-actions">
-      <a class="btn" href="#contact"><span lang-ro>Programează o Consultație</span><span lang-en>Book a Consultation</span></a>
-      <a class="btn secondary" href="#servicii"><span lang-ro>Serviciile Noastre</span><span lang-en>Our Services</span></a>
-    </div>
-
-    <div class="trust-row">
-      <span class="pill">FCCA · CPA</span>
-      <span class="pill"><span lang-ro>Conformitate Fiscală UE</span><span lang-en>EU Tax Compliance</span></span>
-      <span class="pill"><span lang-ro>Entitate Verificată</span><span lang-en>Verified Entity</span></span>
-      <span class="pill"><span lang-ro>Partener AiVenture</span><span lang-en>AiVenture Partner</span></span>
-    </div>
-
-  </div>
-</section>
-
-<section class="badges-strip">
-  <div class="container">
-    <img src="assets/badges.webp" alt="SAF-T, e-Factura, CECCAR" />
-  </div>
-</section>
-
-<section id="servicii">
-  <div class="container">
-    <div class="section-label"><span lang-ro>Ce Facem</span><span lang-en>What We Do</span></div>
-    <h2><span lang-ro>Contabilitate și Fiscalitate, Făcute Corect</span><span lang-en>Accounting and Tax, Done Properly</span></h2>
-
-    <p class="lead" style="font-weight:700;color:#fff;">
-      <span lang-ro>Contabilitate online: <em style="color:var(--gold);font-style:italic;">servicii complete pentru SRL, PFA și ONG</em>.</span>
-      <span lang-en>Online accounting: <em style="color:var(--gold);font-style:italic;">complete services for SRL, PFA and NGOs</em>.</span>
-    </p>
-
-    <p class="lead">
-      <span lang-ro>
-        ECB TAX ACCOUNTING &amp; HR SRL oferă servicii complete de contabilitate și evidență financiară pentru
-        înregistrări financiare exacte și conformitate. Serviciile noastre de salarizare gestionează toate
-        aspectele remunerării angajaților și depunerii declarațiilor fiscale, simplificând operațiunile tale.
-        Serviciile noastre fiscale includ pregătirea și consultanța pentru declarații, ajutându-te să rămâi
-        conform și să îți optimizezi poziția fiscală. Oferim și servicii de recrutare și staffing pentru
-        personal financiar, conectându-te cu profesioniști calificați pentru roluri temporare sau permanente.
-        În plus, serviciile noastre de salarizare și administrare HR susțin echipa ta prin administrare
-        eficientă, integrare și gestionarea conformității.
-      </span>
-      <span lang-en>
-        ECB TAX ACCOUNTING &amp; HR SRL offers expert accounting and bookkeeping to ensure accurate financial
-        records and compliance. Our payroll solutions handle every aspect of employee compensation and tax
-        filing, streamlining your operations. Our tax services include preparation and consulting for state
-        and local returns, helping you stay compliant and optimize your tax position. We provide finance
-        staff temping and recruiting, connecting you with skilled professionals for temporary or permanent
-        roles. Additionally, our payroll and HR admin services support your workforce with efficient
-        administration, onboarding, and compliance management.
-      </span>
-    </p>
-
-    <div class="grid-3">
-      <div class="card">
-        <h3><span lang-ro>Contabilitate & Evidență Financiară</span><span lang-en>Accounting & Bookkeeping</span></h3>
-        <p>
-          <span lang-ro>Contabilitate lunară precisă, reconciliere și raportare financiară pentru IMM-uri și companii în creștere.</span>
-          <span lang-en>Accurate monthly accounting, reconciliations and financial reporting for SMEs and growing businesses.</span>
-        </p>
-      </div>
-      <div class="card">
-        <h3><span lang-ro>Conformitate Fiscală</span><span lang-en>Tax Compliance</span></h3>
-        <p>
-          <span lang-ro>TVA, impozit pe profit și declarații transfrontaliere, actualizate conform cerințelor legislative UE.</span>
-          <span lang-en>VAT, corporate tax and cross-border filings, kept current with EU regulatory requirements.</span>
-        </p>
-      </div>
-      <div class="card">
-        <h3><span lang-ro>Consultanță</span><span lang-en>Advisory</span></h3>
-        <p>
-          <span lang-ro>Îndrumare financiară practică pentru fondatori și responsabili financiari — structurare, planificare și suport în decizii.</span>
-          <span lang-en>Practical financial guidance for founders and finance leads — structuring, planning and decision support.</span>
-        </p>
-      </div>
-      <div class="card">
-        <h3><span lang-ro>Salarizare</span><span lang-en>Payroll</span></h3>
-        <p>
-          <span lang-ro>Gestionarea completă a remunerării angajaților și a declarațiilor fiscale aferente, cu procese simplificate.</span>
-          <span lang-en>Full management of employee compensation and related tax filings, with streamlined processes.</span>
-        </p>
-      </div>
-      <div class="card">
-        <h3><span lang-ro>Recrutare Personal Financiar</span><span lang-en>Finance Staffing & Recruiting</span></h3>
-        <p>
-          <span lang-ro>Recrutare și plasare de personal financiar calificat, pentru roluri temporare sau permanente.</span>
-          <span lang-en>Recruiting and placing skilled finance professionals for temporary or permanent roles.</span>
-        </p>
-      </div>
-      <div class="card">
-        <h3><span lang-ro>Administrare HR</span><span lang-en>HR Administration</span></h3>
-        <p>
-          <span lang-ro>Suport pentru echipa ta prin administrare eficientă, integrare de personal și gestionarea conformității.</span>
-          <span lang-en>Support for your workforce with efficient administration, onboarding, and compliance management.</span>
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="despre">
-  <div class="container">
-    <div class="bio-card">
-      <img src="assets/roxana-profile.webp" alt="Roxana Deak, FCCA, CPA, CCF" />
-      <div>
-        <div class="bio-card-name">Roxana Deak</div>
-        <div class="bio-card-creds">FCCA · CPA · CCF</div>
-        <div class="bio-card-meta">București, România</div>
-        <div class="bio-card-affiliations">
-          <span><strong>ECB TAX ACCOUNTING &amp; HR SRL</strong></span>
-          <span><span lang-ro>Universitatea din București</span><span lang-en>University of Bucharest</span></span>
-        </div>
-      </div>
-    </div>
-
-    <p class="lead">
-      <span lang-ro>
-        În calitate de Managing Partner la ECB TAX, Accounting &amp; HR SRL, valorific peste 15 ani de
-        experiență în managementul financiar și contabilitate pentru a oferi servicii de înaltă calitate
-        clienților. Sunt, de asemenea, CFO la Tudor Tech, unde coordonez operațiunile și strategia
-        financiară a companiei. În plus, sunt proprietara Libra Partners, o afacere pe care am fondat-o
-        în 2008. Dețin certificarea FCCA din partea Association of Chartered Certified Accountants, care
-        atestă expertiza mea în drept fiscal și fiscalitate. Sunt dedicată să ofer valoare clienților mei
-        și să contribui la creșterea și succesul afacerilor mele.
-      </span>
-      <span lang-en>
-        As a Managing Partner at ECB TAX, Accounting &amp; HR SRL, I leverage my 15+ years of experience
-        in financial management and accounting to provide high-quality services to clients. I am also
-        the CFO at Tudor Tech, where I oversee the company's financial operations and strategy.
-        Additionally, I am the owner of Libra Partners, a business I founded in 2008. I hold an FCCA
-        certification from the Association of Chartered Certified Accountants, which demonstrates my
-        expertise in tax law and taxation. I am passionate about delivering value to my clients and
-        contributing to the growth and success of my businesses.
-      </span>
-    </p>
-  </div>
-
-  <div class="container grid-2">
+  <!-- HERO -->
+  <section id="top" class="hero-grid" style="padding:64px 56px 72px; display:grid; grid-template-columns:7fr 5fr; gap:64px; position:relative;">
     <div>
-      <div class="section-label"><span lang-ro>Despre Noi</span><span lang-en>About</span></div>
-      <h2><span lang-ro>Condusă de Roxana Deak, FCCA, CPA</span><span lang-en>Led by Roxana Deak, FCCA, CPA</span></h2>
-      <p>
+      <div style="font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em; margin-bottom:32px; display:flex; gap:24px; flex-wrap:wrap;">
+        <span style="color:var(--gold);">● <span lang-ro>partener verificat</span><span lang-en>verified partner</span></span>
+        <span lang-ro>FCCA · CPA · CCF · CECCAR</span><span lang-en>FCCA · CPA · CCF · CECCAR</span>
+        <span>București · România · remote EU</span>
+      </div>
+
+      <h1 style="font-family:var(--serif); font-weight:400; margin:0; line-height:0.88; letter-spacing:-0.03em;">
+        <span class="h1-line" style="font-size:92px; display:block;"><span lang-ro>Contabilitate</span><span lang-en>Accounting,</span></span>
+        <span class="h1-line" style="font-size:92px; display:block; font-style:italic; color:var(--gold);"><span lang-ro>la zecimală.</span><span lang-en>to the decimal.</span></span>
+      </h1>
+
+      <p style="font-size:22px; line-height:1.4; margin:32px 0 0; max-width:580px; color:var(--text); font-weight:300;">
         <span lang-ro>
-          ECB TAX ACCOUNTING HR SRL este construită pe expertiză directă, practică, în contabilitate
-          și fiscalitate, deservind clienți care au nevoie de cifre corecte și conformitate
-          clară — fără zgomot inutil.
+          Pentru SRL, PFA și ONG care vor un partener care
+          <span style="color:var(--gold);">verifică înainte de a depune</span> —
+          nu după. Servicii complete de contabilitate, salarizare și consultanță fiscală.
         </span>
         <span lang-en>
-          ECB TAX ACCOUNTING HR SRL is built on direct, hands-on accounting and tax expertise,
-          serving clients who need reliable numbers and clear compliance — without the noise.
+          For SRL, PFA and NGOs who want a partner who
+          <span style="color:var(--gold);">verifies before filing</span> —
+          not after. Complete accounting, payroll and tax advisory services.
         </span>
       </p>
+
+      <!-- Balance panel -->
+      <div style="margin-top:48px; border:1px solid var(--dimmer); background:var(--ink-panel);">
+        <div style="padding:12px 20px; border-bottom:1px solid var(--dimmer); display:flex; justify-content:space-between; font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em;">
+          <span>~ /firma/situatia-curenta.md</span>
+          <span>● <span lang-ro>4 indicatori</span><span lang-en>4 indicators</span></span>
+        </div>
+        <div class="balance-grid" style="display:grid; grid-template-columns:repeat(4,1fr);">
+          <div style="padding:24px 20px 22px; border-right:1px solid var(--dimmer);">
+            <div style="font-family:var(--serif); font-size:56px; color:var(--gold); line-height:1; letter-spacing:-0.02em;">10+</div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase; letter-spacing:0.12em;"><span lang-ro>ani</span><span lang-en>years</span></div>
+            <div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;"><span lang-ro>practică continuă</span><span lang-en>continuous practice</span></div>
+          </div>
+          <div style="padding:24px 20px 22px; border-right:1px solid var(--dimmer);">
+            <div style="font-family:var(--serif); font-size:56px; color:var(--gold); line-height:1; letter-spacing:-0.02em;">SRL</div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase; letter-spacing:0.12em;">PFA · ONG</div>
+            <div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;"><span lang-ro>tipuri de entitate</span><span lang-en>entity types</span></div>
+          </div>
+          <div style="padding:24px 20px 22px; border-right:1px solid var(--dimmer);">
+            <div style="font-family:var(--serif); font-size:56px; color:var(--gold); line-height:1; letter-spacing:-0.02em;">RO</div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase; letter-spacing:0.12em;">+ UE</div>
+            <div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;"><span lang-ro>conformitate transfrontalieră</span><span lang-en>cross-border compliance</span></div>
+          </div>
+          <div style="padding:24px 20px 22px;">
+            <div style="font-family:var(--serif); font-size:56px; color:var(--gold); line-height:1; letter-spacing:-0.02em;">FCCA</div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase; letter-spacing:0.12em;">CPA · CCF</div>
+            <div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;"><span lang-ro>certificări active</span><span lang-en>active certifications</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTAs -->
+      <div style="display:flex; gap:12px; margin-top:32px; align-items:center; flex-wrap:wrap;">
+        <a href="#contact" class="btn btn-primary">$ <span lang-ro>programeaza_discutie.sh</span><span lang-en>schedule_call.sh</span> →</a>
+        <a href="#servicii" class="btn"><span lang-ro>vezi servicii</span><span lang-en>see services</span></a>
+        <span style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-left:8px; letter-spacing:0.06em;"><span lang-ro>răspundem &lt; 4h în ziua lucrătoare</span><span lang-en>we reply &lt; 4h on business days</span></span>
+      </div>
     </div>
-    <div class="card">
-      <h3><span lang-ro>De ce lucrează clienții cu noi</span><span lang-en>Why clients work with us</span></h3>
-      <ul class="check-list">
-        <li><span lang-ro>Acces direct la un contabil calificat, nu la o coadă de așteptare</span><span lang-en>Direct access to a qualified accountant, not a queue</span></li>
-        <li><span lang-ro>Comunicare clară, fără jargon</span><span lang-en>Clear, jargon-free communication</span></li>
-        <li><span lang-ro>Experiență în conformitate transfrontalieră UE</span><span lang-en>EU cross-border compliance experience</span></li>
-        <li><span lang-ro>Colaborare transparentă și certificări verificabile</span><span lang-en>Transparent engagement and verifiable credentials</span></li>
-      </ul>
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="timeline">
+    <!-- Right: founder card -->
+    <aside>
+      <div style="border:1px solid var(--dimmer); background:var(--ink-panel); padding:28px; position:relative;">
+        <div style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em; margin-bottom:22px; display:flex; justify-content:space-between;">
+          <span><span lang-ro>fondator · partener semnatar</span><span lang-en>founder · signing partner</span></span>
+          <span style="color:var(--gold);">verified ✓</span>
+        </div>
 
-      <div class="timeline-item">
-        <div class="timeline-role">
-          <span lang-ro>Managing Partner</span><span lang-en>Managing Partner</span>
+        <div style="width:100%; aspect-ratio:4/5; overflow:hidden; border:1px solid var(--dimmer); margin-bottom:22px;">
+          <img src="assets/roxana-profile.webp" alt="Roxana Deak" style="width:100%; height:100%; object-fit:cover;" />
         </div>
-        <div class="timeline-meta">
-          <a href="https://www.linkedin.com/company/107911915/" target="_blank" rel="noopener">ECB TAX ACCOUNTING HR SRL</a>
-          · <span lang-ro>Cu normă întreagă</span><span lang-en>Full-time</span>
-          · <span lang-ro>oct. 2015 - prezent · 10 ani 9 luni</span><span lang-en>Oct 2015 - present · 10 yrs 9 mos</span>
-        </div>
-        <div class="timeline-location"><span lang-ro>Zona metropolitană București</span><span lang-en>Bucharest Metropolitan Area</span></div>
-        <div class="timeline-skills">
-          <span lang-ro>Corporate Financial Reporting, Tax Strategy și peste 26 aptitudini</span><span lang-en>Corporate Financial Reporting, Tax Strategy and 26+ skills</span>
-        </div>
-      </div>
 
-      <div class="timeline-item">
-        <div class="timeline-role">CFO</div>
-        <div class="timeline-meta">
-          <a href="https://www.linkedin.com/company/29290403/" target="_blank" rel="noopener">Tudor Tech</a>
-          · <span lang-ro>dec. 2017 - sept. 2024 · 6 ani 10 luni</span><span lang-en>Dec 2017 - Sep 2024 · 6 yrs 10 mos</span>
+        <div style="font-family:var(--serif); font-size:30px; line-height:1.05; letter-spacing:-0.01em;">
+          Roxana Deak<br/>
+          <span style="font-style:italic; color:var(--gold); font-size:22px;">FCCA · CPA · CCF</span>
         </div>
-        <div class="timeline-location">St Imier, Suisse</div>
-        <div class="timeline-skills">
-          <span lang-ro>Corporate Financial Reporting, Tax Strategy și peste 25 aptitudini</span><span lang-en>Corporate Financial Reporting, Tax Strategy and 25+ skills</span>
-        </div>
-      </div>
 
-      <div class="timeline-item">
-        <div class="timeline-role"><span lang-ro>Proprietar</span><span lang-en>Owner</span></div>
-        <div class="timeline-meta">
-          Libra Partners
-          · <span lang-ro>sept. 2008 - oct. 2015 · 7 ani 2 luni</span><span lang-en>Sep 2008 - Oct 2015 · 7 yrs 2 mos</span>
-        </div>
-        <div class="timeline-skills">
-          <span lang-ro>Payroll Administration, Tax Compliance și peste 10 aptitudini</span><span lang-en>Payroll Administration, Tax Compliance and 10+ skills</span>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-role">
-          <span lang-ro>Contabil Șef, Divizia Aviație</span><span lang-en>Chief Accountant, Aviation Division</span>
-        </div>
-        <div class="timeline-meta">
-          <a href="https://www.linkedin.com/company/18698/" target="_blank" rel="noopener">Menzies Aviation</a>
-          · <span lang-ro>aug. 2005 - oct. 2008 · 3 ani 3 luni</span><span lang-en>Aug 2005 - Oct 2008 · 3 yrs 3 mos</span>
-        </div>
-        <div class="timeline-desc">
-          <span lang-ro>Producerea conturilor consolidate pentru divizia de aviație (UK GAAP / IFRS) conform calendarului grupului, acoperind cerințe de management, statutare, bugetare și prognoză cu termene strânse.</span>
-          <span lang-en>Production of the Aviation consolidated accounts (UK GAAP / IFRS) in accordance with Group's timetable, covering management, statutory, budgeting and forecasting requirements with tight deadlines.</span>
-        </div>
-        <div class="timeline-skills" style="margin-top:10px;">
-          <span lang-ro>Corporate Financial Reporting, Tax Strategy și peste 19 aptitudini</span><span lang-en>Corporate Financial Reporting, Tax Strategy and 19+ skills</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="container">
-    <h3 style="margin-top:50px;margin-bottom:6px;"><span lang-ro>Studii</span><span lang-en>Education</span></h3>
-    <div class="timeline">
-
-      <div class="timeline-item">
-        <div class="timeline-role">MBA Tax Law</div>
-        <div class="timeline-meta">
-          <span lang-ro>Drept Fiscal/Taxation</span><span lang-en>Tax Law/Taxation</span>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-role">
-          <a href="https://www.linkedin.com/school/15096617/" target="_blank" rel="noopener" style="color:inherit;border-bottom:none;">Universitatea din București</a>
-        </div>
-        <div class="timeline-meta">
-          <span lang-ro>Master, Fiscalitate, Drept Fiscal/Taxation</span><span lang-en>Master's degree, Taxation, Tax Law/Taxation</span>
-          · 2015
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-role">
-          <span lang-ro>Camera Consultanților Fiscali din România</span><span lang-en>Chamber of Tax Consultants of Romania</span>
-        </div>
-        <div class="timeline-meta">
-          <span lang-ro>Consultant Fiscal, Drept Fiscal/Taxation</span><span lang-en>Tax Consultant, Tax Law/Taxation</span>
-          · 2013
-        </div>
-        <div class="timeline-location"><span lang-ro>Notă: Fiscalitate</span><span lang-en>Note: Taxation</span></div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-role">
-          <a href="https://www.linkedin.com/school/15097443/" target="_blank" rel="noopener" style="color:inherit;border-bottom:none;">Universitatea „Nicolae Titulescu” din București</a>
-        </div>
-        <div class="timeline-meta">
-          <span lang-ro>Licență în Drept - LLB, Drept</span><span lang-en>Bachelor of Laws - LLB, Law</span>
-          · 2005 – 2010
-        </div>
-        <div class="timeline-location"><span lang-ro>Notă: Licență</span><span lang-en>Note: Bachelor</span></div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-role">
-          <a href="https://www.linkedin.com/school/27838191/" target="_blank" rel="noopener" style="color:inherit;border-bottom:none;">Association of Chartered Certified Accountants (ACCA)</a>
-        </div>
-        <div class="timeline-meta">
-          <span lang-ro>FCCA, Drept Fiscal/Taxation</span><span lang-en>FCCA, Tax Law/Taxation</span>
-          · 2001 – 2007
-        </div>
-        <div class="timeline-skills">
-          <span lang-ro>Aptitudini: Taxation, Cash Management și peste 13 aptitudini</span><span lang-en>Skills: Taxation, Cash Management and 13+ skills</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="container">
-    <h3 style="margin-top:50px;margin-bottom:6px;"><span lang-ro>Certificări</span><span lang-en>Certifications</span></h3>
-    <div class="timeline">
-
-      <div class="timeline-item">
-        <div class="timeline-role"><span lang-ro>Consultant Fiscal</span><span lang-en>Tax Consultant</span></div>
-        <div class="timeline-meta">
-          <span lang-ro>Camera Consultanților Fiscali din România</span><span lang-en>Romanian Chamber of Tax Consultants</span>
-        </div>
-        <div class="timeline-location"><span lang-ro>Emis la ian. 2013</span><span lang-en>Issued Jan 2013</span></div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-role">Certified Public Accountant (CPA)</div>
-        <div class="timeline-meta">
-          Corpul Experților Contabili și Contabililor Autorizați din România - CECCAR
-        </div>
-        <div class="timeline-location"><span lang-ro>Emis la dec. 2005</span><span lang-en>Issued Dec 2005</span></div>
-        <div class="timeline-skills">
-          <a href="https://www.linkedin.com/in/roxana-deak-ecbtax/overlay/73668579/skill-associations-details/" target="_blank" rel="noopener"><span lang-ro>Aptitudini: Tax Preparation</span><span lang-en>Skills: Tax Preparation</span></a>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-role">FCCA</div>
-        <div class="timeline-meta">ACCA</div>
-        <div class="timeline-location">
-          <span lang-ro>Emis la oct. 2012</span><span lang-en>Issued Oct 2012</span>
-          · <span lang-ro>ID acreditare 0883506</span><span lang-en>Credential ID 0883506</span>
-        </div>
-        <div class="timeline-skills">
-          <a href="https://www.linkedin.com/in/roxana-deak-ecbtax/overlay/449354854/skill-associations-details/" target="_blank" rel="noopener"><span lang-ro>Aptitudini: Cash Management, Reporting Requirements și peste 11 aptitudini</span><span lang-en>Skills: Cash Management, Reporting Requirements and 11+ skills</span></a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="container">
-    <h3 style="margin-top:50px;margin-bottom:14px;"><span lang-ro>Aptitudini</span><span lang-en>Skills</span></h3>
-    <div class="trust-row" style="margin-top:0;">
-      <span class="pill">Tax Preparation</span>
-      <span class="pill">FCCA</span>
-      <span class="pill">ACCA</span>
-      <span class="pill">CECCAR</span>
-      <span class="pill">Cash Management</span>
-      <span class="pill">Corporate Financial Reporting</span>
-      <span class="pill">Tax Strategy</span>
-      <span class="pill">Reporting Requirements</span>
-      <span class="pill">Payroll Administration</span>
-      <span class="pill"><span lang-ro>Conformitate Fiscală</span><span lang-en>Tax Compliance</span></span>
-    </div>
-    <p class="small" style="margin-top:14px;">
-      <a href="https://www.linkedin.com/in/roxana-deak-ecbtax/skill-insights/2132125189/" target="_blank" rel="noopener">
-        <span lang-ro>4 experiențe la ECB Tax Accounting HR SRL și la încă 3 companii →</span>
-        <span lang-en>4 experiences at ECB Tax Accounting HR SRL and 3 other companies →</span>
-      </a>
-    </p>
-  </div>
-
-  <div class="container">
-    <h3 style="margin-top:50px;margin-bottom:20px;"><span lang-ro>Servicii Pentru Tine</span><span lang-en>Services For You</span></h3>
-    <div class="grid-2">
-      <div class="card">
-        <h3><span lang-ro>Contabil Dedicat</span><span lang-en>Dedicated Accountant</span></h3>
-        <p>
-          <span lang-ro>Lucrezi direct cu un contabil certificat CECCAR, cu experiență relevantă în domeniul tău de activitate și disponibilitate constantă pentru întrebări și urgențe.</span>
-          <span lang-en>You work directly with a CECCAR-certified accountant, experienced in your field, available for questions and urgent matters whenever you need.</span>
+        <p style="font-family:var(--serif); font-style:italic; font-size:19px; line-height:1.45; color:var(--text); margin:20px 0 0; padding-left:16px; border-left:2px solid var(--gold);">
+          <span lang-ro>„Cifrele povestesc oricui le citește cu atenție. Treaba mea e să le citesc înaintea ta."</span>
+          <span lang-en>"Numbers tell their story to anyone who reads them carefully. My job is to read them before you do."</span>
         </p>
       </div>
-      <div class="card">
-        <h3><span lang-ro>Digital și e-Factura</span><span lang-en>Digital & e-Invoicing</span></h3>
-        <p>
-          <span lang-ro>Documentele și rapoartele tale sunt gestionate digital, cu suport pentru e-Factura (SPV) și arhivare securizată în Cloud — fără hârtii rătăcite.</span>
-          <span lang-en>Your documents and reports are managed digitally, with e-Invoicing (SPV) support and secure Cloud archiving — no lost paperwork.</span>
+    </aside>
+  </section>
+
+  <!-- FOUNDER / TEAM -->
+  <section id="echipa" class="section">
+    <div style="font-family:var(--mono); font-size:11px; color:var(--gold); text-transform:uppercase; letter-spacing:0.2em; margin-bottom:56px;">// <span lang-ro>echipă · /fondator</span><span lang-en>team · /founder</span></div>
+
+    <div class="founder-grid" style="display:grid; grid-template-columns:5fr 7fr; gap:72px;">
+      <div>
+        <h2 style="font-family:var(--serif); font-weight:400; font-size:64px; line-height:0.95; letter-spacing:-0.025em; margin:0;">
+          <span lang-ro>Roxana Deak,<br/><em style="color:var(--gold);">partener semnatar.</em></span>
+          <span lang-en>Roxana Deak,<br/><em style="color:var(--gold);">signing partner.</em></span>
+        </h2>
+
+        <p style="font-family:var(--serif); font-style:italic; font-size:22px; line-height:1.4; color:var(--text); margin:28px 0 0; max-width:460px; opacity:0.88;">
+          <span lang-ro>
+            Peste 15 ani de experiență în management financiar, contabilitate și fiscalitate.
+            O singură regulă: <span style="color:var(--gold);">orice declarație depusă poartă numele unui contabil autorizat</span> —
+            al ei sau al echipei.
+          </span>
+          <span lang-en>
+            15+ years of experience in financial management, accounting and taxation.
+            One rule: <span style="color:var(--gold);">every filing carries the name of an authorized accountant</span> —
+            hers or the team's.
+          </span>
         </p>
+
+        <div style="margin-top:36px; display:flex; gap:16px; flex-wrap:wrap;">
+          <a href="#contact" class="btn btn-primary">$ <span lang-ro>rezerva_15min.sh</span><span lang-en>book_15min.sh</span> →</a>
+          <a href="https://www.linkedin.com/in/roxana-deak-ecbtax/" target="_blank" rel="noopener" class="btn">vezi LinkedIn</a>
+        </div>
       </div>
-      <div class="card">
-        <h3><span lang-ro>Crește În Ritmul Tău</span><span lang-en>Grow At Your Pace</span></h3>
-        <p>
-          <span lang-ro>Pe măsură ce afacerea se dezvoltă, serviciile se adaptează — de la evidență contabilă de bază la salarizare, facturare și consultanță fiscală completă.</span>
-          <span lang-en>As your business grows, services scale with it — from basic bookkeeping to payroll, invoicing and full tax advisory.</span>
-        </p>
-      </div>
-      <div class="card">
-        <h3><span lang-ro>Fără Griji</span><span lang-en>Without Worry</span></h3>
-        <p>
-          <span lang-ro>Cifrele sunt corecte, declarațiile sunt depuse la timp, iar datele sunt accesibile oricând — astfel încât tu te poți concentra pe afacerea ta.</span>
-          <span lang-en>Numbers are accurate, filings are submitted on time, and your data is accessible whenever you need it — so you can focus on your business.</span>
-        </p>
+
+      <div>
+        <!-- Credentials table -->
+        <div style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em; padding-bottom:14px; border-bottom:1px solid var(--gold); display:grid; grid-template-columns:110px 1fr 100px 80px; gap:18px;">
+          <span>cod</span>
+          <span><span lang-ro>autorizație / certificare</span><span lang-en>authorization / certification</span></span>
+          <span><span lang-ro>autoritate</span><span lang-en>authority</span></span>
+          <span style="text-align:right;"><span lang-ro>din</span><span lang-en>since</span></span>
+        </div>
+
+        <div style="display:grid; grid-template-columns:110px 1fr 100px 80px; gap:18px; padding:18px 0; border-bottom:1px solid var(--dimmer); align-items:baseline; font-family:var(--mono); font-size:12px;">
+          <span style="color:var(--gold); letter-spacing:0.06em;">CECCAR</span>
+          <span style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em;">Certified Public Accountant (CPA)</span>
+          <span style="color:var(--text);">CECCAR RO</span>
+          <span style="color:var(--dim); text-align:right;">2005</span>
+        </div>
+
+        <div style="display:grid; grid-template-columns:110px 1fr 100px 80px; gap:18px; padding:18px 0; border-bottom:1px solid var(--dimmer); align-items:baseline; font-family:var(--mono); font-size:12px;">
+          <span style="color:var(--gold); letter-spacing:0.06em;">FCCA</span>
+          <span style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em;">Fellow Chartered Certified Accountant</span>
+          <span style="color:var(--text);">ACCA UK</span>
+          <span style="color:var(--dim); text-align:right;">2012</span>
+        </div>
+
+        <div style="display:grid; grid-template-columns:110px 1fr 100px 80px; gap:18px; padding:18px 0; border-bottom:1px solid var(--dimmer); align-items:baseline; font-family:var(--mono); font-size:12px;">
+          <span style="color:var(--gold); letter-spacing:0.06em;">CCF</span>
+          <span style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Consultant fiscal autorizat</span><span lang-en>Authorized tax consultant</span></span>
+          <span style="color:var(--text);"><span lang-ro>Camera Consultanților Fiscali</span><span lang-en>Romanian Chamber of Tax Consultants</span></span>
+          <span style="color:var(--dim); text-align:right;">2013</span>
+        </div>
+
+        <div style="display:grid; grid-template-columns:110px 1fr 100px 80px; gap:18px; padding:18px 0; border-bottom:1px solid var(--dimmer); align-items:baseline; font-family:var(--mono); font-size:12px;">
+          <span style="color:var(--gold); letter-spacing:0.06em;">MBA</span>
+          <span style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>MBA, Drept Fiscal</span><span lang-en>MBA, Tax Law</span></span>
+          <span style="color:var(--text);"><span lang-ro>Universitatea din București</span><span lang-en>University of Bucharest</span></span>
+          <span style="color:var(--dim); text-align:right;">2015</span>
+        </div>
+
+        <div style="display:grid; grid-template-columns:110px 1fr 100px 80px; gap:18px; padding:18px 0; border-bottom:1px solid var(--dimmer); align-items:baseline; font-family:var(--mono); font-size:12px;">
+          <span style="color:var(--gold); letter-spacing:0.06em;">LLB</span>
+          <span style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Licență în Drept</span><span lang-en>Bachelor of Laws</span></span>
+          <span style="color:var(--text);">Univ. „Nicolae Titulescu"</span>
+          <span style="color:var(--dim); text-align:right;">2010</span>
+        </div>
+
+        <!-- Mini bio -->
+        <div style="margin-top:36px; padding:24px 28px; border:1px solid var(--dimmer); background:var(--ink-panel); display:grid; grid-template-columns:120px 1fr; gap:24px;">
+          <div style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em;"><span lang-ro>traseu<br/>profesional</span><span lang-en>career<br/>path</span></div>
+          <div style="font-family:var(--serif); font-size:17px; line-height:1.55; color:var(--text); opacity:0.9;">
+            <span lang-ro>
+              Managing Partner la ECB Tax Accounting &amp; HR SRL, CFO la Tudor Tech (Elveția) și proprietar
+              al Libra Partners (fondată în 2008). Carieră începută ca Chief Accountant pe divizia de
+              aviație la Menzies Aviation (UK GAAP / IFRS). Certificări CECCAR (2005), FCCA (2012) și
+              CCF (2013), MBA în Drept Fiscal — Universitatea din București (2015).
+            </span>
+            <span lang-en>
+              Managing Partner at ECB Tax Accounting &amp; HR SRL, CFO at Tudor Tech (Switzerland) and
+              owner of Libra Partners (founded 2008). Career began as Chief Accountant for the aviation
+              division at Menzies Aviation (UK GAAP / IFRS). CECCAR (2005), FCCA (2012) and CCF (2013)
+              certifications, MBA in Tax Law — University of Bucharest (2015).
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="incredere">
-  <div class="container">
-    <div class="section-label"><span lang-ro>Verificat</span><span lang-en>Verified</span></div>
-    <h2><span lang-ro>O Practică Construită Pe Încredere Verificabilă</span><span lang-en>A Practice Built on Verifiable Trust</span></h2>
-    <p class="lead">
-      <span lang-ro>
-        Prezența online a ECB TAX ACCOUNTING HR SRL este structurată astfel încât atât
-        oamenii cât și sistemele de AI pot verifica cine suntem, ce facem și cum
-        colaborăm cu partenerii noștri profesionali.
+  <!-- SERVICES LEDGER -->
+  <section id="servicii" class="section">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">// <span lang-ro>servicii · catalog 2026</span><span lang-en>services · 2026 catalog</span></div>
+        <h2><span lang-ro>Catalog de servicii, <em>explicat clar</em>.</span><span lang-en>Service catalog, <em>plainly explained</em>.</span></h2>
+      </div>
+      <div class="meta">
+        <span lang-ro>Pachete combinate (contabilitate + salarizare + declarații) beneficiază de reduceri. Cere o ofertă personalizată — răspundem în &lt; 4h.</span>
+        <span lang-en>Combined packages (accounting + payroll + filings) come with discounts. Ask for a personalized quote — we reply in &lt; 4h.</span>
+      </div>
+    </div>
+
+    <!-- Ledger header -->
+    <div style="display:grid; grid-template-columns:60px 110px 1.7fr 1.1fr 1fr 70px; gap:24px; font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:0.18em; color:var(--dim); padding-bottom:14px; border-bottom:1px solid var(--gold);">
+      <span>#</span>
+      <span>cod</span>
+      <span><span lang-ro>linie de practică</span><span lang-en>practice line</span></span>
+      <span><span lang-ro>echivalent EN</span><span lang-en>RO equivalent</span></span>
+      <span><span lang-ro>pentru</span><span lang-en>for</span></span>
+      <span></span>
+    </div>
+
+    <details class="svc">
+      <summary>
+        <span class="svc-n" style="font-family:var(--serif); font-style:italic; color:var(--gold-deep); font-size:22px;">01</span>
+        <span class="svc-code mono" style="font-size:12px; color:var(--gold); letter-spacing:0.08em;">AC-100</span>
+        <span class="svc-ro" style="font-family:var(--serif); font-size:26px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Contabilitate financiară</span><span lang-en>Bookkeeping &amp; financial accounting</span></span>
+        <span class="svc-en" style="font-family:var(--serif); font-style:italic; font-size:17px; color:var(--dim);"><span lang-ro>Bookkeeping &amp; financial accounting</span><span lang-en>Contabilitate financiară</span></span>
+        <span class="svc-for mono" style="font-size:12px; color:var(--text); letter-spacing:0.04em;">SRL · PFA · ONG</span>
+        <span class="svc-toggle">cd →</span>
+      </summary>
+      <div class="svc-body">
+        <span></span>
+        <span class="mono" style="font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em;">↳ <span lang-ro>detaliu</span><span lang-en>detail</span></span>
+        <p>
+          <span lang-ro>Registre conform OMFP 1802, balanță lunară, închideri trimestriale, bilanț anual.</span>
+          <span lang-en>Records per OMFP 1802, monthly trial balance, quarterly closings, annual financial statements.</span>
+        </p>
+      </div>
+    </details>
+
+    <details class="svc">
+      <summary>
+        <span class="svc-n" style="font-family:var(--serif); font-style:italic; color:var(--gold-deep); font-size:22px;">02</span>
+        <span class="svc-code mono" style="font-size:12px; color:var(--gold); letter-spacing:0.08em;">TX-200</span>
+        <span class="svc-ro" style="font-family:var(--serif); font-size:26px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Conformitate fiscală</span><span lang-en>Tax compliance &amp; filing</span></span>
+        <span class="svc-en" style="font-family:var(--serif); font-style:italic; font-size:17px; color:var(--dim);"><span lang-ro>Tax compliance &amp; filing</span><span lang-en>Conformitate fiscală</span></span>
+        <span class="svc-for mono" style="font-size:12px; color:var(--text); letter-spacing:0.04em;"><span lang-ro>plătitori TVA</span><span lang-en>VAT payers</span></span>
+        <span class="svc-toggle">cd →</span>
+      </summary>
+      <div class="svc-body">
+        <span></span>
+        <span class="mono" style="font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em;">↳ <span lang-ro>detaliu</span><span lang-en>detail</span></span>
+        <p>
+          <span lang-ro>D100, D300, D394, D390, D205, D406 SAF-T. Asistență la inspecție ANAF.</span>
+          <span lang-en>D100, D300, D394, D390, D205, D406 SAF-T. Assistance during ANAF audits.</span>
+        </p>
+      </div>
+    </details>
+
+    <details class="svc">
+      <summary>
+        <span class="svc-n" style="font-family:var(--serif); font-style:italic; color:var(--gold-deep); font-size:22px;">03</span>
+        <span class="svc-code mono" style="font-size:12px; color:var(--gold); letter-spacing:0.08em;">PR-300</span>
+        <span class="svc-ro" style="font-family:var(--serif); font-size:26px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Salarizare</span><span lang-en>Payroll</span></span>
+        <span class="svc-en" style="font-family:var(--serif); font-style:italic; font-size:17px; color:var(--dim);"><span lang-ro>Payroll</span><span lang-en>Salarizare</span></span>
+        <span class="svc-for mono" style="font-size:12px; color:var(--text); letter-spacing:0.04em;"><span lang-ro>angajatori</span><span lang-en>employers</span></span>
+        <span class="svc-toggle">cd →</span>
+      </summary>
+      <div class="svc-body">
+        <span></span>
+        <span class="mono" style="font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em;">↳ <span lang-ro>detaliu</span><span lang-en>detail</span></span>
+        <p>
+          <span lang-ro>State de plată, REVISAL, viramente, fluturași, certificate de venit.</span>
+          <span lang-en>Payroll statements, REVISAL, bank transfers, payslips, income certificates.</span>
+        </p>
+      </div>
+    </details>
+
+    <details class="svc">
+      <summary>
+        <span class="svc-n" style="font-family:var(--serif); font-style:italic; color:var(--gold-deep); font-size:22px;">04</span>
+        <span class="svc-code mono" style="font-size:12px; color:var(--gold); letter-spacing:0.08em;">HR-310</span>
+        <span class="svc-ro" style="font-family:var(--serif); font-size:26px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Administrare HR</span><span lang-en>HR administration</span></span>
+        <span class="svc-en" style="font-family:var(--serif); font-style:italic; font-size:17px; color:var(--dim);"><span lang-ro>HR administration</span><span lang-en>Administrare HR</span></span>
+        <span class="svc-for mono" style="font-size:12px; color:var(--text); letter-spacing:0.04em;"><span lang-ro>echipe în creștere</span><span lang-en>growing teams</span></span>
+        <span class="svc-toggle">cd →</span>
+      </summary>
+      <div class="svc-body">
+        <span></span>
+        <span class="mono" style="font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em;">↳ <span lang-ro>detaliu</span><span lang-en>detail</span></span>
+        <p>
+          <span lang-ro>Contracte, fișe de post, regulamente interne, pontaj, GDPR.</span>
+          <span lang-en>Contracts, job descriptions, internal policies, timekeeping, GDPR.</span>
+        </p>
+      </div>
+    </details>
+
+    <details class="svc">
+      <summary>
+        <span class="svc-n" style="font-family:var(--serif); font-style:italic; color:var(--gold-deep); font-size:22px;">05</span>
+        <span class="svc-code mono" style="font-size:12px; color:var(--gold); letter-spacing:0.08em;">AD-400</span>
+        <span class="svc-ro" style="font-family:var(--serif); font-size:26px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Consultanță fiscală</span><span lang-en>Tax advisory</span></span>
+        <span class="svc-en" style="font-family:var(--serif); font-style:italic; font-size:17px; color:var(--dim);"><span lang-ro>Tax advisory</span><span lang-en>Consultanță fiscală</span></span>
+        <span class="svc-for mono" style="font-size:12px; color:var(--text); letter-spacing:0.04em;"><span lang-ro>fondatori</span><span lang-en>founders</span></span>
+        <span class="svc-toggle">cd →</span>
+      </summary>
+      <div class="svc-body">
+        <span></span>
+        <span class="mono" style="font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em;">↳ <span lang-ro>detaliu</span><span lang-en>detail</span></span>
+        <p>
+          <span lang-ro>Structurare micro vs. profit, dividend vs. salariu, optimizare TVA, due diligence.</span>
+          <span lang-en>Micro vs. profit tax structuring, dividend vs. salary, VAT optimization, due diligence.</span>
+        </p>
+      </div>
+    </details>
+
+    <details class="svc">
+      <summary>
+        <span class="svc-n" style="font-family:var(--serif); font-style:italic; color:var(--gold-deep); font-size:22px;">06</span>
+        <span class="svc-code mono" style="font-size:12px; color:var(--gold); letter-spacing:0.08em;">HR-500</span>
+        <span class="svc-ro" style="font-family:var(--serif); font-size:26px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Recrutare personal financiar</span><span lang-en>Finance staffing &amp; recruiting</span></span>
+        <span class="svc-en" style="font-family:var(--serif); font-style:italic; font-size:17px; color:var(--dim);"><span lang-ro>Finance staffing &amp; recruiting</span><span lang-en>Recrutare personal financiar</span></span>
+        <span class="svc-for mono" style="font-size:12px; color:var(--text); letter-spacing:0.04em;"><span lang-ro>roluri temp./perm.</span><span lang-en>temp./perm. roles</span></span>
+        <span class="svc-toggle">cd →</span>
+      </summary>
+      <div class="svc-body">
+        <span></span>
+        <span class="mono" style="font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em;">↳ <span lang-ro>detaliu</span><span lang-en>detail</span></span>
+        <p>
+          <span lang-ro>Contabili, controllers, finance managers — recrutare și plasare pentru roluri temporare sau permanente.</span>
+          <span lang-en>Accountants, controllers, finance managers — recruiting and placement for temporary or permanent roles.</span>
+        </p>
+      </div>
+    </details>
+
+    <details class="svc">
+      <summary>
+        <span class="svc-n" style="font-family:var(--serif); font-style:italic; color:var(--gold-deep); font-size:22px;">07</span>
+        <span class="svc-code mono" style="font-size:12px; color:var(--gold); letter-spacing:0.08em;">CF-600</span>
+        <span class="svc-ro" style="font-family:var(--serif); font-size:26px; color:var(--text); letter-spacing:-0.01em;">CFO part-time</span>
+        <span class="svc-en" style="font-family:var(--serif); font-style:italic; font-size:17px; color:var(--dim);">Fractional CFO</span>
+        <span class="svc-for mono" style="font-size:12px; color:var(--text); letter-spacing:0.04em;">scale-ups</span>
+        <span class="svc-toggle">cd →</span>
+      </summary>
+      <div class="svc-body">
+        <span></span>
+        <span class="mono" style="font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em;">↳ <span lang-ro>detaliu</span><span lang-en>detail</span></span>
+        <p>
+          <span lang-ro>Forecast lunar, cash management, raportare către board, scenarii de runway.</span>
+          <span lang-en>Monthly forecast, cash management, board reporting, runway scenarios.</span>
+        </p>
+      </div>
+    </details>
+
+    <!-- Footer line -->
+    <div style="display:grid; grid-template-columns:60px 110px 1.7fr 1.1fr 1fr 70px; gap:24px; padding:24px 0 0; font-family:var(--mono); font-size:11px; color:var(--dim); letter-spacing:0.06em;">
+      <span>Σ</span>
+      <span><span lang-ro>7 linii</span><span lang-en>7 lines</span></span>
+      <span style="grid-column:span 3; color:var(--text);">
+        <span lang-ro>Acoperire completă: înregistrare → declarații → strategie → recrutare.</span>
+        <span lang-en>Full coverage: bookkeeping → filings → strategy → recruiting.</span>
       </span>
-      <span lang-en>
-        ECB TAX ACCOUNTING HR SRL's online presence is structured so that both people
-        and AI systems can verify who we are, what we do, and how we are connected
-        to our professional partners.
-      </span>
-    </p>
-    <div class="grid-3">
-      <div class="card">
-        <h3><span lang-ro>Identitate</span><span lang-en>Identity</span></h3>
-        <p>
-          <span lang-ro>Înregistrările canonice de entitate identifică ECB TAX ACCOUNTING HR SRL ca practică de contabilitate înregistrată, condusă de Roxana Deak, FCCA, CPA.</span>
-          <span lang-en>Canonical entity records identify ECB TAX ACCOUNTING HR SRL as a registered accounting practice led by Roxana Deak, FCCA, CPA.</span>
-        </p>
+      <span></span>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="section">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">// <span lang-ro>process · de la primul email la operare</span><span lang-en>process · from first email to operations</span></div>
+        <h2><span lang-ro>Patru pași, <em>de la apel la balanță</em>.</span><span lang-en>Four steps, <em>from call to balance sheet</em>.</span></h2>
       </div>
-      <div class="card">
-        <h3><span lang-ro>Certificări</span><span lang-en>Credentials</span></h3>
-        <p>
-          <span lang-ro>Calificările profesionale sunt menționate clar și consecvent pe toate canalele.</span>
-          <span lang-en>Professional qualifications are stated clearly and consistently across all channels.</span>
-        </p>
-      </div>
-      <div class="card">
-        <h3><span lang-ro>Parteneriat</span><span lang-en>Partnership</span></h3>
-        <p>
-          <span lang-ro>Infrastructura AI a ECB TAX ACCOUNTING HR SRL este întreținută în parteneriat cu AiVenture S.R.L. / 5thelement.ai.</span>
-          <span lang-en>ECB TAX ACCOUNTING HR SRL's AI infrastructure is maintained in partnership with AiVenture S.R.L. / 5thelement.ai.</span>
-        </p>
+      <div class="meta">
+        <span lang-ro>Procesul nostru e public — niciun „contractăm și vedem". Ce livrăm la fiecare etapă, în cât timp, și ce decizie ai tu de luat după.</span>
+        <span lang-en>Our process is public — no "let's sign and see". What we deliver at each stage, how long it takes, and what decision is yours afterward.</span>
       </div>
     </div>
-  </div>
-</section>
 
-<section id="contact">
-  <div class="container">
-    <div class="section-label"><span lang-ro>Hai Să Discutăm</span><span lang-en>Get In Touch</span></div>
-    <h2><span lang-ro>Programează o Consultație</span><span lang-en>Book a Consultation</span></h2>
-    <p class="lead">
-      <span lang-ro>Spune-ne despre afacerea ta și de ce ai nevoie — contabilitate, conformitate fiscală sau consultanță.</span>
-      <span lang-en>Tell us about your business and what you need — accounting, tax compliance, or advisory support.</span>
-    </p>
+    <div class="process-grid" style="display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--dimmer); border:1px solid var(--dimmer);">
 
-    <div class="hero-actions">
-      <a class="btn" href="mailto:ecbax@gmail.com"><span lang-ro>Trimite Email</span><span lang-en>Email Us</span></a>
-      <a class="btn secondary" href="https://wa.me/40755110012" target="_blank" rel="noopener">WhatsApp: +40 755 110 012</a>
+      <div style="background:var(--ink); padding:32px 28px; display:flex; flex-direction:column; gap:18px; min-height:280px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline;">
+          <span style="font-family:var(--mono); font-size:11px; color:var(--gold); letter-spacing:0.14em;">step / 01</span>
+          <span style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.16em;">30 min</span>
+        </div>
+        <div>
+          <div style="font-family:var(--mono); font-size:12px; color:var(--gold-deep); margin-bottom:6px;">init()</div>
+          <h3 style="font-family:var(--serif); font-weight:400; font-size:28px; line-height:1.05; margin:0; letter-spacing:-0.015em; color:var(--text);"><span lang-ro>Discuție de încadrare</span><span lang-en>Scoping call</span></h3>
+        </div>
+        <p style="font-size:14px; line-height:1.55; color:var(--text); opacity:0.78; margin:0; flex:1;">
+          <span lang-ro>30 min, fără cost. Înțelegem profilul fiscal, sezonalitatea, regimul TVA, echipa.</span>
+          <span lang-en>30 min, free. We understand your tax profile, seasonality, VAT regime, team.</span>
+        </p>
+        <div style="padding-top:16px; border-top:1px solid var(--dimmer); font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em; display:flex; justify-content:space-between;">
+          <span><span lang-ro>livrabil</span><span lang-en>deliverable</span></span>
+          <span style="color:var(--gold);"><span lang-ro>fișă de încadrare</span><span lang-en>scoping sheet</span></span>
+        </div>
+      </div>
+
+      <div style="background:var(--ink); padding:32px 28px; display:flex; flex-direction:column; gap:18px; min-height:280px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline;">
+          <span style="font-family:var(--mono); font-size:11px; color:var(--gold); letter-spacing:0.14em;">step / 02</span>
+          <span style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.16em;"><span lang-ro>5-8 zile</span><span lang-en>5-8 days</span></span>
+        </div>
+        <div>
+          <div style="font-family:var(--mono); font-size:12px; color:var(--gold-deep); margin-bottom:6px;">audit()</div>
+          <h3 style="font-family:var(--serif); font-weight:400; font-size:28px; line-height:1.05; margin:0; letter-spacing:-0.015em; color:var(--text);"><span lang-ro>Audit istoric · 12 luni</span><span lang-en>Historical audit · 12 months</span></h3>
+        </div>
+        <p style="font-size:14px; line-height:1.55; color:var(--text); opacity:0.78; margin:0; flex:1;">
+          <span lang-ro>Verificăm balanța, declarațiile depuse, REVISAL, contracte. Raport scris cu riscuri.</span>
+          <span lang-en>We check the trial balance, filed returns, REVISAL, contracts. Written risk report.</span>
+        </p>
+        <div style="padding-top:16px; border-top:1px solid var(--dimmer); font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em; display:flex; justify-content:space-between;">
+          <span><span lang-ro>livrabil</span><span lang-en>deliverable</span></span>
+          <span style="color:var(--gold);"><span lang-ro>raport diagnostic</span><span lang-en>diagnostic report</span></span>
+        </div>
+      </div>
+
+      <div style="background:var(--ink); padding:32px 28px; display:flex; flex-direction:column; gap:18px; min-height:280px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline;">
+          <span style="font-family:var(--mono); font-size:11px; color:var(--gold); letter-spacing:0.14em;">step / 03</span>
+          <span style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.16em;"><span lang-ro>2 zile</span><span lang-en>2 days</span></span>
+        </div>
+        <div>
+          <div style="font-family:var(--mono); font-size:12px; color:var(--gold-deep); margin-bottom:6px;">plan()</div>
+          <h3 style="font-family:var(--serif); font-weight:400; font-size:28px; line-height:1.05; margin:0; letter-spacing:-0.015em; color:var(--text);"><span lang-ro>Plan &amp; ofertă</span><span lang-en>Plan &amp; proposal</span></h3>
+        </div>
+        <p style="font-size:14px; line-height:1.55; color:var(--text); opacity:0.78; margin:0; flex:1;">
+          <span lang-ro>Propunere de pachet cu calendar de declarații și persoane de contact dedicate.</span>
+          <span lang-en>Package proposal with a filing calendar and dedicated points of contact.</span>
+        </p>
+        <div style="padding-top:16px; border-top:1px solid var(--dimmer); font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em; display:flex; justify-content:space-between;">
+          <span><span lang-ro>livrabil</span><span lang-en>deliverable</span></span>
+          <span style="color:var(--gold);"><span lang-ro>contract + SLA</span><span lang-en>contract + SLA</span></span>
+        </div>
+      </div>
+
+      <div style="background:var(--ink); padding:32px 28px; display:flex; flex-direction:column; gap:18px; min-height:280px;">
+        <div style="display:flex; justify-content:space-between; align-items:baseline;">
+          <span style="font-family:var(--mono); font-size:11px; color:var(--gold); letter-spacing:0.14em;">step / 04</span>
+          <span style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.16em;"><span lang-ro>recurent</span><span lang-en>recurring</span></span>
+        </div>
+        <div>
+          <div style="font-family:var(--mono); font-size:12px; color:var(--gold-deep); margin-bottom:6px;">run()</div>
+          <h3 style="font-family:var(--serif); font-weight:400; font-size:28px; line-height:1.05; margin:0; letter-spacing:-0.015em; color:var(--text);"><span lang-ro>Operare lunară</span><span lang-en>Monthly operations</span></h3>
+        </div>
+        <p style="font-size:14px; line-height:1.55; color:var(--text); opacity:0.78; margin:0; flex:1;">
+          <span lang-ro>Înregistrare, declarații, salarizare. Raport lunar de 1 pagină — ce s-a făcut, ce urmează.</span>
+          <span lang-en>Bookkeeping, filings, payroll. One-page monthly report — what was done, what's next.</span>
+        </p>
+        <div style="padding-top:16px; border-top:1px solid var(--dimmer); font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em; display:flex; justify-content:space-between;">
+          <span><span lang-ro>livrabil</span><span lang-en>deliverable</span></span>
+          <span style="color:var(--gold);"><span lang-ro>raport lunar</span><span lang-en>monthly report</span></span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section id="trust" class="section">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">// <span lang-ro>trust · credențiale &amp; integrări</span><span lang-en>trust · credentials &amp; integrations</span></div>
+        <h2><span lang-ro>Un <em>strat de încredere</em> verificabil.</span><span lang-en>A verifiable <em>trust layer</em>.</span></h2>
+      </div>
+      <div class="meta">
+        <span lang-ro>Credențialele și parteneriatele noastre sunt structurate astfel încât să fie verificabile de oameni și de sisteme AI.</span>
+        <span lang-en>Our credentials and partnerships are structured to be verifiable by people and AI systems.</span>
+      </div>
     </div>
 
-    <div class="contact-grid">
-      <form class="contact-form" action="mailto:ecbax@gmail.com" method="post" enctype="text/plain">
-        <div class="field-row">
-          <div class="field">
-            <label for="cf-name"><span lang-ro>Nume</span><span lang-en>Name</span></label>
-            <input id="cf-name" name="Nume" type="text" placeholder="Ion Popescu" required />
-          </div>
-          <div class="field">
-            <label for="cf-company"><span lang-ro>Companie</span><span lang-en>Company</span></label>
-            <input id="cf-company" name="Companie" type="text" placeholder="SRL / PFA" />
+    <div class="trust-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:64px;">
+      <!-- Credentials -->
+      <div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--gold); text-transform:uppercase; letter-spacing:0.18em; margin-bottom:24px;"><span lang-ro>certificări profesionale</span><span lang-en>professional certifications</span></div>
+
+        <div style="display:grid; grid-template-columns:36px 110px 1fr; gap:18px; padding:22px 0; border-top:1px solid var(--dimmer); align-items:center;">
+          <span style="font-size:22px; color:var(--gold);">◈</span>
+          <span style="font-family:var(--mono); font-size:12px; color:var(--gold); letter-spacing:0.06em;">CECCAR</span>
+          <div>
+            <div style="font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Corpul Experților Contabili</span><span lang-en>Body of Expert &amp; Authorized Accountants</span></div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:4px; letter-spacing:0.04em;"><span lang-ro>Certified Public Accountant · din 2005</span><span lang-en>Certified Public Accountant · since 2005</span></div>
           </div>
         </div>
 
-        <div class="field-row">
-          <div class="field">
-            <label for="cf-email"><span lang-ro>Email</span><span lang-en>Email</span></label>
-            <input id="cf-email" name="Email" type="email" placeholder="nume@companie.ro" required />
-          </div>
-          <div class="field">
-            <label for="cf-phone"><span lang-ro>Telefon</span><span lang-en>Phone</span></label>
-            <input id="cf-phone" name="Telefon" type="tel" placeholder="+40 7xx xxx xxx" />
+        <div style="display:grid; grid-template-columns:36px 110px 1fr; gap:18px; padding:22px 0; border-top:1px solid var(--dimmer); align-items:center;">
+          <span style="font-size:22px; color:var(--gold);">◆</span>
+          <span style="font-family:var(--mono); font-size:12px; color:var(--gold); letter-spacing:0.06em;">FCCA</span>
+          <div>
+            <div style="font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-0.01em;">Association of Chartered Certified Accountants</div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:4px; letter-spacing:0.04em;"><span lang-ro>Fellow status (UK) · din 2012 · ID 0883506</span><span lang-en>Fellow status (UK) · since 2012 · ID 0883506</span></div>
           </div>
         </div>
 
+        <div style="display:grid; grid-template-columns:36px 110px 1fr; gap:18px; padding:22px 0; border-top:1px solid var(--dimmer); align-items:center;">
+          <span style="font-size:22px; color:var(--gold);">◉</span>
+          <span style="font-family:var(--mono); font-size:12px; color:var(--gold); letter-spacing:0.06em;">CCF</span>
+          <div>
+            <div style="font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Camera Consultanților Fiscali</span><span lang-en>Romanian Chamber of Tax Consultants</span></div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:4px; letter-spacing:0.04em;"><span lang-ro>Consultant fiscal autorizat · din 2013</span><span lang-en>Authorized tax consultant · since 2013</span></div>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:36px 110px 1fr; gap:18px; padding:22px 0; border-top:1px solid var(--dimmer); align-items:center;">
+          <span style="font-size:22px; color:var(--gold);">◇</span>
+          <span style="font-family:var(--mono); font-size:12px; color:var(--gold); letter-spacing:0.06em;">MBA</span>
+          <div>
+            <div style="font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-0.01em;"><span lang-ro>Universitatea din București</span><span lang-en>University of Bucharest</span></div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:4px; letter-spacing:0.04em;"><span lang-ro>MBA, Drept Fiscal · 2015</span><span lang-en>MBA, Tax Law · 2015</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Partnership -->
+      <div>
+        <div style="font-family:var(--mono); font-size:11px; color:var(--gold); text-transform:uppercase; letter-spacing:0.18em; margin-bottom:24px;"><span lang-ro>parteneriat &amp; infrastructură AI</span><span lang-en>partnership &amp; AI infrastructure</span></div>
+
+        <div style="display:grid; grid-template-columns:1.1fr 2fr 100px; gap:18px; padding:22px 0; border-top:1px solid var(--dimmer); align-items:center;">
+          <span style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em;">AiVenture</span>
+          <span style="font-family:var(--mono); font-size:12px; color:var(--dim); letter-spacing:0.04em; line-height:1.5;"><span lang-ro>Infrastructură de descoperire AI · 5thelement.ai</span><span lang-en>AI discovery infrastructure · 5thelement.ai</span></span>
+          <span style="display:inline-flex; align-items:center; gap:6px; font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.14em; justify-self:end;">
+            <span style="width:6px; height:6px; background:var(--gold); border-radius:50%;"></span>
+            <span lang-ro>activ</span><span lang-en>active</span>
+          </span>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1.1fr 2fr 100px; gap:18px; padding:22px 0; border-top:1px solid var(--dimmer); align-items:center;">
+          <span style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em;">e-Factura</span>
+          <span style="font-family:var(--mono); font-size:12px; color:var(--dim); letter-spacing:0.04em; line-height:1.5;"><span lang-ro>Suport pentru transmitere SPV / ANAF</span><span lang-en>Support for SPV / ANAF submission</span></span>
+          <span style="display:inline-flex; align-items:center; gap:6px; font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.14em; justify-self:end;">
+            <span style="width:6px; height:6px; background:var(--gold); border-radius:50%;"></span>
+            <span lang-ro>activ</span><span lang-en>active</span>
+          </span>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1.1fr 2fr 100px; gap:18px; padding:22px 0; border-top:1px solid var(--dimmer); align-items:center;">
+          <span style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em;">SAF-T D406</span>
+          <span style="font-family:var(--mono); font-size:12px; color:var(--dim); letter-spacing:0.04em; line-height:1.5;"><span lang-ro>Generare lunară pentru clienți eligibili</span><span lang-en>Monthly generation for eligible clients</span></span>
+          <span style="display:inline-flex; align-items:center; gap:6px; font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.14em; justify-self:end;">
+            <span style="width:6px; height:6px; background:var(--gold); border-radius:50%;"></span>
+            <span lang-ro>activ</span><span lang-en>active</span>
+          </span>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1.1fr 2fr 100px; gap:18px; padding:22px 0; border-top:1px solid var(--dimmer); align-items:center;">
+          <span style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em;">GDPR</span>
+          <span style="font-family:var(--mono); font-size:12px; color:var(--dim); letter-spacing:0.04em; line-height:1.5;"><span lang-ro>Politici de protecție a datelor</span><span lang-en>Data protection policies</span></span>
+          <span style="display:inline-flex; align-items:center; gap:6px; font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.14em; justify-self:end;">
+            <span style="width:6px; height:6px; background:var(--gold); border-radius:50%;"></span>
+            <span lang-ro>conform</span><span lang-en>compliant</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="resurse" class="section">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">// <span lang-ro>resurse · întrebări frecvente</span><span lang-en>resources · frequently asked questions</span></div>
+        <h2><span lang-ro>Răspunsuri <em>scrise — nu vag.</em></span><span lang-en>Answers <em>in writing — not vague.</em></span></h2>
+      </div>
+      <div class="meta">
+        <span lang-ro>Dacă întrebarea ta nu e aici, scrie-ne. Răspundem în &lt; 4h în ziua lucrătoare.</span>
+        <span lang-en>If your question isn't here, write to us. We reply in &lt; 4h on business days.</span>
+      </div>
+    </div>
+
+    <details class="faq">
+      <summary>
+        <span class="q-num">Q.01</span>
+        <span><span lang-ro>Lucrați și cu PFA, sau doar cu SRL?</span><span lang-en>Do you work with PFA, or only SRL?</span></span>
+        <span class="q-toggle">+</span>
+      </summary>
+      <div class="q-body">
+        <span class="mono" style="font-size:11px; color:var(--dim); letter-spacing:0.16em; text-transform:uppercase;">↳ A</span>
+        <div>
+          <span lang-ro>Da. Lucrăm cu PFA (sistem real sau normă de venit), inclusiv declarația unică, asistență TVA dacă e cazul, și plata la timp a contribuțiilor CAS/CASS.</span>
+          <span lang-en>Yes. We work with PFA (real income or income norm), including the single tax return, VAT assistance where applicable, and timely CAS/CASS contribution payments.</span>
+        </div>
+        <span></span>
+      </div>
+    </details>
+
+    <details class="faq">
+      <summary>
+        <span class="q-num">Q.02</span>
+        <span><span lang-ro>Cum funcționează preluarea de la contabilul actual?</span><span lang-en>How does switching from our current accountant work?</span></span>
+        <span class="q-toggle">+</span>
+      </summary>
+      <div class="q-body">
+        <span class="mono" style="font-size:11px; color:var(--dim); letter-spacing:0.16em; text-transform:uppercase;">↳ A</span>
+        <div>
+          <span lang-ro>Semnezi împuternicirea ANAF SPV și ne dai acces la dosarul fiscal. Facem un audit pe ultimele 12 luni, te informăm în scris ce găsim, și recuperăm orice este nedepus sau depus incorect.</span>
+          <span lang-en>You sign the ANAF SPV authorization and give us access to your tax file. We audit the last 12 months, inform you in writing of what we find, and remedy anything unfiled or incorrectly filed.</span>
+        </div>
+        <span></span>
+      </div>
+    </details>
+
+    <details class="faq">
+      <summary>
+        <span class="q-num">Q.03</span>
+        <span><span lang-ro>Sunteți pregătiți pentru e-Factura și SAF-T?</span><span lang-en>Are you ready for e-Factura and SAF-T?</span></span>
+        <span class="q-toggle">+</span>
+      </summary>
+      <div class="q-body">
+        <span class="mono" style="font-size:11px; color:var(--dim); letter-spacing:0.16em; text-transform:uppercase;">↳ A</span>
+        <div>
+          <span lang-ro>Da — oferim suport pentru transmiterea facturilor prin SPV (e-Factura), iar pentru SAF-T D406 generăm fișierul lunar pentru clienții eligibili. Vezi secțiunea Trust de mai sus.</span>
+          <span lang-en>Yes — we support invoice submission via SPV (e-Factura), and for SAF-T D406 we generate the monthly file for eligible clients. See the Trust section above.</span>
+        </div>
+        <span></span>
+      </div>
+    </details>
+
+    <details class="faq">
+      <summary>
+        <span class="q-num">Q.04</span>
+        <span><span lang-ro>Ce se întâmplă dacă am inspecție ANAF?</span><span lang-en>What happens if I get an ANAF audit?</span></span>
+        <span class="q-toggle">+</span>
+      </summary>
+      <div class="q-body">
+        <span class="mono" style="font-size:11px; color:var(--dim); letter-spacing:0.16em; text-transform:uppercase;">↳ A</span>
+        <div>
+          <span lang-ro>Te însoțim. Pregătim dosarul cerut, redactăm răspunsurile scrise, și suntem prezenți la sediul ANAF dacă e cerut.</span>
+          <span lang-en>We accompany you. We prepare the requested file, draft written responses, and attend at the ANAF office if required.</span>
+        </div>
+        <span></span>
+      </div>
+    </details>
+
+    <details class="faq">
+      <summary>
+        <span class="q-num">Q.05</span>
+        <span><span lang-ro>Lucrați cu firme din UE care au sediul în România?</span><span lang-en>Do you work with EU companies based in Romania?</span></span>
+        <span class="q-toggle">+</span>
+      </summary>
+      <div class="q-body">
+        <span class="mono" style="font-size:11px; color:var(--dim); letter-spacing:0.16em; text-transform:uppercase;">↳ A</span>
+        <div>
+          <span lang-ro>Da — este o specializare a noastră. Înțelegem regulile de conformitate transfrontalieră și transfer pricing intra-UE.</span>
+          <span lang-en>Yes — this is one of our specializations. We understand cross-border compliance rules and intra-EU transfer pricing.</span>
+        </div>
+        <span></span>
+      </div>
+    </details>
+
+    <details class="faq">
+      <summary>
+        <span class="q-num">Q.06</span>
+        <span><span lang-ro>Care e contractul minim?</span><span lang-en>What's the minimum contract term?</span></span>
+        <span class="q-toggle">+</span>
+      </summary>
+      <div class="q-body">
+        <span class="mono" style="font-size:11px; color:var(--dim); letter-spacing:0.16em; text-transform:uppercase;">↳ A</span>
+        <div>
+          <span lang-ro>Nu impunem perioadă minimă. Preaviz 30 de zile, fără penalități de reziliere.</span>
+          <span lang-en>We don't impose a minimum term. 30-day notice, no termination penalties.</span>
+        </div>
+        <span></span>
+      </div>
+    </details>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">// <span lang-ro>contact</span><span lang-en>contact</span></div>
+        <h2><span lang-ro>Scrie-ne. <em>Citim atent.</em></span><span lang-en>Write to us. <em>We read carefully.</em></span></h2>
+      </div>
+      <div class="meta">
+        <span lang-ro>Formular structurat ca să ajungem repede la subiect.</span>
+        <span lang-en>A structured form so we get to the point quickly.</span>
+      </div>
+    </div>
+
+    <form class="contact-grid" action="mailto:ecbax@gmail.com" method="post" enctype="text/plain" style="display:grid; grid-template-columns:7fr 5fr; gap:64px;">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:32px 40px;">
         <div class="field">
-          <label for="cf-message"><span lang-ro>Mesaj</span><span lang-en>Message</span></label>
-          <textarea id="cf-message" name="Mesaj" rows="5" placeholder="..."></textarea>
+          <label>01 · <span lang-ro>Nume</span><span lang-en>Name</span></label>
+          <input required name="Nume" placeholder="Andrei Popescu" />
+        </div>
+        <div class="field">
+          <label>02 · Email</label>
+          <input required type="email" name="Email" placeholder="andrei@firma.ro" />
+        </div>
+        <div class="field">
+          <label>03 · <span lang-ro>Firma</span><span lang-en>Company</span></label>
+          <input name="Firma" placeholder="—" />
+        </div>
+        <div class="field">
+          <label>04 · CUI (<span lang-ro>dacă există</span><span lang-en>if applicable</span>)</label>
+          <input name="CUI" placeholder="RO12345678" />
+        </div>
+        <div class="field">
+          <label>05 · <span lang-ro>Tip entitate</span><span lang-en>Entity type</span></label>
+          <select name="Tip">
+            <option>SRL</option>
+            <option>SRL-D</option>
+            <option>PFA</option>
+            <option><span lang-ro>ONG / asociație</span><span lang-en>NGO / association</span></option>
+            <option><span lang-ro>Sucursală RO a firmei UE</span><span lang-en>RO branch of EU company</span></option>
+            <option><span lang-ro>Altceva</span><span lang-en>Other</span></option>
+          </select>
+        </div>
+        <div class="field">
+          <label>06 · <span lang-ro>Serviciu de interes</span><span lang-en>Service of interest</span></label>
+          <select name="Serviciu">
+            <option><span lang-ro>Contabilitate</span><span lang-en>Accounting</span></option>
+            <option><span lang-ro>Conformitate fiscală</span><span lang-en>Tax compliance</span></option>
+            <option><span lang-ro>Salarizare</span><span lang-en>Payroll</span></option>
+            <option><span lang-ro>HR administrare</span><span lang-en>HR administration</span></option>
+            <option><span lang-ro>Consultanță fiscală</span><span lang-en>Tax advisory</span></option>
+            <option><span lang-ro>Recrutare finance</span><span lang-en>Finance recruiting</span></option>
+            <option>CFO part-time</option>
+            <option><span lang-ro>Nu sunt sigur — discuție</span><span lang-en>Not sure — let's talk</span></option>
+          </select>
+        </div>
+        <div class="field" style="grid-column:1 / -1;">
+          <label>07 · <span lang-ro>Mesaj (opțional)</span><span lang-en>Message (optional)</span></label>
+          <textarea name="Mesaj" placeholder="…"></textarea>
+        </div>
+        <div style="grid-column:1 / -1; display:flex; align-items:center; gap:20px; margin-top:8px; flex-wrap:wrap;">
+          <button type="submit" class="btn btn-primary">$ <span lang-ro>trimite_intake.sh</span><span lang-en>send_intake.sh</span> →</button>
+          <span style="font-family:var(--mono); font-size:11px; color:var(--dim); letter-spacing:0.06em;">
+            <span lang-ro>SLA: răspuns &lt; 4h lucrătoare</span><span lang-en>SLA: response &lt; 4h business hours</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Direct contact panel -->
+      <aside style="border:1px solid var(--dimmer); background:var(--ink-panel); padding:32px; align-self:start;">
+        <div style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em; margin-bottom:20px; display:flex; justify-content:space-between;">
+          <span>~ /contact/direct.md</span>
+          <span style="color:var(--gold);">● <span lang-ro>online</span><span lang-en>online</span></span>
         </div>
 
-        <p class="form-note">
+        <div style="display:grid; grid-template-columns:110px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--dimmer); align-items:baseline;">
+          <span style="font-family:var(--mono); font-size:11px; color:var(--gold); text-transform:uppercase; letter-spacing:0.14em;">email</span>
+          <div>
+            <div style="font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-0.01em; word-break:break-all;">ecbax@gmail.com</div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:3px;"><span lang-ro>inbox monitorizat</span><span lang-en>monitored inbox</span></div>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:110px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--dimmer); align-items:baseline;">
+          <span style="font-family:var(--mono); font-size:11px; color:var(--gold); text-transform:uppercase; letter-spacing:0.14em;">whatsapp</span>
+          <div>
+            <div style="font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-0.01em;"><a href="https://wa.me/40755110012" target="_blank" rel="noopener" style="color:inherit; text-decoration:none;">+40 755 110 012</a></div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:3px;"><span lang-ro>direct, fără filtru</span><span lang-en>direct, no filter</span></div>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:110px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--dimmer); align-items:baseline;">
+          <span style="font-family:var(--mono); font-size:11px; color:var(--gold); text-transform:uppercase; letter-spacing:0.14em;"><span lang-ro>telefon</span><span lang-en>phone</span></span>
+          <div>
+            <div style="font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-0.01em;"><a href="tel:+40755110012" style="color:inherit; text-decoration:none;">0755 110 012</a></div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:3px;"><span lang-ro>Deschis · închide la 18:00</span><span lang-en>Open · closes at 6:00 PM</span></div>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:110px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--dimmer); align-items:baseline;">
+          <span style="font-family:var(--mono); font-size:11px; color:var(--gold); text-transform:uppercase; letter-spacing:0.14em;"><span lang-ro>adresă</span><span lang-en>address</span></span>
+          <div>
+            <div style="font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-0.01em;">
+              <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x40b1ff6303875101:0x18e6fea9251f8f9a?sa=X&ved=1t:8290&ictx=111" target="_blank" rel="noopener" style="color:inherit; text-decoration:none;">
+                Str. Nicolae G. Caramfil 61C, et. 3
+              </a>
+            </div>
+            <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:3px;">014141 București · sector 1</div>
+          </div>
+        </div>
+
+        <div style="margin-top:24px; padding:18px; background:rgba(245,200,66,0.05); border:1px solid var(--rule); font-family:var(--mono); font-size:11px; color:var(--text); line-height:1.6; letter-spacing:0.02em;">
+          <span style="color:var(--gold);">// </span>
           <span lang-ro>Răspundem de obicei în aceeași zi lucrătoare.</span>
           <span lang-en>We usually reply within the same business day.</span>
+        </div>
+      </aside>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" style="border-top:1px solid var(--rule-strong); padding:64px 56px 40px; background:var(--ink-panel);">
+
+    <div class="footer-grid" style="display:grid; grid-template-columns:5fr 3fr 3fr; gap:56px; padding-bottom:56px; border-bottom:1px solid var(--dimmer);">
+      <div>
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:20px;">
+          <div style="width:44px; height:44px; border:1.5px solid var(--gold); display:grid; place-items:center; font-family:var(--serif); font-size:28px; color:var(--gold); font-style:italic; line-height:1;">e</div>
+          <span style="font-family:var(--serif); font-size:32px; letter-spacing:0.01em;">
+            ECB Tax <span style="color:var(--gold); font-style:italic;">Accounting &amp; HR</span>
+          </span>
+        </div>
+        <p style="font-family:var(--serif); font-style:italic; font-size:22px; line-height:1.4; color:var(--text); opacity:0.85; max-width:420px; margin:0;">
+          <span lang-ro>„Contabilitate la zecimală pentru oamenii care construiesc lucruri."</span>
+          <span lang-en>"Accounting to the decimal, for people building things."</span>
         </p>
+      </div>
 
-        <div class="hero-actions" style="margin-top:0;">
-          <button class="btn" type="submit"><span lang-ro>Trimite Mesajul</span><span lang-en>Send Message</span></button>
+      <div>
+        <div class="eyebrow-dim" style="margin-bottom:18px;">// sitemap</div>
+        <ul style="list-style:none; padding:0; margin:0; display:grid; gap:12px; font-family:var(--mono); font-size:13px;">
+          <li><a href="#servicii" style="color:var(--text); text-decoration:none;">/servicii</a></li>
+          <li><a href="#echipa" style="color:var(--text); text-decoration:none;">/echipă</a></li>
+          <li><a href="#process" style="color:var(--text); text-decoration:none;">/proces</a></li>
+          <li><a href="#resurse" style="color:var(--text); text-decoration:none;">/resurse</a></li>
+          <li><a href="#trust" style="color:var(--text); text-decoration:none;">/trust</a></li>
+          <li><a href="#contact" style="color:var(--text); text-decoration:none;">/contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="eyebrow-dim" style="margin-bottom:18px;">// <span lang-ro>legal &amp; gdpr</span><span lang-en>legal &amp; gdpr</span></div>
+        <ul style="list-style:none; padding:0; margin:0; display:grid; gap:12px; font-family:var(--mono); font-size:13px;">
+          <li><a href="#" style="color:var(--text); text-decoration:none;"><span lang-ro>termeni &amp; condiții</span><span lang-en>terms &amp; conditions</span></a></li>
+          <li><a href="#" style="color:var(--text); text-decoration:none;"><span lang-ro>politica de confidențialitate</span><span lang-en>privacy policy</span></a></li>
+          <li><a href="#" style="color:var(--text); text-decoration:none;"><span lang-ro>politica de cookies</span><span lang-en>cookie policy</span></a></li>
+          <li><a href="https://www.linkedin.com/company/ecb-tax-accounting-hr" target="_blank" rel="noopener" style="color:var(--text); text-decoration:none;">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Company registration block -->
+    <div style="padding:40px 0;">
+      <div class="eyebrow-dim" style="margin-bottom:22px;">// <span lang-ro>înregistrare societate · registru public</span><span lang-en>company registration · public record</span></div>
+
+      <div class="reg-grid" style="display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--dimmer); border:1px solid var(--dimmer);">
+        <div style="background:var(--ink-panel); padding:20px 22px;">
+          <div style="font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.16em; margin-bottom:10px;"><span lang-ro>denumire</span><span lang-en>legal name</span></div>
+          <div style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em; line-height:1.1; word-break:break-word;">ECB TAX ACCOUNTING &amp; HR SRL</div>
+          <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:8px; letter-spacing:0.04em;"><span lang-ro>registrul comerțului</span><span lang-en>trade register</span></div>
         </div>
-      </form>
 
-      <div class="location-card">
-      <h3>ECB TAX ACCOUNTING &amp; HR SRL</h3>
-      <p class="small" style="margin-bottom:18px;">
-        <span lang-ro>Servicii de consultanță fiscală din București</span>
-        <span lang-en>Tax advisory services from Bucharest</span>
-      </p>
+        <div style="background:var(--ink-panel); padding:20px 22px;">
+          <div style="font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.16em; margin-bottom:10px;">CUI</div>
+          <div style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em; line-height:1.1;">35136588</div>
+          <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:8px; letter-spacing:0.04em;"><span lang-ro>cod unic înregistrare</span><span lang-en>unique registration code</span></div>
+        </div>
 
-      <div class="location-row">
-        <div class="location-label"><span lang-ro>Site</span><span lang-en>Website</span></div>
-        <div class="location-value"><a href="http://ecbtax.com/" target="_blank" rel="noopener">ecbtax.com</a></div>
-      </div>
+        <div style="background:var(--ink-panel); padding:20px 22px;">
+          <div style="font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.16em; margin-bottom:10px;"><span lang-ro>nr. ORC</span><span lang-en>reg. no.</span></div>
+          <div style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em; line-height:1.1; word-break:break-word;">J2015012724402</div>
+          <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:8px; letter-spacing:0.04em;">București</div>
+        </div>
 
-      <div class="location-row">
-        <div class="location-label"><span lang-ro>Adresă</span><span lang-en>Address</span></div>
-        <div class="location-value">
-          <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x40b1ff6303875101:0x18e6fea9251f8f9a?sa=X&ved=1t:8290&ictx=111" target="_blank" rel="noopener">
-            Str. Nicolae G. Caramfil 61C, etaj 3, 014141 București
-          </a>
+        <div style="background:var(--ink-panel); padding:20px 22px;">
+          <div style="font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.16em; margin-bottom:10px;">EUID</div>
+          <div style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em; line-height:1.1; word-break:break-word;">ROONRC.J2015012724402</div>
+          <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:8px; letter-spacing:0.04em;"><span lang-ro>identificator unic UE</span><span lang-en>unique EU identifier</span></div>
+        </div>
+
+        <div style="background:var(--ink-panel); padding:20px 22px;">
+          <div style="font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.16em; margin-bottom:10px;"><span lang-ro>înființată</span><span lang-en>established</span></div>
+          <div style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em; line-height:1.1;">2015-10-16</div>
+          <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:8px; letter-spacing:0.04em;"><span lang-ro>data înregistrării</span><span lang-en>registration date</span></div>
+        </div>
+
+        <div style="background:var(--ink-panel); padding:20px 22px;">
+          <div style="font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.16em; margin-bottom:10px;"><span lang-ro>sediu social</span><span lang-en>registered office</span></div>
+          <div style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em; line-height:1.1; word-break:break-word;">Str. Nicolae G. Caramfil 61C, et. 3</div>
+          <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:8px; letter-spacing:0.04em;">014141 București · sector 1</div>
+        </div>
+
+        <div style="background:var(--ink-panel); padding:20px 22px;">
+          <div style="font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.16em; margin-bottom:10px;"><span lang-ro>fondator</span><span lang-en>founder</span></div>
+          <div style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em; line-height:1.1;">Roxana Deak</div>
+          <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:8px; letter-spacing:0.04em;">FCCA · CPA · CCF</div>
+        </div>
+
+        <div style="background:var(--ink-panel); padding:20px 22px;">
+          <div style="font-family:var(--mono); font-size:10px; color:var(--gold); text-transform:uppercase; letter-spacing:0.16em; margin-bottom:10px;">email</div>
+          <div style="font-family:var(--serif); font-size:22px; color:var(--text); letter-spacing:-0.01em; line-height:1.1; word-break:break-all;">ecbax@gmail.com</div>
+          <div style="font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:8px; letter-spacing:0.04em;">WhatsApp +40 755 110 012</div>
         </div>
       </div>
-
-      <div class="location-row">
-        <div class="location-label"><span lang-ro>Telefon</span><span lang-en>Phone</span></div>
-        <div class="location-value"><a href="tel:+40755110012">0755 110 012</a></div>
-      </div>
-
-      <div class="location-row">
-        <div class="location-label"><span lang-ro>Program</span><span lang-en>Hours</span></div>
-        <div class="location-value">
-          <span class="location-status"><span lang-ro>Deschis</span><span lang-en>Open</span></span>
-          · <span lang-ro>Închide la 18:00</span><span lang-en>Closes at 6:00 PM</span>
-        </div>
-      </div>
-
-      <div class="location-row">
-        <div class="location-label">CUI</div>
-        <div class="location-value">35136588</div>
-      </div>
-
-      <div class="location-row">
-        <div class="location-label"><span lang-ro>Nr. Reg. Com.</span><span lang-en>Reg. No.</span></div>
-        <div class="location-value">J2015012724402</div>
-      </div>
-
-      <div class="location-row">
-        <div class="location-label">EUID</div>
-        <div class="location-value">ROONRC.J2015012724402</div>
-      </div>
-
-      <div class="location-row">
-        <div class="location-label"><span lang-ro>Înființată</span><span lang-en>Established</span></div>
-        <div class="location-value">2015-10-16</div>
-      </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    <div class="footer-brand">
-      <img src="assets/ecb-logo-512.webp" alt="ECB TAX ACCOUNTING HR SRL logo" />
-      <strong>ECB TAX ACCOUNTING HR SRL</strong>
     </div>
 
-    <div class="social-row">
-      <a href="https://www.linkedin.com/company/ecb-tax-accounting-hr" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.62 0 4.29 2.38 4.29 5.48v6.26zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
-        LinkedIn
-      </a>
-      <a href="https://wa.me/40755110012" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.29-.15-1.7-.84-1.96-.93-.26-.1-.46-.15-.65.15-.2.29-.75.93-.92 1.12-.17.2-.34.22-.63.07-.29-.14-1.22-.45-2.32-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.6.15-.15.34-.39.51-.58.17-.2.22-.34.34-.56.11-.22.06-.41-.03-.56-.1-.15-.6-1.44-.82-1.97-.22-.53-.44-.46-.6-.46-.16-.01-.34-.01-.53-.01-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29 0 1.35.98 2.65 1.12 2.83.13.18 1.83 2.79 4.43 3.8 2.6 1.01 2.6.67 3.07.63.47-.04 1.7-.7 1.94-1.37.24-.68.24-1.26.17-1.37-.07-.12-.26-.19-.55-.34zM12.02 2C6.5 2 2 6.47 2 12c0 1.97.58 3.81 1.58 5.36L2.07 22l4.79-1.46A9.95 9.95 0 0 0 12.02 22C17.5 22 22 17.53 22 12S17.5 2 12.02 2z"/></svg>
-        WhatsApp
-      </a>
-      <a href="mailto:ecbax@gmail.com">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2v.01L12 12 4 6.01V6h16zM4 18V8.24l8 6 8-6V18H4z"/></svg>
-        Email
-      </a>
+    <!-- Bottom strip -->
+    <div style="padding-top:32px; border-top:1px solid var(--dimmer); display:flex; justify-content:space-between; align-items:center; font-family:var(--mono); font-size:11px; color:var(--dim); letter-spacing:0.06em; flex-wrap:wrap; gap:12px;">
+      <span>© 2015–2026 ECB TAX ACCOUNTING &amp; HR SRL · <span lang-ro>toate drepturile rezervate</span><span lang-en>all rights reserved</span></span>
+      <span style="display:flex; gap:18px; align-items:center;">
+        <span class="blink" style="color:var(--gold);">●</span>
+        <span lang-ro>partener strategic: AiVenture S.R.L. (5thelement.ai)</span><span lang-en>strategic partner: AiVenture S.R.L. (5thelement.ai)</span>
+      </span>
+      <span>
+        <span style="color:var(--gold);">RO</span>
+        <span> / </span>
+        EN
+      </span>
     </div>
+  </footer>
 
-    <div class="footer-contact-line">
-      <a href="https://wa.me/40755110012" target="_blank" rel="noopener">+40 755 110 012</a> ·
-      <a href="mailto:ecbax@gmail.com">ecbax@gmail.com</a>
-    </div>
+</div>
 
-    <div class="footer-contact-line" style="margin-top:14px;">
-      <span lang-ro>ECB TAX ACCOUNTING HR SRL — Contabilitate, Taxe & Consultanță · Partener strategic de infrastructură AI: AiVenture S.R.L. (5thelement.ai)</span>
-      <span lang-en>ECB TAX ACCOUNTING HR SRL — Accounting, Tax & Advisory · Strategic AI infrastructure partner: AiVenture S.R.L. (5thelement.ai)</span>
-    </div>
-  </div>
-</footer>
-
-<div class="floating-contact" aria-label="Quick contact">
-  <a class="floating-btn whatsapp" href="https://wa.me/40755110012" target="_blank" rel="noopener" aria-label="WhatsApp">
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.29-.15-1.7-.84-1.96-.93-.26-.1-.46-.15-.65.15-.2.29-.75.93-.92 1.12-.17.2-.34.22-.63.07-.29-.14-1.22-.45-2.32-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.6.15-.15.34-.39.51-.58.17-.2.22-.34.34-.56.11-.22.06-.41-.03-.56-.1-.15-.6-1.44-.82-1.97-.22-.53-.44-.46-.6-.46-.16-.01-.34-.01-.53-.01-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29 0 1.35.98 2.65 1.12 2.83.13.18 1.83 2.79 4.43 3.8 2.6 1.01 2.6.67 3.07.63.47-.04 1.7-.7 1.94-1.37.24-.68.24-1.26.17-1.37-.07-.12-.26-.19-.55-.34zM12.02 2C6.5 2 2 6.47 2 12c0 1.97.58 3.81 1.58 5.36L2.07 22l4.79-1.46A9.95 9.95 0 0 0 12.02 22C17.5 22 22 17.53 22 12S17.5 2 12.02 2z"/></svg>
-    WhatsApp
-  </a>
-  <a class="floating-btn call" href="tel:+40755110012" aria-label="Call">
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z"/></svg>
-    <span lang-ro class="block">Apel</span><span lang-en class="block">Call</span>
-  </a>
+<!-- Floating contact widget -->
+<div style="position:fixed; right:18px; bottom:18px; z-index:200; display:flex; flex-direction:column; gap:10px;">
+  <a href="https://wa.me/40755110012" target="_blank" rel="noopener" class="btn" style="background:#0f1a14; color:#4ee08a; border-color:rgba(78,224,138,0.35); min-width:130px; justify-content:center;">WhatsApp</a>
+  <a href="tel:+40755110012" class="btn btn-primary" style="min-width:130px; justify-content:center;"><span lang-ro>Apel</span><span lang-en>Call</span></a>
 </div>
 
 <script>
   function setLang(lang) {
     document.body.classList.toggle('lang-en', lang === 'en');
-    document.getElementById('btn-ro').classList.toggle('active', lang === 'ro');
-    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
-    localStorage.setItem('ecbtax-lang', lang);
+    try { localStorage.setItem('ecbtax-lang', lang); } catch (e) {}
   }
-
   (function() {
     var saved = null;
     try { saved = localStorage.getItem('ecbtax-lang'); } catch (e) {}
     if (saved === 'en') setLang('en');
   })();
-
-  document.getElementById('menuToggle').addEventListener('click', function() {
-    document.getElementById('navlinks').classList.toggle('open');
-  });
 </script>
 
 </body>
