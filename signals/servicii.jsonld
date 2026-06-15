@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://ecbtax.com/servicii.html#webpage",
+      "url": "https://ecbtax.com/servicii.html",
+      "name": "Servicii ECBTAX",
+      "about": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ecbtax.com/servicii.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Acasă",
+          "item": "https://ecbtax.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Servicii",
+          "item": "https://ecbtax.com/servicii.html"
+        }
+      ]
+    },
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://ecbtax.com/servicii.html#offercatalog",
+      "name": "ECBTAX Services Catalog",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Contabilitate"
+        },
+        {
+          "@type": "Offer",
+          "name": "Consultanță Fiscală"
+        },
+        {
+          "@type": "Offer",
+          "name": "Salarizare și REVISAL"
+        },
+        {
+          "@type": "Offer",
+          "name": "Administrare HR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Fractional CFO"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-accounting",
+      "name": "Contabilitate",
+      "serviceType": "Accounting services",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-tax",
+      "name": "Consultanță Fiscală",
+      "serviceType": "Tax advisory services",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-payroll",
+      "name": "Salarizare și REVISAL",
+      "serviceType": "Payroll and HR administration",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-hr",
+      "name": "Administrare HR",
+      "serviceType": "Human resources administration",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-cfo",
+      "name": "Fractional CFO",
+      "serviceType": "Financial management advisory",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    }
+  ]
+}

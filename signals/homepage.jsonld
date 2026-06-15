@@ -1,0 +1,365 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ecbtax.com/#website",
+      "url": "https://ecbtax.com/",
+      "name": "ECBTAX",
+      "inLanguage": [
+        "ro-RO",
+        "en"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ecbtax.com/#webpage",
+      "url": "https://ecbtax.com/",
+      "name": "ECB Tax Accounting & HR — Contabilitate la zecimală",
+      "isPartOf": {
+        "@id": "https://ecbtax.com/#website"
+      },
+      "about": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ecbtax.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Acasă",
+          "item": "https://ecbtax.com/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ecbtax.com/#organization",
+      "name": "ECB TAX, ACCOUNTING & HR SRL",
+      "alternateName": [
+        "ECBTAX",
+        "ECB Tax Accounting & HR"
+      ],
+      "url": "https://ecbtax.com/",
+      "taxID": "RO35136588",
+      "founder": {
+        "@id": "https://ecbtax.com/#founder"
+      },
+      "sameAs": [
+        "https://ecbtax.com/",
+        "https://aiventure.ro",
+        "https://5thelement.ai"
+      ],
+      "knowsAbout": [
+        "Accounting",
+        "Tax Advisory",
+        "Payroll",
+        "Human Resources",
+        "REVISAL",
+        "ANAF",
+        "e-Factura",
+        "SAF-T"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://ecbtax.com/#professionalservice",
+      "name": "ECBTAX București",
+      "url": "https://ecbtax.com/",
+      "parentOrganization": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "areaServed": [
+        "Romania",
+        "Bucharest",
+        "European Union"
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://ecbtax.com/#localbusiness",
+      "name": "ECBTAX București",
+      "parentOrganization": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "address": {
+        "@id": "https://ecbtax.com/#address"
+      }
+    },
+    {
+      "@type": "PostalAddress",
+      "@id": "https://ecbtax.com/#address",
+      "addressLocality": "București",
+      "addressRegion": "București",
+      "addressCountry": "RO"
+    },
+    {
+      "@type": "ContactPoint",
+      "@id": "https://ecbtax.com/#contactpoint",
+      "contactType": "customer support",
+      "areaServed": "RO",
+      "availableLanguage": [
+        "ro",
+        "en"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ecbtax.com/#founder",
+      "name": "Elena Roxana Deak",
+      "jobTitle": "CEO & Founder",
+      "worksFor": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "honorificSuffix": [
+        "FCCA",
+        "CPA",
+        "CCF"
+      ],
+      "knowsAbout": [
+        "Accounting",
+        "Tax Law",
+        "Macroeconomics",
+        "Digital Currencies",
+        "Bitcoin",
+        "AI-Ready Accounting Systems"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-accounting",
+      "name": "Contabilitate",
+      "serviceType": "Accounting services",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-tax",
+      "name": "Consultanță Fiscală",
+      "serviceType": "Tax advisory services",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-payroll",
+      "name": "Salarizare și REVISAL",
+      "serviceType": "Payroll and HR administration",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-hr",
+      "name": "Administrare HR",
+      "serviceType": "Human resources administration",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-cfo",
+      "name": "Fractional CFO",
+      "serviceType": "Financial management advisory",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://ecbtax.com/#offercatalog",
+      "name": "ECBTAX Services Catalog",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Contabilitate"
+        },
+        {
+          "@type": "Offer",
+          "name": "Consultanță Fiscală"
+        },
+        {
+          "@type": "Offer",
+          "name": "Salarizare și REVISAL"
+        },
+        {
+          "@type": "Offer",
+          "name": "Administrare HR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Fractional CFO"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ecbtax.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ce servicii oferă ECBTAX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ECBTAX oferă servicii de contabilitate, fiscalitate, salarizare, administrare HR, REVISAL, consultanță fiscală, suport ANAF, e-Factura, SAF-T și servicii financiare pentru firme, PFA, SRL și ONG."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pentru cine sunt potrivite serviciile ECBTAX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Serviciile ECBTAX sunt potrivite pentru SRL-uri, PFA-uri, ONG-uri, startup-uri, firme de servicii, e-commerce, companii cu salariați și organizații care au nevoie de contabilitate clară, fiscalitate corectă și suport administrativ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ECBTAX poate prelua contabilitatea de la o altă firmă?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. ECBTAX poate analiza situația existentă, poate cere documentele necesare, poate verifica soldurile și poate organiza preluarea contabilității astfel încât tranziția să fie clară și controlată."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oferă ECBTAX suport pentru ANAF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. ECBTAX oferă suport pentru relația cu ANAF, declarații fiscale, clarificări, verificări, e-Factura, SAF-T și alte obligații fiscale aplicabile firmelor din România."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ECBTAX oferă servicii de salarizare și REVISAL?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. ECBTAX oferă salarizare, administrare contracte de muncă, state de plată, declarații aferente salariilor și administrare REVISAL pentru companii cu angajați."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ce documente sunt necesare pentru începerea colaborării?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "În general sunt necesare documentele firmei, balanțele contabile, declarațiile depuse, extrasele bancare, facturile, contractele și situațiile salariale. Lista exactă depinde de tipul firmei și de stadiul contabilității existente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ECBTAX lucrează cu firme din afara Bucureștiului?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. ECBTAX poate lucra cu firme din România și cu structuri care operează digital, folosind documente electronice, comunicare online și fluxuri administrative clare."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cum se stabilește prețul serviciilor ECBTAX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prețul depinde de volumul de documente, numărul de angajați, complexitatea fiscală, tipul firmei, obligațiile declarative și nivelul de suport necesar. Pentru o ofertă corectă este necesară o analiză inițială."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cine coordonează activitatea profesională ECBTAX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Activitatea ECBTAX este coordonată de Elena Roxana Deak, CEO și fondator, cu acreditări profesionale FCCA, CPA și CCF și experiență în contabilitate, fiscalitate, macroeconomie și sisteme financiare."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ce legătură are ECBTAX cu AiVenture și 5thelement.ai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ECBTAX rămâne firma de contabilitate, fiscalitate și HR. AiVenture și 5thelement.ai sunt parteneri tehnologici pentru stratul AI Delivery Infrastructure, folosit pentru structurarea informației, semnale AI, verificabilitate și pregătire pentru sisteme AI."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ecbtax.com/#adi",
+      "name": "AI Delivery Infrastructure",
+      "alternateName": "ADI",
+      "description": "Technology layer used to structure business information for AI discovery, understanding, verification and answer readiness."
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://ecbtax.com/#ai-signal-set",
+      "name": "ECBTAX AI Signal Set"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/llms.txt",
+      "url": "https://ecbtax.com/llms.txt",
+      "name": "ECBTAX llms.txt"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/ai.json",
+      "url": "https://ecbtax.com/ai.json",
+      "name": "ECBTAX AI Declaration"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/authority.json",
+      "url": "https://ecbtax.com/authority.json",
+      "name": "ECBTAX Authority Declaration"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/entities.json",
+      "url": "https://ecbtax.com/entities.json",
+      "name": "ECBTAX Entities Declaration"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/intents.json",
+      "url": "https://ecbtax.com/intents.json",
+      "name": "ECBTAX Intent Map"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/adn.json",
+      "url": "https://ecbtax.com/adn.json",
+      "name": "ECBTAX ADN Network Declaration"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/ai-proof.json",
+      "url": "https://ecbtax.com/ai-proof.json",
+      "name": "ECBTAX AI Proof File"
+    },
+    {
+      "@type": "DataFeed",
+      "@id": "https://ecbtax.com/entity-graph.public.jsonld",
+      "url": "https://ecbtax.com/entity-graph.public.jsonld",
+      "name": "ECBTAX Public Entity Graph"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aiventure.ro/#organization",
+      "name": "AiVenture SRL",
+      "url": "https://aiventure.ro",
+      "roleName": "Technology delivery partner"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://5thelement.ai/#organization",
+      "name": "5thelement.ai",
+      "url": "https://5thelement.ai",
+      "roleName": "ADI flagship authority"
+    }
+  ]
+}
