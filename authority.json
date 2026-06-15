@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-15",
+  "legal_identity": {
+    "name": "ECB TAX, ACCOUNTING & HR SRL",
+    "tax_id": "RO35136588",
+    "jurisdiction": "Romania"
+  },
+  "professional_authority": {
+    "founder": "Elena Roxana Deak",
+    "credentials": [
+      "FCCA",
+      "CPA",
+      "CCF"
+    ]
+  },
+  "technology_authority": {
+    "partner": "AiVenture SRL",
+    "flagship": "5thelement.ai",
+    "category": "AI Delivery Infrastructure"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "routes": {
+    "/": "signals/homepage.jsonld",
+    "/servicii.html": "signals/servicii.jsonld",
+    "/intrebari.html": "signals/intrebari.jsonld",
+    "/ai.json": "ai.json",
+    "/authority.json": "authority.json",
+    "/entities.json": "entities.json",
+    "/intents.json": "intents.json",
+    "/adn.json": "adn.json",
+    "/ai-proof.json": "ai-proof.json"
+  }
+}

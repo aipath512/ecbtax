@@ -1,8 +1,3 @@
-# ECBTAX robots.txt
-# Accounting, Tax, Payroll & HR Services
-# Technology Partner: https://aiventure.ro
-# Flagship Authority: https://5thelement.ai
-
 Sitemap: https://ecbtax.com/sitemap.xml
 
 User-agent: *
@@ -49,9 +44,14 @@ Allow: /ai.json
 Allow: /authority.json
 Allow: /entities.json
 Allow: /intents.json
-Allow: /ai-proof.json
 Allow: /adn.json
-Allow: /entity-graph.public.jsonld
+Allow: /ai-proof.json
+Allow: /trust-state.json
 Allow: /governance.json
 Allow: /policy.json
-Allow: /trust-state.json
+Allow: /entity-graph.public.jsonld
+Allow: /ai-signals.json
+Allow: /ai-routes.json
+Allow: /ai-validation.json
+Allow: /signal-manifest.json
+Allow: /signals/

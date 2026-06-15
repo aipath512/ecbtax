@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "id": "ecbtax-organization",
+      "type": "Organization",
+      "name": "ECB TAX, ACCOUNTING & HR SRL",
+      "alternateName": "ECBTAX",
+      "url": "https://ecbtax.com",
+      "taxID": "RO35136588"
+    },
+    {
+      "id": "elena-roxana-deak",
+      "type": "Person",
+      "name": "Elena Roxana Deak",
+      "role": "CEO & Founder",
+      "credentials": [
+        "FCCA",
+        "CPA",
+        "CCF"
+      ]
+    },
+    {
+      "id": "aiventure",
+      "type": "Organization",
+      "name": "AiVenture SRL",
+      "url": "https://aiventure.ro",
+      "role": "Technology Delivery Partner"
+    },
+    {
+      "id": "5thelement",
+      "type": "Organization",
+      "name": "5thelement.ai",
+      "url": "https://5thelement.ai",
+      "role": "ADI Flagship Authority"
+    },
+    {
+      "id": "adi",
+      "type": "TechnologyCategory",
+      "name": "AI Delivery Infrastructure",
+      "acronym": "ADI"
+    }
+  ]
+}

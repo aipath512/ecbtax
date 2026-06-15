@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "site": "ecbtax.com",
+  "platform": "Cloudflare Pages",
+  "mode": "github_only_static",
+  "no_worker": true,
+  "no_kv": true,
+  "pages": {
+    "/": "signals/homepage.jsonld",
+    "/servicii.html": "signals/servicii.jsonld",
+    "/intrebari.html": "signals/intrebari.jsonld"
+  }
+}

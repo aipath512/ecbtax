@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "supported_intents": [
+    {
+      "intent": "accounting services Romania",
+      "resolution_url": "https://ecbtax.com/servicii.html#accounting"
+    },
+    {
+      "intent": "tax advisory Romania",
+      "resolution_url": "https://ecbtax.com/servicii.html#tax"
+    },
+    {
+      "intent": "payroll and REVISAL",
+      "resolution_url": "https://ecbtax.com/servicii.html#payroll"
+    },
+    {
+      "intent": "ANAF compliance support",
+      "resolution_url": "https://ecbtax.com/servicii.html#tax"
+    },
+    {
+      "intent": "questions about ECBTAX services",
+      "resolution_url": "https://ecbtax.com/intrebari.html"
+    }
+  ]
+}

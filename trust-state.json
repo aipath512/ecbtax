@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "trust_state": "baseline_before",
+  "signals": [
+    "legal identity present",
+    "professional credentials present",
+    "technology partner declared",
+    "proof hash declared"
+  ]
+}

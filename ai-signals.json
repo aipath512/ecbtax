@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "levels": {
+    "L1 Discovery": [
+      "robots.txt",
+      "sitemap.xml",
+      "llms.txt",
+      "HTTPS",
+      "homepage reachable"
+    ],
+    "L2 Understanding": [
+      "JSON-LD",
+      "Organization",
+      "Service",
+      "Person",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "L3 Declaration": [
+      "ai.json",
+      "authority.json",
+      "entities.json",
+      "adn.json"
+    ],
+    "L4 Intent": [
+      "intents.json",
+      "FAQ mapping",
+      "service-intent mapping",
+      "answer blocks"
+    ]
+  }
+}

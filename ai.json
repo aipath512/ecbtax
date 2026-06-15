@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-06-15",
+  "canonical_domain": "https://ecbtax.com",
+  "organization": {
+    "legal_name": "ECB TAX, ACCOUNTING & HR SRL",
+    "brand_name": "ECBTAX",
+    "tax_id": "RO35136588",
+    "country": "RO",
+    "city": "Bucharest"
+  },
+  "business_capabilities": [
+    "Accounting",
+    "Tax advisory",
+    "Payroll",
+    "Human resources",
+    "REVISAL",
+    "ANAF compliance",
+    "e-Factura",
+    "SAF-T"
+  ],
+  "technology_partner": {
+    "name": "AiVenture SRL",
+    "delivery_domain": "https://aiventure.ro",
+    "technology_flagship": "https://5thelement.ai",
+    "technology_category": "AI Delivery Infrastructure",
+    "technology_acronym": "ADI"
+  }
+}

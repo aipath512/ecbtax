@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "provenance_layer": {
+    "category": "AI Delivery Infrastructure",
+    "initial_state_hash_sha256": "f4db435c5d0f92de24a6c2cfc18abb075a4e884c8aa658c4191f7dc9839884b5",
+    "protocols": [
+      "SHA-256",
+      "OpenTimestamps",
+      "Bitcoin-anchored timestamping"
+    ],
+    "description": "BEFORE state hash used for future AI visibility before/after comparison."
+  }
+}

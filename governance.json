@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "governance_scope": "AI-readable public business information layer",
+  "operator": "ECB TAX, ACCOUNTING & HR SRL",
+  "technology_partner": "AiVenture SRL",
+  "human_in_the_loop": true
+}
