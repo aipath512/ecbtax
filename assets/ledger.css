@@ -1,0 +1,321 @@
+/* ECB Tax — Ledger style. Adapted from Claude Design direction B (Cifră / The Ledger) */
+
+:root {
+  --ink: #050505;
+  --ink-panel: #0d0d0d;
+  --gold: #f5c842;
+  --gold-deep: #c9a02f;
+  --text: #eae7df;
+  --dim: rgba(234, 231, 223, 0.55);
+  --dimmer: rgba(234, 231, 223, 0.18);
+  --rule: rgba(245, 200, 66, 0.16);
+  --rule-strong: rgba(245, 200, 66, 0.45);
+
+  --serif: "Instrument Serif", "Playfair Display", Georgia, serif;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  --pad-x: 56px;
+  --max: 1440px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--ink);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html { scroll-behavior: smooth; }
+
+::selection { background: var(--gold); color: var(--ink); }
+
+a { color: inherit; }
+img, svg { display: block; max-width: 100%; }
+
+/* language toggle */
+[lang-ro] { display: inline; }
+[lang-en] { display: none; }
+body.lang-en [lang-ro] { display: none; }
+body.lang-en [lang-en] { display: inline; }
+[lang-ro].block, [lang-en].block { display: block; }
+body.lang-en [lang-ro].block { display: none; }
+body.lang-en [lang-en].block { display: block; }
+
+.l-page { max-width: var(--max); margin: 0 auto; }
+.l-pad { padding-left: var(--pad-x); padding-right: var(--pad-x); }
+
+.mono { font-family: var(--mono); }
+.serif { font-family: var(--serif); }
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.eyebrow-dim {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 64px;
+  padding-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.section-head h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 0.95;
+  letter-spacing: -0.025em;
+  margin: 16px 0 0;
+  max-width: 760px;
+}
+
+.section-head h2 em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.section-head .meta {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--dim);
+  max-width: 340px;
+  line-height: 1.65;
+  flex-shrink: 0;
+}
+
+.section {
+  border-top: 1px solid var(--dimmer);
+  padding: 80px var(--pad-x);
+}
+
+.ledger-row { transition: background 120ms ease; }
+.ledger-row:hover { background: rgba(245, 200, 66, 0.04); }
+
+.btn {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  padding: 14px 22px;
+  border: 1px solid var(--dimmer);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: all 140ms ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.btn:hover { border-color: var(--gold); color: var(--gold); }
+
+.btn-primary {
+  background: var(--gold);
+  color: var(--ink);
+  border-color: var(--gold);
+  font-weight: 500;
+}
+.btn-primary:hover {
+  background: var(--text);
+  border-color: var(--text);
+  color: var(--ink);
+}
+
+@keyframes blink { 50% { opacity: 0.25; } }
+.blink { animation: blink 1.6s ease-in-out infinite; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* form */
+.field { display: flex; flex-direction: column; gap: 8px; }
+.field label {
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--dim);
+}
+.field input,
+.field select,
+.field textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--dimmer);
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 22px;
+  padding: 8px 0 12px;
+  outline: none;
+  width: 100%;
+  transition: border-color 140ms;
+}
+.field input:focus,
+.field select:focus,
+.field textarea:focus { border-bottom-color: var(--gold); }
+.field select option { background: var(--ink); color: var(--text); }
+.field textarea {
+  resize: none;
+  min-height: 100px;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* faq accordion */
+details.faq {
+  border-top: 1px solid var(--dimmer);
+  padding: 0;
+}
+details.faq:last-of-type { border-bottom: 1px solid var(--dimmer); }
+details.faq summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 28px 0;
+  display: grid;
+  grid-template-columns: 60px 1fr 40px;
+  gap: 24px;
+  align-items: center;
+  font-family: var(--serif);
+  font-size: 26px;
+  letter-spacing: -0.01em;
+  transition: color 140ms;
+}
+details.faq summary::-webkit-details-marker { display: none; }
+details.faq summary:hover { color: var(--gold); }
+details.faq summary .q-num {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--gold);
+  letter-spacing: 0.16em;
+}
+details.faq summary .q-toggle {
+  font-family: var(--mono);
+  font-size: 22px;
+  color: var(--gold);
+  text-align: right;
+  transition: transform 200ms;
+}
+details.faq[open] summary .q-toggle { transform: rotate(45deg); }
+details.faq .q-body {
+  display: grid;
+  grid-template-columns: 60px 1fr 40px;
+  gap: 24px;
+  padding: 0 0 32px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text);
+  opacity: 0.85;
+  animation: fadeIn 200ms ease;
+}
+details.faq .q-body > div:nth-child(2) { max-width: 720px; }
+
+/* services ledger row accordion */
+details.svc {
+  border-bottom: 1px solid var(--dimmer);
+}
+details.svc summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 24px 0;
+  display: grid;
+  grid-template-columns: 60px 110px 1.7fr 1.1fr 1fr 70px;
+  gap: 24px;
+  align-items: center;
+}
+details.svc summary::-webkit-details-marker { display: none; }
+details.svc .svc-toggle {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text);
+  text-align: right;
+  letter-spacing: 0.04em;
+  transition: transform 160ms, color 160ms;
+}
+details.svc[open] .svc-toggle { transform: rotate(90deg); color: var(--gold); }
+details.svc .svc-body {
+  display: grid;
+  grid-template-columns: 60px 110px 1fr;
+  gap: 24px;
+  padding: 0 0 28px;
+  background: rgba(245,200,66,0.03);
+  animation: fadeIn 200ms ease;
+}
+details.svc .svc-body p {
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.45;
+  color: var(--text);
+  margin: 0;
+  max-width: 720px;
+  font-style: italic;
+}
+
+/* responsive */
+@media (max-width: 980px) {
+  :root { --pad-x: 24px; }
+
+  .section-head h2 { font-size: 40px; }
+  .section { padding: 56px var(--pad-x); }
+
+  .grid-2, .hero-grid, .founder-grid, .trust-grid, .contact-grid, .footer-grid, .balance-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .balance-grid > div { border-right: none !important; border-bottom: 1px solid var(--dimmer); }
+  .balance-grid > div:last-child { border-bottom: none; }
+
+  details.svc summary {
+    grid-template-columns: 1fr 50px;
+    grid-template-areas: "main toggle";
+  }
+  details.svc summary .svc-n,
+  details.svc summary .svc-code,
+  details.svc summary .svc-en,
+  details.svc summary .svc-for,
+  details.svc summary .svc-from { display: none; }
+  details.svc summary .svc-ro { grid-area: main; }
+  details.svc summary .svc-toggle { grid-area: toggle; }
+
+  details.svc .svc-body { grid-template-columns: 1fr; }
+  details.svc .svc-body > span { display: none; }
+
+  .process-grid { grid-template-columns: 1fr !important; }
+  .reg-grid { grid-template-columns: 1fr 1fr !important; }
+
+  h1 .h1-line { font-size: 52px !important; }
+
+  .status-bar { flex-direction: column; gap: 6px; align-items: flex-start !important; padding: 10px var(--pad-x) !important; }
+
+  nav.main-nav { flex-wrap: wrap; gap: 16px; padding: 16px var(--pad-x) !important; }
+  nav.main-nav .nav-links { display: none; }
+}
+
+@media (max-width: 600px) {
+  .reg-grid { grid-template-columns: 1fr !important; }
+  details.faq summary { grid-template-columns: 40px 1fr 30px; font-size: 20px; }
+  details.faq .q-body { grid-template-columns: 40px 1fr; }
+  details.faq .q-body > span:last-child { display: none; }
+}
