@@ -1,0 +1,116 @@
+<!-- ECBTAX Hamburger Navigation — paste inside <body>, preferably at the top of the page -->
+<header class="site-header">
+  <a class="site-logo" href="https://ecbtax.com/" aria-label="ECBTAX Home">
+    ECBTAX
+  </a>
+
+  <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+    ☰
+  </button>
+
+  <nav id="primary-navigation" class="primary-navigation" aria-label="Primary navigation">
+    <a href="https://ecbtax.com/">Acasă</a>
+    <a href="https://ecbtax.com/#servicii">Servicii</a>
+    <a href="https://ecbtax.com/intrebari.html">Întrebări</a>
+    <a href="https://ecbtax.com/#despre">Despre</a>
+    <a href="https://ecbtax.com/#contact">Contact</a>
+  </nav>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 16px 24px;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .site-logo {
+    font-weight: 800;
+    text-decoration: none;
+    color: #111827;
+    letter-spacing: 0.02em;
+  }
+
+  .primary-navigation {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .primary-navigation a {
+    text-decoration: none;
+    color: #111827;
+    font-weight: 600;
+  }
+
+  .primary-navigation a:hover {
+    text-decoration: underline;
+  }
+
+  .menu-toggle {
+    display: none;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    color: #111827;
+    font-size: 26px;
+    line-height: 1;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .primary-navigation {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+      padding: 12px 24px 18px;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    }
+
+    .primary-navigation.is-open {
+      display: flex;
+    }
+
+    .primary-navigation a {
+      width: 100%;
+      padding: 12px 0;
+      border-bottom: 1px solid #f3f4f6;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const button = document.querySelector(".menu-toggle");
+    const nav = document.querySelector("#primary-navigation");
+
+    if (!button || !nav) return;
+
+    button.addEventListener("click", function () {
+      const isOpen = nav.classList.toggle("is-open");
+      button.setAttribute("aria-expanded", String(isOpen));
+      button.textContent = isOpen ? "×" : "☰";
+    });
+  });
+</script>

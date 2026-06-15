@@ -1,0 +1,182 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ecbtax.com/#website",
+      "url": "https://ecbtax.com/",
+      "name": "ECBTAX"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ecbtax.com/#webpage",
+      "url": "https://ecbtax.com/",
+      "name": "ECB Tax Accounting & HR",
+      "isPartOf": {
+        "@id": "https://ecbtax.com/#website"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ecbtax.com/#organization",
+      "name": "ECB TAX, ACCOUNTING & HR SRL",
+      "alternateName": "ECBTAX",
+      "url": "https://ecbtax.com/",
+      "taxID": "RO35136588"
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://ecbtax.com/#professionalservice",
+      "name": "ECBTAX București",
+      "parentOrganization": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "areaServed": [
+        "Romania",
+        "Bucharest"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ecbtax.com/#founder",
+      "name": "Elena Roxana Deak",
+      "jobTitle": "CEO & Founder",
+      "worksFor": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "honorificSuffix": [
+        "FCCA",
+        "CPA",
+        "CCF"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ecbtax.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Acasă",
+          "item": "https://ecbtax.com/"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-accounting",
+      "name": "Contabilitate",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-tax",
+      "name": "Consultanță Fiscală",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ecbtax.com/#service-payroll",
+      "name": "Salarizare și REVISAL",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": "ContactPoint",
+      "@id": "https://ecbtax.com/#contactpoint",
+      "contactType": "customer support",
+      "areaServed": "RO",
+      "availableLanguage": [
+        "ro",
+        "en"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://ecbtax.com/#adi",
+      "name": "AI Delivery Infrastructure",
+      "alternateName": "ADI"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aiventure.ro/#organization",
+      "name": "AiVenture SRL",
+      "url": "https://aiventure.ro"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://5thelement.ai/#organization",
+      "name": "5thelement.ai",
+      "url": "https://5thelement.ai",
+      "description": "Flagship authority for AiVenture ADI Network"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/llms.txt",
+      "url": "https://ecbtax.com/llms.txt",
+      "name": "ECBTAX llms.txt"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/ai.json",
+      "url": "https://ecbtax.com/ai.json",
+      "name": "ECBTAX ai.json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/adn.json",
+      "url": "https://ecbtax.com/adn.json",
+      "name": "ECBTAX adn.json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://ecbtax.com/ai-proof.json",
+      "url": "https://ecbtax.com/ai-proof.json",
+      "name": "ECBTAX ai-proof.json"
+    },
+    {
+      "@type": "OfferCatalog",
+      "@id": "https://ecbtax.com/#offercatalog",
+      "name": "ECBTAX Services Catalog"
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://ecbtax.com/#offer-accounting",
+      "name": "Accounting Services"
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://ecbtax.com/#offer-tax",
+      "name": "Tax Advisory Services"
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://ecbtax.com/#offer-hr",
+      "name": "HR and Payroll Services"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ecbtax.com/intrebari.html#faq"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://ecbtax.com/#service-list",
+      "name": "ECBTAX Service List"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://ecbtax.com/#ai-ready-layer",
+      "name": "ECBTAX AI-Ready Information Layer"
+    },
+    {
+      "@type": "DataFeed",
+      "@id": "https://ecbtax.com/entity-graph.public.jsonld",
+      "name": "ECBTAX Public Entity Graph"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ecbtax.com/sitemap.xml
+
+# AI crawler allow-lanes
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# AI Root Files
+Allow: /llms.txt
+Allow: /ai.json
+Allow: /authority.json
+Allow: /entities.json
+Allow: /intents.json
+Allow: /ai-proof.json
+Allow: /adn.json
+Allow: /entity-graph.public.jsonld
+Allow: /governance.json
+Allow: /policy.json
+Allow: /trust-state.json
+
+# ADI Network References
+# Technology Partner: https://aiventure.ro
+# Flagship Authority: https://5thelement.ai
