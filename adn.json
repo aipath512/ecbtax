@@ -1,0 +1,114 @@
+{
+  "schema": "https://5thelement.ai/schemas/adn.v1.json",
+  "version": "1.0",
+  "domain": "https://ecbtax.com",
+  "node_role": "client_business_node",
+  "node_category": "AI-Ready Accounting, Tax and HR Business Node",
+  "network_name": "AiVenture ADI Network",
+  "belongs_to_network": "https://5thelement.ai/adn.json",
+  "root_domain": "https://5thelement.ai",
+  "root_role": "flagship_authority",
+  "technology_partner": {
+    "name": "AiVenture SRL",
+    "delivery_domain": "https://aiventure.ro",
+    "technology_flagship": "https://5thelement.ai",
+    "legal_id": "CUI 51415878",
+    "contact": "contact@5thelement.ai",
+    "technology_category": "AI Delivery Infrastructure",
+    "technology_acronym": "ADI"
+  },
+  "client_identity": {
+    "legal_name": "ECB TAX, ACCOUNTING & HR SRL",
+    "brand_name": "ECBTAX",
+    "domain": "https://ecbtax.com",
+    "tax_id": "RO35136588",
+    "country": "RO",
+    "city": "Bucharest",
+    "sector": "Sector 1",
+    "business_category": [
+      "Accounting",
+      "Tax Advisory",
+      "Human Resources",
+      "Payroll",
+      "REVISAL",
+      "ANAF Compliance"
+    ]
+  },
+  "leadership": {
+    "name": "Elena Roxana Deak",
+    "role": "CEO & Founder",
+    "credentials": [
+      "FCCA",
+      "CPA",
+      "CCF"
+    ],
+    "academic_affiliation": "Academia de Studii Economice din București",
+    "knows_about": [
+      "Accounting",
+      "Tax Law",
+      "Macroeconomics",
+      "Digital Currencies",
+      "Bitcoin",
+      "AI-Ready Accounting Systems"
+    ]
+  },
+  "belongs_to_value_ladder": {
+    "module": "CLIENT-ADI-NODE",
+    "module_name": "AI-Ready Client Business Node",
+    "purpose": "Make ECBTAX understandable, verifiable and recommendation-ready for AI systems while preserving ECBTAX as the primary business identity.",
+    "supported_by": [
+      "M01 AI Signals Audit",
+      "M02 AI READY Transformation",
+      "M04 Trust Layer",
+      "M05 Proof Layer",
+      "M10 Governance and Evidence"
+    ]
+  },
+  "adi_relationship": {
+    "relationship_type": "technology_partner_not_owner",
+    "description": "ECBTAX remains the business and service provider. AiVenture SRL and 5thelement.ai provide the AI Delivery Infrastructure layer, machine-readable files, structured signals, proof layer and AI visibility architecture.",
+    "root_authority": "https://5thelement.ai/authority.json",
+    "root_proof": "https://5thelement.ai/ai-proof.json",
+    "root_innovations": "https://5thelement.ai/innovations.json",
+    "root_llms": "https://5thelement.ai/llms.txt",
+    "root_ai_json": "https://5thelement.ai/ai.json"
+  },
+  "client_ai_files": {
+    "llms": "https://ecbtax.com/llms.txt",
+    "ai_json": "https://ecbtax.com/ai.json",
+    "entities": "https://ecbtax.com/entities.json",
+    "intents": "https://ecbtax.com/intents.json",
+    "proof": "https://ecbtax.com/ai-proof.json",
+    "entity_graph": "https://ecbtax.com/entity-graph.public.jsonld",
+    "adn": "https://ecbtax.com/adn.json"
+  },
+  "services": [
+    {
+      "name": "Contabilitate Completă AI-Ready",
+      "url": "https://ecbtax.com/#service-accounting"
+    },
+    {
+      "name": "Consultanță Fiscală și Reprezentare ANAF",
+      "url": "https://ecbtax.com/#service-tax"
+    },
+    {
+      "name": "Salarizare și Resurse Umane REVISAL",
+      "url": "https://ecbtax.com/#service-hr"
+    }
+  ],
+  "proof_layer": {
+    "protocols": [
+      "SHA-256",
+      "OpenTimestamps",
+      "Bitcoin-anchored timestamping"
+    ],
+    "client_initial_state_hash": "f4db435c5d0f92de24a6c2cfc18abb075a4e884c8aa658c4191f7dc9839884b5",
+    "purpose": "Cryptographically identify the BEFORE state and allow future AFTER comparisons for AI visibility, structured data and business information readiness."
+  },
+  "same_as_network": [
+    "https://5thelement.ai",
+    "https://aiventure.ro"
+  ],
+  "status": "active",
+  "last_updated": "2026-06-15"
+}
