@@ -1,0 +1,378 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "created_for": "ECBTAX GitHub-only AEO knowledge registry",
+  "source_file": "master_1000_answers_accounting_consultancy.md",
+  "last_updated": "2026-06-15",
+  "warning": "The uploaded master answer bank contains US-oriented examples in many places. For ECBTAX Romania, answers should be localized and human-reviewed before publication as client-facing advice.",
+  "intent_count": 14,
+  "intents": [
+    {
+      "intent_id": "INT-001-TOFU",
+      "cluster_id": "CAT-001",
+      "cluster_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_name": "Entity Structure & Setup (Q1–Q25) — TOFU",
+      "question_ids": [
+        "Q-0001",
+        "Q-0002",
+        "Q-0003",
+        "Q-0006",
+        "Q-0008",
+        "Q-0010",
+        "Q-0011",
+        "Q-0012",
+        "Q-0013",
+        "Q-0018",
+        "Q-0019",
+        "Q-0020"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup",
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "intent_id": "INT-001-MOFU",
+      "cluster_id": "CAT-001",
+      "cluster_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_name": "Entity Structure & Setup (Q1–Q25) — MOFU",
+      "question_ids": [
+        "Q-0004",
+        "Q-0005",
+        "Q-0009",
+        "Q-0014",
+        "Q-0015",
+        "Q-0016",
+        "Q-0017",
+        "Q-0021",
+        "Q-0023"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup",
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "intent_id": "INT-001-BOFU",
+      "cluster_id": "CAT-001",
+      "cluster_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "BOFU",
+      "intent_name": "Entity Structure & Setup (Q1–Q25) — BOFU",
+      "question_ids": [
+        "Q-0007",
+        "Q-0022",
+        "Q-0024",
+        "Q-0025"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "intent_id": "INT-002-MOFU",
+      "cluster_id": "CAT-002",
+      "cluster_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_name": "Bookkeeping Basics (Q26–Q50) — MOFU",
+      "question_ids": [
+        "Q-0026",
+        "Q-0028",
+        "Q-0033",
+        "Q-0035",
+        "Q-0037",
+        "Q-0039",
+        "Q-0041",
+        "Q-0043",
+        "Q-0045",
+        "Q-0047",
+        "Q-0048",
+        "Q-0050"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping",
+        "Financial reporting",
+        "Fractional CFO"
+      ]
+    },
+    {
+      "intent_id": "INT-002-TOFU",
+      "cluster_id": "CAT-002",
+      "cluster_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_name": "Bookkeeping Basics (Q26–Q50) — TOFU",
+      "question_ids": [
+        "Q-0027",
+        "Q-0029",
+        "Q-0030",
+        "Q-0031",
+        "Q-0032",
+        "Q-0034",
+        "Q-0036",
+        "Q-0040",
+        "Q-0044",
+        "Q-0046",
+        "Q-0049"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping",
+        "Payroll",
+        "HR administration",
+        "Financial reporting",
+        "Fractional CFO"
+      ]
+    },
+    {
+      "intent_id": "INT-002-BOFU",
+      "cluster_id": "CAT-002",
+      "cluster_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "BOFU",
+      "intent_name": "Bookkeeping Basics (Q26–Q50) — BOFU",
+      "question_ids": [
+        "Q-0038",
+        "Q-0042"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "intent_id": "INT-003-BOFU",
+      "cluster_id": "CAT-003",
+      "cluster_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_name": "Tax Compliance & Filing (Q51–Q86) — BOFU",
+      "question_ids": [
+        "Q-0051",
+        "Q-0052",
+        "Q-0055",
+        "Q-0056",
+        "Q-0058",
+        "Q-0059",
+        "Q-0062",
+        "Q-0068",
+        "Q-0083"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup",
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "intent_id": "INT-003-MOFU",
+      "cluster_id": "CAT-003",
+      "cluster_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_name": "Tax Compliance & Filing (Q51–Q86) — MOFU",
+      "question_ids": [
+        "Q-0053",
+        "Q-0060",
+        "Q-0063",
+        "Q-0064",
+        "Q-0066",
+        "Q-0071",
+        "Q-0074",
+        "Q-0075",
+        "Q-0079",
+        "Q-0080",
+        "Q-0086"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "intent_id": "INT-003-TOFU",
+      "cluster_id": "CAT-003",
+      "cluster_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_name": "Tax Compliance & Filing (Q51–Q86) — TOFU",
+      "question_ids": [
+        "Q-0054",
+        "Q-0057",
+        "Q-0061",
+        "Q-0065",
+        "Q-0067",
+        "Q-0069",
+        "Q-0070",
+        "Q-0072",
+        "Q-0073",
+        "Q-0076",
+        "Q-0077",
+        "Q-0078",
+        "Q-0081",
+        "Q-0082",
+        "Q-0084",
+        "Q-0085"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup",
+        "Financial reporting",
+        "Fractional CFO",
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "intent_id": "INT-004-MOFU",
+      "cluster_id": "CAT-004",
+      "cluster_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_name": "VAT / Sales Tax (Q87–Q108) — MOFU",
+      "question_ids": [
+        "Q-0087",
+        "Q-0089",
+        "Q-0091",
+        "Q-0095",
+        "Q-0096",
+        "Q-0098",
+        "Q-0099",
+        "Q-0103",
+        "Q-0105",
+        "Q-0106"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "intent_id": "INT-004-TOFU",
+      "cluster_id": "CAT-004",
+      "cluster_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_name": "VAT / Sales Tax (Q87–Q108) — TOFU",
+      "question_ids": [
+        "Q-0088",
+        "Q-0090",
+        "Q-0092",
+        "Q-0093",
+        "Q-0094",
+        "Q-0097",
+        "Q-0100",
+        "Q-0101",
+        "Q-0102",
+        "Q-0104",
+        "Q-0107",
+        "Q-0108"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "intent_id": "INT-005-MOFU",
+      "cluster_id": "CAT-005",
+      "cluster_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_name": "Payroll & Owner Compensation (Q109–Q135) — MOFU",
+      "question_ids": [
+        "Q-0109",
+        "Q-0112",
+        "Q-0114",
+        "Q-0117",
+        "Q-0120",
+        "Q-0122",
+        "Q-0124",
+        "Q-0127",
+        "Q-0129",
+        "Q-0130",
+        "Q-0133",
+        "Q-0134"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "intent_id": "INT-005-BOFU",
+      "cluster_id": "CAT-005",
+      "cluster_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "BOFU",
+      "intent_name": "Payroll & Owner Compensation (Q109–Q135) — BOFU",
+      "question_ids": [
+        "Q-0110",
+        "Q-0118",
+        "Q-0123",
+        "Q-0126",
+        "Q-0135"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup",
+        "Financial reporting",
+        "Fractional CFO"
+      ]
+    },
+    {
+      "intent_id": "INT-005-TOFU",
+      "cluster_id": "CAT-005",
+      "cluster_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_name": "Payroll & Owner Compensation (Q109–Q135) — TOFU",
+      "question_ids": [
+        "Q-0111",
+        "Q-0113",
+        "Q-0115",
+        "Q-0116",
+        "Q-0119",
+        "Q-0121",
+        "Q-0125",
+        "Q-0128",
+        "Q-0131",
+        "Q-0132"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup",
+        "Tax advisory",
+        "Fiscal compliance",
+        "Financial reporting",
+        "Fractional CFO"
+      ]
+    }
+  ]
+}

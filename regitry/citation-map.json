@@ -1,0 +1,2250 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "created_for": "ECBTAX GitHub-only AEO knowledge registry",
+  "source_file": "master_1000_answers_accounting_consultancy.md",
+  "last_updated": "2026-06-15",
+  "warning": "The uploaded master answer bank contains US-oriented examples in many places. For ECBTAX Romania, answers should be localized and human-reviewed before publication as client-facing advice.",
+  "mapping_count": 135,
+  "citation_map": [
+    {
+      "question_id": "Q-0001",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0002",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0003",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0004",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0005",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0006",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0007",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0008",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0009",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0010",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0011",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0012",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0013",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0014",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0015",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0016",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0017",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0018",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0019",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0020",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0021",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0022",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0023",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0024",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0025",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0026",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0027",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0028",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0029",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0030",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0031",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0032",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0033",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0034",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0035",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0036",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0037",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0038",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0039",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0040",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0041",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0042",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0043",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0044",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0045",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0046",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0047",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0048",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0049",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0050",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0051",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0052",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0053",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0054",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0055",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0056",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0057",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0058",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0059",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0060",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0061",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0062",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0063",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0064",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0065",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0066",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0067",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0068",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0069",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0070",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0071",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0072",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0073",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0074",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0075",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0076",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0077",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0078",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0079",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0080",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0081",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0082",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0083",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0084",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0085",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0086",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0087",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0088",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0089",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0090",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0091",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0092",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0093",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0094",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0095",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0096",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0097",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0098",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0099",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0100",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0101",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0102",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0103",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0104",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0105",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0106",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0107",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0108",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0109",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0110",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0111",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0112",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0113",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0114",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0115",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0116",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0117",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0118",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0119",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0120",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0121",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0122",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0123",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0124",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0125",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0126",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0127",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0128",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0129",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0130",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0131",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0132",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0133",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0134",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    },
+    {
+      "question_id": "Q-0135",
+      "citation_candidates": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "primary_citation": "https://ecbtax.com/intrebari.html",
+      "supporting_citations": [
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/authority.json"
+      ]
+    }
+  ]
+}

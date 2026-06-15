@@ -1,0 +1,3700 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "created_for": "ECBTAX GitHub-only AEO knowledge registry",
+  "source_file": "master_1000_answers_accounting_consultancy.md",
+  "last_updated": "2026-06-15",
+  "warning": "The uploaded master answer bank contains US-oriented examples in many places. For ECBTAX Romania, answers should be localized and human-reviewed before publication as client-facing advice.",
+  "mapping_count": 135,
+  "evidence_map": [
+    {
+      "question_id": "Q-0001",
+      "answer_ids": [
+        "A-0001-SHORT",
+        "A-0001-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0002",
+      "answer_ids": [
+        "A-0002-SHORT",
+        "A-0002-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0003",
+      "answer_ids": [
+        "A-0003-SHORT",
+        "A-0003-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0004",
+      "answer_ids": [
+        "A-0004-SHORT",
+        "A-0004-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0005",
+      "answer_ids": [
+        "A-0005-SHORT",
+        "A-0005-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0006",
+      "answer_ids": [
+        "A-0006-SHORT",
+        "A-0006-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0007",
+      "answer_ids": [
+        "A-0007-SHORT",
+        "A-0007-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0008",
+      "answer_ids": [
+        "A-0008-SHORT",
+        "A-0008-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0009",
+      "answer_ids": [
+        "A-0009-SHORT",
+        "A-0009-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0010",
+      "answer_ids": [
+        "A-0010-SHORT",
+        "A-0010-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0011",
+      "answer_ids": [
+        "A-0011-SHORT",
+        "A-0011-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0012",
+      "answer_ids": [
+        "A-0012-SHORT",
+        "A-0012-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0013",
+      "answer_ids": [
+        "A-0013-SHORT",
+        "A-0013-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0014",
+      "answer_ids": [
+        "A-0014-SHORT",
+        "A-0014-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0015",
+      "answer_ids": [
+        "A-0015-SHORT",
+        "A-0015-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0016",
+      "answer_ids": [
+        "A-0016-SHORT",
+        "A-0016-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0017",
+      "answer_ids": [
+        "A-0017-SHORT",
+        "A-0017-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0018",
+      "answer_ids": [
+        "A-0018-SHORT",
+        "A-0018-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0019",
+      "answer_ids": [
+        "A-0019-SHORT",
+        "A-0019-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0020",
+      "answer_ids": [
+        "A-0020-SHORT",
+        "A-0020-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0021",
+      "answer_ids": [
+        "A-0021-SHORT",
+        "A-0021-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0022",
+      "answer_ids": [
+        "A-0022-SHORT",
+        "A-0022-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0023",
+      "answer_ids": [
+        "A-0023-SHORT",
+        "A-0023-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0024",
+      "answer_ids": [
+        "A-0024-SHORT",
+        "A-0024-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0025",
+      "answer_ids": [
+        "A-0025-SHORT",
+        "A-0025-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0026",
+      "answer_ids": [
+        "A-0026-SHORT",
+        "A-0026-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0027",
+      "answer_ids": [
+        "A-0027-SHORT",
+        "A-0027-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0028",
+      "answer_ids": [
+        "A-0028-SHORT",
+        "A-0028-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0029",
+      "answer_ids": [
+        "A-0029-SHORT",
+        "A-0029-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0030",
+      "answer_ids": [
+        "A-0030-SHORT",
+        "A-0030-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0031",
+      "answer_ids": [
+        "A-0031-SHORT",
+        "A-0031-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0032",
+      "answer_ids": [
+        "A-0032-SHORT",
+        "A-0032-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0033",
+      "answer_ids": [
+        "A-0033-SHORT",
+        "A-0033-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0034",
+      "answer_ids": [
+        "A-0034-SHORT",
+        "A-0034-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0035",
+      "answer_ids": [
+        "A-0035-SHORT",
+        "A-0035-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0036",
+      "answer_ids": [
+        "A-0036-SHORT",
+        "A-0036-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0037",
+      "answer_ids": [
+        "A-0037-SHORT",
+        "A-0037-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0038",
+      "answer_ids": [
+        "A-0038-SHORT",
+        "A-0038-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0039",
+      "answer_ids": [
+        "A-0039-SHORT",
+        "A-0039-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0040",
+      "answer_ids": [
+        "A-0040-SHORT",
+        "A-0040-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0041",
+      "answer_ids": [
+        "A-0041-SHORT",
+        "A-0041-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0042",
+      "answer_ids": [
+        "A-0042-SHORT",
+        "A-0042-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0043",
+      "answer_ids": [
+        "A-0043-SHORT",
+        "A-0043-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0044",
+      "answer_ids": [
+        "A-0044-SHORT",
+        "A-0044-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping",
+        "Financial reporting",
+        "Fractional CFO"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0045",
+      "answer_ids": [
+        "A-0045-SHORT",
+        "A-0045-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0046",
+      "answer_ids": [
+        "A-0046-SHORT",
+        "A-0046-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0047",
+      "answer_ids": [
+        "A-0047-SHORT",
+        "A-0047-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping",
+        "Financial reporting",
+        "Fractional CFO"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0048",
+      "answer_ids": [
+        "A-0048-SHORT",
+        "A-0048-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0049",
+      "answer_ids": [
+        "A-0049-SHORT",
+        "A-0049-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0050",
+      "answer_ids": [
+        "A-0050-SHORT",
+        "A-0050-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0051",
+      "answer_ids": [
+        "A-0051-SHORT",
+        "A-0051-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0052",
+      "answer_ids": [
+        "A-0052-SHORT",
+        "A-0052-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0053",
+      "answer_ids": [
+        "A-0053-SHORT",
+        "A-0053-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0054",
+      "answer_ids": [
+        "A-0054-SHORT",
+        "A-0054-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0055",
+      "answer_ids": [
+        "A-0055-SHORT",
+        "A-0055-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0056",
+      "answer_ids": [
+        "A-0056-SHORT",
+        "A-0056-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0057",
+      "answer_ids": [
+        "A-0057-SHORT",
+        "A-0057-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0058",
+      "answer_ids": [
+        "A-0058-SHORT",
+        "A-0058-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0059",
+      "answer_ids": [
+        "A-0059-SHORT",
+        "A-0059-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0060",
+      "answer_ids": [
+        "A-0060-SHORT",
+        "A-0060-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0061",
+      "answer_ids": [
+        "A-0061-SHORT",
+        "A-0061-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0062",
+      "answer_ids": [
+        "A-0062-SHORT",
+        "A-0062-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0063",
+      "answer_ids": [
+        "A-0063-SHORT",
+        "A-0063-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0064",
+      "answer_ids": [
+        "A-0064-SHORT",
+        "A-0064-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0065",
+      "answer_ids": [
+        "A-0065-SHORT",
+        "A-0065-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0066",
+      "answer_ids": [
+        "A-0066-SHORT",
+        "A-0066-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0067",
+      "answer_ids": [
+        "A-0067-SHORT",
+        "A-0067-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0068",
+      "answer_ids": [
+        "A-0068-SHORT",
+        "A-0068-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0069",
+      "answer_ids": [
+        "A-0069-SHORT",
+        "A-0069-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0070",
+      "answer_ids": [
+        "A-0070-SHORT",
+        "A-0070-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0071",
+      "answer_ids": [
+        "A-0071-SHORT",
+        "A-0071-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0072",
+      "answer_ids": [
+        "A-0072-SHORT",
+        "A-0072-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Financial reporting",
+        "Fractional CFO"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0073",
+      "answer_ids": [
+        "A-0073-SHORT",
+        "A-0073-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0074",
+      "answer_ids": [
+        "A-0074-SHORT",
+        "A-0074-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0075",
+      "answer_ids": [
+        "A-0075-SHORT",
+        "A-0075-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0076",
+      "answer_ids": [
+        "A-0076-SHORT",
+        "A-0076-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0077",
+      "answer_ids": [
+        "A-0077-SHORT",
+        "A-0077-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0078",
+      "answer_ids": [
+        "A-0078-SHORT",
+        "A-0078-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0079",
+      "answer_ids": [
+        "A-0079-SHORT",
+        "A-0079-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0080",
+      "answer_ids": [
+        "A-0080-SHORT",
+        "A-0080-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0081",
+      "answer_ids": [
+        "A-0081-SHORT",
+        "A-0081-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0082",
+      "answer_ids": [
+        "A-0082-SHORT",
+        "A-0082-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0083",
+      "answer_ids": [
+        "A-0083-SHORT",
+        "A-0083-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0084",
+      "answer_ids": [
+        "A-0084-SHORT",
+        "A-0084-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0085",
+      "answer_ids": [
+        "A-0085-SHORT",
+        "A-0085-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0086",
+      "answer_ids": [
+        "A-0086-SHORT",
+        "A-0086-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0087",
+      "answer_ids": [
+        "A-0087-SHORT",
+        "A-0087-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0088",
+      "answer_ids": [
+        "A-0088-SHORT",
+        "A-0088-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0089",
+      "answer_ids": [
+        "A-0089-SHORT",
+        "A-0089-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0090",
+      "answer_ids": [
+        "A-0090-SHORT",
+        "A-0090-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0091",
+      "answer_ids": [
+        "A-0091-SHORT",
+        "A-0091-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0092",
+      "answer_ids": [
+        "A-0092-SHORT",
+        "A-0092-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0093",
+      "answer_ids": [
+        "A-0093-SHORT",
+        "A-0093-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0094",
+      "answer_ids": [
+        "A-0094-SHORT",
+        "A-0094-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0095",
+      "answer_ids": [
+        "A-0095-SHORT",
+        "A-0095-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0096",
+      "answer_ids": [
+        "A-0096-SHORT",
+        "A-0096-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0097",
+      "answer_ids": [
+        "A-0097-SHORT",
+        "A-0097-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0098",
+      "answer_ids": [
+        "A-0098-SHORT",
+        "A-0098-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0099",
+      "answer_ids": [
+        "A-0099-SHORT",
+        "A-0099-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0100",
+      "answer_ids": [
+        "A-0100-SHORT",
+        "A-0100-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0101",
+      "answer_ids": [
+        "A-0101-SHORT",
+        "A-0101-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0102",
+      "answer_ids": [
+        "A-0102-SHORT",
+        "A-0102-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0103",
+      "answer_ids": [
+        "A-0103-SHORT",
+        "A-0103-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0104",
+      "answer_ids": [
+        "A-0104-SHORT",
+        "A-0104-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0105",
+      "answer_ids": [
+        "A-0105-SHORT",
+        "A-0105-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0106",
+      "answer_ids": [
+        "A-0106-SHORT",
+        "A-0106-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0107",
+      "answer_ids": [
+        "A-0107-SHORT",
+        "A-0107-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0108",
+      "answer_ids": [
+        "A-0108-SHORT",
+        "A-0108-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0109",
+      "answer_ids": [
+        "A-0109-SHORT",
+        "A-0109-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0110",
+      "answer_ids": [
+        "A-0110-SHORT",
+        "A-0110-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0111",
+      "answer_ids": [
+        "A-0111-SHORT",
+        "A-0111-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0112",
+      "answer_ids": [
+        "A-0112-SHORT",
+        "A-0112-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0113",
+      "answer_ids": [
+        "A-0113-SHORT",
+        "A-0113-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0114",
+      "answer_ids": [
+        "A-0114-SHORT",
+        "A-0114-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0115",
+      "answer_ids": [
+        "A-0115-SHORT",
+        "A-0115-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0116",
+      "answer_ids": [
+        "A-0116-SHORT",
+        "A-0116-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0117",
+      "answer_ids": [
+        "A-0117-SHORT",
+        "A-0117-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0118",
+      "answer_ids": [
+        "A-0118-SHORT",
+        "A-0118-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0119",
+      "answer_ids": [
+        "A-0119-SHORT",
+        "A-0119-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0120",
+      "answer_ids": [
+        "A-0120-SHORT",
+        "A-0120-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0121",
+      "answer_ids": [
+        "A-0121-SHORT",
+        "A-0121-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Financial reporting",
+        "Fractional CFO"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0122",
+      "answer_ids": [
+        "A-0122-SHORT",
+        "A-0122-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0123",
+      "answer_ids": [
+        "A-0123-SHORT",
+        "A-0123-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0124",
+      "answer_ids": [
+        "A-0124-SHORT",
+        "A-0124-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0125",
+      "answer_ids": [
+        "A-0125-SHORT",
+        "A-0125-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Financial reporting",
+        "Fractional CFO",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0126",
+      "answer_ids": [
+        "A-0126-SHORT",
+        "A-0126-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0127",
+      "answer_ids": [
+        "A-0127-SHORT",
+        "A-0127-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0128",
+      "answer_ids": [
+        "A-0128-SHORT",
+        "A-0128-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0129",
+      "answer_ids": [
+        "A-0129-SHORT",
+        "A-0129-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0130",
+      "answer_ids": [
+        "A-0130-SHORT",
+        "A-0130-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0131",
+      "answer_ids": [
+        "A-0131-SHORT",
+        "A-0131-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0132",
+      "answer_ids": [
+        "A-0132-SHORT",
+        "A-0132-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0133",
+      "answer_ids": [
+        "A-0133-SHORT",
+        "A-0133-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0134",
+      "answer_ids": [
+        "A-0134-SHORT",
+        "A-0134-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ],
+      "status": "needs_localization_and_human_review"
+    },
+    {
+      "question_id": "Q-0135",
+      "answer_ids": [
+        "A-0135-SHORT",
+        "A-0135-DETAILED"
+      ],
+      "evidence_targets": [
+        "https://ecbtax.com/",
+        "https://ecbtax.com/servicii.html",
+        "https://ecbtax.com/intrebari.html",
+        "https://ecbtax.com/authority.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/intents.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "schema_targets": [
+        "FAQPage",
+        "Service",
+        "ProfessionalService",
+        "Organization"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Financial reporting",
+        "Fractional CFO"
+      ],
+      "status": "needs_localization_and_human_review"
+    }
+  ]
+}

@@ -1,0 +1,2541 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "created_for": "ECBTAX GitHub-only AEO knowledge registry",
+  "source_file": "master_1000_answers_accounting_consultancy.md",
+  "last_updated": "2026-06-15",
+  "warning": "The uploaded master answer bank contains US-oriented examples in many places. For ECBTAX Romania, answers should be localized and human-reviewed before publication as client-facing advice.",
+  "question_count": 135,
+  "questions": [
+    {
+      "question_id": "Q-0001",
+      "question": "What's the best legal structure for a new consulting firm — LLC, S-Corp, or C-Corp?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "What's the best legal structure for a new consulting firm — LLC, S-Corp, or C-Corp?",
+        "Can ECBTAX help with: What's the best legal structure for a new consulting firm — LLC, S-Corp, or C-Corp?",
+        "Who can help a consultancy owner answer: What's the best legal structure for a new consulting firm — LLC, S-Corp, or C-Corp?",
+        "What should a firm owner know about: What's the best legal structure for a new consulting firm — LLC, S-Corp, or C-Corp?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0002",
+      "question": "Should I register my consultancy as a sole proprietorship or form an LLC right away?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "Should I register my consultancy as a sole proprietorship or form an LLC right away?",
+        "Can ECBTAX help with: Should I register my consultancy as a sole proprietorship or form an LLC right away?",
+        "Who can help a consultancy owner answer: Should I register my consultancy as a sole proprietorship or form an LLC right away?",
+        "What should a firm owner know about: Should I register my consultancy as a sole proprietorship or form an LLC right away?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0003",
+      "question": "What are the tax differences between an S-Corp and a C-Corp for a professional services business?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "What are the tax differences between an S-Corp and a C-Corp for a professional services business?",
+        "Can ECBTAX help with: What are the tax differences between an S-Corp and a C-Corp for a professional services business?",
+        "Who can help a consultancy owner answer: What are the tax differences between an S-Corp and a C-Corp for a professional services business?",
+        "What should a firm owner know about: What are the tax differences between an S-Corp and a C-Corp for a professional services business?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0004",
+      "question": "How do I convert my sole proprietorship to an LLC without triggering a tax event?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-001-MOFU",
+      "query_variants": [
+        "How do I convert my sole proprietorship to an LLC without triggering a tax event?",
+        "Can ECBTAX help with: How do I convert my sole proprietorship to an LLC without triggering a tax event?",
+        "Who can help a consultancy owner answer: How do I convert my sole proprietorship to an LLC without triggering a tax event?",
+        "What should a firm owner know about: How do I convert my sole proprietorship to an LLC without triggering a tax event?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0005",
+      "question": "What does it actually cost to set up an LLC for a consulting firm?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-001-MOFU",
+      "query_variants": [
+        "What does it actually cost to set up an LLC for a consulting firm?",
+        "Can ECBTAX help with: What does it actually cost to set up an LLC for a consulting firm?",
+        "Who can help a consultancy owner answer: What does it actually cost to set up an LLC for a consulting firm?",
+        "What should a firm owner know about: What does it actually cost to set up an LLC for a consulting firm?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0006",
+      "question": "Do I need a separate business bank account if I'm a solo consultant?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "Do I need a separate business bank account if I'm a solo consultant?",
+        "Can ECBTAX help with: Do I need a separate business bank account if I'm a solo consultant?",
+        "Who can help a consultancy owner answer: Do I need a separate business bank account if I'm a solo consultant?",
+        "What should a firm owner know about: Do I need a separate business bank account if I'm a solo consultant?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0007",
+      "question": "When should a consultant elect S-Corp status for tax savings?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-001-BOFU",
+      "query_variants": [
+        "When should a consultant elect S-Corp status for tax savings?",
+        "Can ECBTAX help with: When should a consultant elect S-Corp status for tax savings?",
+        "Who can help a consultancy owner answer: When should a consultant elect S-Corp status for tax savings?",
+        "What should a firm owner know about: When should a consultant elect S-Corp status for tax savings?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0008",
+      "question": "What's the self-employment tax savings from forming an S-Corp as a consultant?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "What's the self-employment tax savings from forming an S-Corp as a consultant?",
+        "Can ECBTAX help with: What's the self-employment tax savings from forming an S-Corp as a consultant?",
+        "Who can help a consultancy owner answer: What's the self-employment tax savings from forming an S-Corp as a consultant?",
+        "What should a firm owner know about: What's the self-employment tax savings from forming an S-Corp as a consultant?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0009",
+      "question": "Can I run multiple consultancy brands under one LLC?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-001-MOFU",
+      "query_variants": [
+        "Can I run multiple consultancy brands under one LLC?",
+        "Can ECBTAX help with: Can I run multiple consultancy brands under one LLC?",
+        "Who can help a consultancy owner answer: Can I run multiple consultancy brands under one LLC?",
+        "What should a firm owner know about: Can I run multiple consultancy brands under one LLC?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0010",
+      "question": "What is a series LLC and is it useful for a consulting firm with multiple service lines?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "What is a series LLC and is it useful for a consulting firm with multiple service lines?",
+        "Can ECBTAX help with: What is a series LLC and is it useful for a consulting firm with multiple service lines?",
+        "Who can help a consultancy owner answer: What is a series LLC and is it useful for a consulting firm with multiple service lines?",
+        "What should a firm owner know about: What is a series LLC and is it useful for a consulting firm with multiple service lines?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0011",
+      "question": "Do I need to register my consulting firm in every state I have clients in?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "Do I need to register my consulting firm in every state I have clients in?",
+        "Can ECBTAX help with: Do I need to register my consulting firm in every state I have clients in?",
+        "Who can help a consultancy owner answer: Do I need to register my consulting firm in every state I have clients in?",
+        "What should a firm owner know about: Do I need to register my consulting firm in every state I have clients in?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0012",
+      "question": "What's the difference between a DBA and an LLC for a consulting practice?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "What's the difference between a DBA and an LLC for a consulting practice?",
+        "Can ECBTAX help with: What's the difference between a DBA and an LLC for a consulting practice?",
+        "Who can help a consultancy owner answer: What's the difference between a DBA and an LLC for a consulting practice?",
+        "What should a firm owner know about: What's the difference between a DBA and an LLC for a consulting practice?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0013",
+      "question": "Should I set up a holding company structure for my consultancy?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "Should I set up a holding company structure for my consultancy?",
+        "Can ECBTAX help with: Should I set up a holding company structure for my consultancy?",
+        "Who can help a consultancy owner answer: Should I set up a holding company structure for my consultancy?",
+        "What should a firm owner know about: Should I set up a holding company structure for my consultancy?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0014",
+      "question": "What happens to my business entity if I bring on a partner to my consulting firm?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-001-MOFU",
+      "query_variants": [
+        "What happens to my business entity if I bring on a partner to my consulting firm?",
+        "Can ECBTAX help with: What happens to my business entity if I bring on a partner to my consulting firm?",
+        "Who can help a consultancy owner answer: What happens to my business entity if I bring on a partner to my consulting firm?",
+        "What should a firm owner know about: What happens to my business entity if I bring on a partner to my consulting firm?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0015",
+      "question": "How do I add a partner to my LLC without creating a taxable event?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-001-MOFU",
+      "query_variants": [
+        "How do I add a partner to my LLC without creating a taxable event?",
+        "Can ECBTAX help with: How do I add a partner to my LLC without creating a taxable event?",
+        "Who can help a consultancy owner answer: How do I add a partner to my LLC without creating a taxable event?",
+        "What should a firm owner know about: How do I add a partner to my LLC without creating a taxable event?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0016",
+      "question": "What are the ongoing compliance requirements for maintaining an LLC or S-Corp?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-001-MOFU",
+      "query_variants": [
+        "What are the ongoing compliance requirements for maintaining an LLC or S-Corp?",
+        "Can ECBTAX help with: What are the ongoing compliance requirements for maintaining an LLC or S-Corp?",
+        "Who can help a consultancy owner answer: What are the ongoing compliance requirements for maintaining an LLC or S-Corp?",
+        "What should a firm owner know about: What are the ongoing compliance requirements for maintaining an LLC or S-Corp?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0017",
+      "question": "How do I choose a registered agent for my consulting firm?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-001-MOFU",
+      "query_variants": [
+        "How do I choose a registered agent for my consulting firm?",
+        "Can ECBTAX help with: How do I choose a registered agent for my consulting firm?",
+        "Who can help a consultancy owner answer: How do I choose a registered agent for my consulting firm?",
+        "What should a firm owner know about: How do I choose a registered agent for my consulting firm?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0018",
+      "question": "What is a professional corporation (PC) and do consultants need one?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "What is a professional corporation (PC) and do consultants need one?",
+        "Can ECBTAX help with: What is a professional corporation (PC) and do consultants need one?",
+        "Who can help a consultancy owner answer: What is a professional corporation (PC) and do consultants need one?",
+        "What should a firm owner know about: What is a professional corporation (PC) and do consultants need one?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0019",
+      "question": "Do I need an EIN immediately when I start a consulting firm?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "Do I need an EIN immediately when I start a consulting firm?",
+        "Can ECBTAX help with: Do I need an EIN immediately when I start a consulting firm?",
+        "Who can help a consultancy owner answer: Do I need an EIN immediately when I start a consulting firm?",
+        "What should a firm owner know about: Do I need an EIN immediately when I start a consulting firm?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0020",
+      "question": "What state should I incorporate my consulting firm in — Delaware, Wyoming, or my home state?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-001-TOFU",
+      "query_variants": [
+        "What state should I incorporate my consulting firm in — Delaware, Wyoming, or my home state?",
+        "Can ECBTAX help with: What state should I incorporate my consulting firm in — Delaware, Wyoming, or my home state?",
+        "Who can help a consultancy owner answer: What state should I incorporate my consulting firm in — Delaware, Wyoming, or my home state?",
+        "What should a firm owner know about: What state should I incorporate my consulting firm in — Delaware, Wyoming, or my home state?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0021",
+      "question": "Are there entity structures that offer better liability protection for professional services firms?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-001-MOFU",
+      "query_variants": [
+        "Are there entity structures that offer better liability protection for professional services firms?",
+        "Can ECBTAX help with: Are there entity structures that offer better liability protection for professional services firms?",
+        "Who can help a consultancy owner answer: Are there entity structures that offer better liability protection for professional services firms?",
+        "What should a firm owner know about: Are there entity structures that offer better liability protection for professional services firms?"
+      ],
+      "service_match": [
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0022",
+      "question": "What are the tax implications of having a foreign partner in my consulting LLC?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-001-BOFU",
+      "query_variants": [
+        "What are the tax implications of having a foreign partner in my consulting LLC?",
+        "Can ECBTAX help with: What are the tax implications of having a foreign partner in my consulting LLC?",
+        "Who can help a consultancy owner answer: What are the tax implications of having a foreign partner in my consulting LLC?",
+        "What should a firm owner know about: What are the tax implications of having a foreign partner in my consulting LLC?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0023",
+      "question": "Can I be both a W-2 employee and run a consulting LLC at the same time?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-001-MOFU",
+      "query_variants": [
+        "Can I be both a W-2 employee and run a consulting LLC at the same time?",
+        "Can ECBTAX help with: Can I be both a W-2 employee and run a consulting LLC at the same time?",
+        "Who can help a consultancy owner answer: Can I be both a W-2 employee and run a consulting LLC at the same time?",
+        "What should a firm owner know about: Can I be both a W-2 employee and run a consulting LLC at the same time?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0024",
+      "question": "How does the QBI (Qualified Business Income) deduction affect my entity choice?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-001-BOFU",
+      "query_variants": [
+        "How does the QBI (Qualified Business Income) deduction affect my entity choice?",
+        "Can ECBTAX help with: How does the QBI (Qualified Business Income) deduction affect my entity choice?",
+        "Who can help a consultancy owner answer: How does the QBI (Qualified Business Income) deduction affect my entity choice?",
+        "What should a firm owner know about: How does the QBI (Qualified Business Income) deduction affect my entity choice?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0025",
+      "question": "Is consulting considered a \"specified service trade or business\" for QBI deduction limits?",
+      "category_id": "CAT-001",
+      "category_name": "Entity Structure & Setup (Q1–Q25)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-001-BOFU",
+      "query_variants": [
+        "Is consulting considered a \"specified service trade or business\" for QBI deduction limits?",
+        "Can ECBTAX help with: Is consulting considered a \"specified service trade or business\" for QBI deduction limits?",
+        "Who can help a consultancy owner answer: Is consulting considered a \"specified service trade or business\" for QBI deduction limits?",
+        "What should a firm owner know about: Is consulting considered a \"specified service trade or business\" for QBI deduction limits?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0026",
+      "question": "How should a small consulting firm set up its chart of accounts?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "How should a small consulting firm set up its chart of accounts?",
+        "Can ECBTAX help with: How should a small consulting firm set up its chart of accounts?",
+        "Who can help a consultancy owner answer: How should a small consulting firm set up its chart of accounts?",
+        "What should a firm owner know about: How should a small consulting firm set up its chart of accounts?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0027",
+      "question": "What's the difference between cash-basis and accrual-basis accounting for consultants?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "What's the difference between cash-basis and accrual-basis accounting for consultants?",
+        "Can ECBTAX help with: What's the difference between cash-basis and accrual-basis accounting for consultants?",
+        "Who can help a consultancy owner answer: What's the difference between cash-basis and accrual-basis accounting for consultants?",
+        "What should a firm owner know about: What's the difference between cash-basis and accrual-basis accounting for consultants?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0028",
+      "question": "Should my consulting firm use cash-basis or accrual-basis bookkeeping?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "Should my consulting firm use cash-basis or accrual-basis bookkeeping?",
+        "Can ECBTAX help with: Should my consulting firm use cash-basis or accrual-basis bookkeeping?",
+        "Who can help a consultancy owner answer: Should my consulting firm use cash-basis or accrual-basis bookkeeping?",
+        "What should a firm owner know about: Should my consulting firm use cash-basis or accrual-basis bookkeeping?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0029",
+      "question": "How often should I reconcile my business bank accounts?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "How often should I reconcile my business bank accounts?",
+        "Can ECBTAX help with: How often should I reconcile my business bank accounts?",
+        "Who can help a consultancy owner answer: How often should I reconcile my business bank accounts?",
+        "What should a firm owner know about: How often should I reconcile my business bank accounts?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0030",
+      "question": "What bookkeeping records do I need to keep as a consultant?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "What bookkeeping records do I need to keep as a consultant?",
+        "Can ECBTAX help with: What bookkeeping records do I need to keep as a consultant?",
+        "Who can help a consultancy owner answer: What bookkeeping records do I need to keep as a consultant?",
+        "What should a firm owner know about: What bookkeeping records do I need to keep as a consultant?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0031",
+      "question": "How long should I keep financial records for my consulting firm?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "How long should I keep financial records for my consulting firm?",
+        "Can ECBTAX help with: How long should I keep financial records for my consulting firm?",
+        "Who can help a consultancy owner answer: How long should I keep financial records for my consulting firm?",
+        "What should a firm owner know about: How long should I keep financial records for my consulting firm?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0032",
+      "question": "What's the best way to track billable hours and connect them to invoices in my accounting software?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "What's the best way to track billable hours and connect them to invoices in my accounting software?",
+        "Can ECBTAX help with: What's the best way to track billable hours and connect them to invoices in my accounting software?",
+        "Who can help a consultancy owner answer: What's the best way to track billable hours and connect them to invoices in my accounting software?",
+        "What should a firm owner know about: What's the best way to track billable hours and connect them to invoices in my accounting software?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0033",
+      "question": "How do I categorize client reimbursements in my books?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "How do I categorize client reimbursements in my books?",
+        "Can ECBTAX help with: How do I categorize client reimbursements in my books?",
+        "Who can help a consultancy owner answer: How do I categorize client reimbursements in my books?",
+        "What should a firm owner know about: How do I categorize client reimbursements in my books?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0034",
+      "question": "What is double-entry bookkeeping and do I need it for a small consultancy?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "What is double-entry bookkeeping and do I need it for a small consultancy?",
+        "Can ECBTAX help with: What is double-entry bookkeeping and do I need it for a small consultancy?",
+        "Who can help a consultancy owner answer: What is double-entry bookkeeping and do I need it for a small consultancy?",
+        "What should a firm owner know about: What is double-entry bookkeeping and do I need it for a small consultancy?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0035",
+      "question": "How do I handle a client deposit or retainer in my bookkeeping?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "How do I handle a client deposit or retainer in my bookkeeping?",
+        "Can ECBTAX help with: How do I handle a client deposit or retainer in my bookkeeping?",
+        "Who can help a consultancy owner answer: How do I handle a client deposit or retainer in my bookkeeping?",
+        "What should a firm owner know about: How do I handle a client deposit or retainer in my bookkeeping?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0036",
+      "question": "What's the correct way to record a client prepayment before work is completed?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "What's the correct way to record a client prepayment before work is completed?",
+        "Can ECBTAX help with: What's the correct way to record a client prepayment before work is completed?",
+        "Who can help a consultancy owner answer: What's the correct way to record a client prepayment before work is completed?",
+        "What should a firm owner know about: What's the correct way to record a client prepayment before work is completed?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0037",
+      "question": "How do I handle intercompany transactions if I own multiple business entities?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "How do I handle intercompany transactions if I own multiple business entities?",
+        "Can ECBTAX help with: How do I handle intercompany transactions if I own multiple business entities?",
+        "Who can help a consultancy owner answer: How do I handle intercompany transactions if I own multiple business entities?",
+        "What should a firm owner know about: How do I handle intercompany transactions if I own multiple business entities?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0038",
+      "question": "What expenses can I legitimately deduct as a consulting firm?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-002-BOFU",
+      "query_variants": [
+        "What expenses can I legitimately deduct as a consulting firm?",
+        "Can ECBTAX help with: What expenses can I legitimately deduct as a consulting firm?",
+        "Who can help a consultancy owner answer: What expenses can I legitimately deduct as a consulting firm?",
+        "What should a firm owner know about: What expenses can I legitimately deduct as a consulting firm?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0039",
+      "question": "How do I record owner's draws in my bookkeeping?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "How do I record owner's draws in my bookkeeping?",
+        "Can ECBTAX help with: How do I record owner's draws in my bookkeeping?",
+        "Who can help a consultancy owner answer: How do I record owner's draws in my bookkeeping?",
+        "What should a firm owner know about: How do I record owner's draws in my bookkeeping?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0040",
+      "question": "What's the difference between an owner's draw and a salary?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "What's the difference between an owner's draw and a salary?",
+        "Can ECBTAX help with: What's the difference between an owner's draw and a salary?",
+        "Who can help a consultancy owner answer: What's the difference between an owner's draw and a salary?",
+        "What should a firm owner know about: What's the difference between an owner's draw and a salary?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0041",
+      "question": "How do I properly categorize meals and entertainment expenses for a consulting firm?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "How do I properly categorize meals and entertainment expenses for a consulting firm?",
+        "Can ECBTAX help with: How do I properly categorize meals and entertainment expenses for a consulting firm?",
+        "Who can help a consultancy owner answer: How do I properly categorize meals and entertainment expenses for a consulting firm?",
+        "What should a firm owner know about: How do I properly categorize meals and entertainment expenses for a consulting firm?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0042",
+      "question": "Can I deduct my home office if I run a consultancy from home?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-002-BOFU",
+      "query_variants": [
+        "Can I deduct my home office if I run a consultancy from home?",
+        "Can ECBTAX help with: Can I deduct my home office if I run a consultancy from home?",
+        "Who can help a consultancy owner answer: Can I deduct my home office if I run a consultancy from home?",
+        "What should a firm owner know about: Can I deduct my home office if I run a consultancy from home?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0043",
+      "question": "How do I track and record mileage for client visits?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "How do I track and record mileage for client visits?",
+        "Can ECBTAX help with: How do I track and record mileage for client visits?",
+        "Who can help a consultancy owner answer: How do I track and record mileage for client visits?",
+        "What should a firm owner know about: How do I track and record mileage for client visits?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0044",
+      "question": "What is the best method for tracking project profitability in my accounting system?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "What is the best method for tracking project profitability in my accounting system?",
+        "Can ECBTAX help with: What is the best method for tracking project profitability in my accounting system?",
+        "Who can help a consultancy owner answer: What is the best method for tracking project profitability in my accounting system?",
+        "What should a firm owner know about: What is the best method for tracking project profitability in my accounting system?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping",
+        "Financial reporting",
+        "Fractional CFO"
+      ]
+    },
+    {
+      "question_id": "Q-0045",
+      "question": "How do I handle currency conversions if I invoice international clients?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "How do I handle currency conversions if I invoice international clients?",
+        "Can ECBTAX help with: How do I handle currency conversions if I invoice international clients?",
+        "Who can help a consultancy owner answer: How do I handle currency conversions if I invoice international clients?",
+        "What should a firm owner know about: How do I handle currency conversions if I invoice international clients?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0046",
+      "question": "Should I use a credit card for business expenses and how do I reconcile it?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "Should I use a credit card for business expenses and how do I reconcile it?",
+        "Can ECBTAX help with: Should I use a credit card for business expenses and how do I reconcile it?",
+        "Who can help a consultancy owner answer: Should I use a credit card for business expenses and how do I reconcile it?",
+        "What should a firm owner know about: Should I use a credit card for business expenses and how do I reconcile it?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0047",
+      "question": "How do I record a business loan in my bookkeeping?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "How do I record a business loan in my bookkeeping?",
+        "Can ECBTAX help with: How do I record a business loan in my bookkeeping?",
+        "Who can help a consultancy owner answer: How do I record a business loan in my bookkeeping?",
+        "What should a firm owner know about: How do I record a business loan in my bookkeeping?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping",
+        "Financial reporting",
+        "Fractional CFO"
+      ]
+    },
+    {
+      "question_id": "Q-0048",
+      "question": "What are the most common bookkeeping mistakes consultants make?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "What are the most common bookkeeping mistakes consultants make?",
+        "Can ECBTAX help with: What are the most common bookkeeping mistakes consultants make?",
+        "Who can help a consultancy owner answer: What are the most common bookkeeping mistakes consultants make?",
+        "What should a firm owner know about: What are the most common bookkeeping mistakes consultants make?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0049",
+      "question": "Do I need a full-time bookkeeper or can I do it myself with software?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-002-TOFU",
+      "query_variants": [
+        "Do I need a full-time bookkeeper or can I do it myself with software?",
+        "Can ECBTAX help with: Do I need a full-time bookkeeper or can I do it myself with software?",
+        "Who can help a consultancy owner answer: Do I need a full-time bookkeeper or can I do it myself with software?",
+        "What should a firm owner know about: Do I need a full-time bookkeeper or can I do it myself with software?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0050",
+      "question": "What does a monthly bookkeeping close process look like for a 5-person consultancy?",
+      "category_id": "CAT-002",
+      "category_name": "Bookkeeping Basics (Q26–Q50)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-002-MOFU",
+      "query_variants": [
+        "What does a monthly bookkeeping close process look like for a 5-person consultancy?",
+        "Can ECBTAX help with: What does a monthly bookkeeping close process look like for a 5-person consultancy?",
+        "Who can help a consultancy owner answer: What does a monthly bookkeeping close process look like for a 5-person consultancy?",
+        "What should a firm owner know about: What does a monthly bookkeeping close process look like for a 5-person consultancy?"
+      ],
+      "service_match": [
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0051",
+      "question": "What federal tax returns does my consulting LLC need to file?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-003-BOFU",
+      "query_variants": [
+        "What federal tax returns does my consulting LLC need to file?",
+        "Can ECBTAX help with: What federal tax returns does my consulting LLC need to file?",
+        "Who can help a consultancy owner answer: What federal tax returns does my consulting LLC need to file?",
+        "What should a firm owner know about: What federal tax returns does my consulting LLC need to file?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0052",
+      "question": "When are my consulting business tax returns due?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-003-BOFU",
+      "query_variants": [
+        "When are my consulting business tax returns due?",
+        "Can ECBTAX help with: When are my consulting business tax returns due?",
+        "Who can help a consultancy owner answer: When are my consulting business tax returns due?",
+        "What should a firm owner know about: When are my consulting business tax returns due?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0053",
+      "question": "How do I calculate and pay quarterly estimated taxes as a consultant?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "How do I calculate and pay quarterly estimated taxes as a consultant?",
+        "Can ECBTAX help with: How do I calculate and pay quarterly estimated taxes as a consultant?",
+        "Who can help a consultancy owner answer: How do I calculate and pay quarterly estimated taxes as a consultant?",
+        "What should a firm owner know about: How do I calculate and pay quarterly estimated taxes as a consultant?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0054",
+      "question": "What is the self-employment tax and how is it calculated?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is the self-employment tax and how is it calculated?",
+        "Can ECBTAX help with: What is the self-employment tax and how is it calculated?",
+        "Who can help a consultancy owner answer: What is the self-employment tax and how is it calculated?",
+        "What should a firm owner know about: What is the self-employment tax and how is it calculated?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0055",
+      "question": "What deductions reduce my self-employment tax, not just income tax?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-003-BOFU",
+      "query_variants": [
+        "What deductions reduce my self-employment tax, not just income tax?",
+        "Can ECBTAX help with: What deductions reduce my self-employment tax, not just income tax?",
+        "Who can help a consultancy owner answer: What deductions reduce my self-employment tax, not just income tax?",
+        "What should a firm owner know about: What deductions reduce my self-employment tax, not just income tax?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0056",
+      "question": "How does the home office deduction work on my tax return?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-003-BOFU",
+      "query_variants": [
+        "How does the home office deduction work on my tax return?",
+        "Can ECBTAX help with: How does the home office deduction work on my tax return?",
+        "Who can help a consultancy owner answer: How does the home office deduction work on my tax return?",
+        "What should a firm owner know about: How does the home office deduction work on my tax return?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0057",
+      "question": "What is a Section 179 deduction and how does it apply to consulting firm equipment?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is a Section 179 deduction and how does it apply to consulting firm equipment?",
+        "Can ECBTAX help with: What is a Section 179 deduction and how does it apply to consulting firm equipment?",
+        "Who can help a consultancy owner answer: What is a Section 179 deduction and how does it apply to consulting firm equipment?",
+        "What should a firm owner know about: What is a Section 179 deduction and how does it apply to consulting firm equipment?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0058",
+      "question": "What business vehicle deductions are available for consultants?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-003-BOFU",
+      "query_variants": [
+        "What business vehicle deductions are available for consultants?",
+        "Can ECBTAX help with: What business vehicle deductions are available for consultants?",
+        "Who can help a consultancy owner answer: What business vehicle deductions are available for consultants?",
+        "What should a firm owner know about: What business vehicle deductions are available for consultants?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0059",
+      "question": "Can I deduct health insurance premiums as a self-employed consultant?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-003-BOFU",
+      "query_variants": [
+        "Can I deduct health insurance premiums as a self-employed consultant?",
+        "Can ECBTAX help with: Can I deduct health insurance premiums as a self-employed consultant?",
+        "Who can help a consultancy owner answer: Can I deduct health insurance premiums as a self-employed consultant?",
+        "What should a firm owner know about: Can I deduct health insurance premiums as a self-employed consultant?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0060",
+      "question": "How do I deduct retirement contributions as a consulting firm owner?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "How do I deduct retirement contributions as a consulting firm owner?",
+        "Can ECBTAX help with: How do I deduct retirement contributions as a consulting firm owner?",
+        "Who can help a consultancy owner answer: How do I deduct retirement contributions as a consulting firm owner?",
+        "What should a firm owner know about: How do I deduct retirement contributions as a consulting firm owner?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0061",
+      "question": "What is a reasonable salary for an S-Corp consulting owner?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is a reasonable salary for an S-Corp consulting owner?",
+        "Can ECBTAX help with: What is a reasonable salary for an S-Corp consulting owner?",
+        "Who can help a consultancy owner answer: What is a reasonable salary for an S-Corp consulting owner?",
+        "What should a firm owner know about: What is a reasonable salary for an S-Corp consulting owner?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0062",
+      "question": "What payroll taxes does an S-Corp consulting firm pay?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-003-BOFU",
+      "query_variants": [
+        "What payroll taxes does an S-Corp consulting firm pay?",
+        "Can ECBTAX help with: What payroll taxes does an S-Corp consulting firm pay?",
+        "Who can help a consultancy owner answer: What payroll taxes does an S-Corp consulting firm pay?",
+        "What should a firm owner know about: What payroll taxes does an S-Corp consulting firm pay?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0063",
+      "question": "How do I handle 1099-NEC forms for contractors I hire?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "How do I handle 1099-NEC forms for contractors I hire?",
+        "Can ECBTAX help with: How do I handle 1099-NEC forms for contractors I hire?",
+        "Who can help a consultancy owner answer: How do I handle 1099-NEC forms for contractors I hire?",
+        "What should a firm owner know about: How do I handle 1099-NEC forms for contractors I hire?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0064",
+      "question": "What happens if I receive a 1099-NEC that doesn't match my records?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "What happens if I receive a 1099-NEC that doesn't match my records?",
+        "Can ECBTAX help with: What happens if I receive a 1099-NEC that doesn't match my records?",
+        "Who can help a consultancy owner answer: What happens if I receive a 1099-NEC that doesn't match my records?",
+        "What should a firm owner know about: What happens if I receive a 1099-NEC that doesn't match my records?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0065",
+      "question": "Do I need to collect W-9s from all vendors and contractors before paying them?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "Do I need to collect W-9s from all vendors and contractors before paying them?",
+        "Can ECBTAX help with: Do I need to collect W-9s from all vendors and contractors before paying them?",
+        "Who can help a consultancy owner answer: Do I need to collect W-9s from all vendors and contractors before paying them?",
+        "What should a firm owner know about: Do I need to collect W-9s from all vendors and contractors before paying them?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0066",
+      "question": "How do I handle sales tax on consulting services in the U.S.?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "How do I handle sales tax on consulting services in the U.S.?",
+        "Can ECBTAX help with: How do I handle sales tax on consulting services in the U.S.?",
+        "Who can help a consultancy owner answer: How do I handle sales tax on consulting services in the U.S.?",
+        "What should a firm owner know about: How do I handle sales tax on consulting services in the U.S.?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0067",
+      "question": "What is the pass-through deduction (Section 199A) and how do I maximize it?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is the pass-through deduction (Section 199A) and how do I maximize it?",
+        "Can ECBTAX help with: What is the pass-through deduction (Section 199A) and how do I maximize it?",
+        "Who can help a consultancy owner answer: What is the pass-through deduction (Section 199A) and how do I maximize it?",
+        "What should a firm owner know about: What is the pass-through deduction (Section 199A) and how do I maximize it?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0068",
+      "question": "What triggers an IRS audit for a consulting firm?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-003-BOFU",
+      "query_variants": [
+        "What triggers an IRS audit for a consulting firm?",
+        "Can ECBTAX help with: What triggers an IRS audit for a consulting firm?",
+        "Who can help a consultancy owner answer: What triggers an IRS audit for a consulting firm?",
+        "What should a firm owner know about: What triggers an IRS audit for a consulting firm?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0069",
+      "question": "How long does the IRS have to audit my consulting firm's return?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "How long does the IRS have to audit my consulting firm's return?",
+        "Can ECBTAX help with: How long does the IRS have to audit my consulting firm's return?",
+        "Who can help a consultancy owner answer: How long does the IRS have to audit my consulting firm's return?",
+        "What should a firm owner know about: How long does the IRS have to audit my consulting firm's return?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0070",
+      "question": "What is nexus and how does it affect my consulting firm's state tax obligations?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is nexus and how does it affect my consulting firm's state tax obligations?",
+        "Can ECBTAX help with: What is nexus and how does it affect my consulting firm's state tax obligations?",
+        "Who can help a consultancy owner answer: What is nexus and how does it affect my consulting firm's state tax obligations?",
+        "What should a firm owner know about: What is nexus and how does it affect my consulting firm's state tax obligations?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0071",
+      "question": "How does my consulting firm apportion income across multiple states?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "How does my consulting firm apportion income across multiple states?",
+        "Can ECBTAX help with: How does my consulting firm apportion income across multiple states?",
+        "Who can help a consultancy owner answer: How does my consulting firm apportion income across multiple states?",
+        "What should a firm owner know about: How does my consulting firm apportion income across multiple states?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0072",
+      "question": "Do I need to file a tax return in a state where I have nexus but didn't profit?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "Do I need to file a tax return in a state where I have nexus but didn't profit?",
+        "Can ECBTAX help with: Do I need to file a tax return in a state where I have nexus but didn't profit?",
+        "Who can help a consultancy owner answer: Do I need to file a tax return in a state where I have nexus but didn't profit?",
+        "What should a firm owner know about: Do I need to file a tax return in a state where I have nexus but didn't profit?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Financial reporting",
+        "Fractional CFO"
+      ]
+    },
+    {
+      "question_id": "Q-0073",
+      "question": "What is the difference between an S-Corp election and a regular LLC for tax filing?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is the difference between an S-Corp election and a regular LLC for tax filing?",
+        "Can ECBTAX help with: What is the difference between an S-Corp election and a regular LLC for tax filing?",
+        "Who can help a consultancy owner answer: What is the difference between an S-Corp election and a regular LLC for tax filing?",
+        "What should a firm owner know about: What is the difference between an S-Corp election and a regular LLC for tax filing?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0074",
+      "question": "How do I make the S-Corp election and when does it take effect?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "How do I make the S-Corp election and when does it take effect?",
+        "Can ECBTAX help with: How do I make the S-Corp election and when does it take effect?",
+        "Who can help a consultancy owner answer: How do I make the S-Corp election and when does it take effect?",
+        "What should a firm owner know about: How do I make the S-Corp election and when does it take effect?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0075",
+      "question": "Can an LLC owned by a non-U.S. person elect S-Corp status?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "Can an LLC owned by a non-U.S. person elect S-Corp status?",
+        "Can ECBTAX help with: Can an LLC owned by a non-U.S. person elect S-Corp status?",
+        "Who can help a consultancy owner answer: Can an LLC owned by a non-U.S. person elect S-Corp status?",
+        "What should a firm owner know about: Can an LLC owned by a non-U.S. person elect S-Corp status?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0076",
+      "question": "What is a Schedule K-1 and what do I do with it?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is a Schedule K-1 and what do I do with it?",
+        "Can ECBTAX help with: What is a Schedule K-1 and what do I do with it?",
+        "Who can help a consultancy owner answer: What is a Schedule K-1 and what do I do with it?",
+        "What should a firm owner know about: What is a Schedule K-1 and what do I do with it?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0077",
+      "question": "What records do I need to support my business deductions in case of an audit?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What records do I need to support my business deductions in case of an audit?",
+        "Can ECBTAX help with: What records do I need to support my business deductions in case of an audit?",
+        "Who can help a consultancy owner answer: What records do I need to support my business deductions in case of an audit?",
+        "What should a firm owner know about: What records do I need to support my business deductions in case of an audit?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Accounting",
+        "Bookkeeping"
+      ]
+    },
+    {
+      "question_id": "Q-0078",
+      "question": "What is bonus depreciation and how does it work for consulting firms?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is bonus depreciation and how does it work for consulting firms?",
+        "Can ECBTAX help with: What is bonus depreciation and how does it work for consulting firms?",
+        "Who can help a consultancy owner answer: What is bonus depreciation and how does it work for consulting firms?",
+        "What should a firm owner know about: What is bonus depreciation and how does it work for consulting firms?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0079",
+      "question": "How do net operating losses (NOLs) work for my consulting firm?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "How do net operating losses (NOLs) work for my consulting firm?",
+        "Can ECBTAX help with: How do net operating losses (NOLs) work for my consulting firm?",
+        "Who can help a consultancy owner answer: How do net operating losses (NOLs) work for my consulting firm?",
+        "What should a firm owner know about: How do net operating losses (NOLs) work for my consulting firm?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0080",
+      "question": "What are estimated tax underpayment penalties and how do I avoid them?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "What are estimated tax underpayment penalties and how do I avoid them?",
+        "Can ECBTAX help with: What are estimated tax underpayment penalties and how do I avoid them?",
+        "Who can help a consultancy owner answer: What are estimated tax underpayment penalties and how do I avoid them?",
+        "What should a firm owner know about: What are estimated tax underpayment penalties and how do I avoid them?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0081",
+      "question": "What is the alternative minimum tax (AMT) and should a consultant worry about it?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is the alternative minimum tax (AMT) and should a consultant worry about it?",
+        "Can ECBTAX help with: What is the alternative minimum tax (AMT) and should a consultant worry about it?",
+        "Who can help a consultancy owner answer: What is the alternative minimum tax (AMT) and should a consultant worry about it?",
+        "What should a firm owner know about: What is the alternative minimum tax (AMT) and should a consultant worry about it?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0082",
+      "question": "What is the tax treatment of business startup costs for a new consultancy?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is the tax treatment of business startup costs for a new consultancy?",
+        "Can ECBTAX help with: What is the tax treatment of business startup costs for a new consultancy?",
+        "Who can help a consultancy owner answer: What is the tax treatment of business startup costs for a new consultancy?",
+        "What should a firm owner know about: What is the tax treatment of business startup costs for a new consultancy?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0083",
+      "question": "What are the tax implications of giving equity to a consultant or advisor?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-003-BOFU",
+      "query_variants": [
+        "What are the tax implications of giving equity to a consultant or advisor?",
+        "Can ECBTAX help with: What are the tax implications of giving equity to a consultant or advisor?",
+        "Who can help a consultancy owner answer: What are the tax implications of giving equity to a consultant or advisor?",
+        "What should a firm owner know about: What are the tax implications of giving equity to a consultant or advisor?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0084",
+      "question": "Should I do tax-loss harvesting for my consulting firm's investments?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "Should I do tax-loss harvesting for my consulting firm's investments?",
+        "Can ECBTAX help with: Should I do tax-loss harvesting for my consulting firm's investments?",
+        "Who can help a consultancy owner answer: Should I do tax-loss harvesting for my consulting firm's investments?",
+        "What should a firm owner know about: Should I do tax-loss harvesting for my consulting firm's investments?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0085",
+      "question": "What is the research and development (R&D) tax credit and could my consulting firm claim it?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-003-TOFU",
+      "query_variants": [
+        "What is the research and development (R&D) tax credit and could my consulting firm claim it?",
+        "Can ECBTAX help with: What is the research and development (R&D) tax credit and could my consulting firm claim it?",
+        "Who can help a consultancy owner answer: What is the research and development (R&D) tax credit and could my consulting firm claim it?",
+        "What should a firm owner know about: What is the research and development (R&D) tax credit and could my consulting firm claim it?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0086",
+      "question": "How do I handle taxes when I shut down my consulting firm or sell it?",
+      "category_id": "CAT-003",
+      "category_name": "Tax Compliance & Filing (Q51–Q86)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-003-MOFU",
+      "query_variants": [
+        "How do I handle taxes when I shut down my consulting firm or sell it?",
+        "Can ECBTAX help with: How do I handle taxes when I shut down my consulting firm or sell it?",
+        "Who can help a consultancy owner answer: How do I handle taxes when I shut down my consulting firm or sell it?",
+        "What should a firm owner know about: How do I handle taxes when I shut down my consulting firm or sell it?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0087",
+      "question": "Does my consulting firm need to charge VAT?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "Does my consulting firm need to charge VAT?",
+        "Can ECBTAX help with: Does my consulting firm need to charge VAT?",
+        "Who can help a consultancy owner answer: Does my consulting firm need to charge VAT?",
+        "What should a firm owner know about: Does my consulting firm need to charge VAT?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0088",
+      "question": "What is the EU VAT reverse charge mechanism and how does it work for consulting?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is the EU VAT reverse charge mechanism and how does it work for consulting?",
+        "Can ECBTAX help with: What is the EU VAT reverse charge mechanism and how does it work for consulting?",
+        "Who can help a consultancy owner answer: What is the EU VAT reverse charge mechanism and how does it work for consulting?",
+        "What should a firm owner know about: What is the EU VAT reverse charge mechanism and how does it work for consulting?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0089",
+      "question": "When does a U.S. consulting firm need to register for VAT in the EU?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "When does a U.S. consulting firm need to register for VAT in the EU?",
+        "Can ECBTAX help with: When does a U.S. consulting firm need to register for VAT in the EU?",
+        "Who can help a consultancy owner answer: When does a U.S. consulting firm need to register for VAT in the EU?",
+        "What should a firm owner know about: When does a U.S. consulting firm need to register for VAT in the EU?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0090",
+      "question": "What is the EU One Stop Shop (OSS) and should I use it?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is the EU One Stop Shop (OSS) and should I use it?",
+        "Can ECBTAX help with: What is the EU One Stop Shop (OSS) and should I use it?",
+        "Who can help a consultancy owner answer: What is the EU One Stop Shop (OSS) and should I use it?",
+        "What should a firm owner know about: What is the EU One Stop Shop (OSS) and should I use it?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0091",
+      "question": "How does UK VAT work for a U.S. consulting firm after Brexit?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "How does UK VAT work for a U.S. consulting firm after Brexit?",
+        "Can ECBTAX help with: How does UK VAT work for a U.S. consulting firm after Brexit?",
+        "Who can help a consultancy owner answer: How does UK VAT work for a U.S. consulting firm after Brexit?",
+        "What should a firm owner know about: How does UK VAT work for a U.S. consulting firm after Brexit?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0092",
+      "question": "What is GST and how does it affect my consulting firm's sales to Canadian or Australian clients?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is GST and how does it affect my consulting firm's sales to Canadian or Australian clients?",
+        "Can ECBTAX help with: What is GST and how does it affect my consulting firm's sales to Canadian or Australian clients?",
+        "Who can help a consultancy owner answer: What is GST and how does it affect my consulting firm's sales to Canadian or Australian clients?",
+        "What should a firm owner know about: What is GST and how does it affect my consulting firm's sales to Canadian or Australian clients?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0093",
+      "question": "Do I need to charge sales tax on my consulting invoices in the U.S.?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "Do I need to charge sales tax on my consulting invoices in the U.S.?",
+        "Can ECBTAX help with: Do I need to charge sales tax on my consulting invoices in the U.S.?",
+        "Who can help a consultancy owner answer: Do I need to charge sales tax on my consulting invoices in the U.S.?",
+        "What should a firm owner know about: Do I need to charge sales tax on my consulting invoices in the U.S.?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0094",
+      "question": "What is economic nexus for sales tax purposes and does it apply to consulting firms?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is economic nexus for sales tax purposes and does it apply to consulting firms?",
+        "Can ECBTAX help with: What is economic nexus for sales tax purposes and does it apply to consulting firms?",
+        "Who can help a consultancy owner answer: What is economic nexus for sales tax purposes and does it apply to consulting firms?",
+        "What should a firm owner know about: What is economic nexus for sales tax purposes and does it apply to consulting firms?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0095",
+      "question": "How do I handle VAT on digital services sold to EU clients?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "How do I handle VAT on digital services sold to EU clients?",
+        "Can ECBTAX help with: How do I handle VAT on digital services sold to EU clients?",
+        "Who can help a consultancy owner answer: How do I handle VAT on digital services sold to EU clients?",
+        "What should a firm owner know about: How do I handle VAT on digital services sold to EU clients?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0096",
+      "question": "How do I issue invoices that comply with EU VAT requirements?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "How do I issue invoices that comply with EU VAT requirements?",
+        "Can ECBTAX help with: How do I issue invoices that comply with EU VAT requirements?",
+        "Who can help a consultancy owner answer: How do I issue invoices that comply with EU VAT requirements?",
+        "What should a firm owner know about: How do I issue invoices that comply with EU VAT requirements?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0097",
+      "question": "What is the VAT mini one-stop shop (MOSS) and is it still relevant?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is the VAT mini one-stop shop (MOSS) and is it still relevant?",
+        "Can ECBTAX help with: What is the VAT mini one-stop shop (MOSS) and is it still relevant?",
+        "Who can help a consultancy owner answer: What is the VAT mini one-stop shop (MOSS) and is it still relevant?",
+        "What should a firm owner know about: What is the VAT mini one-stop shop (MOSS) and is it still relevant?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0098",
+      "question": "How do I account for VAT collected on my books?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "How do I account for VAT collected on my books?",
+        "Can ECBTAX help with: How do I account for VAT collected on my books?",
+        "Who can help a consultancy owner answer: How do I account for VAT collected on my books?",
+        "What should a firm owner know about: How do I account for VAT collected on my books?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0099",
+      "question": "Can I reclaim input VAT on my business purchases?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "Can I reclaim input VAT on my business purchases?",
+        "Can ECBTAX help with: Can I reclaim input VAT on my business purchases?",
+        "Who can help a consultancy owner answer: Can I reclaim input VAT on my business purchases?",
+        "What should a firm owner know about: Can I reclaim input VAT on my business purchases?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0100",
+      "question": "What is the place of supply for consulting services and why does it matter for VAT?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is the place of supply for consulting services and why does it matter for VAT?",
+        "Can ECBTAX help with: What is the place of supply for consulting services and why does it matter for VAT?",
+        "Who can help a consultancy owner answer: What is the place of supply for consulting services and why does it matter for VAT?",
+        "What should a firm owner know about: What is the place of supply for consulting services and why does it matter for VAT?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0101",
+      "question": "Do I need to charge VAT when working with a UK client now that Britain has left the EU?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "Do I need to charge VAT when working with a UK client now that Britain has left the EU?",
+        "Can ECBTAX help with: Do I need to charge VAT when working with a UK client now that Britain has left the EU?",
+        "Who can help a consultancy owner answer: Do I need to charge VAT when working with a UK client now that Britain has left the EU?",
+        "What should a firm owner know about: Do I need to charge VAT when working with a UK client now that Britain has left the EU?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0102",
+      "question": "What is VAT MOSS and what has replaced it post-2021?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is VAT MOSS and what has replaced it post-2021?",
+        "Can ECBTAX help with: What is VAT MOSS and what has replaced it post-2021?",
+        "Who can help a consultancy owner answer: What is VAT MOSS and what has replaced it post-2021?",
+        "What should a firm owner know about: What is VAT MOSS and what has replaced it post-2021?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0103",
+      "question": "How do I handle VAT refunds when a client cancels or I issue a credit note?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "How do I handle VAT refunds when a client cancels or I issue a credit note?",
+        "Can ECBTAX help with: How do I handle VAT refunds when a client cancels or I issue a credit note?",
+        "Who can help a consultancy owner answer: How do I handle VAT refunds when a client cancels or I issue a credit note?",
+        "What should a firm owner know about: How do I handle VAT refunds when a client cancels or I issue a credit note?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0104",
+      "question": "What is the difference between zero-rated and exempt VAT supplies?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is the difference between zero-rated and exempt VAT supplies?",
+        "Can ECBTAX help with: What is the difference between zero-rated and exempt VAT supplies?",
+        "Who can help a consultancy owner answer: What is the difference between zero-rated and exempt VAT supplies?",
+        "What should a firm owner know about: What is the difference between zero-rated and exempt VAT supplies?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0105",
+      "question": "What are the penalties for not registering for VAT when required?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "What are the penalties for not registering for VAT when required?",
+        "Can ECBTAX help with: What are the penalties for not registering for VAT when required?",
+        "Who can help a consultancy owner answer: What are the penalties for not registering for VAT when required?",
+        "What should a firm owner know about: What are the penalties for not registering for VAT when required?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0106",
+      "question": "How should my invoices be structured to comply with sales tax rules in the U.S.?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-004-MOFU",
+      "query_variants": [
+        "How should my invoices be structured to comply with sales tax rules in the U.S.?",
+        "Can ECBTAX help with: How should my invoices be structured to comply with sales tax rules in the U.S.?",
+        "Who can help a consultancy owner answer: How should my invoices be structured to comply with sales tax rules in the U.S.?",
+        "What should a firm owner know about: How should my invoices be structured to comply with sales tax rules in the U.S.?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0107",
+      "question": "What is a VAT registration threshold and does my firm need to monitor it?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is a VAT registration threshold and does my firm need to monitor it?",
+        "Can ECBTAX help with: What is a VAT registration threshold and does my firm need to monitor it?",
+        "Who can help a consultancy owner answer: What is a VAT registration threshold and does my firm need to monitor it?",
+        "What should a firm owner know about: What is a VAT registration threshold and does my firm need to monitor it?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0108",
+      "question": "What is the reverse charge mechanism for domestic transactions in the UK/EU and how does it apply to consulting?",
+      "category_id": "CAT-004",
+      "category_name": "VAT / Sales Tax (Q87–Q108)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-004-TOFU",
+      "query_variants": [
+        "What is the reverse charge mechanism for domestic transactions in the UK/EU and how does it apply to consulting?",
+        "Can ECBTAX help with: What is the reverse charge mechanism for domestic transactions in the UK/EU and how does it apply to consulting?",
+        "Who can help a consultancy owner answer: What is the reverse charge mechanism for domestic transactions in the UK/EU and how does it apply to consulting?",
+        "What should a firm owner know about: What is the reverse charge mechanism for domestic transactions in the UK/EU and how does it apply to consulting?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance"
+      ]
+    },
+    {
+      "question_id": "Q-0109",
+      "question": "How do I set up payroll for my consulting firm for the first time?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How do I set up payroll for my consulting firm for the first time?",
+        "Can ECBTAX help with: How do I set up payroll for my consulting firm for the first time?",
+        "Who can help a consultancy owner answer: How do I set up payroll for my consulting firm for the first time?",
+        "What should a firm owner know about: How do I set up payroll for my consulting firm for the first time?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0110",
+      "question": "What payroll taxes does my consulting firm need to withhold and remit?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-005-BOFU",
+      "query_variants": [
+        "What payroll taxes does my consulting firm need to withhold and remit?",
+        "Can ECBTAX help with: What payroll taxes does my consulting firm need to withhold and remit?",
+        "Who can help a consultancy owner answer: What payroll taxes does my consulting firm need to withhold and remit?",
+        "What should a firm owner know about: What payroll taxes does my consulting firm need to withhold and remit?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0111",
+      "question": "What's the difference between paying myself a salary vs. taking distributions from my S-Corp?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "What's the difference between paying myself a salary vs. taking distributions from my S-Corp?",
+        "Can ECBTAX help with: What's the difference between paying myself a salary vs. taking distributions from my S-Corp?",
+        "Who can help a consultancy owner answer: What's the difference between paying myself a salary vs. taking distributions from my S-Corp?",
+        "What should a firm owner know about: What's the difference between paying myself a salary vs. taking distributions from my S-Corp?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0112",
+      "question": "How do I pay myself as the owner of an LLC taxed as a partnership?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How do I pay myself as the owner of an LLC taxed as a partnership?",
+        "Can ECBTAX help with: How do I pay myself as the owner of an LLC taxed as a partnership?",
+        "Who can help a consultancy owner answer: How do I pay myself as the owner of an LLC taxed as a partnership?",
+        "What should a firm owner know about: How do I pay myself as the owner of an LLC taxed as a partnership?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0113",
+      "question": "What is a reasonable compensation requirement for S-Corp owners?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "What is a reasonable compensation requirement for S-Corp owners?",
+        "Can ECBTAX help with: What is a reasonable compensation requirement for S-Corp owners?",
+        "Who can help a consultancy owner answer: What is a reasonable compensation requirement for S-Corp owners?",
+        "What should a firm owner know about: What is a reasonable compensation requirement for S-Corp owners?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0114",
+      "question": "How does FICA work for consulting firm owners under different entity structures?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How does FICA work for consulting firm owners under different entity structures?",
+        "Can ECBTAX help with: How does FICA work for consulting firm owners under different entity structures?",
+        "Who can help a consultancy owner answer: How does FICA work for consulting firm owners under different entity structures?",
+        "What should a firm owner know about: How does FICA work for consulting firm owners under different entity structures?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0115",
+      "question": "Should I hire contractors or employees for my consulting firm?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "Should I hire contractors or employees for my consulting firm?",
+        "Can ECBTAX help with: Should I hire contractors or employees for my consulting firm?",
+        "Who can help a consultancy owner answer: Should I hire contractors or employees for my consulting firm?",
+        "What should a firm owner know about: Should I hire contractors or employees for my consulting firm?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0116",
+      "question": "What is an accountable plan and why does my S-Corp need one?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "What is an accountable plan and why does my S-Corp need one?",
+        "Can ECBTAX help with: What is an accountable plan and why does my S-Corp need one?",
+        "Who can help a consultancy owner answer: What is an accountable plan and why does my S-Corp need one?",
+        "What should a firm owner know about: What is an accountable plan and why does my S-Corp need one?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0117",
+      "question": "How do I handle payroll for remote employees working in different states?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How do I handle payroll for remote employees working in different states?",
+        "Can ECBTAX help with: How do I handle payroll for remote employees working in different states?",
+        "Who can help a consultancy owner answer: How do I handle payroll for remote employees working in different states?",
+        "What should a firm owner know about: How do I handle payroll for remote employees working in different states?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0118",
+      "question": "What employee benefits can my consulting firm offer, and how are they taxed?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-005-BOFU",
+      "query_variants": [
+        "What employee benefits can my consulting firm offer, and how are they taxed?",
+        "Can ECBTAX help with: What employee benefits can my consulting firm offer, and how are they taxed?",
+        "Who can help a consultancy owner answer: What employee benefits can my consulting firm offer, and how are they taxed?",
+        "What should a firm owner know about: What employee benefits can my consulting firm offer, and how are they taxed?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0119",
+      "question": "What is the difference between a W-2 employee and a 1099 contractor for payroll purposes?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "What is the difference between a W-2 employee and a 1099 contractor for payroll purposes?",
+        "Can ECBTAX help with: What is the difference between a W-2 employee and a 1099 contractor for payroll purposes?",
+        "Who can help a consultancy owner answer: What is the difference between a W-2 employee and a 1099 contractor for payroll purposes?",
+        "What should a firm owner know about: What is the difference between a W-2 employee and a 1099 contractor for payroll purposes?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0120",
+      "question": "How do I set up a Simple IRA or 401(k) for my small consulting firm?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How do I set up a Simple IRA or 401(k) for my small consulting firm?",
+        "Can ECBTAX help with: How do I set up a Simple IRA or 401(k) for my small consulting firm?",
+        "Who can help a consultancy owner answer: How do I set up a Simple IRA or 401(k) for my small consulting firm?",
+        "What should a firm owner know about: How do I set up a Simple IRA or 401(k) for my small consulting firm?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0121",
+      "question": "What is profit sharing and how do I set it up for my consulting firm employees?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "What is profit sharing and how do I set it up for my consulting firm employees?",
+        "Can ECBTAX help with: What is profit sharing and how do I set it up for my consulting firm employees?",
+        "Who can help a consultancy owner answer: What is profit sharing and how do I set it up for my consulting firm employees?",
+        "What should a firm owner know about: What is profit sharing and how do I set it up for my consulting firm employees?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Financial reporting",
+        "Fractional CFO"
+      ]
+    },
+    {
+      "question_id": "Q-0122",
+      "question": "How do I handle payroll for an owner of an S-Corp who is also its only employee?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How do I handle payroll for an owner of an S-Corp who is also its only employee?",
+        "Can ECBTAX help with: How do I handle payroll for an owner of an S-Corp who is also its only employee?",
+        "Who can help a consultancy owner answer: How do I handle payroll for an owner of an S-Corp who is also its only employee?",
+        "What should a firm owner know about: How do I handle payroll for an owner of an S-Corp who is also its only employee?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0123",
+      "question": "What are guaranteed payments in an LLC partnership and how are they taxed?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-005-BOFU",
+      "query_variants": [
+        "What are guaranteed payments in an LLC partnership and how are they taxed?",
+        "Can ECBTAX help with: What are guaranteed payments in an LLC partnership and how are they taxed?",
+        "Who can help a consultancy owner answer: What are guaranteed payments in an LLC partnership and how are they taxed?",
+        "What should a firm owner know about: What are guaranteed payments in an LLC partnership and how are they taxed?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0124",
+      "question": "How do I handle owner health insurance in payroll for an S-Corp?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How do I handle owner health insurance in payroll for an S-Corp?",
+        "Can ECBTAX help with: How do I handle owner health insurance in payroll for an S-Corp?",
+        "Who can help a consultancy owner answer: How do I handle owner health insurance in payroll for an S-Corp?",
+        "What should a firm owner know about: How do I handle owner health insurance in payroll for an S-Corp?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0125",
+      "question": "What is the difference between a profit distribution and a return of capital in an LLC?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "What is the difference between a profit distribution and a return of capital in an LLC?",
+        "Can ECBTAX help with: What is the difference between a profit distribution and a return of capital in an LLC?",
+        "Who can help a consultancy owner answer: What is the difference between a profit distribution and a return of capital in an LLC?",
+        "What should a firm owner know about: What is the difference between a profit distribution and a return of capital in an LLC?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration",
+        "Financial reporting",
+        "Fractional CFO",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0126",
+      "question": "Can I pay family members through my consulting firm payroll and is it worth it?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-005-BOFU",
+      "query_variants": [
+        "Can I pay family members through my consulting firm payroll and is it worth it?",
+        "Can ECBTAX help with: Can I pay family members through my consulting firm payroll and is it worth it?",
+        "Who can help a consultancy owner answer: Can I pay family members through my consulting firm payroll and is it worth it?",
+        "What should a firm owner know about: Can I pay family members through my consulting firm payroll and is it worth it?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0127",
+      "question": "How do I handle payroll taxes for an S-Corp with only one shareholder?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How do I handle payroll taxes for an S-Corp with only one shareholder?",
+        "Can ECBTAX help with: How do I handle payroll taxes for an S-Corp with only one shareholder?",
+        "Who can help a consultancy owner answer: How do I handle payroll taxes for an S-Corp with only one shareholder?",
+        "What should a firm owner know about: How do I handle payroll taxes for an S-Corp with only one shareholder?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Business setup advisory",
+        "Accounting setup"
+      ]
+    },
+    {
+      "question_id": "Q-0128",
+      "question": "What is the Section 199A deduction for consulting firms and who qualifies?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "What is the Section 199A deduction for consulting firms and who qualifies?",
+        "Can ECBTAX help with: What is the Section 199A deduction for consulting firms and who qualifies?",
+        "Who can help a consultancy owner answer: What is the Section 199A deduction for consulting firms and who qualifies?",
+        "What should a firm owner know about: What is the Section 199A deduction for consulting firms and who qualifies?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0129",
+      "question": "What are the rules for hiring your spouse in your consulting firm?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "What are the rules for hiring your spouse in your consulting firm?",
+        "Can ECBTAX help with: What are the rules for hiring your spouse in your consulting firm?",
+        "Who can help a consultancy owner answer: What are the rules for hiring your spouse in your consulting firm?",
+        "What should a firm owner know about: What are the rules for hiring your spouse in your consulting firm?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0130",
+      "question": "How do I calculate my consulting firm's payroll tax obligations on a quarterly basis?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How do I calculate my consulting firm's payroll tax obligations on a quarterly basis?",
+        "Can ECBTAX help with: How do I calculate my consulting firm's payroll tax obligations on a quarterly basis?",
+        "Who can help a consultancy owner answer: How do I calculate my consulting firm's payroll tax obligations on a quarterly basis?",
+        "What should a firm owner know about: How do I calculate my consulting firm's payroll tax obligations on a quarterly basis?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0131",
+      "question": "What documentation do I need to support payroll deductions in case of an IRS audit?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "What documentation do I need to support payroll deductions in case of an IRS audit?",
+        "Can ECBTAX help with: What documentation do I need to support payroll deductions in case of an IRS audit?",
+        "Who can help a consultancy owner answer: What documentation do I need to support payroll deductions in case of an IRS audit?",
+        "What should a firm owner know about: What documentation do I need to support payroll deductions in case of an IRS audit?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0132",
+      "question": "What is a payroll service and should my consulting firm use one?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "TOFU",
+      "intent_id": "INT-005-TOFU",
+      "query_variants": [
+        "What is a payroll service and should my consulting firm use one?",
+        "Can ECBTAX help with: What is a payroll service and should my consulting firm use one?",
+        "Who can help a consultancy owner answer: What is a payroll service and should my consulting firm use one?",
+        "What should a firm owner know about: What is a payroll service and should my consulting firm use one?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0133",
+      "question": "Can I use a PEO (Professional Employer Organization) for my consulting firm?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "Can I use a PEO (Professional Employer Organization) for my consulting firm?",
+        "Can ECBTAX help with: Can I use a PEO (Professional Employer Organization) for my consulting firm?",
+        "Who can help a consultancy owner answer: Can I use a PEO (Professional Employer Organization) for my consulting firm?",
+        "What should a firm owner know about: Can I use a PEO (Professional Employer Organization) for my consulting firm?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0134",
+      "question": "How do I handle year-end payroll reconciliation and W-2 preparation for my consulting firm?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "MOFU",
+      "intent_id": "INT-005-MOFU",
+      "query_variants": [
+        "How do I handle year-end payroll reconciliation and W-2 preparation for my consulting firm?",
+        "Can ECBTAX help with: How do I handle year-end payroll reconciliation and W-2 preparation for my consulting firm?",
+        "Who can help a consultancy owner answer: How do I handle year-end payroll reconciliation and W-2 preparation for my consulting firm?",
+        "What should a firm owner know about: How do I handle year-end payroll reconciliation and W-2 preparation for my consulting firm?"
+      ],
+      "service_match": [
+        "Payroll",
+        "HR administration"
+      ]
+    },
+    {
+      "question_id": "Q-0135",
+      "question": "What are the tax implications of paying consulting firm partners or employees with equity or profit interest?",
+      "category_id": "CAT-005",
+      "category_name": "Payroll & Owner Compensation (Q109–Q135)",
+      "funnel_stage": "BOFU",
+      "intent_id": "INT-005-BOFU",
+      "query_variants": [
+        "What are the tax implications of paying consulting firm partners or employees with equity or profit interest?",
+        "Can ECBTAX help with: What are the tax implications of paying consulting firm partners or employees with equity or profit interest?",
+        "Who can help a consultancy owner answer: What are the tax implications of paying consulting firm partners or employees with equity or profit interest?",
+        "What should a firm owner know about: What are the tax implications of paying consulting firm partners or employees with equity or profit interest?"
+      ],
+      "service_match": [
+        "Tax advisory",
+        "Fiscal compliance",
+        "Payroll",
+        "HR administration",
+        "Financial reporting",
+        "Fractional CFO"
+      ]
+    }
+  ]
+}

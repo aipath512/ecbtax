@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "site": "https://ecbtax.com",
+  "created_for": "ECBTAX GitHub-only AEO knowledge registry",
+  "source_file": "master_1000_answers_accounting_consultancy.md",
+  "last_updated": "2026-06-15",
+  "warning": "The uploaded master answer bank contains US-oriented examples in many places. For ECBTAX Romania, answers should be localized and human-reviewed before publication as client-facing advice.",
+  "files": [
+    "questions.json",
+    "answers.json",
+    "evidence-map.json",
+    "citation-map.json",
+    "intents-expanded.json"
+  ],
+  "counts": {
+    "questions": 135,
+    "answers": 270,
+    "evidence_mappings": 135,
+    "citation_mappings": 135,
+    "intent_clusters": 14
+  },
+  "github_target_folder": "/registry/"
+}
