@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ECB TAX ACCOUNTING HR SRL — Contabilitate, Taxe & Consultanță Verificabile</title>
+  <meta name="description" content="ECB TAX ACCOUNTING HR SRL oferă servicii de contabilitate, conformitate fiscală și consultanță pentru companii care operează în UE, construite pe un strat de încredere verificabil, lizibil de AI." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://ecbtax.com/" />
+
+  <style>
+    :root {
+      --bg:#000000;
+      --card:#1a1a1a;
+      --card2:#202020;
+      --text:#fff;
+      --muted:#b8c0cc;
+      --muted2:#8892a3;
+      --gold:#f5c842;
+      --line:rgba(255,255,255,.12);
+      --line2:rgba(255,255,255,.22);
+      --max:1180px;
+      --radius:24px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,Arial,Helvetica,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{width:min(var(--max),92%);margin:auto}
+
+    /* language toggle visibility */
+    [lang-ro]{display:inline}
+    [lang-en]{display:none}
+    body.lang-en [lang-ro]{display:none}
+    body.lang-en [lang-en]{display:inline}
+    [lang-ro].block,[lang-en].block{display:block}
+    body.lang-en [lang-ro].block{display:none}
+    body.lang-en [lang-en].block{display:block}
+
+    header{
+      position:sticky;
+      top:0;
+      z-index:100;
+      background:rgba(7,9,13,.94);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid var(--line);
+    }
+
+    .nav{
+      min-height:78px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      font-family:'Playfair Display',Georgia,serif;
+      font-weight:900;
+      font-size:18px;
+      letter-spacing:-.01em;
+    }
+    .brand img{height:38px;width:38px;border-radius:8px;object-fit:contain;background:#000}
+    .brand-text{display:flex;flex-direction:column;line-height:1.15}
+    .brand-text .small-sub{font-family:Inter,sans-serif;font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--gold);text-transform:uppercase}
+
+    .navlinks{
+      display:flex;
+      align-items:center;
+      gap:18px;
+      color:var(--muted);
+      font-size:14px;
+      font-weight:700;
+    }
+
+    .navlinks a:hover{color:var(--gold)}
+
+    .nav-right{
+      display:flex;
+      align-items:center;
+      gap:14px;
+    }
+
+    .lang-switch{
+      display:flex;
+      align-items:center;
+      gap:6px;
+      border:1px solid var(--line2);
+      border-radius:999px;
+      padding:4px;
+      font-size:12px;
+      font-weight:800;
+      font-family:Inter,sans-serif;
+    }
+    .lang-switch button{
+      border:none;
+      background:transparent;
+      color:var(--muted);
+      padding:6px 12px;
+      border-radius:999px;
+      cursor:pointer;
+      font-weight:800;
+      font-family:Inter,sans-serif;
+      font-size:12px;
+    }
+    .lang-switch button.active{background:var(--gold);color:#111}
+
+    .header-cta{
+      padding:10px 16px;
+      border-radius:999px;
+      background:var(--gold);
+      color:#111;
+      font-weight:900;
+      font-size:14px;
+      white-space:nowrap;
+    }
+
+    .menu-toggle{
+      display:none;
+      flex-direction:column;
+      justify-content:center;
+      gap:5px;
+      width:40px;
+      height:40px;
+      border:1px solid var(--line2);
+      border-radius:10px;
+      background:transparent;
+      cursor:pointer;
+    }
+    .menu-toggle span{
+      display:block;
+      width:18px;
+      height:2px;
+      background:var(--text);
+      margin:0 auto;
+    }
+
+    h1,h2,h3{margin:0;color:var(--text);letter-spacing:-.02em;font-family:'Playfair Display',Georgia,serif}
+    h1{
+      font-size:clamp(40px,6.6vw,76px);
+      line-height:1.06;
+      margin-bottom:24px;
+    }
+    h1 em{color:var(--gold);font-style:italic}
+    h2{font-size:clamp(30px,4.4vw,48px);line-height:1.1;margin-bottom:20px}
+    p{margin:0 0 18px;color:var(--muted);font-size:18px;font-family:Inter,sans-serif}
+    .lead{max-width:680px;font-size:20px;color:#e6e9ee}
+    .eyebrow{
+      color:var(--gold);
+      text-transform:uppercase;
+      letter-spacing:.16em;
+      font-size:13px;
+      font-weight:800;
+      margin-bottom:18px;
+      font-family:Inter,sans-serif;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:48px;
+      padding:14px 26px;
+      border-radius:999px;
+      background:var(--gold);
+      color:#111;
+      font-weight:800;
+      font-family:Inter,sans-serif;
+      border:1px solid transparent;
+      cursor:pointer;
+    }
+
+    .btn.secondary{
+      background:rgba(255,255,255,.06);
+      color:var(--text);
+      border-color:var(--line2);
+    }
+
+    .hero{
+      position:relative;
+      min-height:88vh;
+      display:flex;
+      align-items:center;
+      background-image:
+        linear-gradient(180deg, rgba(0,0,0,.72) 0%, rgba(0,0,0,.55) 40%, rgba(0,0,0,.92) 100%),
+        url('assets/hero-desk.jpeg');
+      background-size:cover;
+      background-position:center;
+      border-bottom:1px solid var(--line);
+    }
+
+    .hero::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:rgba(0,0,0,.45);
+    }
+
+    .hero-inner{
+      position:relative;
+      z-index:1;
+      padding:120px 0 90px;
+    }
+
+    .hero-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+      margin-top:30px;
+    }
+
+    .trust-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:30px;
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 14px;
+      border:1px solid var(--line2);
+      border-radius:999px;
+      color:#e6e9ee;
+      background:rgba(0,0,0,.35);
+      font-size:14px;
+      font-weight:600;
+      font-family:Inter,sans-serif;
+    }
+
+    .pill:before{
+      content:"";
+      width:7px;
+      height:7px;
+      border-radius:50%;
+      background:var(--gold);
+    }
+
+    section{padding:88px 0;border-bottom:1px solid var(--line)}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:28px;
+    }
+
+    .section-label{
+      color:var(--gold);
+      text-transform:uppercase;
+      letter-spacing:.16em;
+      font-size:13px;
+      font-weight:800;
+      margin-bottom:16px;
+      font-family:Inter,sans-serif;
+    }
+
+    ul{margin:16px 0 0;padding-left:20px;color:var(--muted);font-size:17px}
+    li{margin:8px 0}
+
+    .check-list{list-style:none;padding:0}
+    .check-list li{position:relative;padding-left:28px}
+    .check-list li:before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:900}
+
+    footer{
+      padding:50px 0;
+      color:var(--muted2);
+      font-size:14px;
+      background:#000000;
+      text-align:center;
+      border-top:1px solid var(--line);
+    }
+
+    .footer-brand{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:14px;
+      margin-bottom:18px;
+    }
+    .footer-brand img{height:64px;width:64px;border-radius:12px;object-fit:contain;background:#000;border:1px solid var(--line)}
+    .footer-brand strong{font-family:'Playfair Display',Georgia,serif;font-size:18px;color:var(--text)}
+
+    .social-row{
+      display:flex;
+      justify-content:center;
+      gap:14px;
+      margin:18px 0;
+      flex-wrap:wrap;
+    }
+    .social-row a{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 18px;
+      border-radius:999px;
+      border:1px solid var(--line2);
+      background:var(--card);
+      color:var(--text);
+      font-weight:700;
+      font-size:14px;
+      font-family:Inter,sans-serif;
+      transition:border-color .15s,color .15s;
+    }
+    .social-row a:hover{border-color:var(--gold);color:var(--gold)}
+
+    .social-row svg{width:16px;height:16px;flex-shrink:0}
+
+    .footer-contact-line{
+      margin-top:10px;
+      font-size:14px;
+      color:var(--muted2);
+    }
+    .footer-contact-line a{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
+    .footer-contact-line a:hover{color:var(--gold)}
+
+    /* Floating contact widget */
+    .floating-contact{
+      position:fixed;
+      right:18px;
+      bottom:18px;
+      z-index:200;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+    .floating-btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      justify-content:center;
+      min-width:130px;
+      min-height:46px;
+      padding:12px 16px;
+      border-radius:999px;
+      font-weight:900;
+      font-size:14px;
+      font-family:Inter,sans-serif;
+      box-shadow:0 14px 40px rgba(0,0,0,.45);
+    }
+    .floating-btn.whatsapp{background:#25d366;color:#06140a}
+    .floating-btn.call{background:var(--gold);color:#111}
+    .floating-btn svg{width:18px;height:18px;flex-shrink:0}
+
+    @media(max-width:980px){
+      .grid-3,.grid-2{grid-template-columns:1fr}
+      .hero{min-height:auto}
+      .hero-inner{padding:80px 0 60px}
+
+      .navlinks{
+        display:none;
+        position:absolute;
+        top:78px;
+        left:0;
+        right:0;
+        flex-direction:column;
+        align-items:flex-start;
+        gap:0;
+        background:#050505;
+        border-bottom:1px solid var(--line);
+        padding:8px 5%;
+      }
+      .navlinks.open{display:flex}
+      .navlinks a{
+        width:100%;
+        padding:14px 0;
+        border-bottom:1px solid var(--line);
+      }
+      .navlinks a:last-child{border-bottom:none}
+
+      .menu-toggle{display:flex}
+      .header-cta{display:none}
+
+      .lang-switch{order:1}
+    }
+
+    @media(max-width:720px){
+      footer{padding-bottom:96px}
+      .floating-contact{
+        left:14px;
+        right:14px;
+        bottom:14px;
+        flex-direction:row;
+      }
+      .floating-btn{flex:1;min-width:0}
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="/">
+      <img src="assets/ecb-logo-512.webp" alt="ECB TAX ACCOUNTING HR SRL logo" />
+      <span class="brand-text">
+        <span>ECB Tax Accounting HR</span>
+        <span class="small-sub">SRL</span>
+      </span>
+    </a>
+
+    <nav class="navlinks" id="navlinks">
+      <a href="#servicii"><span lang-ro>Servicii</span><span lang-en>Services</span></a>
+      <a href="#despre"><span lang-ro>Despre Noi</span><span lang-en>About</span></a>
+      <a href="#incredere"><span lang-ro>Încredere</span><span lang-en>Trust</span></a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <div class="lang-switch">
+        <button type="button" id="btn-ro" class="active" onclick="setLang('ro')">RO</button>
+        <button type="button" id="btn-en" onclick="setLang('en')">EN</button>
+      </div>
+      <a class="header-cta" href="#contact"><span lang-ro>Programează o Consultație</span><span lang-en>Book a Consultation</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="eyebrow"><span lang-ro>Contabilitate · Fiscalitate · Consultanță</span><span lang-en>Accounting · Tax · Advisory</span></div>
+
+    <h1>
+      <span lang-ro class="block">Cifre În Care Poți Avea Încredere.<br /><em>Conformitate Pe Care O Poți Verifica.</em></span>
+      <span lang-en class="block">Numbers You Can Trust.<br /><em>Compliance You Can Verify.</em></span>
+    </h1>
+
+    <p class="lead">
+      <span lang-ro>
+        ECB TAX ACCOUNTING HR SRL oferă servicii de contabilitate, conformitate fiscală și
+        consultanță financiară pentru companii care operează în UE — susținute de un strat
+        de încredere transparent, lizibil de AI, care face ca certificările și colaborările
+        noastre să fie verificabile la fiecare pas.
+      </span>
+      <span lang-en>
+        ECB TAX ACCOUNTING HR SRL provides accounting, tax compliance and financial advisory
+        services for businesses operating across the EU — backed by a transparent, AI-readable
+        trust layer that makes our credentials and engagements verifiable at every step.
+      </span>
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn" href="#contact"><span lang-ro>Programează o Consultație</span><span lang-en>Book a Consultation</span></a>
+      <a class="btn secondary" href="#servicii"><span lang-ro>Serviciile Noastre</span><span lang-en>Our Services</span></a>
+    </div>
+
+    <div class="trust-row">
+      <span class="pill">FCCA · CPA</span>
+      <span class="pill"><span lang-ro>Conformitate Fiscală UE</span><span lang-en>EU Tax Compliance</span></span>
+      <span class="pill"><span lang-ro>Entitate Verificată</span><span lang-en>Verified Entity</span></span>
+      <span class="pill"><span lang-ro>Partener AiVenture</span><span lang-en>AiVenture Partner</span></span>
+    </div>
+  </div>
+</section>
+
+<section id="servicii">
+  <div class="container">
+    <div class="section-label"><span lang-ro>Ce Facem</span><span lang-en>What We Do</span></div>
+    <h2><span lang-ro>Contabilitate și Fiscalitate, Făcute Corect</span><span lang-en>Accounting and Tax, Done Properly</span></h2>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3><span lang-ro>Contabilitate & Evidență Financiară</span><span lang-en>Accounting & Bookkeeping</span></h3>
+        <p>
+          <span lang-ro>Contabilitate lunară precisă, reconciliere și raportare financiară pentru IMM-uri și companii în creștere.</span>
+          <span lang-en>Accurate monthly accounting, reconciliations and financial reporting for SMEs and growing businesses.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span lang-ro>Conformitate Fiscală</span><span lang-en>Tax Compliance</span></h3>
+        <p>
+          <span lang-ro>TVA, impozit pe profit și declarații transfrontaliere, actualizate conform cerințelor legislative UE.</span>
+          <span lang-en>VAT, corporate tax and cross-border filings, kept current with EU regulatory requirements.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span lang-ro>Consultanță</span><span lang-en>Advisory</span></h3>
+        <p>
+          <span lang-ro>Îndrumare financiară practică pentru fondatori și responsabili financiari — structurare, planificare și suport în decizii.</span>
+          <span lang-en>Practical financial guidance for founders and finance leads — structuring, planning and decision support.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="despre">
+  <div class="container grid-2">
+    <div>
+      <div class="section-label"><span lang-ro>Despre Noi</span><span lang-en>About</span></div>
+      <h2><span lang-ro>Condusă de Roxana Deak, FCCA, CPA</span><span lang-en>Led by Roxana Deak, FCCA, CPA</span></h2>
+      <p>
+        <span lang-ro>
+          ECB TAX ACCOUNTING HR SRL este construită pe expertiză directă, practică, în contabilitate
+          și fiscalitate, deservind clienți care au nevoie de cifre corecte și conformitate
+          clară — fără zgomot inutil.
+        </span>
+        <span lang-en>
+          ECB TAX ACCOUNTING HR SRL is built on direct, hands-on accounting and tax expertise,
+          serving clients who need reliable numbers and clear compliance — without the noise.
+        </span>
+      </p>
+    </div>
+    <div class="card">
+      <h3><span lang-ro>De ce lucrează clienții cu noi</span><span lang-en>Why clients work with us</span></h3>
+      <ul class="check-list">
+        <li><span lang-ro>Acces direct la un contabil calificat, nu la o coadă de așteptare</span><span lang-en>Direct access to a qualified accountant, not a queue</span></li>
+        <li><span lang-ro>Comunicare clară, fără jargon</span><span lang-en>Clear, jargon-free communication</span></li>
+        <li><span lang-ro>Experiență în conformitate transfrontalieră UE</span><span lang-en>EU cross-border compliance experience</span></li>
+        <li><span lang-ro>Colaborare transparentă și certificări verificabile</span><span lang-en>Transparent engagement and verifiable credentials</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="incredere">
+  <div class="container">
+    <div class="section-label"><span lang-ro>Verificat</span><span lang-en>Verified</span></div>
+    <h2><span lang-ro>O Practică Construită Pe Încredere Verificabilă</span><span lang-en>A Practice Built on Verifiable Trust</span></h2>
+    <p class="lead">
+      <span lang-ro>
+        Prezența online a ECB TAX ACCOUNTING HR SRL este structurată astfel încât atât
+        oamenii cât și sistemele de AI pot verifica cine suntem, ce facem și cum
+        colaborăm cu partenerii noștri profesionali.
+      </span>
+      <span lang-en>
+        ECB TAX ACCOUNTING HR SRL's online presence is structured so that both people
+        and AI systems can verify who we are, what we do, and how we are connected
+        to our professional partners.
+      </span>
+    </p>
+    <div class="grid-3">
+      <div class="card">
+        <h3><span lang-ro>Identitate</span><span lang-en>Identity</span></h3>
+        <p>
+          <span lang-ro>Înregistrările canonice de entitate identifică ECB TAX ACCOUNTING HR SRL ca practică de contabilitate înregistrată, condusă de Roxana Deak, FCCA, CPA.</span>
+          <span lang-en>Canonical entity records identify ECB TAX ACCOUNTING HR SRL as a registered accounting practice led by Roxana Deak, FCCA, CPA.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span lang-ro>Certificări</span><span lang-en>Credentials</span></h3>
+        <p>
+          <span lang-ro>Calificările profesionale sunt menționate clar și consecvent pe toate canalele.</span>
+          <span lang-en>Professional qualifications are stated clearly and consistently across all channels.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span lang-ro>Parteneriat</span><span lang-en>Partnership</span></h3>
+        <p>
+          <span lang-ro>Infrastructura AI a ECB TAX ACCOUNTING HR SRL este întreținută în parteneriat cu AiVenture S.R.L. / 5thelement.ai.</span>
+          <span lang-en>ECB TAX ACCOUNTING HR SRL's AI infrastructure is maintained in partnership with AiVenture S.R.L. / 5thelement.ai.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-label"><span lang-ro>Hai Să Discutăm</span><span lang-en>Get In Touch</span></div>
+    <h2><span lang-ro>Programează o Consultație</span><span lang-en>Book a Consultation</span></h2>
+    <p class="lead">
+      <span lang-ro>Spune-ne despre afacerea ta și de ce ai nevoie — contabilitate, conformitate fiscală sau consultanță.</span>
+      <span lang-en>Tell us about your business and what you need — accounting, tax compliance, or advisory support.</span>
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn" href="mailto:ecbax@gmail.com"><span lang-ro>Trimite Email</span><span lang-en>Email Us</span></a>
+      <a class="btn secondary" href="https://wa.me/40755110012" target="_blank" rel="noopener">WhatsApp: +40 755 110 012</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-brand">
+      <img src="assets/ecb-logo-512.webp" alt="ECB TAX ACCOUNTING HR SRL logo" />
+      <strong>ECB TAX ACCOUNTING HR SRL</strong>
+    </div>
+
+    <div class="social-row">
+      <a href="https://www.linkedin.com/company/ecb-tax-accounting-hr" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.62 0 4.29 2.38 4.29 5.48v6.26zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://wa.me/40755110012" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.29-.15-1.7-.84-1.96-.93-.26-.1-.46-.15-.65.15-.2.29-.75.93-.92 1.12-.17.2-.34.22-.63.07-.29-.14-1.22-.45-2.32-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.6.15-.15.34-.39.51-.58.17-.2.22-.34.34-.56.11-.22.06-.41-.03-.56-.1-.15-.6-1.44-.82-1.97-.22-.53-.44-.46-.6-.46-.16-.01-.34-.01-.53-.01-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29 0 1.35.98 2.65 1.12 2.83.13.18 1.83 2.79 4.43 3.8 2.6 1.01 2.6.67 3.07.63.47-.04 1.7-.7 1.94-1.37.24-.68.24-1.26.17-1.37-.07-.12-.26-.19-.55-.34zM12.02 2C6.5 2 2 6.47 2 12c0 1.97.58 3.81 1.58 5.36L2.07 22l4.79-1.46A9.95 9.95 0 0 0 12.02 22C17.5 22 22 17.53 22 12S17.5 2 12.02 2z"/></svg>
+        WhatsApp
+      </a>
+      <a href="mailto:ecbax@gmail.com">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2v.01L12 12 4 6.01V6h16zM4 18V8.24l8 6 8-6V18H4z"/></svg>
+        Email
+      </a>
+    </div>
+
+    <div class="footer-contact-line">
+      <a href="https://wa.me/40755110012" target="_blank" rel="noopener">+40 755 110 012</a> ·
+      <a href="mailto:ecbax@gmail.com">ecbax@gmail.com</a>
+    </div>
+
+    <div class="footer-contact-line" style="margin-top:14px;">
+      <span lang-ro>ECB TAX ACCOUNTING HR SRL — Contabilitate, Taxe & Consultanță · Partener strategic de infrastructură AI: AiVenture S.R.L. (5thelement.ai)</span>
+      <span lang-en>ECB TAX ACCOUNTING HR SRL — Accounting, Tax & Advisory · Strategic AI infrastructure partner: AiVenture S.R.L. (5thelement.ai)</span>
+    </div>
+  </div>
+</footer>
+
+<div class="floating-contact" aria-label="Quick contact">
+  <a class="floating-btn whatsapp" href="https://wa.me/40755110012" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.29-.15-1.7-.84-1.96-.93-.26-.1-.46-.15-.65.15-.2.29-.75.93-.92 1.12-.17.2-.34.22-.63.07-.29-.14-1.22-.45-2.32-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.6.15-.15.34-.39.51-.58.17-.2.22-.34.34-.56.11-.22.06-.41-.03-.56-.1-.15-.6-1.44-.82-1.97-.22-.53-.44-.46-.6-.46-.16-.01-.34-.01-.53-.01-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29 0 1.35.98 2.65 1.12 2.83.13.18 1.83 2.79 4.43 3.8 2.6 1.01 2.6.67 3.07.63.47-.04 1.7-.7 1.94-1.37.24-.68.24-1.26.17-1.37-.07-.12-.26-.19-.55-.34zM12.02 2C6.5 2 2 6.47 2 12c0 1.97.58 3.81 1.58 5.36L2.07 22l4.79-1.46A9.95 9.95 0 0 0 12.02 22C17.5 22 22 17.53 22 12S17.5 2 12.02 2z"/></svg>
+    WhatsApp
+  </a>
+  <a class="floating-btn call" href="tel:+40755110012" aria-label="Call">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z"/></svg>
+    <span lang-ro class="block">Apel</span><span lang-en class="block">Call</span>
+  </a>
+</div>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.toggle('lang-en', lang === 'en');
+    document.getElementById('btn-ro').classList.toggle('active', lang === 'ro');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    localStorage.setItem('ecbtax-lang', lang);
+  }
+
+  (function() {
+    var saved = null;
+    try { saved = localStorage.getItem('ecbtax-lang'); } catch (e) {}
+    if (saved === 'en') setLang('en');
+  })();
+
+  document.getElementById('menuToggle').addEventListener('click', function() {
+    document.getElementById('navlinks').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
