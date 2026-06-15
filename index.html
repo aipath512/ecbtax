@@ -168,14 +168,15 @@
       margin:0 auto;
     }
 
-    h1,h2,h3{margin:0;color:var(--text);letter-spacing:-.02em;font-family:'Playfair Display',Georgia,serif}
+    h1,h2,h3{margin:0;color:var(--text);letter-spacing:-.03em;font-family:'Playfair Display',Georgia,serif;font-weight:900}
     h1{
-      font-size:clamp(40px,6.6vw,76px);
-      line-height:1.06;
-      margin-bottom:24px;
+      font-size:clamp(46px,8vw,96px);
+      line-height:1.02;
+      margin-bottom:20px;
+      font-weight:900;
     }
     h1 em{color:var(--gold);font-style:italic}
-    h2{font-size:clamp(30px,4.4vw,48px);line-height:1.1;margin-bottom:20px}
+    h2{font-size:clamp(30px,4.4vw,48px);line-height:1.1;margin-bottom:20px;font-weight:800}
     p{margin:0 0 18px;color:var(--muted);font-size:18px;font-family:Inter,sans-serif}
     .lead{max-width:680px;font-size:20px;color:#e6e9ee}
     .small{font-size:14px;color:var(--muted2)}
@@ -275,10 +276,25 @@
     .hero-banner{
       position:relative;
       width:100%;
-      border-radius:24px;
+      border-radius:24px 24px 0 0;
       overflow:hidden;
       border:1px solid var(--line2);
+      border-bottom:none;
       box-shadow:0 30px 90px rgba(0,0,0,.5);
+    }
+
+    .hero-banner-bar{
+      background:#ffffff;
+      color:#0a0a0a;
+      text-align:center;
+      padding:18px 24px;
+      font-weight:900;
+      font-size:clamp(16px,2.2vw,24px);
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      border-radius:0 0 24px 24px;
+      border:1px solid var(--line2);
+      border-top:none;
       margin-bottom:50px;
     }
 
@@ -311,9 +327,11 @@
 
     .hero-banner-title h1{
       color:#fff;
-      font-size:clamp(36px,6vw,72px);
+      font-size:clamp(40px,7.5vw,88px);
+      line-height:1.0;
       text-shadow:0 4px 24px rgba(0,0,0,.6);
       margin:0;
+      font-weight:900;
     }
 
     .hero-banner-title .eyebrow{
@@ -323,10 +341,13 @@
 
     .hero-banner-subtitle{
       color:#fff;
-      font-size:clamp(16px,2.4vw,24px);
-      font-weight:600;
-      text-shadow:0 2px 16px rgba(0,0,0,.65);
-      max-width:760px;
+      font-family:'Playfair Display',Georgia,serif;
+      font-style:italic;
+      font-weight:800;
+      font-size:clamp(28px,5vw,58px);
+      line-height:1.1;
+      text-shadow:0 4px 24px rgba(0,0,0,.6);
+      max-width:900px;
       margin:0;
     }
 
@@ -425,6 +446,54 @@
     .location-value a{color:var(--text);text-decoration:underline;text-underline-offset:3px}
     .location-value a:hover{color:var(--gold)}
     .location-status{color:#4ee08a}
+
+    .bio-card{
+      display:flex;
+      align-items:center;
+      gap:28px;
+      margin-bottom:40px;
+      flex-wrap:wrap;
+    }
+    .bio-card img{
+      width:110px;
+      height:110px;
+      border-radius:50%;
+      border:2px solid var(--gold);
+      flex-shrink:0;
+      object-fit:cover;
+    }
+    .bio-card-name{
+      font-family:'Playfair Display',Georgia,serif;
+      font-weight:900;
+      font-size:28px;
+      color:#fff;
+      margin-bottom:6px;
+    }
+    .bio-card-creds{
+      color:var(--gold);
+      font-size:14px;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      font-weight:700;
+      margin-bottom:6px;
+    }
+    .bio-card-meta{
+      color:var(--muted);
+      font-size:15px;
+    }
+    .bio-card-affiliations{
+      display:flex;
+      gap:24px;
+      margin-top:10px;
+      flex-wrap:wrap;
+    }
+    .bio-card-affiliations span{
+      font-size:14px;
+      color:var(--muted);
+      border-left:2px solid var(--gold);
+      padding-left:10px;
+    }
+    .bio-card-affiliations strong{color:#fff}
 
     .contact-grid{
       display:grid;
@@ -700,7 +769,7 @@
   <div class="container hero-inner">
 
     <div class="hero-banner">
-      <img src="assets/hero-desk-hd.webp" alt="Roxana Deak, ECB Tax Accounting HR - birou de contabilitate" />
+      <img src="assets/hero-desk-plain-hd.webp" alt="ECB Tax Accounting HR - birou de contabilitate" />
       <div class="hero-banner-title">
         <div class="eyebrow"><span lang-ro>Contabilitate · Fiscalitate · Consultanță · HR</span><span lang-en>Accounting · Tax · Advisory · HR</span></div>
         <h1>ECB Tax Accounting HR</h1>
@@ -709,6 +778,8 @@
         </p>
       </div>
     </div>
+
+    <div class="hero-banner-bar">ECBTAX ACCOUNTING &amp; HR</div>
 
     <p class="lead">
       <span lang-ro>
@@ -746,6 +817,11 @@
   <div class="container">
     <div class="section-label"><span lang-ro>Ce Facem</span><span lang-en>What We Do</span></div>
     <h2><span lang-ro>Contabilitate și Fiscalitate, Făcute Corect</span><span lang-en>Accounting and Tax, Done Properly</span></h2>
+
+    <p class="lead" style="font-weight:700;color:#fff;">
+      <span lang-ro>Contabilitate online: <em style="color:var(--gold);font-style:italic;">servicii complete pentru SRL, PFA și ONG</em>.</span>
+      <span lang-en>Online accounting: <em style="color:var(--gold);font-style:italic;">complete services for SRL, PFA and NGOs</em>.</span>
+    </p>
 
     <p class="lead">
       <span lang-ro>
@@ -817,6 +893,21 @@
 </section>
 
 <section id="despre">
+  <div class="container">
+    <div class="bio-card">
+      <img src="assets/roxana-profile.webp" alt="Roxana Deak, FCCA, CPA, CCF" />
+      <div>
+        <div class="bio-card-name">Roxana Deak</div>
+        <div class="bio-card-creds">FCCA · CPA · CCF</div>
+        <div class="bio-card-meta">București, România</div>
+        <div class="bio-card-affiliations">
+          <span><strong>ECB TAX ACCOUNTING &amp; HR SRL</strong></span>
+          <span><span lang-ro>Universitatea din București</span><span lang-en>University of Bucharest</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container grid-2">
     <div>
       <div class="section-label"><span lang-ro>Despre Noi</span><span lang-en>About</span></div>
