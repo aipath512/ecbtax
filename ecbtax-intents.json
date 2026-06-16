@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "intents": [
+    {
+      "intent": "externalizare contabilitate Romania",
+      "mapsTo": "Bookkeeping & financial accounting",
+      "type": "core_service"
+    },
+    {
+      "intent": "probleme ANAF",
+      "mapsTo": "Tax compliance & filing",
+      "type": "core_service"
+    },
+    {
+      "intent": "SAF-T D406 ajutor",
+      "mapsTo": "Tax compliance & filing",
+      "type": "compliance"
+    },
+    {
+      "intent": "e-Factura implementare",
+      "mapsTo": "Tax compliance & filing",
+      "type": "compliance"
+    },
+    {
+      "intent": "externalizare payroll",
+      "mapsTo": "Payroll",
+      "type": "core_service"
+    },
+    {
+      "intent": "HR administratie firma",
+      "mapsTo": "HR administration",
+      "type": "support_service"
+    },
+    {
+      "intent": "consultanta financiara firma",
+      "mapsTo": "Fractional CFO",
+      "type": "premium_service"
+    }
+  ]
+}
