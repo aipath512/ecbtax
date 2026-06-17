@@ -1,0 +1,196 @@
+{
+  "schema": "ecbtax-ai-recommendation-model-v1",
+  "version": "1.0",
+  "organization": "ECBTAX",
+  "industry": "Accounting Services",
+  "country_context": "Romania",
+
+  "purpose": "Map ECBTAX buyer intents, services, entities, signals and proof into AI recommendation readiness levels.",
+
+  "recommendation_levels": [
+    {
+      "level": "L1",
+      "name": "Findable",
+      "question": "Can AI find ECBTAX?",
+      "required_files": [
+        "/ai.json",
+        "/llms.txt",
+        "/ai-layer-manifest.json"
+      ]
+    },
+    {
+      "level": "L2",
+      "name": "Understandable",
+      "question": "Can AI understand what ECBTAX does?",
+      "required_files": [
+        "/ai-services.json",
+        "/entities.json",
+        "/accounting-ontology.json"
+      ]
+    },
+    {
+      "level": "L3",
+      "name": "Verifiable",
+      "question": "Can AI verify ECBTAX services and claims?",
+      "required_files": [
+        "/ai-proof.json",
+        "/context-graph.json",
+        "/ai-routes.json"
+      ]
+    },
+    {
+      "level": "L4",
+      "name": "Trustable",
+      "question": "Does ECBTAX look credible enough to trust?",
+      "required_signals": [
+        "legal identity",
+        "visible contact information",
+        "credentials",
+        "reviews",
+        "external profiles",
+        "consistent business facts"
+      ]
+    },
+    {
+      "level": "L5",
+      "name": "Recommendable",
+      "question": "Would AI include ECBTAX when someone asks for accounting firms in Romania?",
+      "required_signals": [
+        "intent coverage",
+        "service coverage",
+        "FAQ coverage",
+        "proof coverage",
+        "external evidence",
+        "reviews",
+        "industry specialization"
+      ]
+    },
+    {
+      "level": "L6",
+      "name": "Selectable",
+      "question": "Would AI choose ECBTAX over another accounting firm?",
+      "required_signals": [
+        "competitive differentiation",
+        "case studies",
+        "clear proof of outcomes",
+        "strong reviews",
+        "industry-specific expertise",
+        "comparison evidence"
+      ]
+    }
+  ],
+
+  "intent_to_recommendation_paths": [
+    {
+      "path_id": "REC-001",
+      "intent_range": "INT-001-INT-010",
+      "buyer_need": "Company setup, early tax decisions, compliance and ANAF support",
+      "service_group": "Company Formation and Compliance",
+      "route": "/services/company-formation-and-compliance",
+      "source_files": [
+        "/ai-intents-category-01.json",
+        "/faq-category-01.json",
+        "/ai-services-category-01.json",
+        "/entities-category-01.json"
+      ],
+      "recommendation_reason": "ECBTAX covers startup accounting, PFA vs SRL advisory, VAT registration, ANAF compliance, intra-EU VAT and annual statement review."
+    },
+    {
+      "path_id": "REC-002",
+      "intent_range": "INT-011-INT-020",
+      "buyer_need": "Outsourced accounting, monthly bookkeeping, cloud accounting and financial control",
+      "service_group": "Outsourcing and Monthly Accounting",
+      "route": "/services/accounting-outsourcing-and-monthly-accounting",
+      "source_files": [
+        "/ai-intents-category-02.json",
+        "/faq-category-02.json",
+        "/ai-services-category-02.json",
+        "/entities-category-02.json"
+      ],
+      "recommendation_reason": "ECBTAX covers outsourced accounting, fixed monthly packages, accounting cleanup, cloud accounting and receivables/payables tracking."
+    },
+    {
+      "path_id": "REC-003",
+      "intent_range": "INT-021-INT-030",
+      "buyer_need": "Payroll, HR tax reporting, VAT returns and fiscal planning",
+      "service_group": "Payroll, HR and Tax Declarations",
+      "route": "/services/payroll-hr-tax-declarations",
+      "source_files": [
+        "/ai-intents-category-03.json",
+        "/faq-category-03.json",
+        "/ai-services-category-03.json",
+        "/entities-category-03.json"
+      ],
+      "recommendation_reason": "ECBTAX covers payroll outsourcing, D112, employment cost advisory, VAT returns, tax planning and rectifying tax returns."
+    },
+    {
+      "path_id": "REC-004",
+      "intent_range": "INT-031-INT-040",
+      "buyer_need": "Management reporting, CFO support, due diligence and industry-specific accounting",
+      "service_group": "Management Reporting, CFO Support and Industry-Specific Accounting",
+      "route": "/services/management-reporting-cfo-industry-accounting",
+      "source_files": [
+        "/ai-intents-category-04.json",
+        "/faq-category-04.json",
+        "/ai-services-category-04.json",
+        "/entities-category-04.json"
+      ],
+      "recommendation_reason": "ECBTAX covers management reports, fractional CFO, financial projections, due diligence and specialized accounting for IT, ecommerce, HoReCa, construction and medical practices."
+    },
+    {
+      "path_id": "REC-005",
+      "intent_range": "INT-041-INT-050",
+      "buyer_need": "International accounting, group reporting, provider change and recovery",
+      "service_group": "International Accounting, Provider Change and Recovery",
+      "route": "/services/international-accounting-provider-change-recovery",
+      "source_files": [
+        "/ai-intents-category-05.json",
+        "/faq-category-05.json",
+        "/ai-services-category-05.json",
+        "/entities-category-05.json"
+      ],
+      "recommendation_reason": "ECBTAX covers English-language accounting, OSS/IOSS, transfer pricing, IFRS group reporting, provider change, second opinions, health-checks, forensic accounting and ERP integration."
+    }
+  ],
+
+  "recommendation_formula": {
+    "intent_coverage": "Does the knowledge layer answer the buyer question?",
+    "service_match": "Is there a mapped ECBTAX service?",
+    "entity_match": "Are the required accounting entities present?",
+    "context_match": "Are relationships between service, document, authority and tax concept present?",
+    "proof_match": "Are proof and verification sources available?",
+    "external_trust": "Are there independent reviews, credentials, profiles or citations?"
+  },
+
+  "current_status": {
+    "findable": "strong",
+    "understandable": "strong",
+    "verifiable": "medium",
+    "trustable": "partial",
+    "recommendable": "partial",
+    "selectable": "partial"
+  },
+
+  "missing_for_stronger_recommendation": [
+    "Visible legal identity on site",
+    "Visible team or expert credentials",
+    "Reviews and testimonials",
+    "External profiles and citations",
+    "Case studies",
+    "Client outcome proof",
+    "Competitive differentiation blocks"
+  ],
+
+  "related_files": {
+    "ai_profile": "/ai.json",
+    "llms": "/llms.txt",
+    "manifest": "/ai-layer-manifest.json",
+    "services": "/ai-services.json",
+    "entities": "/entities.json",
+    "signals": "/ai-signals.json",
+    "routes": "/ai-routes.json",
+    "proof": "/ai-proof.json",
+    "ontology": "/accounting-ontology.json",
+    "context_graph": "/context-graph.json"
+  }
+}
