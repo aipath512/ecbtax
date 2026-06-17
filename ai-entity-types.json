@@ -1,0 +1,98 @@
+{
+  "schema": "ecbtax-ai-entity-types-v1",
+  "version": "1.0",
+  "industry": "Accounting Services",
+
+  "entity_types": [
+
+    {
+      "type_id": "ET-001",
+      "name": "Organization",
+      "description": "Accounting firm or business entity"
+    },
+
+    {
+      "type_id": "ET-002",
+      "name": "Service",
+      "description": "Commercial service offered by the accounting firm"
+    },
+
+    {
+      "type_id": "ET-003",
+      "name": "BuyerIntent",
+      "description": "Question or business need expressed by a potential client"
+    },
+
+    {
+      "type_id": "ET-004",
+      "name": "Authority",
+      "description": "Government authority or regulator"
+    },
+
+    {
+      "type_id": "ET-005",
+      "name": "TaxConcept",
+      "description": "Tax-related concept"
+    },
+
+    {
+      "type_id": "ET-006",
+      "name": "AccountingConcept",
+      "description": "Accounting concept or standard"
+    },
+
+    {
+      "type_id": "ET-007",
+      "name": "Document",
+      "description": "Declaration, filing or accounting document"
+    },
+
+    {
+      "type_id": "ET-008",
+      "name": "BusinessType",
+      "description": "Type of company or entrepreneur"
+    },
+
+    {
+      "type_id": "ET-009",
+      "name": "Industry",
+      "description": "Industry specialization"
+    },
+
+    {
+      "type_id": "ET-010",
+      "name": "Software",
+      "description": "ERP, accounting software or digital platform"
+    },
+
+    {
+      "type_id": "ET-011",
+      "name": "FinancialConcept",
+      "description": "Financial reporting or management concept"
+    },
+
+    {
+      "type_id": "ET-012",
+      "name": "Credential",
+      "description": "Professional membership, certification or qualification"
+    }
+  ],
+
+  "relationship_types": [
+
+    "provides",
+    "requires",
+    "uses",
+    "governed_by",
+    "submitted_to",
+    "serves",
+    "specializes_in",
+    "related_to",
+    "reports_under",
+    "integrates_with",
+    "answers",
+    "solves",
+    "verifies",
+    "supports"
+  ]
+}
