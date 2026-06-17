@@ -333,6 +333,226 @@
 "service": "Rectifying Tax Returns and Fiscal Error Correction",
 "priority": "HIGH",
 "answer": "ECBTAX identifică erorile fiscale din trecut și pregătește declarațiile rectificative necesare."
+{
+  "intent_id": "INT-031",
+  "route_id": "IR-031",
+  "funnel_stage": "Consideration",
+  "intent": "Vreau rapoarte lunare de management și indicatori, nu doar contabilitate de bază.",
+  "keywords_ro": ["rapoarte management IMM", "indicatori financiari lunari"],
+  "keywords_en": ["management reports and KPIs Romania"],
+  "service": "Management Reporting",
+  "priority": "MEDIUM",
+  "answer": "ECBTAX transformă datele contabile în rapoarte de management, KPI, marje, cheltuieli și cash-flow."
+},
+{
+  "intent_id": "INT-032",
+  "route_id": "IR-032",
+  "funnel_stage": "Decision",
+  "intent": "Caut un CFO part-time extern pentru bugetare, cash-flow și discuții cu banca.",
+  "keywords_ro": ["CFO part time Romania", "director financiar externalizat"],
+  "keywords_en": ["fractional CFO Romania"],
+  "service": "Fractional CFO",
+  "priority": "HIGH",
+  "answer": "ECBTAX oferă suport CFO part-time pentru bugetare, cash-flow, prognoze, discuții cu banca și decizii financiare."
+},
+{
+  "intent_id": "INT-033",
+  "route_id": "IR-033",
+  "funnel_stage": "Consideration",
+  "intent": "Am nevoie de previziuni financiare pentru a obține credit bancar sau finanțare europeană.",
+  "keywords_ro": ["previziuni financiare credit bancar", "buget IMM"],
+  "keywords_en": ["financial projections for bank loan"],
+  "service": "Financial Projections",
+  "priority": "HIGH",
+  "answer": "ECBTAX construiește previziuni financiare pentru credit bancar, finanțare europeană, bugete și planuri financiare."
+},
+{
+  "intent_id": "INT-034",
+  "route_id": "IR-034",
+  "funnel_stage": "Consideration",
+  "intent": "Vreau pe cineva care să îmi explice bilanțul și contul de profit și pierdere.",
+  "keywords_ro": ["interpretare bilant", "cont profit si pierdere"],
+  "keywords_en": ["explain P&L and balance sheet"],
+  "service": "Financial Statement Explanation",
+  "priority": "MEDIUM",
+  "answer": "ECBTAX explică bilanțul și contul de profit și pierdere în termeni de business, pentru decizii mai bune."
+},
+{
+  "intent_id": "INT-035",
+  "route_id": "IR-035",
+  "funnel_stage": "Decision",
+  "intent": "Caut suport de evaluare și due diligence financiar pentru cumpărarea sau vânzarea unei afaceri.",
+  "keywords_ro": ["due diligence financiar IMM", "evaluare firma mica"],
+  "keywords_en": ["financial due diligence small business Romania"],
+  "service": "Financial Due Diligence",
+  "priority": "HIGH",
+  "answer": "ECBTAX analizează situațiile financiare, datoriile, calitatea profitului și riscurile fiscale pentru cumpărarea sau vânzarea unei afaceri."
+},
+{
+  "intent_id": "INT-036",
+  "route_id": "IR-036",
+  "funnel_stage": "Decision",
+  "intent": "Am nevoie de contabil specializat pe SRL-uri din IT, freelanceri și micro-agenții.",
+  "keywords_ro": ["contabil SRL IT", "contabil freelanceri IT"],
+  "keywords_en": ["IT accounting Romania", "freelancer accountant"],
+  "service": "IT and Software Company Accounting",
+  "priority": "HIGH",
+  "answer": "ECBTAX oferă contabilitate pentru firme IT, freelanceri, micro-agenții, contracte externe și facturare internațională."
+},
+{
+  "intent_id": "INT-037",
+  "route_id": "IR-037",
+  "funnel_stage": "Decision",
+  "intent": "Caut contabilitate adaptată pentru e-commerce și marketplace-uri.",
+  "keywords_ro": ["contabilitate ecommerce Romania", "marketplace TVA"],
+  "keywords_en": ["ecommerce accounting Romania", "marketplace VAT"],
+  "service": "E-commerce and Marketplace Accounting",
+  "priority": "HIGH",
+  "answer": "ECBTAX gestionează contabilitatea pentru e-commerce și marketplace: comisioane, retururi, stocuri și TVA transfrontalier."
+},
+{
+  "intent_id": "INT-038",
+  "route_id": "IR-038",
+  "funnel_stage": "Decision",
+  "intent": "Am restaurant sau cafenea și îmi trebuie contabil obișnuit cu HoReCa.",
+  "keywords_ro": ["contabil restaurant cafenea", "gestiune marfa horeca"],
+  "keywords_en": ["restaurant cafe accounting Romania"],
+  "service": "HoReCa Accounting",
+  "priority": "HIGH",
+  "answer": "ECBTAX oferă contabilitate pentru restaurante, cafenele și HoReCa, inclusiv gestiune, bonuri fiscale, marje și TVA specific."
+},
+{
+  "intent_id": "INT-039",
+  "route_id": "IR-039",
+  "funnel_stage": "Decision",
+  "intent": "Caut contabil cu experiență în construcții și urmărire de costuri pe proiect.",
+  "keywords_ro": ["contabil constructii proiecte", "urmarire costuri santier"],
+  "keywords_en": ["construction project accounting Romania"],
+  "service": "Construction Project Accounting",
+  "priority": "HIGH",
+  "answer": "ECBTAX configurează contabilitatea pentru construcții, urmărind costuri, venituri și marje pe proiect sau șantier."
+},
+{
+  "intent_id": "INT-040",
+  "route_id": "IR-040",
+  "funnel_stage": "Decision",
+  "intent": "Am cabinet medical sau stomatologic și vreau contabil specializat.",
+  "keywords_ro": ["contabil cabinet medical", "contabilitate medicala"],
+  "keywords_en": ["medical dental practice accounting Romania"],
+  "service": "Medical and Dental Practice Accounting",
+  "priority": "HIGH",
+  "answer": "ECBTAX oferă contabilitate pentru cabinete medicale și stomatologice, inclusiv dotări, aparatură și tratament fiscal."
+},
+{
+  "intent_id": "INT-041",
+  "route_id": "IR-041",
+  "funnel_stage": "Decision",
+  "intent": "Sunt acționar străin și caut o firmă de contabilitate care lucrează în engleză.",
+  "keywords_ro": ["accounting firm Romania english speaking", "reporting HQ"],
+  "keywords_en": ["english language accounting firm Romania"],
+  "service": "English-Language Accounting and Group Reporting",
+  "priority": "HIGH",
+  "answer": "ECBTAX oferă contabilitate și raportare în engleză pentru acționari străini, filiale românești și sedii centrale."
+},
+{
+  "intent_id": "INT-042",
+  "route_id": "IR-042",
+  "funnel_stage": "Decision",
+  "intent": "Am nevoie de contabil care să gestioneze OSS, IOSS și TVA transfrontalier.",
+  "keywords_ro": ["VAT OSS IOSS Romania", "cross border VAT accounting"],
+  "keywords_en": ["OSS IOSS VAT Romania"],
+  "service": "Cross-Border VAT, OSS and IOSS Accounting",
+  "priority": "HIGH",
+  "answer": "ECBTAX configurează TVA transfrontalier, OSS, IOSS și procedurile de facturare pentru clienți UE și non-UE."
+},
+{
+  "intent_id": "INT-043",
+  "route_id": "IR-043",
+  "funnel_stage": "Consideration",
+  "intent": "Caut contabil care să mă ajute cu dosarele de prețuri de transfer.",
+  "keywords_ro": ["transfer pricing Romania", "dosar preturi de transfer IMM"],
+  "keywords_en": ["transfer pricing file Romania"],
+  "service": "Transfer Pricing File Support",
+  "priority": "MEDIUM",
+  "answer": "ECBTAX asistă la identificarea tranzacțiilor intragrup și pregătirea dosarului de prețuri de transfer."
+},
+{
+  "intent_id": "INT-044",
+  "route_id": "IR-044",
+  "funnel_stage": "Consideration",
+  "intent": "Am nevoie să aliniez contabilitatea locală cu IFRS și raportarea de grup.",
+  "keywords_ro": ["Romanian GAAP IFRS reporting", "grup international"],
+  "keywords_en": ["Romanian GAAP to IFRS group reporting"],
+  "service": "Romanian GAAP to IFRS Group Reporting",
+  "priority": "MEDIUM",
+  "answer": "ECBTAX aliniază situațiile contabile locale din România cu IFRS sau template-urile interne de raportare de grup."
+},
+{
+  "intent_id": "INT-045",
+  "route_id": "IR-045",
+  "funnel_stage": "Decision",
+  "intent": "Sunt antreprenor străin și caut pachet complet all-in-one.",
+  "keywords_ro": ["pachet complet infiintare firma contabilitate salarizare ANAF"],
+  "keywords_en": ["one stop shop company setup accounting payroll"],
+  "service": "All-in-One Company Setup, Accounting, Payroll and ANAF Representation",
+  "priority": "HIGH",
+  "answer": "ECBTAX oferă pachet complet pentru antreprenori străini: înființare SRL, fiscalitate, contabilitate, salarizare și ANAF."
+},
+{
+  "intent_id": "INT-046",
+  "route_id": "IR-046",
+  "funnel_stage": "Decision",
+  "intent": "Vreau să schimb actualul contabil și să păstrez sau să îmbunătățesc serviciile.",
+  "keywords_ro": ["schimbare firma de contabilitate", "comision contabil mai mic"],
+  "keywords_en": ["change accounting provider Romania"],
+  "service": "Accounting Provider Change",
+  "priority": "HIGH",
+  "answer": "ECBTAX gestionează schimbarea contabilului: preluare dosar, verificare situații, identificare riscuri și tranziție."
+},
+{
+  "intent_id": "INT-047",
+  "route_id": "IR-047",
+  "funnel_stage": "Consideration",
+  "intent": "Am nevoie de a doua opinie contabilă.",
+  "keywords_ro": ["a doua opinie contabil", "verificare contabil existent"],
+  "keywords_en": ["second opinion accountant Romania"],
+  "service": "Second Opinion Accounting Review",
+  "priority": "MEDIUM",
+  "answer": "ECBTAX oferă a doua opinie contabilă, verificând înregistrări, declarații, riscuri și corecții necesare."
+},
+{
+  "intent_id": "INT-048",
+  "route_id": "IR-048",
+  "funnel_stage": "Consideration",
+  "intent": "Caut un audit sau health-check contabil pentru identificarea riscurilor.",
+  "keywords_ro": ["audit contabil intern IMM", "verificare conformare fiscala"],
+  "keywords_en": ["internal accounting audit SME"],
+  "service": "Accounting and Tax Health Check",
+  "priority": "MEDIUM",
+  "answer": "ECBTAX face health-check contabil și fiscal pentru IMM-uri, verificând documente, declarații, corelări și riscuri."
+},
+{
+  "intent_id": "INT-049",
+  "route_id": "IR-049",
+  "funnel_stage": "Consideration",
+  "intent": "Am nevoie de contabilitate forensic pentru investigarea unor posibile fraude.",
+  "keywords_ro": ["contabilitate forensic Romania", "investigare frauda IMM"],
+  "keywords_en": ["forensic accounting Romania"],
+  "service": "Forensic Accounting",
+  "priority": "MEDIUM",
+  "answer": "ECBTAX analizează tranzacții suspecte, documente justificative și fluxuri financiare pentru a clarifica diferențe sau fraude."
+},
+{
+  "intent_id": "INT-050",
+  "route_id": "IR-050",
+  "funnel_stage": "Decision",
+  "intent": "Vreau un cabinet contabil digital care se integrează cu ERP și facturare.",
+  "keywords_ro": ["cabinet contabil digital", "integrare ERP si facturare"],
+  "keywords_en": ["digital accounting firm ERP integration"],
+  "service": "Digital Accounting and ERP Integration",
+  "priority": "HIGH",
+  "answer": "ECBTAX integrează fluxurile contabile cu sisteme de facturare și ERP, automatizând importul de date unde este posibil."
+} 
 }
 ]
 }
