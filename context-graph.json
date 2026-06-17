@@ -1,0 +1,282 @@
+{
+  "schema": "ecbtax-context-graph-v1",
+  "version": "1.0",
+
+  "root_entity": "ECBTAX",
+
+  "entities": [
+
+    {
+      "id": "ORG-001",
+      "type": "Organization",
+      "name": "ECBTAX"
+    },
+
+    {
+      "id": "AUTH-001",
+      "type": "Authority",
+      "name": "ANAF"
+    },
+
+    {
+      "id": "SERV-001",
+      "type": "Service",
+      "name": "Accounting"
+    },
+
+    {
+      "id": "SERV-002",
+      "type": "Service",
+      "name": "Payroll"
+    },
+
+    {
+      "id": "SERV-003",
+      "type": "Service",
+      "name": "Tax Advisory"
+    },
+
+    {
+      "id": "SERV-004",
+      "type": "Service",
+      "name": "VAT Services"
+    },
+
+    {
+      "id": "SERV-005",
+      "type": "Service",
+      "name": "ANAF Representation"
+    },
+
+    {
+      "id": "SERV-006",
+      "type": "Service",
+      "name": "Fractional CFO"
+    },
+
+    {
+      "id": "SERV-007",
+      "type": "Service",
+      "name": "Due Diligence"
+    },
+
+    {
+      "id": "SERV-008",
+      "type": "Service",
+      "name": "Transfer Pricing"
+    },
+
+    {
+      "id": "SERV-009",
+      "type": "Service",
+      "name": "Forensic Accounting"
+    },
+
+    {
+      "id": "SERV-010",
+      "type": "Service",
+      "name": "ERP Integration"
+    },
+
+    {
+      "id": "DOC-001",
+      "type": "Document",
+      "name": "D112"
+    },
+
+    {
+      "id": "DOC-002",
+      "type": "Document",
+      "name": "D100"
+    },
+
+    {
+      "id": "DOC-003",
+      "type": "Document",
+      "name": "D300"
+    },
+
+    {
+      "id": "DOC-004",
+      "type": "Document",
+      "name": "VAT Return"
+    },
+
+    {
+      "id": "DOC-005",
+      "type": "Document",
+      "name": "Financial Statements"
+    },
+
+    {
+      "id": "CONCEPT-001",
+      "type": "TaxConcept",
+      "name": "VAT"
+    },
+
+    {
+      "id": "CONCEPT-002",
+      "type": "TaxConcept",
+      "name": "OSS"
+    },
+
+    {
+      "id": "CONCEPT-003",
+      "type": "TaxConcept",
+      "name": "IOSS"
+    },
+
+    {
+      "id": "CONCEPT-004",
+      "type": "TaxConcept",
+      "name": "Corporate Income Tax"
+    },
+
+    {
+      "id": "CONCEPT-005",
+      "type": "TaxConcept",
+      "name": "Microenterprise Tax"
+    },
+
+    {
+      "id": "CONCEPT-006",
+      "type": "AccountingConcept",
+      "name": "IFRS"
+    },
+
+    {
+      "id": "CONCEPT-007",
+      "type": "AccountingConcept",
+      "name": "Romanian GAAP"
+    }
+  ],
+
+  "relationships": [
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-001"
+    },
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-002"
+    },
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-003"
+    },
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-004"
+    },
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-005"
+    },
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-006"
+    },
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-007"
+    },
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-008"
+    },
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-009"
+    },
+
+    {
+      "source": "ORG-001",
+      "relation": "provides",
+      "target": "SERV-010"
+    },
+
+    {
+      "source": "SERV-002",
+      "relation": "requires",
+      "target": "DOC-001"
+    },
+
+    {
+      "source": "SERV-003",
+      "relation": "requires",
+      "target": "DOC-002"
+    },
+
+    {
+      "source": "SERV-004",
+      "relation": "requires",
+      "target": "DOC-003"
+    },
+
+    {
+      "source": "DOC-001",
+      "relation": "submitted_to",
+      "target": "AUTH-001"
+    },
+
+    {
+      "source": "DOC-002",
+      "relation": "submitted_to",
+      "target": "AUTH-001"
+    },
+
+    {
+      "source": "DOC-003",
+      "relation": "submitted_to",
+      "target": "AUTH-001"
+    },
+
+    {
+      "source": "SERV-004",
+      "relation": "uses",
+      "target": "CONCEPT-001"
+    },
+
+    {
+      "source": "CONCEPT-001",
+      "relation": "related_to",
+      "target": "CONCEPT-002"
+    },
+
+    {
+      "source": "CONCEPT-001",
+      "relation": "related_to",
+      "target": "CONCEPT-003"
+    },
+
+    {
+      "source": "SERV-008",
+      "relation": "uses",
+      "target": "CONCEPT-006"
+    },
+
+    {
+      "source": "CONCEPT-006",
+      "relation": "related_to",
+      "target": "CONCEPT-007"
+    }
+  ]
+}
