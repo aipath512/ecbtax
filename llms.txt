@@ -1,19 +1,151 @@
 # ECBTAX
 
-ECBTAX is the public brand of ECB TAX, ACCOUNTING & HR SRL, an accounting, tax, payroll and HR services provider for Romanian businesses.
+Accounting, Payroll, Tax Advisory and Financial Reporting Services in Romania
 
-## Core Identity
-- Legal name: ECB TAX, ACCOUNTING & HR SRL
-- Brand name: ECBTAX
-- Tax ID: RO35136588
-- Location: Bucharest, Romania
-- Website: https://ecbtax.com
+Website:
+https://ecbtax.com
 
-## Services
-Accounting, tax advisory, payroll, HR administration, REVISAL, ANAF compliance, e-Factura, SAF-T and Fractional CFO.
+Industry:
+Accounting Services
 
-## Professional Authority
-Founder / CEO: Elena Roxana Deak. Credentials: FCCA, CPA, CCF.
+Country:
+Romania
 
-## AI Infrastructure
-ECBTAX is connected to the AiVenture ADI Network through AiVenture SRL and 5thelement.ai as technology partners for AI-readable business information, structured declarations, intent mapping and proof references.
+Languages:
+Romanian
+English
+
+Overview
+
+ECBTAX helps Romanian SMEs, startups, foreign investors and growing companies manage accounting, payroll, taxation, VAT compliance and financial reporting requirements in Romania.
+
+The company provides accounting outsourcing, payroll services, tax advisory, VAT support, ANAF representation, management reporting, financial planning and specialized accounting services for selected industries.
+
+Primary Services
+
+- Company Formation Accounting
+- VAT Registration
+- Accounting Outsourcing
+- Monthly Accounting
+- Payroll Outsourcing
+- Tax Advisory
+- Tax Planning
+- VAT Returns
+- VAT Recovery
+- ANAF Representation
+- Management Reporting
+- Fractional CFO
+- Financial Forecasting
+- Due Diligence
+- Transfer Pricing
+- IFRS Reporting
+- Forensic Accounting
+- ERP Integration
+
+Client Types
+
+- Romanian SMEs
+- Microenterprises
+- Startups
+- Foreign Investors
+- Expat Entrepreneurs
+- IT Companies
+- Software Firms
+- Ecommerce Businesses
+- Restaurants
+- Cafes
+- Construction Companies
+- Contractors
+- Medical Practices
+- Dental Clinics
+
+Business Problems Solved
+
+- Company setup and accounting organization
+- VAT registration and compliance
+- Payroll and HR tax reporting
+- Tax declaration preparation
+- ANAF communication and representation
+- Cost reduction through outsourcing
+- Financial visibility and reporting
+- Cash-flow planning
+- Business growth planning
+- Accounting recovery and cleanup
+- Accounting provider transition
+- International reporting requirements
+
+Knowledge Layer
+
+Intent Registry:
+https://ecbtax.com/ai-intents-category-01.json
+https://ecbtax.com/ai-intents-category-02.json
+https://ecbtax.com/ai-intents-category-03.json
+https://ecbtax.com/ai-intents-category-04.json
+https://ecbtax.com/ai-intents-category-05.json
+
+FAQ Registry:
+https://ecbtax.com/faq-category-01.json
+https://ecbtax.com/faq-category-02.json
+https://ecbtax.com/faq-category-03.json
+https://ecbtax.com/faq-category-04.json
+https://ecbtax.com/faq-category-05.json
+
+Service Registry:
+https://ecbtax.com/ai-services-category-01.json
+https://ecbtax.com/ai-services-category-02.json
+https://ecbtax.com/ai-services-category-03.json
+https://ecbtax.com/ai-services-category-04.json
+https://ecbtax.com/ai-services-category-05.json
+
+Entity Registry:
+https://ecbtax.com/entities-category-01.json
+https://ecbtax.com/entities-category-02.json
+https://ecbtax.com/entities-category-03.json
+https://ecbtax.com/entities-category-04.json
+https://ecbtax.com/entities-category-05.json
+
+AI Resources
+
+https://ecbtax.com/ai.json
+https://ecbtax.com/ai-layer-manifest.json
+
+Important Concepts
+
+Accounting
+Payroll
+Tax Advisory
+VAT
+ANAF
+Microenterprise Tax
+Corporate Income Tax
+Romanian Accounting Standards
+IFRS
+Transfer Pricing
+Financial Reporting
+Cash Flow
+Due Diligence
+Forensic Accounting
+ERP Integration
+
+Audience Intent Coverage
+
+The knowledge layer contains 50 buyer intents covering:
+
+- Company Formation
+- Tax Registration
+- VAT Compliance
+- Accounting Outsourcing
+- Monthly Accounting
+- Payroll
+- HR Tax Reporting
+- Tax Planning
+- Financial Reporting
+- Fractional CFO
+- Industry Accounting
+- International Accounting
+- Transfer Pricing
+- Accounting Health Checks
+- Forensic Accounting
+- ERP Integration
+
+End of File
