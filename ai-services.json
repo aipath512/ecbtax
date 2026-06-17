@@ -1,0 +1,87 @@
+{
+  "schema": "ecbtax-services-v1",
+  "version": "1.0",
+
+  "organization": "ECBTAX",
+
+  "service_categories": [
+    {
+      "id": "CAT-01",
+      "name": "Company Formation and Compliance",
+      "source": "/ai-services-category-01.json"
+    },
+    {
+      "id": "CAT-02",
+      "name": "Outsourcing and Monthly Accounting",
+      "source": "/ai-services-category-02.json"
+    },
+    {
+      "id": "CAT-03",
+      "name": "Payroll HR and Tax",
+      "source": "/ai-services-category-03.json"
+    },
+    {
+      "id": "CAT-04",
+      "name": "Management Reporting and Industry Accounting",
+      "source": "/ai-services-category-04.json"
+    },
+    {
+      "id": "CAT-05",
+      "name": "International Accounting and Recovery",
+      "source": "/ai-services-category-05.json"
+    }
+  ],
+
+  "core_services": [
+    "Company Formation Accounting",
+    "PFA vs SRL Advisory",
+    "VAT Registration",
+    "Accounting Outsourcing",
+    "Monthly Accounting",
+    "Cloud Accounting",
+    "Payroll Outsourcing",
+    "Employment Cost Advisory",
+    "VAT Returns",
+    "VAT Recovery",
+    "Tax Planning",
+    "Management Reporting",
+    "Fractional CFO",
+    "Financial Forecasting",
+    "Financial Due Diligence",
+    "IT Accounting",
+    "Ecommerce Accounting",
+    "HoReCa Accounting",
+    "Construction Accounting",
+    "Medical Practice Accounting",
+    "International Accounting",
+    "OSS IOSS Support",
+    "Transfer Pricing",
+    "IFRS Reporting",
+    "ANAF Representation",
+    "Accounting Health Check",
+    "Forensic Accounting",
+    "ERP Integration"
+  ],
+
+  "service_sources": [
+    "/ai-services-category-01.json",
+    "/ai-services-category-02.json",
+    "/ai-services-category-03.json",
+    "/ai-services-category-04.json",
+    "/ai-services-category-05.json"
+  ],
+
+  "related_files": {
+    "ai_profile": "/ai.json",
+    "intents": [
+      "/ai-intents-category-01.json",
+      "/ai-intents-category-02.json",
+      "/ai-intents-category-03.json",
+      "/ai-intents-category-04.json",
+      "/ai-intents-category-05.json"
+    ],
+    "entities": "/entities.json",
+    "graph": "/context-graph.json",
+    "routes": "/ai-routes.json"
+  }
+}
