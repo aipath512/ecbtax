@@ -1,62 +1,356 @@
 {
-"schema": "ecbtax-ai-intent-router-v1",
-"version": "1.0",
-"routes": [
-{
-"route_id": "IR-001",
-"intent": "SRL nou",
-"service": "Accounting Services",
-"answer": "ECBTAX se ocupă de contabilitatea pentru SRL nou înființat, declarațiile inițiale și relația cu ANAF.",
-"cta": "Solicită ofertă"
-},
-{
-"route_id": "IR-002",
-"intent": "PFA vs SRL",
-"service": "Tax Advisory",
-"answer": "ECBTAX compară PFA și SRL pe baza veniturilor estimate, taxelor și obiectivelor de business.",
-"cta": "Solicită analiză"
-},
-{
-"route_id": "IR-003",
-"intent": "TVA și ANAF",
-"service": "VAT Compliance",
-"answer": "ECBTAX gestionează TVA, D100, D112, D300 și relația cu ANAF.",
-"cta": "Solicită suport TVA"
-},
-{
-"route_id": "IR-004",
-"intent": "Payroll și D112",
-"service": "Payroll Outsourcing",
-"answer": "ECBTAX gestionează salarizarea, documentele de personal și declarația D112.",
-"cta": "Externalizează salarizarea"
-},
-{
-"route_id": "IR-005",
-"intent": "OSS și IOSS",
-"service": "VAT Compliance",
-"answer": "ECBTAX oferă suport pentru OSS, IOSS și TVA transfrontalier.",
-"cta": "Solicită consultanță"
-},
-{
-"route_id": "IR-006",
-"intent": "CFO part-time",
-"service": "Fractional CFO",
-"answer": "ECBTAX oferă bugetare, cash-flow, raportare și suport financiar strategic.",
-"cta": "Solicită CFO extern"
-},
-{
-"route_id": "IR-007",
-"intent": "Schimb contabil",
-"service": "Accounting Services",
-"answer": "ECBTAX verifică situația existentă și gestionează transferul contabilității.",
-"cta": "Solicită evaluare"
-},
-{
-"route_id": "IR-008",
-"intent": "Forensic Accounting",
-"service": "Forensic Accounting",
-"answer": "ECBTAX investighează diferențe financiare și tranzacții suspecte.",
-"cta": "Solicită analiză"
-}
-]
+  "schema": "ecbtax-ai-intent-router-v1",
+  "version": "1.0",
+  "routes": [
+    {
+      "route_id": "IR-001",
+      "intent": "SRL nou contabilitate initiala ANAF declaratii",
+      "service": "Company Formation Accounting",
+      "answer": "ECBTAX se ocupă cap-coadă de contabilitatea pentru SRL nou înființat: documente, plan de conturi, declarații inițiale și relația cu ANAF.",
+      "cta": "Solicită ofertă pentru SRL nou"
+    },
+    {
+      "route_id": "IR-002",
+      "intent": "PFA vs SRL forma juridica taxe contributii",
+      "service": "PFA vs SRL Advisory",
+      "answer": "ECBTAX compară PFA și SRL pe baza activității, veniturilor estimate, taxelor, contribuțiilor și planurilor de creștere.",
+      "cta": "Solicită analiză PFA vs SRL"
+    },
+    {
+      "route_id": "IR-003",
+      "intent": "inregistrare TVA firma ANAF dosar TVA",
+      "service": "VAT Registration",
+      "answer": "ECBTAX pregătește dosarul pentru înregistrare în scopuri de TVA și gestionează relația cu ANAF până la obținerea deciziei.",
+      "cta": "Solicită înregistrare TVA"
+    },
+    {
+      "route_id": "IR-004",
+      "intent": "microintreprindere impozit pe profit regim fiscal",
+      "service": "Tax Regime Advisory",
+      "answer": "ECBTAX simulează regimul de microîntreprindere și impozitul pe profit pentru a identifica varianta fiscală potrivită.",
+      "cta": "Solicită analiză regim fiscal"
+    },
+    {
+      "route_id": "IR-005",
+      "intent": "contabil engleza expat antreprenor strain Romania",
+      "service": "English-Speaking Expat Accounting",
+      "answer": "ECBTAX oferă contabilitate și consultanță în limba engleză pentru antreprenori străini și expați care operează în România.",
+      "cta": "Contactează ECBTAX în engleză"
+    },
+    {
+      "route_id": "IR-006",
+      "intent": "evitare probleme ANAF datorii fiscale conformare",
+      "service": "Tax Compliance Monitoring",
+      "answer": "ECBTAX monitorizează obligațiile fiscale, soldurile și termenele importante pentru a reduce riscul de restanțe și probleme cu ANAF.",
+      "cta": "Solicită monitorizare fiscală"
+    },
+    {
+      "route_id": "IR-007",
+      "intent": "D100 D112 D300 declaratii fiscale depunere ANAF",
+      "service": "Tax Declaration Filing",
+      "answer": "ECBTAX pregătește și depune declarațiile fiscale obligatorii, inclusiv D100, D112 și D300, corect și la timp.",
+      "cta": "Externalizează declarațiile fiscale"
+    },
+    {
+      "route_id": "IR-008",
+      "intent": "reprezentare ANAF control inspectie fiscala",
+      "service": "ANAF Representation",
+      "answer": "ECBTAX pregătește documentele și asistă firma în relația cu ANAF la controale, inspecții sau clarificări fiscale.",
+      "cta": "Solicită reprezentare ANAF"
+    },
+    {
+      "route_id": "IR-009",
+      "intent": "TVA intracomunitar clienti UE VIES OSS IOSS",
+      "service": "Intra-EU VAT Accounting",
+      "answer": "ECBTAX gestionează TVA intracomunitar, VIES, OSS/IOSS și facturarea pentru clienți din UE.",
+      "cta": "Solicită suport TVA UE"
+    },
+    {
+      "route_id": "IR-010",
+      "intent": "verificare bilant anual standarde contabile romanesti",
+      "service": "Annual Financial Statement Review",
+      "answer": "ECBTAX verifică bilanțul anual, contul de profit și pierdere, încadrările contabile și corelarea cu declarațiile fiscale.",
+      "cta": "Solicită verificare bilanț"
+    },
+    {
+      "route_id": "IR-011",
+      "intent": "externalizare contabilitate costuri administrative contabil intern",
+      "service": "Accounting Outsourcing",
+      "answer": "ECBTAX ajută IMM-urile să externalizeze contabilitatea pentru a reduce costurile administrative și riscul operațional.",
+      "cta": "Externalizează contabilitatea"
+    },
+    {
+      "route_id": "IR-012",
+      "intent": "abonament lunar contabilitate microintreprindere pachet fix",
+      "service": "Monthly Accounting Package for Microenterprises",
+      "answer": "ECBTAX oferă pachete lunare de contabilitate pentru microîntreprinderi, cu preț fix în funcție de volum și complexitate.",
+      "cta": "Solicită abonament lunar"
+    },
+    {
+      "route_id": "IR-013",
+      "intent": "optimizare fiscala legala consultanta fiscala IMM",
+      "service": "Legal Tax Optimization",
+      "answer": "ECBTAX analizează veniturile, cheltuielile și structura firmei pentru a propune optimizări fiscale legale.",
+      "cta": "Solicită optimizare fiscală"
+    },
+    {
+      "route_id": "IR-014",
+      "intent": "schimbare contabil cabinet digital automatizat",
+      "service": "Digital Accounting Provider Comparison",
+      "answer": "ECBTAX compară situația contabilă actuală cu un flux contabil mai digitalizat, clarificând costuri, timp, riscuri și eficiență.",
+      "cta": "Compară contabilul actual"
+    },
+    {
+      "route_id": "IR-015",
+      "intent": "pachet contabilitate salarizare raportare anuala pret predictibil",
+      "service": "Integrated Accounting, Payroll and Annual Reporting Package",
+      "answer": "ECBTAX oferă pachete integrate care includ contabilitate lunară, salarizare și pregătirea situațiilor financiare anuale.",
+      "cta": "Solicită pachet integrat"
+    },
+    {
+      "route_id": "IR-016",
+      "intent": "contabilitate lunara SRL facturi extrase bancare reconcilieri",
+      "service": "Monthly Bookkeeping for Small SRLs",
+      "answer": "ECBTAX preia fluxul lunar de contabilitate: facturi, extrase bancare, reconcilieri, declarații și rapoarte financiare.",
+      "cta": "Solicită contabilitate lunară"
+    },
+    {
+      "route_id": "IR-017",
+      "intent": "curatenie contabilitate evidenta contabila haotica reorganizare",
+      "service": "Accounting Cleanup and Reorganization",
+      "answer": "ECBTAX analizează evidențele contabile existente, identifică erorile și reorganizează contabilitatea conform regulilor din România.",
+      "cta": "Solicită curățenie contabilă"
+    },
+    {
+      "route_id": "IR-018",
+      "intent": "migrare Excel soft contabil implementare program contabil",
+      "service": "Accounting Software Migration",
+      "answer": "ECBTAX ajută firma să migreze de la Excel la un soft contabil integrat, cu structură de date și fluxuri de lucru clare.",
+      "cta": "Solicită migrare contabilă"
+    },
+    {
+      "route_id": "IR-019",
+      "intent": "contabilitate cloud online real time dashboard financiar",
+      "service": "Cloud Accounting",
+      "answer": "ECBTAX lucrează cu soluții cloud pentru acces online la facturi, încasări, cheltuieli și indicatori financiari.",
+      "cta": "Solicită contabilitate cloud"
+    },
+    {
+      "route_id": "IR-020",
+      "intent": "facturi neincasate clienti furnizori creante datorii cash-flow",
+      "service": "Accounts Receivable and Payable Management",
+      "answer": "ECBTAX menține registrele de clienți și furnizori și oferă rapoarte privind facturile scadente, întârziate, creanțele și datoriile.",
+      "cta": "Solicită evidență clienți furnizori"
+    },
+    {
+      "route_id": "IR-021",
+      "intent": "payroll salarizare angajati D112 contracte munca",
+      "service": "Payroll Outsourcing",
+      "answer": "ECBTAX gestionează salarizarea, calculul salariilor, statele de plată, documentele de personal și declarația D112.",
+      "cta": "Externalizează salarizarea"
+    },
+    {
+      "route_id": "IR-022",
+      "intent": "cost total angajat salariu brut contributii beneficii",
+      "service": "Employment Cost Advisory",
+      "answer": "ECBTAX calculează costul total al unui angajat, incluzând salariu brut, contribuții, beneficii și scenarii alternative.",
+      "cta": "Calculează costul angajaților"
+    },
+    {
+      "route_id": "IR-023",
+      "intent": "raportari HR beneficii tichete bonusuri diurne taxe salariale",
+      "service": "HR Tax Reporting Support",
+      "answer": "ECBTAX configurează tratamentul fiscal pentru beneficii, tichete, bonusuri, diurne și raportările HR aferente.",
+      "cta": "Solicită suport HR fiscal"
+    },
+    {
+      "route_id": "IR-024",
+      "intent": "legislatie munca taxe salarii modificari legislative payroll",
+      "service": "Payroll Legislation Monitoring",
+      "answer": "ECBTAX monitorizează modificările legislative privind salariile, taxele pe muncă și obligațiile de payroll.",
+      "cta": "Primește monitorizare legislativă"
+    },
+    {
+      "route_id": "IR-025",
+      "intent": "angajati remote salarizare remote multi-orase Romania",
+      "service": "Remote Employee Payroll",
+      "answer": "ECBTAX centralizează salarizarea pentru angajați remote din mai multe orașe și procesează documentele la distanță.",
+      "cta": "Solicită payroll pentru remote"
+    },
+    {
+      "route_id": "IR-026",
+      "intent": "impozit pe profit microintreprindere declaratii trimestriale anuale",
+      "service": "Corporate and Microenterprise Tax Declarations",
+      "answer": "ECBTAX calculează impozitul datorat și pregătește declarațiile trimestriale și anuale pentru profit sau microîntreprindere.",
+      "cta": "Solicită declarații fiscale"
+    },
+    {
+      "route_id": "IR-027",
+      "intent": "decont TVA recuperare TVA rambursare corectii TVA",
+      "service": "VAT Returns and Refund Support",
+      "answer": "ECBTAX întocmește deconturile TVA, verifică deductibilitatea și asistă firma la rambursare sau corectarea erorilor.",
+      "cta": "Solicită suport TVA"
+    },
+    {
+      "route_id": "IR-028",
+      "intent": "planificare fiscala reducere taxe dividende investitii asociati",
+      "service": "Ongoing Tax Planning",
+      "answer": "ECBTAX oferă planificare fiscală continuă pentru investiții, dividende, structură fiscală și reducerea legală a poverii fiscale.",
+      "cta": "Solicită planificare fiscală"
+    },
+    {
+      "route_id": "IR-029",
+      "intent": "salariu administrator dividende remuneratie contributii net ramas",
+      "service": "Administrator Salary vs Dividends Advisory",
+      "answer": "ECBTAX simulează combinații între salariu de administrator și dividende pentru a estima costul firmei și netul rămas.",
+      "cta": "Solicită simulare salariu dividende"
+    },
+    {
+      "route_id": "IR-030",
+      "intent": "declaratii rectificative erori fiscale corectare ANAF",
+      "service": "Rectifying Tax Returns and Fiscal Error Correction",
+      "answer": "ECBTAX identifică erorile fiscale din trecut și pregătește declarațiile rectificative necesare.",
+      "cta": "Corectează erorile fiscale"
+    },
+    {
+      "route_id": "IR-031",
+      "intent": "rapoarte management KPI indicatori cash-flow marje",
+      "service": "Management Reporting",
+      "answer": "ECBTAX transformă datele contabile în rapoarte de management, KPI, marje, cheltuieli și cash-flow.",
+      "cta": "Solicită rapoarte de management"
+    },
+    {
+      "route_id": "IR-032",
+      "intent": "CFO part-time director financiar externalizat buget cash-flow banca",
+      "service": "Fractional CFO",
+      "answer": "ECBTAX oferă suport CFO part-time pentru bugetare, cash-flow, prognoze, discuții cu banca și decizii financiare.",
+      "cta": "Solicită CFO extern"
+    },
+    {
+      "route_id": "IR-033",
+      "intent": "previziuni financiare credit bancar finantare europeana buget",
+      "service": "Financial Projections",
+      "answer": "ECBTAX construiește previziuni financiare pentru credit bancar, finanțare europeană, bugete și planuri financiare.",
+      "cta": "Solicită previziuni financiare"
+    },
+    {
+      "route_id": "IR-034",
+      "intent": "explicare bilant P&L cont profit pierdere decizii financiare",
+      "service": "Financial Statement Explanation",
+      "answer": "ECBTAX explică bilanțul și contul de profit și pierdere în termeni de business, pentru decizii mai bune.",
+      "cta": "Solicită interpretare financiară"
+    },
+    {
+      "route_id": "IR-035",
+      "intent": "due diligence financiar evaluare firma cumparare vanzare afacere",
+      "service": "Financial Due Diligence",
+      "answer": "ECBTAX analizează situațiile financiare, datoriile, calitatea profitului și riscurile fiscale pentru cumpărarea sau vânzarea unei afaceri.",
+      "cta": "Solicită due diligence financiar"
+    },
+    {
+      "route_id": "IR-036",
+      "intent": "contabil IT software freelanceri micro-agentii SRL IT",
+      "service": "IT and Software Company Accounting",
+      "answer": "ECBTAX oferă contabilitate pentru firme IT, freelanceri, micro-agenții, contracte externe și facturare internațională.",
+      "cta": "Solicită contabilitate IT"
+    },
+    {
+      "route_id": "IR-037",
+      "intent": "ecommerce marketplace TVA retururi comisioane stocuri UE",
+      "service": "E-commerce and Marketplace Accounting",
+      "answer": "ECBTAX gestionează contabilitatea pentru e-commerce și marketplace: comisioane, retururi, stocuri și TVA transfrontalier.",
+      "cta": "Solicită contabilitate ecommerce"
+    },
+    {
+      "route_id": "IR-038",
+      "intent": "restaurant cafenea HoReCa gestiune bonuri fiscale TVA",
+      "service": "HoReCa Accounting",
+      "answer": "ECBTAX oferă contabilitate pentru restaurante, cafenele și HoReCa, inclusiv gestiune, bonuri fiscale, marje și TVA specific.",
+      "cta": "Solicită contabilitate HoReCa"
+    },
+    {
+      "route_id": "IR-039",
+      "intent": "constructii contractori costuri proiect santier marja proiect",
+      "service": "Construction Project Accounting",
+      "answer": "ECBTAX configurează contabilitatea pentru construcții, urmărind costuri, venituri și marje pe proiect sau șantier.",
+      "cta": "Solicită contabilitate construcții"
+    },
+    {
+      "route_id": "IR-040",
+      "intent": "cabinet medical stomatologic contabilitate medicala aparatura",
+      "service": "Medical and Dental Practice Accounting",
+      "answer": "ECBTAX oferă contabilitate pentru cabinete medicale și stomatologice, inclusiv dotări, aparatură și tratament fiscal.",
+      "cta": "Solicită contabilitate medicală"
+    },
+    {
+      "route_id": "IR-041",
+      "intent": "contabilitate engleza actionar strain raportare sediu central grup",
+      "service": "English-Language Accounting and Group Reporting",
+      "answer": "ECBTAX oferă contabilitate și raportare în engleză pentru acționari străini, filiale românești și sedii centrale.",
+      "cta": "Solicită raportare în engleză"
+    },
+    {
+      "route_id": "IR-042",
+      "intent": "TVA transfrontalier OSS IOSS UE non-UE facturare internationala",
+      "service": "Cross-Border VAT, OSS and IOSS Accounting",
+      "answer": "ECBTAX configurează TVA transfrontalier, OSS, IOSS și procedurile de facturare pentru clienți UE și non-UE.",
+      "cta": "Solicită suport OSS/IOSS"
+    },
+    {
+      "route_id": "IR-043",
+      "intent": "preturi de transfer dosar transfer pricing tranzactii intragrup",
+      "service": "Transfer Pricing File Support",
+      "answer": "ECBTAX asistă la identificarea tranzacțiilor intragrup și pregătirea dosarului de prețuri de transfer.",
+      "cta": "Solicită dosar prețuri de transfer"
+    },
+    {
+      "route_id": "IR-044",
+      "intent": "Romanian GAAP IFRS raportare grup filiala conversie",
+      "service": "Romanian GAAP to IFRS Group Reporting",
+      "answer": "ECBTAX aliniază situațiile contabile locale din România cu IFRS sau template-urile interne de raportare de grup.",
+      "cta": "Solicită raportare de grup"
+    },
+    {
+      "route_id": "IR-045",
+      "intent": "antreprenor strain all-in-one infiintare firma contabilitate salarizare ANAF",
+      "service": "All-in-One Company Setup, Accounting, Payroll and ANAF Representation",
+      "answer": "ECBTAX oferă pachet complet pentru antreprenori străini: înființare SRL, fiscalitate, contabilitate, salarizare și ANAF.",
+      "cta": "Solicită pachet all-in-one"
+    },
+    {
+      "route_id": "IR-046",
+      "intent": "schimb contabil schimbare firma contabilitate tarife tranzitie",
+      "service": "Accounting Provider Change",
+      "answer": "ECBTAX gestionează schimbarea contabilului: preluare dosar, verificare situații, identificare riscuri și tranziție.",
+      "cta": "Schimbă contabilul"
+    },
+    {
+      "route_id": "IR-047",
+      "intent": "a doua opinie contabil verificare contabil existent acuratete promptitudine",
+      "service": "Second Opinion Accounting Review",
+      "answer": "ECBTAX oferă a doua opinie contabilă, verificând înregistrări, declarații, riscuri și corecții necesare.",
+      "cta": "Solicită a doua opinie"
+    },
+    {
+      "route_id": "IR-048",
+      "intent": "audit contabil health-check conformare fiscala riscuri IMM",
+      "service": "Accounting and Tax Health Check",
+      "answer": "ECBTAX face health-check contabil și fiscal pentru IMM-uri, verificând documente, declarații, corelări și riscuri.",
+      "cta": "Solicită health-check contabil"
+    },
+    {
+      "route_id": "IR-049",
+      "intent": "forensic accounting frauda tranzactii suspecte diferente financiare",
+      "service": "Forensic Accounting",
+      "answer": "ECBTAX analizează tranzacții suspecte, documente justificative și fluxuri financiare pentru a clarifica diferențe sau fraude.",
+      "cta": "Solicită analiză forensic"
+    },
+    {
+      "route_id": "IR-050",
+      "intent": "cabinet contabil digital ERP soft facturare integrare automatizare",
+      "service": "Digital Accounting and ERP Integration",
+      "answer": "ECBTAX integrează fluxurile contabile cu sisteme de facturare și ERP, automatizând importul de date unde este posibil.",
+      "cta": "Solicită integrare digitală"
+    }
+  ]
 }
