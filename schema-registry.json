@@ -1,0 +1,250 @@
+{
+  "schema": "ecbtax-schema-registry-v1",
+  "version": "1.0",
+
+  "purpose": "Map business ontology entities to Schema.org types and JSON-LD generation targets.",
+
+  "entity_type_mappings": [
+
+    {
+      "entity_type": "Organization",
+      "schema_types": [
+        "Organization",
+        "LocalBusiness",
+        "ProfessionalService",
+        "AccountingService"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Service",
+      "schema_types": [
+        "Service",
+        "Offer",
+        "OfferCatalog"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "BuyerIntent",
+      "schema_types": [
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Authority",
+      "schema_types": [
+        "GovernmentOrganization"
+      ],
+      "inject": false
+    },
+
+    {
+      "entity_type": "Document",
+      "schema_types": [
+        "DigitalDocument"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Credential",
+      "schema_types": [
+        "Credential",
+        "EducationalOccupationalCredential"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Review",
+      "schema_types": [
+        "Review",
+        "AggregateRating"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "BusinessTerm",
+      "schema_types": [
+        "DefinedTerm",
+        "DefinedTermSet"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Audience",
+      "schema_types": [
+        "Audience"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Website",
+      "schema_types": [
+        "WebSite"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "WebPage",
+      "schema_types": [
+        "WebPage",
+        "AboutPage",
+        "ContactPage",
+        "FAQPage"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Navigation",
+      "schema_types": [
+        "BreadcrumbList"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Contact",
+      "schema_types": [
+        "ContactPoint",
+        "PostalAddress",
+        "Place"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Search",
+      "schema_types": [
+        "SearchAction"
+      ],
+      "inject": true
+    },
+
+    {
+      "entity_type": "Communication",
+      "schema_types": [
+        "CommunicateAction"
+      ],
+      "inject": true
+    }
+  ],
+
+  "worker_generation_order": [
+
+    "Organization",
+    "Website",
+    "WebPage",
+    "BreadcrumbList",
+    "ContactPoint",
+    "PostalAddress",
+    "Place",
+
+    "Service",
+    "Offer",
+    "OfferCatalog",
+
+    "Audience",
+
+    "DefinedTermSet",
+
+    "FAQPage",
+
+    "Review",
+    "AggregateRating",
+
+    "Credential",
+
+    "DigitalDocument",
+
+    "SearchAction",
+    "CommunicateAction"
+  ],
+
+  "knowledge_layer_dependencies": {
+
+    "organization": "/ai.json",
+
+    "services": "/ai-services.json",
+
+    "entities": "/entities.json",
+
+    "intents": [
+      "/ai-intents-category-01.json",
+      "/ai-intents-category-02.json",
+      "/ai-intents-category-03.json",
+      "/ai-intents-category-04.json",
+      "/ai-intents-category-05.json"
+    ],
+
+    "faqs": [
+      "/faq-category-01.json",
+      "/faq-category-02.json",
+      "/faq-category-03.json",
+      "/faq-category-04.json",
+      "/faq-category-05.json"
+    ],
+
+    "ontology": "/accounting-ontology.json",
+
+    "relationships": "/ai-relationships.json",
+
+    "graph": "/context-graph.json",
+
+    "signals": "/ai-signals.json"
+  },
+
+  "target_schema_count": 25,
+
+  "recommended_schema_types": [
+
+    "Organization",
+    "LocalBusiness",
+    "ProfessionalService",
+    "AccountingService",
+
+    "WebSite",
+    "WebPage",
+
+    "BreadcrumbList",
+
+    "PostalAddress",
+    "ContactPoint",
+    "Place",
+
+    "Service",
+    "Offer",
+    "OfferCatalog",
+
+    "Audience",
+
+    "DefinedTerm",
+    "DefinedTermSet",
+
+    "FAQPage",
+    "Question",
+    "Answer",
+
+    "Review",
+    "AggregateRating",
+
+    "Credential",
+
+    "DigitalDocument",
+
+    "SearchAction",
+    "CommunicateAction"
+  ]
+}
