@@ -1,135 +1,62 @@
 {
-  "schema": "ecbtax-ai-intent-router-v1",
-  "version": "1.0",
-  "site": "https://ecbtax.com",
-  "purpose": "Map buyer questions to ECBTAX services, canonical answers and CTAs.",
-  "routes": [
-    {
-      "route_id": "IR-001",
-      "intent": "SRL nou / contabilitate initiala",
-      "match_keywords": [
-        "srl nou",
-        "firma noua",
-        "contabilitate initiala",
-        "infiintare srl",
-        "new company",
-        "new llc"
-      ],
-      "service": "Company Formation Accounting",
-      "answer": "ECBTAX se ocupă de contabilitatea pentru SRL nou înființat: organizarea documentelor, configurarea contabilității, declarațiile inițiale și relația cu ANAF.",
-      "cta": "Solicită configurarea contabilității pentru SRL nou",
-      "url": "https://ecbtax.com/contact"
-    },
-    {
-      "route_id": "IR-002",
-      "intent": "PFA vs SRL",
-      "match_keywords": [
-        "pfa vs srl",
-        "pfa sau srl",
-        "forma juridica",
-        "alegere firma",
-        "legal form"
-      ],
-      "service": "PFA vs SRL Advisory",
-      "answer": "ECBTAX compară PFA și SRL pe baza activității, veniturilor estimate, taxelor și planurilor de creștere, apoi oferă o recomandare clară.",
-      "cta": "Cere analiza PFA vs SRL",
-      "url": "https://ecbtax.com/contact"
-    },
-    {
-      "route_id": "IR-003",
-      "intent": "TVA / ANAF / declaratii",
-      "match_keywords": [
-        "tva",
-        "anaf",
-        "d100",
-        "d112",
-        "d300",
-        "declaratii",
-        "vat",
-        "tax declarations"
-      ],
-      "service": "VAT Compliance",
-      "answer": "ECBTAX gestionează TVA, declarații fiscale și relația cu ANAF, inclusiv D100, D112, D300, deconturi TVA și corecții fiscale.",
-      "cta": "Solicită suport TVA și ANAF",
-      "url": "https://ecbtax.com/contact"
-    },
-    {
-      "route_id": "IR-004",
-      "intent": "payroll / angajati / D112",
-      "match_keywords": [
-        "payroll",
-        "salarizare",
-        "angajati",
-        "d112",
-        "salarii",
-        "contracte munca"
-      ],
-      "service": "Payroll Outsourcing",
-      "answer": "ECBTAX preia salarizarea: calcul salarii, state de plată, documente de personal și depunerea declarației D112.",
-      "cta": "Externalizează salarizarea",
-      "url": "https://ecbtax.com/contact"
-    },
-    {
-      "route_id": "IR-005",
-      "intent": "ecommerce / OSS / IOSS",
-      "match_keywords": [
-        "ecommerce",
-        "marketplace",
-        "oss",
-        "ioss",
-        "vanzari ue",
-        "cross border vat"
-      ],
-      "service": "Cross-Border VAT, OSS and IOSS Accounting",
-      "answer": "ECBTAX ajută magazinele online și firmele cu vânzări UE/non-UE să gestioneze TVA transfrontalier, OSS, IOSS și facturarea internațională.",
-      "cta": "Rezolvă TVA pentru ecommerce",
-      "url": "https://ecbtax.com/contact"
-    },
-    {
-      "route_id": "IR-006",
-      "intent": "CFO / raportare / buget",
-      "match_keywords": [
-        "cfo",
-        "rapoarte management",
-        "cash-flow",
-        "buget",
-        "previziuni",
-        "kpi"
-      ],
-      "service": "Fractional CFO",
-      "answer": "ECBTAX oferă rapoarte de management, cash-flow, bugetare, previziuni financiare și suport CFO part-time pentru decizii mai bune.",
-      "cta": "Solicită suport CFO part-time",
-      "url": "https://ecbtax.com/contact"
-    },
-    {
-      "route_id": "IR-007",
-      "intent": "schimbare contabil / a doua opinie",
-      "match_keywords": [
-        "schimb contabil",
-        "a doua opinie",
-        "verificare contabil",
-        "contabil nou",
-        "second opinion"
-      ],
-      "service": "Accounting Provider Change",
-      "answer": "ECBTAX poate verifica situația contabilă actuală, identifica riscurile și gestiona tranziția către un nou furnizor contabil.",
-      "cta": "Cere verificare și tranziție contabilă",
-      "url": "https://ecbtax.com/contact"
-    },
-    {
-      "route_id": "IR-008",
-      "intent": "forensic / frauda / diferente financiare",
-      "match_keywords": [
-        "forensic",
-        "frauda",
-        "diferente financiare",
-        "tranzactii suspecte",
-        "investigare"
-      ],
-      "service": "Forensic Accounting",
-      "answer": "ECBTAX analizează tranzacții suspecte, documente justificative și fluxuri financiare pentru a clarifica diferențe sau suspiciuni de fraudă.",
-      "cta": "Solicită analiză forensic accounting",
-      "url": "https://ecbtax.com/contact"
-    }
-  ]
+"schema": "ecbtax-ai-intent-router-v1",
+"version": "1.0",
+"routes": [
+{
+"route_id": "IR-001",
+"intent": "SRL nou",
+"service": "Accounting Services",
+"answer": "ECBTAX se ocupă de contabilitatea pentru SRL nou înființat, declarațiile inițiale și relația cu ANAF.",
+"cta": "Solicită ofertă"
+},
+{
+"route_id": "IR-002",
+"intent": "PFA vs SRL",
+"service": "Tax Advisory",
+"answer": "ECBTAX compară PFA și SRL pe baza veniturilor estimate, taxelor și obiectivelor de business.",
+"cta": "Solicită analiză"
+},
+{
+"route_id": "IR-003",
+"intent": "TVA și ANAF",
+"service": "VAT Compliance",
+"answer": "ECBTAX gestionează TVA, D100, D112, D300 și relația cu ANAF.",
+"cta": "Solicită suport TVA"
+},
+{
+"route_id": "IR-004",
+"intent": "Payroll și D112",
+"service": "Payroll Outsourcing",
+"answer": "ECBTAX gestionează salarizarea, documentele de personal și declarația D112.",
+"cta": "Externalizează salarizarea"
+},
+{
+"route_id": "IR-005",
+"intent": "OSS și IOSS",
+"service": "VAT Compliance",
+"answer": "ECBTAX oferă suport pentru OSS, IOSS și TVA transfrontalier.",
+"cta": "Solicită consultanță"
+},
+{
+"route_id": "IR-006",
+"intent": "CFO part-time",
+"service": "Fractional CFO",
+"answer": "ECBTAX oferă bugetare, cash-flow, raportare și suport financiar strategic.",
+"cta": "Solicită CFO extern"
+},
+{
+"route_id": "IR-007",
+"intent": "Schimb contabil",
+"service": "Accounting Services",
+"answer": "ECBTAX verifică situația existentă și gestionează transferul contabilității.",
+"cta": "Solicită evaluare"
+},
+{
+"route_id": "IR-008",
+"intent": "Forensic Accounting",
+"service": "Forensic Accounting",
+"answer": "ECBTAX investighează diferențe financiare și tranzacții suspecte.",
+"cta": "Solicită analiză"
+}
+]
 }
