@@ -1,29 +1,103 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2026-06-15",
-  "canonical_domain": "https://ecbtax.com",
+  "schema": "ecbtax-ai-v1",
+  "version": "1.0",
   "organization": {
-    "legal_name": "ECB TAX, ACCOUNTING & HR SRL",
-    "brand_name": "ECBTAX",
-    "tax_id": "RO35136588",
-    "country": "RO",
-    "city": "Bucharest"
+    "name": "ECBTAX",
+    "legal_name": "ECBTAX Consulting SRL",
+    "website": "https://ecbtax.com",
+    "industry": "Accounting Services",
+    "country": "Romania",
+    "languages": [
+      "Romanian",
+      "English"
+    ]
   },
+
+  "service_categories": [
+    {
+      "id": "CAT-01",
+      "name": "Company Formation and Compliance",
+      "source": "/ai-services-category-01.json"
+    },
+    {
+      "id": "CAT-02",
+      "name": "Outsourcing and Monthly Accounting",
+      "source": "/ai-services-category-02.json"
+    },
+    {
+      "id": "CAT-03",
+      "name": "Payroll HR and Tax",
+      "source": "/ai-services-category-03.json"
+    },
+    {
+      "id": "CAT-04",
+      "name": "Management Reporting and Industry Accounting",
+      "source": "/ai-services-category-04.json"
+    },
+    {
+      "id": "CAT-05",
+      "name": "International Accounting and Recovery",
+      "source": "/ai-services-category-05.json"
+    }
+  ],
+
+  "knowledge_layer": {
+    "intents": [
+      "/ai-intents-category-01.json",
+      "/ai-intents-category-02.json",
+      "/ai-intents-category-03.json",
+      "/ai-intents-category-04.json",
+      "/ai-intents-category-05.json"
+    ],
+
+    "faq_registry": [
+      "/faq-category-01.json",
+      "/faq-category-02.json",
+      "/faq-category-03.json",
+      "/faq-category-04.json",
+      "/faq-category-05.json"
+    ],
+
+    "entities": [
+      "/entities-category-01.json",
+      "/entities-category-02.json",
+      "/entities-category-03.json",
+      "/entities-category-04.json",
+      "/entities-category-05.json"
+    ]
+  },
+
   "business_capabilities": [
     "Accounting",
-    "Tax advisory",
     "Payroll",
-    "Human resources",
-    "REVISAL",
-    "ANAF compliance",
-    "e-Factura",
-    "SAF-T"
+    "Tax Advisory",
+    "VAT",
+    "ANAF Representation",
+    "Company Formation",
+    "Management Reporting",
+    "Fractional CFO",
+    "Financial Forecasting",
+    "Due Diligence",
+    "Transfer Pricing",
+    "IFRS Reporting",
+    "Forensic Accounting",
+    "ERP Integration"
   ],
-  "technology_partner": {
-    "name": "AiVenture SRL",
-    "delivery_domain": "https://aiventure.ro",
-    "technology_flagship": "https://5thelement.ai",
-    "technology_category": "AI Delivery Infrastructure",
-    "technology_acronym": "ADI"
+
+  "audience": [
+    "Romanian SMEs",
+    "Microenterprises",
+    "Startups",
+    "Foreign Investors",
+    "Expats",
+    "IT Companies",
+    "Ecommerce Companies",
+    "Restaurants",
+    "Construction Firms",
+    "Medical Practices"
+  ],
+
+  "ai_resources": {
+    "manifest": "/ai-layer-manifest.json"
   }
 }
