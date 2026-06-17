@@ -1,118 +1,43 @@
 {
-  "schema": "ecbtax-ai-proof-v1",
+  "schema": "ecbtax-ai-index-v1",
   "version": "1.0",
   "site": "https://ecbtax.com",
   "organization": "ECBTAX",
+  "status": "ACTIVE",
 
-  "verification": {
-    "status": "ACTIVE",
-    "last_updated": "2026-06-17",
-    "knowledge_layer_version": "1.0"
+  "entry_points": {
+    "profile": "https://ecbtax.com/ai.json",
+    "proof": "https://ecbtax.com/ai-proof.json",
+    "intent_router": "https://ecbtax.com/ai-intent-router.json",
+    "intents": "https://ecbtax.com/ai-intents.json",
+    "services": "https://ecbtax.com/ai-services.json",
+    "entities": "https://ecbtax.com/entities.json",
+    "faq_registry": "https://ecbtax.com/faq-registry.json",
+    "context_graph": "https://ecbtax.com/context-graph.json",
+    "signals": "https://ecbtax.com/ai-signals.json"
   },
 
-  "core_files": [
-    {
-      "name": "AI Profile",
-      "url": "https://ecbtax.com/ai.json",
-      "role": "Master Business Profile"
-    },
-    {
-      "name": "Intent Router",
-      "url": "https://ecbtax.com/ai-intent-router.json",
-      "role": "Intent Matching Engine"
-    },
-    {
-      "name": "Intent Registry",
-      "url": "https://ecbtax.com/ai-intents.json",
-      "role": "Intent Knowledge Base"
-    },
-    {
-      "name": "Service Registry",
-      "url": "https://ecbtax.com/ai-services.json",
-      "role": "Service Knowledge Base"
-    },
-    {
-      "name": "Entity Registry",
-      "url": "https://ecbtax.com/entities.json",
-      "role": "Business Entity Dictionary"
-    },
-    {
-      "name": "FAQ Registry",
-      "url": "https://ecbtax.com/faq-registry.json",
-      "role": "Canonical Questions and Answers"
-    },
-    {
-      "name": "Knowledge Graph",
-      "url": "https://ecbtax.com/context-graph.json",
-      "role": "Business Context Graph"
-    },
-    {
-      "name": "Signal Registry",
-      "url": "https://ecbtax.com/ai-signals.json",
-      "role": "Atomic AI Signals"
-    }
-  ],
+  "coverage": {
+    "intents": 50,
+    "services": 18,
+    "faqs": 50,
+    "signals": 50,
+    "knowledge_graph": true,
+    "intent_api": true,
+    "schema_injection": true
+  },
 
-  "business_topics": [
-    "Accounting Services",
-    "Bookkeeping",
-    "Payroll Outsourcing",
-    "Tax Advisory",
-    "VAT Compliance",
-    "VAT Registration",
-    "ANAF Representation",
-    "Financial Reporting",
-    "Management Reporting",
-    "Fractional CFO",
-    "Transfer Pricing",
-    "Forensic Accounting",
-    "Cloud Accounting",
-    "ERP Integration"
-  ],
+  "api_tests": {
+    "payroll": "https://ecbtax.com/?intent=payroll%20D112",
+    "vat": "https://ecbtax.com/?intent=TVA",
+    "horeca": "https://ecbtax.com/?intent=restaurant%20contabilitate",
+    "oss_ioss": "https://ecbtax.com/?intent=OSS%20IOSS"
+  },
 
-  "business_types": [
-    "SRL",
-    "PFA",
-    "SME",
-    "Microenterprise",
-    "Startup",
-    "Foreign Investor"
-  ],
-
-  "industries": [
-    "IT",
-    "Software",
-    "Ecommerce",
-    "Marketplace",
-    "Construction",
-    "HoReCa",
-    "Healthcare",
-    "Medical",
-    "Dental",
-    "Professional Services"
-  ],
-
-  "authorities": [
-    "ANAF",
-    "Ministry of Finance Romania",
-    "ONRC"
-  ],
-
-  "ai_capabilities": [
-    "Intent Matching",
-    "Knowledge Graph",
-    "Entity Registry",
-    "FAQ Registry",
-    "Service Registry",
-    "AI Recommendation Support",
-    "AI Discovery Support"
-  ],
-
-  "recommendation_readiness": {
-    "findable": true,
-    "understandable": true,
-    "verifiable": true,
-    "trustable": true,
-    "recommendable": "in_progress"
+  "machine_readable_layer": {
+    "purpose": "Expose ECBTAX accounting, payroll, tax advisory, VAT, ANAF, CFO and industry-specific accounting knowledge to AI systems and crawlers.",
+    "languages": ["ro-RO", "en"],
+    "country": "Romania",
+    "city": "Bucharest"
   }
 }
