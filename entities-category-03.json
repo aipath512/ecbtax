@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-03",
+  "category_name": "Payroll, HR and Tax Declarations",
+  "industry": "Accounting Services",
+  "country_context": "Romania",
+  "entities": {
+    "payroll_and_hr": [
+      "Salarizare",
+      "Payroll",
+      "D112",
+      "Contracte de muncă",
+      "State de plată",
+      "Documente de personal",
+      "Angajați remote",
+      "Raportare unitară",
+      "Documente la distanță"
+    ],
+    "employment_costs": [
+      "Cost total angajat",
+      "Salariu brut",
+      "Contribuții",
+      "Beneficii",
+      "Cost salarial",
+      "Taxe pe muncă",
+      "Legislația muncii"
+    ],
+    "employee_benefits": [
+      "Tichete",
+      "Bonusuri",
+      "Diurne",
+      "Beneficii angajați",
+      "Impozitarea angajaților",
+      "Taxe salariale"
+    ],
+    "tax_declarations": [
+      "Declarații trimestriale",
+      "Declarații anuale",
+      "Declarații rectificative",
+      "ANAF",
+      "Contabil fiscal",
+      "Erori fiscale",
+      "Corecții fiscale"
+    ],
+    "tax_regimes": [
+      "Impozit pe profit",
+      "Microîntreprindere",
+      "Regim fiscal",
+      "Evidență contabilă",
+      "Evidență fiscală"
+    ],
+    "vat": [
+      "TVA",
+      "Decont TVA",
+      "Recuperare TVA",
+      "Rambursare TVA",
+      "Deductibilitate",
+      "Corecții TVA"
+    ],
+    "tax_planning": [
+      "Planificare fiscală",
+      "Povară fiscală",
+      "Optimizare legală",
+      "Investiții",
+      "Dividende",
+      "Asociați",
+      "Salariu administrator",
+      "Remunerație",
+      "Net rămas",
+      "Cost firmă"
+    ],
+    "services": [
+      "Payroll Outsourcing",
+      "Employment Cost Advisory",
+      "HR Tax Reporting Support",
+      "Payroll Legislation Monitoring",
+      "Remote Employee Payroll",
+      "Corporate and Microenterprise Tax Declarations",
+      "VAT Returns and Refund Support",
+      "Ongoing Tax Planning",
+      "Administrator Salary vs Dividends Advisory",
+      "Rectifying Tax Returns and Fiscal Error Correction"
+    ]
+  }
+}

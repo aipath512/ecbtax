@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-03",
+  "category_name": "Payroll, HR and Tax Declarations",
+  "service_group": "Payroll, HR Tax, VAT and Fiscal Planning",
+  "services": [
+    {
+      "service_id": "SERV-021",
+      "name": "Payroll Outsourcing",
+      "description": "Outsourced payroll services including salary calculation, payroll statements, personnel documents and D112 filing.",
+      "related_intents": ["INT-021"],
+      "schema_types": ["AccountingService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-022",
+      "name": "Employment Cost Advisory",
+      "description": "Advisory support for calculating total employment cost, salary scenarios, contributions and benefits.",
+      "related_intents": ["INT-022"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-023",
+      "name": "HR Tax Reporting Support",
+      "description": "Support for payroll-related HR reporting, employee benefits taxation and salary tax compliance.",
+      "related_intents": ["INT-023"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-024",
+      "name": "Payroll Legislation Monitoring",
+      "description": "Monitoring of Romanian labour law and salary tax changes affecting payroll and employment costs.",
+      "related_intents": ["INT-024"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-025",
+      "name": "Remote Employee Payroll",
+      "description": "Payroll services for remote employees across multiple Romanian cities, with centralized reporting and remote document processing.",
+      "related_intents": ["INT-025"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-026",
+      "name": "Corporate and Microenterprise Tax Declarations",
+      "description": "Preparation and filing of quarterly and annual tax declarations for corporate profit tax and microenterprise tax regimes.",
+      "related_intents": ["INT-026"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-027",
+      "name": "VAT Returns and Refund Support",
+      "description": "Preparation of VAT returns, VAT deductibility review, VAT refund support and correction of previous VAT errors.",
+      "related_intents": ["INT-027"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-028",
+      "name": "Ongoing Tax Planning",
+      "description": "Continuous tax planning for SMEs and shareholders, covering investments, dividends and legal tax optimization.",
+      "related_intents": ["INT-028"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-029",
+      "name": "Administrator Salary vs Dividends Advisory",
+      "description": "Advisory support for optimizing the mix between administrator salary and dividends.",
+      "related_intents": ["INT-029"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-030",
+      "name": "Rectifying Tax Returns and Fiscal Error Correction",
+      "description": "Correction of previous tax errors and preparation of rectifying tax returns for ANAF.",
+      "related_intents": ["INT-030"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    }
+  ]
+}

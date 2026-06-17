@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-03",
+  "category_name": "Payroll, HR and Tax Declarations",
+  "industry": "Accounting Services",
+  "country": "Romania",
+  "total_intents": 10,
+  "intents": [
+    {
+      "intent_id": "INT-021",
+      "funnel_stage": "Decision",
+      "service": "Payroll Outsourcing",
+      "intent": "Vreau să externalizez calculul salariilor, contractele și declarațiile salariale (D112) pentru mică mea echipă.",
+      "keywords_ro": ["externalizare salarizare", "servicii payroll IMM"],
+      "keywords_en": ["outsourced payroll services SME"],
+      "entities": ["salarizare", "payroll", "D112", "contracte de muncă", "declarații salariale", "IMM"],
+      "canonical_answer": "Preluăm întreg procesul de salarizare: calculul salariilor, generarea statelor, întocmirea documentelor de personal și depunerea declarației D112. Ne asigurăm că respectăm legislația muncii și fiscală în vigoare."
+    },
+    {
+      "intent_id": "INT-022",
+      "funnel_stage": "Awareness",
+      "service": "Employment Cost Advisory",
+      "intent": "Am nevoie de consultanță contabilă pentru angajarea primilor angajați și calculul costului total al muncii.",
+      "keywords_ro": ["cost total angajat Romania", "consultanta angajari"],
+      "keywords_en": ["total employment cost Romania"],
+      "entities": ["cost total angajat", "salariu brut", "contribuții", "beneficii", "angajări", "cost salarial"],
+      "canonical_answer": "Îți calculăm costul complet per angajat, incluzând salariu brut, contribuții și beneficii, și îți arătăm scenarii alternative. Pe baza acestor scenarii decizi câți oameni poți susține financiar și la ce nivel salarial."
+    },
+    {
+      "intent_id": "INT-023",
+      "funnel_stage": "Consideration",
+      "service": "HR Tax Reporting Support",
+      "intent": "Caut pe cineva care să mă ajute cu raportările legate de HR, beneficii și impozitarea angajaților.",
+      "keywords_ro": ["raportari HR si taxe salariale", "contabil salarizare"],
+      "keywords_en": ["HR tax reporting support"],
+      "entities": ["HR", "beneficii", "tichete", "bonusuri", "diurne", "impozitarea angajaților", "taxe salariale"],
+      "canonical_answer": "Te ajutăm să configurezi corect tichetele, bonusurile, diurnele și alte beneficii, astfel încât să fie tratate conform legii. Pregătim raportările necesare și te informăm când se schimbă regulile fiscale."
+    },
+    {
+      "intent_id": "INT-024",
+      "funnel_stage": "Awareness",
+      "service": "Payroll Legislation Monitoring",
+      "intent": "Vreau să fiu informat la timp când apar modificări legislative care afectează salariile și taxele pe muncă.",
+      "keywords_ro": ["noutati legislatie munca si taxe", "informari contabil"],
+      "keywords_en": ["labour law and tax updates Romania"],
+      "entities": ["legislația muncii", "taxe pe muncă", "modificări legislative", "salarii", "contribuții", "informări fiscale"],
+      "canonical_answer": "Monitorizăm legislația și te anunțăm când intervin schimbări relevante pentru firma ta. Explicăm pe scurt impactul și ce ajustări trebuie făcute în practică."
+    },
+    {
+      "intent_id": "INT-025",
+      "funnel_stage": "Consideration",
+      "service": "Remote Employee Payroll",
+      "intent": "Am angajați remote din mai multe orașe și am nevoie de servicii de salarizare care să acopere aceste situații.",
+      "keywords_ro": ["salarizare angajati remote Romania", "payroll multi-orase"],
+      "keywords_en": ["payroll for remote employees Romania"],
+      "entities": ["angajați remote", "salarizare", "multi-orașe", "documente la distanță", "raportare unitară"],
+      "canonical_answer": "Gestionăm salarizarea pentru angajați din diverse orașe, centralizăm totul într-un singur sistem și ne asigurăm că ai raportare unitară. Procesăm documentele la distanță, în condiții de siguranță."
+    },
+    {
+      "intent_id": "INT-026",
+      "funnel_stage": "Decision",
+      "service": "Corporate and Microenterprise Tax Declarations",
+      "intent": "Am nevoie de contabil care să pregătească declarațiile trimestriale și anuale pentru impozitul pe profit/microîntreprindere.",
+      "keywords_ro": ["declaratii impozit pe profit microintreprindere", "contabil fiscal"],
+      "keywords_en": ["corporate tax returns Romania"],
+      "entities": ["impozit pe profit", "microîntreprindere", "declarații trimestriale", "declarații anuale", "contabil fiscal"],
+      "canonical_answer": "Calculăm impozitul datorat conform regimului tău fiscal, pregătim declarațiile și le depunem la termenele legale. Verificăm coerența între evidența contabilă și cea fiscală."
+    },
+    {
+      "intent_id": "INT-027",
+      "funnel_stage": "Decision",
+      "service": "VAT Returns and Refund Support",
+      "intent": "Caut ajutor pentru deconturile de TVA, eventual recuperare TVA și corectarea erorilor vechi.",
+      "keywords_ro": ["decont TVA", "recuperare TVA", "corectii TVA"],
+      "keywords_en": ["VAT returns and refund support Romania"],
+      "entities": ["TVA", "decont TVA", "recuperare TVA", "rambursare TVA", "deductibilitate", "corecții TVA"],
+      "canonical_answer": "Întocmim deconturile de TVA, verificăm deductibilitatea cheltuielilor și te asistăm în procedura de rambursare dacă ai TVA de recuperat. Dacă există greșeli din trecut, pregătim corecțiile necesare."
+    },
+    {
+      "intent_id": "INT-028",
+      "funnel_stage": "Awareness",
+      "service": "Ongoing Tax Planning",
+      "intent": "Vreau planificare fiscală continuă ca să reduc legal povara fiscală pentru firmă și asociați.",
+      "keywords_ro": ["planificare fiscala IMM", "reducere legala taxe"],
+      "keywords_en": ["ongoing tax planning SME Romania"],
+      "entities": ["planificare fiscală", "povară fiscală", "investiții", "dividende", "asociați", "optimizare legală"],
+      "canonical_answer": "Discutăm din timp deciziile mari, cum ar fi investiții, dividende sau schimbări de structură, și îți propunem variante legale de optimizare. Îți arătăm impactul în cifre, astfel încât să minimizezi taxele planificat."
+    },
+    {
+      "intent_id": "INT-029",
+      "funnel_stage": "Consideration",
+      "service": "Administrator Salary vs Dividends Advisory",
+      "intent": "Am nevoie de sfat privind mixul optim între salariu de administrator și dividende.",
+      "keywords_ro": ["dividende vs salariu administrator", "optimizare remuneratie"],
+      "keywords_en": ["dividends vs salary optimization"],
+      "entities": ["salariu administrator", "dividende", "remunerație", "contribuții obligatorii", "net rămas", "cost firmă"],
+      "canonical_answer": "Calculăm diferite combinații între salariu de administrator și dividende și îți arătăm costul total pentru firmă și netul rămas la tine. Ținem cont de contribuțiile obligatorii și impactul pe termen lung."
+    },
+    {
+      "intent_id": "INT-030",
+      "funnel_stage": "Decision",
+      "service": "Rectifying Tax Returns and Fiscal Error Correction",
+      "intent": "Caut contabil care să mă ajute cu declarații rectificative și corectarea greșelilor fiscale din trecut.",
+      "keywords_ro": ["declaratii rectificative ANAF", "corectare erori fiscale"],
+      "keywords_en": ["rectifying tax returns ANAF"],
+      "entities": ["declarații rectificative", "ANAF", "erori fiscale", "sume de plată", "sume de recuperat", "corecții fiscale"],
+      "canonical_answer": "Analizăm situația existentă, identificăm unde s-au produs erorile și pregătim declarațiile rectificative necesare. Îți explicăm impactul asupra sumelor de plată sau de recuperat și te asistăm în relația cu ANAF."
+    }
+  ]
+}

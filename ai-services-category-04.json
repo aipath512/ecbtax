@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-04",
+  "category_name": "Management Reporting, CFO Support and Industry-Specific Accounting",
+  "service_group": "Management Reporting, CFO Support and Specialized SME Accounting",
+  "services": [
+    {
+      "service_id": "SERV-031",
+      "name": "Management Reporting",
+      "description": "Monthly management reporting that turns accounting data into business indicators, margins, cash-flow and financial insights.",
+      "related_intents": ["INT-031"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-032",
+      "name": "Fractional CFO",
+      "description": "Part-time external CFO support for budgeting, cash-flow planning, bank discussions and financial decision support.",
+      "related_intents": ["INT-032"],
+      "schema_types": ["ProfessionalService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-033",
+      "name": "Financial Projections",
+      "description": "Financial projections for bank loans, EU funding applications, budgets and financing discussions.",
+      "related_intents": ["INT-033"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-034",
+      "name": "Financial Statement Explanation",
+      "description": "Business-oriented explanation of balance sheet, profit and loss account and financial indicators.",
+      "related_intents": ["INT-034"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-035",
+      "name": "Financial Due Diligence",
+      "description": "Financial due diligence and small business evaluation support for buying or selling a company.",
+      "related_intents": ["INT-035"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-036",
+      "name": "IT and Software Company Accounting",
+      "description": "Accounting for Romanian IT SRLs, software freelancers and micro-agencies with international contracts and recurring revenue.",
+      "related_intents": ["INT-036"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-037",
+      "name": "E-commerce and Marketplace Accounting",
+      "description": "Accounting support for e-commerce stores and marketplaces selling in Romania and the EU.",
+      "related_intents": ["INT-037"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-038",
+      "name": "HoReCa Accounting",
+      "description": "Accounting for restaurants, cafes and HoReCa businesses, including inventory, fiscal receipts, margins and VAT specifics.",
+      "related_intents": ["INT-038"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-039",
+      "name": "Construction Project Accounting",
+      "description": "Accounting setup for construction companies and contractors to track costs, revenues and margins by project or site.",
+      "related_intents": ["INT-039"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-040",
+      "name": "Medical and Dental Practice Accounting",
+      "description": "Accounting for medical and dental practices, covering income, expenses, medical equipment and fiscal treatment.",
+      "related_intents": ["INT-040"],
+      "schema_types": ["AccountingService", "Service"]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-02",
+  "category_name": "Outsourcing and Monthly Accounting",
+  "service_group": "Outsourced Accounting, Digital Accounting and Monthly Bookkeeping",
+  "services": [
+    {
+      "service_id": "SERV-011",
+      "name": "Accounting Outsourcing",
+      "description": "Outsourced accounting services for SMEs that want to reduce administrative cost and avoid hiring an internal accountant.",
+      "related_intents": ["INT-011"],
+      "schema_types": ["AccountingService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-012",
+      "name": "Monthly Accounting Package for Microenterprises",
+      "description": "Fixed monthly accounting packages for Romanian microenterprises, including current accounting, tax declarations and basic advisory.",
+      "related_intents": ["INT-012"],
+      "schema_types": ["AccountingService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-013",
+      "name": "Legal Tax Optimization",
+      "description": "Legal tax optimization advisory for SMEs based on revenue, expenses, shareholder remuneration and supplier contracts.",
+      "related_intents": ["INT-013"],
+      "schema_types": ["ProfessionalService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-014",
+      "name": "Digital Accounting Provider Comparison",
+      "description": "Comparison between the current accounting provider and a more digitalized accounting workflow.",
+      "related_intents": ["INT-014"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-015",
+      "name": "Integrated Accounting, Payroll and Annual Reporting Package",
+      "description": "Integrated accounting package covering monthly bookkeeping, payroll and annual financial statements.",
+      "related_intents": ["INT-015"],
+      "schema_types": ["AccountingService", "Service", "OfferCatalog"]
+    },
+    {
+      "service_id": "SERV-016",
+      "name": "Monthly Bookkeeping for Small SRLs",
+      "description": "Monthly bookkeeping for Romanian SRLs with 1 to 10 employees, including invoices, bank statements, reconciliations and tax declarations.",
+      "related_intents": ["INT-016"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-017",
+      "name": "Accounting Cleanup and Reorganization",
+      "description": "Cleanup and reorganization of messy accounting records according to Romanian accounting rules.",
+      "related_intents": ["INT-017"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-018",
+      "name": "Accounting Software Migration",
+      "description": "Migration from Excel to integrated accounting software, including data structure, import and workflow setup.",
+      "related_intents": ["INT-018"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-019",
+      "name": "Cloud Accounting",
+      "description": "Cloud accounting workflows that provide secure real-time access to financial information and basic indicators.",
+      "related_intents": ["INT-019"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-020",
+      "name": "Accounts Receivable and Payable Management",
+      "description": "Management of customer and supplier ledgers, overdue invoices, receivables, payables and cash-flow visibility.",
+      "related_intents": ["INT-020"],
+      "schema_types": ["AccountingService", "Service"]
+    }
+  ]
+}

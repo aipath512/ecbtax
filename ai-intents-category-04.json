@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-04",
+  "category_name": "Management Reporting, CFO Support and Industry-Specific Accounting",
+  "industry": "Accounting Services",
+  "country": "Romania",
+  "total_intents": 10,
+  "intents": [
+    {
+      "intent_id": "INT-031",
+      "funnel_stage": "Consideration",
+      "service": "Management Reporting",
+      "intent": "Vreau rapoarte lunare de management și indicatori (nu doar contabilitate de bază).",
+      "keywords_ro": ["rapoarte management IMM", "indicatori financiari lunari"],
+      "keywords_en": ["management reports and KPIs Romania"],
+      "entities": ["rapoarte management", "indicatori financiari", "KPI", "cash-flow", "marje", "cheltuieli"],
+      "canonical_answer": "Transformăm datele contabile în rapoarte de management ușor de înțeles: venituri pe segmente, marje, cheltuieli principale și cash-flow. Definim împreună indicatorii relevanți și îi urmărim lunar."
+    },
+    {
+      "intent_id": "INT-032",
+      "funnel_stage": "Decision",
+      "service": "Fractional CFO",
+      "intent": "Caut un CFO part-time (extern) pentru bugetare, plan de cash-flow și discuții cu banca.",
+      "keywords_ro": ["CFO part time Romania", "director financiar externalizat"],
+      "keywords_en": ["fractional CFO Romania"],
+      "entities": ["CFO part-time", "director financiar externalizat", "bugetare", "cash-flow", "bancă", "indicatori"],
+      "canonical_answer": "Îți punem la dispoziție un specialist financiar care se alătură echipei tale câteva ore pe lună. Te ajută la bugetare, prognoze, discuții cu băncile și interpretarea indicatorilor."
+    },
+    {
+      "intent_id": "INT-033",
+      "funnel_stage": "Consideration",
+      "service": "Financial Projections",
+      "intent": "Am nevoie de previziuni financiare pentru a obține credit bancar sau finanțare europeană.",
+      "keywords_ro": ["previziuni financiare credit bancar", "buget IMM"],
+      "keywords_en": ["financial projections for bank loan"],
+      "entities": ["previziuni financiare", "credit bancar", "finanțare europeană", "buget", "plan financiar", "proiecții"],
+      "canonical_answer": "Construim proiecții financiare realiste și le adaptăm formatelor cerute de bănci sau consultanți de fonduri. Te ajutăm să argumentezi cifrele și să răspunzi la întrebările tehnice legate de planul financiar."
+    },
+    {
+      "intent_id": "INT-034",
+      "funnel_stage": "Consideration",
+      "service": "Financial Statement Explanation",
+      "intent": "Vreau pe cineva care să îmi explice bilanțul și contul de profit și pierdere ca să iau decizii mai bune.",
+      "keywords_ro": ["interpretare bilant si cont profit pierdere", "consultanta financiara"],
+      "keywords_en": ["explain P&L and balance sheet"],
+      "entities": ["bilanț", "cont de profit și pierdere", "P&L", "indicatori", "decizii financiare", "consultanță financiară"],
+      "canonical_answer": "Luăm bilanțul și contul de profit și pierdere și le traducem în termeni de business: de unde vin banii, pe ce se duc, ce rămâne și de ce. Îți arătăm ce indicatori să urmărești lunar și ce semnale de risc să observi."
+    },
+    {
+      "intent_id": "INT-035",
+      "funnel_stage": "Decision",
+      "service": "Financial Due Diligence",
+      "intent": "Caut suport de evaluare și due-diligence financiar dacă vreau să cumpăr sau să vând o mică afacere.",
+      "keywords_ro": ["due diligence financiar IMM", "evaluare firma mica"],
+      "keywords_en": ["financial due diligence small business Romania"],
+      "entities": ["due diligence financiar", "evaluare firmă", "afacere mică", "situații financiare", "datorii", "riscuri fiscale"],
+      "canonical_answer": "Analizăm situațiile financiare ale firmei țintă, calitatea profitului, structura datoriilor și riscurile fiscale. Pregătim un rezumat clar cu punctele tari și slabe și, la cerere, o opinie orientativă de evaluare."
+    },
+    {
+      "intent_id": "INT-036",
+      "funnel_stage": "Decision",
+      "service": "IT and Software Company Accounting",
+      "intent": "Am nevoie de contabil specializat pe SRL-uri din IT/soft freelanceri și micro-agenții.",
+      "keywords_ro": ["contabil SRL IT", "contabil freelanceri IT"],
+      "keywords_en": ["IT accounting Romania", "freelancer accountant"],
+      "entities": ["SRL IT", "freelanceri IT", "micro-agenții", "contracte externe", "facturare internațională", "abonamente recurente"],
+      "canonical_answer": "Suntem familiarizați cu modelul de business din IT: contracte externe, facturare internațională, abonamente recurente și freelancing. Îți optimizăm structura fiscală și îți punem la dispoziție rapoarte relevante."
+    },
+    {
+      "intent_id": "INT-037",
+      "funnel_stage": "Decision",
+      "service": "E-commerce and Marketplace Accounting",
+      "intent": "Caut contabilitate adaptată pentru e-commerce și marketplace-uri care vând în România și UE.",
+      "keywords_ro": ["contabilitate ecommerce Romania", "marketplace TVA"],
+      "keywords_en": ["ecommerce accounting Romania", "marketplace VAT"],
+      "entities": ["e-commerce", "marketplace", "TVA", "România", "UE", "retururi", "stocuri", "comisioane"],
+      "canonical_answer": "Cunoaștem particularitățile magazinelor online: multiple platforme, comisioane, retururi, TVA pentru vânzări transfrontaliere. Punem la punct modul de colectare a datelor și evidența stocurilor."
+    },
+    {
+      "intent_id": "INT-038",
+      "funnel_stage": "Decision",
+      "service": "HoReCa Accounting",
+      "intent": "Am restaurant/cafenea și îmi trebuie contabil obișnuit cu gestiune, bonuri fiscale și reguli speciale de TVA.",
+      "keywords_ro": ["contabil restaurant cafenea", "gestiune marfa horeca"],
+      "keywords_en": ["restaurant cafe accounting Romania"],
+      "entities": ["restaurant", "cafenea", "HoReCa", "gestiune marfă", "bonuri fiscale", "TVA", "marjă produse"],
+      "canonical_answer": "Lucrăm cu afaceri din HoReCa și știm cum funcționează gestiunea, bonurile fiscale, marja pe produse și TVA-ul specific. Te ajutăm să controlezi costurile și să menții o evidență care rezistă la controale."
+    },
+    {
+      "intent_id": "INT-039",
+      "funnel_stage": "Decision",
+      "service": "Construction Project Accounting",
+      "intent": "Caut contabil cu experiență în construcții/contractori și urmărire de costuri pe proiect.",
+      "keywords_ro": ["contabil constructii proiecte", "urmarire costuri santier"],
+      "keywords_en": ["construction project accounting Romania"],
+      "entities": ["construcții", "contractori", "costuri pe proiect", "șantier", "venituri pe proiect", "marjă proiect"],
+      "canonical_answer": "Configurăm contabilitatea astfel încât să poți urmări separat costurile și veniturile pe proiecte sau șantiere. Te ajutăm să vezi clar marja pe proiect și să identifici lucrările neprofitabile."
+    },
+    {
+      "intent_id": "INT-040",
+      "funnel_stage": "Decision",
+      "service": "Medical and Dental Practice Accounting",
+      "intent": "Am cabinet medical/stomatologic și vreau contabil cu experiență pe acest domeniu.",
+      "keywords_ro": ["contabil cabinet medical stomatologic", "contabilitate medicala"],
+      "keywords_en": ["medical dental practice accounting Romania"],
+      "entities": ["cabinet medical", "cabinet stomatologic", "contabilitate medicală", "venituri medicale", "dotări medicale", "aparatură medicală"],
+      "canonical_answer": "Avem experiență cu cabinete medicale și stomatologice și cunoaștem specificul veniturilor, cheltuielilor și dotărilor medicale. Te ajutăm să gestionezi investițiile în aparatură și tratamentul fiscal al veniturilor."
+    }
+  ]
+}

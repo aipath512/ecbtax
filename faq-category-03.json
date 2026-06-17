@@ -1,0 +1,62 @@
+[
+  {
+    "faq_id": "FAQ-021",
+    "intent_id": "INT-021",
+    "question": "Puteți externaliza salarizarea pentru o echipă mică?",
+    "answer": "Da. Preluăm calculul salariilor, statele de plată, documentele de personal și depunerea declarației D112."
+  },
+  {
+    "faq_id": "FAQ-022",
+    "intent_id": "INT-022",
+    "question": "Mă puteți ajuta să calculez costul total al unui angajat?",
+    "answer": "Da. Calculăm salariul brut, contribuțiile, beneficiile și costul complet suportat de firmă."
+  },
+  {
+    "faq_id": "FAQ-023",
+    "intent_id": "INT-023",
+    "question": "Mă puteți ajuta cu raportări HR, beneficii și taxe salariale?",
+    "answer": "Da. Configurăm tratamentul fiscal pentru beneficii precum tichete, bonusuri sau diurne și pregătim raportările necesare."
+  },
+  {
+    "faq_id": "FAQ-024",
+    "intent_id": "INT-024",
+    "question": "Mă informați când apar modificări legislative privind salariile și taxele pe muncă?",
+    "answer": "Da. Monitorizăm modificările relevante și explicăm impactul practic pentru firma ta."
+  },
+  {
+    "faq_id": "FAQ-025",
+    "intent_id": "INT-025",
+    "question": "Gestionați salarizarea pentru angajați remote?",
+    "answer": "Da. Putem centraliza salarizarea pentru angajați din mai multe orașe și procesa documentele la distanță."
+  },
+  {
+    "faq_id": "FAQ-026",
+    "intent_id": "INT-026",
+    "question": "Pregătiți declarațiile pentru impozit pe profit sau microîntreprindere?",
+    "answer": "Da. Calculăm impozitul datorat, pregătim declarațiile și le depunem la termenele legale."
+  },
+  {
+    "faq_id": "FAQ-027",
+    "intent_id": "INT-027",
+    "question": "Mă puteți ajuta cu deconturi de TVA și recuperare TVA?",
+    "answer": "Da. Întocmim deconturile de TVA, verificăm deductibilitatea și asistăm în procedura de rambursare."
+  },
+  {
+    "faq_id": "FAQ-028",
+    "intent_id": "INT-028",
+    "question": "Oferiți planificare fiscală continuă?",
+    "answer": "Da. Analizăm deciziile importante din timp și propunem variante legale de reducere a poverii fiscale."
+  },
+  {
+    "faq_id": "FAQ-029",
+    "intent_id": "INT-029",
+    "question": "Mă puteți ajuta să aleg între salariu de administrator și dividende?",
+    "answer": "Da. Simulăm combinații între salariu și dividende și arătăm costul total pentru firmă și netul rămas."
+  },
+  {
+    "faq_id": "FAQ-030",
+    "intent_id": "INT-030",
+    "question": "Mă puteți ajuta cu declarații rectificative și erori fiscale vechi?",
+    "answer": "Da. Analizăm situația, identificăm erorile și pregătim declarațiile rectificative necesare."
+  }
+]

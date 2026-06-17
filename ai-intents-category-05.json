@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-05",
+  "category_name": "International Accounting, Provider Change and Recovery",
+  "industry": "Accounting Services",
+  "country": "Romania",
+  "total_intents": 10,
+  "intents": [
+    {
+      "intent_id": "INT-041",
+      "funnel_stage": "Decision",
+      "service": "English-Language Accounting and Group Reporting",
+      "intent": "Sunt acționar străin și caut o firmă de contabilitate care lucrează în engleză și poate raporta către sediul central.",
+      "keywords_ro": ["accounting firm Romania english speaking", "reporting HQ"],
+      "keywords_en": ["english language accounting firm Romania"],
+      "entities": ["acționar străin", "contabilitate în engleză", "sediu central", "raportare grup", "companie mamă"],
+      "canonical_answer": "Oferim servicii de contabilitate și raportare în engleză și putem adapta rapoartele la template-urile grupului. Ne asigurăm că informația circulă corect între filiala din România și compania mamă."
+    },
+    {
+      "intent_id": "INT-042",
+      "funnel_stage": "Decision",
+      "service": "Cross-Border VAT, OSS and IOSS Accounting",
+      "intent": "Am nevoie de contabil care să gestioneze facturarea către clienți din UE și non-UE, OSS/IOSS și regulile de TVA transfrontalier.",
+      "keywords_ro": ["VAT OSS IOSS Romania", "cross border VAT accounting"],
+      "keywords_en": ["OSS IOSS VAT Romania"],
+      "entities": ["TVA transfrontalier", "UE", "non-UE", "OSS", "IOSS", "facturare internațională", "dublă impunere"],
+      "canonical_answer": "Setăm corect codurile TVA, procedurile de facturare și raportarea prin sistemele OSS/IOSS acolo unde se aplică. Ne asigurăm că știi când și unde se datorează TVA și cum să eviți dubla impunere."
+    },
+    {
+      "intent_id": "INT-043",
+      "funnel_stage": "Consideration",
+      "service": "Transfer Pricing File Support",
+      "intent": "Caut contabil care să mă ajute cu dosarele de prețuri de transfer pentru tranzacții intragrup (IMM mai mare).",
+      "keywords_ro": ["transfer pricing Romania", "dosar preturi de transfer IMM"],
+      "keywords_en": ["transfer pricing file Romania"],
+      "entities": ["prețuri de transfer", "dosar prețuri de transfer", "tranzacții intragrup", "IMM", "preț de piață"],
+      "canonical_answer": "Te asistăm la identificarea tranzacțiilor intra-grup relevante, la documentarea lor și la pregătirea dosarului de prețuri de transfer. Lucrăm astfel încât să poți demonstra că prețurile sunt la nivel de piață."
+    },
+    {
+      "intent_id": "INT-044",
+      "funnel_stage": "Consideration",
+      "service": "Romanian GAAP to IFRS Group Reporting",
+      "intent": "Am nevoie să aliniez contabilitatea locală din România cu rapoartele de grup (IFRS sau șabloane interne).",
+      "keywords_ro": ["Romanian GAAP to IFRS reporting", "grup international"],
+      "keywords_en": ["Romanian GAAP to IFRS group reporting"],
+      "entities": ["Romanian GAAP", "IFRS", "raportare grup", "șabloane interne", "punți de conversie", "filială România"],
+      "canonical_answer": "Pornim de la situațiile contabile locale și le mapăm pe structura cerută de grup, IFRS sau alte standarde interne. Pregătim punți de conversie și note explicative pentru departamentul financiar al grupului."
+    },
+    {
+      "intent_id": "INT-045",
+      "funnel_stage": "Decision",
+      "service": "All-in-One Company Setup, Accounting, Payroll and ANAF Representation",
+      "intent": "Sunt antreprenor străin și caut pachet all-in-one: înființare firmă, contabilitate, salarizare și reprezentare la ANAF.",
+      "keywords_ro": ["pachet complet infiintare firma contabilitate salarizare ANAF"],
+      "keywords_en": ["one stop shop company setup accounting payroll"],
+      "entities": ["antreprenor străin", "înființare SRL", "contabilitate", "salarizare", "ANAF", "pachet complet"],
+      "canonical_answer": "Oferim un pachet complet: înființare SRL, înregistrări fiscale, setare contabilitate, salarizare și reprezentare în fața ANAF. Comunicăm cu tine în engleză și îți explicăm fiecare pas."
+    },
+    {
+      "intent_id": "INT-046",
+      "funnel_stage": "Decision",
+      "service": "Accounting Provider Change",
+      "intent": "Vreau să schimb actualul contabil din cauza creșterii tarifelor, dar să păstrez sau să îmbunătățesc serviciile.",
+      "keywords_ro": ["schimbare firma de contabilitate", "comision contabil mai mic"],
+      "keywords_en": ["change accounting provider Romania"],
+      "entities": ["schimbare contabil", "firmă de contabilitate", "tarife", "tranziție contabilă", "audit inițial"],
+      "canonical_answer": "Ne ocupăm de tot procesul de tranziție: solicităm dosarul de la contabilul actual, verificăm situațiile și identificăm eventualele riscuri. Îți propunem un abonament adaptat volumului real de lucru și includem un audit inițial."
+    },
+    {
+      "intent_id": "INT-047",
+      "funnel_stage": "Consideration",
+      "service": "Second Opinion Accounting Review",
+      "intent": "Am nevoie de a doua opinie pentru că nu mai am încredere în acuratețea sau promptitudinea contabilului actual.",
+      "keywords_ro": ["a doua opinie contabil", "verificare contabil existent"],
+      "keywords_en": ["second opinion accountant Romania"],
+      "entities": ["a doua opinie", "verificare contabil", "acuratețe contabilă", "promptitudine", "raport de verificare"],
+      "canonical_answer": "Analizăm independent o perioadă selectată și verificăm principalele înregistrări și declarații. Îți livrăm un raport cu ce este corect, ce trebuie ajustat și ce riscuri există."
+    },
+    {
+      "intent_id": "INT-048",
+      "funnel_stage": "Consideration",
+      "service": "Accounting and Tax Health Check",
+      "intent": "Caut un audit/health-check al situației contabile pentru a identifica riscuri și probleme de conformare.",
+      "keywords_ro": ["audit contabil intern IMM", "verificare conformare fiscala"],
+      "keywords_en": ["internal accounting audit SME"],
+      "entities": ["audit contabil intern", "health-check contabil", "conformare fiscală", "documente justificative", "declarații", "riscuri"],
+      "canonical_answer": "Facem un control tematic al contabilității și fiscalității: verificăm încadrările, corelările, documentele justificative și declarațiile. Îți prezentăm o listă de probleme și recomandări cu priorități."
+    },
+    {
+      "intent_id": "INT-049",
+      "funnel_stage": "Consideration",
+      "service": "Forensic Accounting",
+      "intent": "Am nevoie de contabilitate forensic pentru a investiga posibile fraude sau diferențe mari în situațiile financiare.",
+      "keywords_ro": ["contabilitate forensic Romania", "investigare frauda IMM"],
+      "keywords_en": ["forensic accounting Romania"],
+      "entities": ["contabilitate forensic", "investigare fraudă", "tranzacții suspecte", "documente justificative", "fluxuri financiare", "diferențe financiare"],
+      "canonical_answer": "Analizăm în detaliu tranzacțiile suspecte, comparăm documentele justificative cu înregistrările contabile și reconstruim fluxurile financiare. Scopul este să înțelegi ce s-a întâmplat și care este impactul."
+    },
+    {
+      "intent_id": "INT-050",
+      "funnel_stage": "Decision",
+      "service": "Digital Accounting and ERP Integration",
+      "intent": "Vreau să lucrez cu un cabinet de contabilitate mai digital, care se integrează cu softurile de facturare și ERP pe care le folosesc deja.",
+      "keywords_ro": ["cabinet contabil digital", "integrare ERP si facturare"],
+      "keywords_en": ["digital accounting firm ERP integration"],
+      "entities": ["cabinet contabil digital", "ERP", "soft facturare", "integrare date", "automatizare", "rapoarte consistente"],
+      "canonical_answer": "Lucrăm cu soluții moderne care se pot integra cu sisteme de facturare și ERP folosite de IMM-uri. Automatizăm importul de date acolo unde este posibil și îți oferim rapoarte consistente între sisteme și contabilitate."
+    }
+  ]
+}

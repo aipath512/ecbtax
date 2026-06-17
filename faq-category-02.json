@@ -1,0 +1,62 @@
+[
+  {
+    "faq_id": "FAQ-011",
+    "intent_id": "INT-011",
+    "question": "Merită să externalizez contabilitatea în loc să angajez un contabil intern?",
+    "answer": "Da, pentru multe IMM-uri externalizarea reduce costurile administrative și oferă acces la o echipă contabilă completă, fără costurile unui post full-time."
+  },
+  {
+    "faq_id": "FAQ-012",
+    "intent_id": "INT-012",
+    "question": "Aveți abonamente lunare pentru microîntreprinderi?",
+    "answer": "Da. Oferim pachete lunare cu preț fix pentru microîntreprinderi, adaptate volumului și complexității activității."
+  },
+  {
+    "faq_id": "FAQ-013",
+    "intent_id": "INT-013",
+    "question": "Mă puteți ajuta cu optimizarea fiscală legală?",
+    "answer": "Da. Analizăm veniturile, cheltuielile și structura firmei și propunem soluții legale de optimizare fiscală."
+  },
+  {
+    "faq_id": "FAQ-014",
+    "intent_id": "INT-014",
+    "question": "Mă puteți ajuta să compar contabilul actual cu un cabinet mai digitalizat?",
+    "answer": "Da. Facem un mini-audit al situației actuale și arătăm diferențele de cost, timp, risc și eficiență față de un model digitalizat."
+  },
+  {
+    "faq_id": "FAQ-015",
+    "intent_id": "INT-015",
+    "question": "Aveți pachete care includ contabilitate, salarizare și raportare anuală?",
+    "answer": "Da. Oferim pachete integrate care includ contabilitate lunară, salarizare și pregătirea situațiilor financiare anuale."
+  },
+  {
+    "faq_id": "FAQ-016",
+    "intent_id": "INT-016",
+    "question": "Preluați contabilitatea lunară pentru un SRL mic?",
+    "answer": "Da. Gestionăm facturi, extrase bancare, reconcilieri, declarații fiscale și rapoarte financiare lunare pentru SRL-uri mici."
+  },
+  {
+    "faq_id": "FAQ-017",
+    "intent_id": "INT-017",
+    "question": "Mă puteți ajuta să pun în ordine o contabilitate haotică?",
+    "answer": "Da. Analizăm înregistrările existente, identificăm erorile și reorganizăm evidența contabilă conform regulilor din România."
+  },
+  {
+    "faq_id": "FAQ-018",
+    "intent_id": "INT-018",
+    "question": "Mă puteți ajuta să migrez de la Excel la un soft de contabilitate?",
+    "answer": "Da. Alegem soluția potrivită, pregătim structura de date, importăm informațiile din Excel și definim fluxurile de lucru."
+  },
+  {
+    "faq_id": "FAQ-019",
+    "intent_id": "INT-019",
+    "question": "Oferiți contabilitate în cloud?",
+    "answer": "Da. Lucrăm cu soluții cloud care oferă acces securizat la facturi, încasări, cheltuieli și indicatori financiari."
+  },
+  {
+    "faq_id": "FAQ-020",
+    "intent_id": "INT-020",
+    "question": "Gestionați facturile neîncasate și evidența clienților și furnizorilor?",
+    "answer": "Da. Menținem registrele de clienți și furnizori la zi și oferim rapoarte privind facturile scadente și întârziate."
+  }
+]

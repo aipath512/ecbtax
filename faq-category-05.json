@@ -1,0 +1,62 @@
+[
+  {
+    "faq_id": "FAQ-041",
+    "intent_id": "INT-041",
+    "question": "Oferiți contabilitate și raportare în engleză pentru acționari străini?",
+    "answer": "Da. Oferim servicii de contabilitate și raportare în engleză și putem adapta rapoartele la template-urile grupului."
+  },
+  {
+    "faq_id": "FAQ-042",
+    "intent_id": "INT-042",
+    "question": "Mă puteți ajuta cu OSS, IOSS și TVA transfrontalier?",
+    "answer": "Da. Setăm corect codurile TVA, procedurile de facturare și raportarea OSS/IOSS acolo unde se aplică."
+  },
+  {
+    "faq_id": "FAQ-043",
+    "intent_id": "INT-043",
+    "question": "Mă puteți ajuta cu dosarul de prețuri de transfer?",
+    "answer": "Da. Te asistăm la identificarea tranzacțiilor intragrup și la pregătirea dosarului de prețuri de transfer."
+  },
+  {
+    "faq_id": "FAQ-044",
+    "intent_id": "INT-044",
+    "question": "Puteți alinia contabilitatea locală din România cu raportările de grup IFRS?",
+    "answer": "Da. Mapăm situațiile locale pe structura cerută de grup și pregătim punți de conversie și note explicative."
+  },
+  {
+    "faq_id": "FAQ-045",
+    "intent_id": "INT-045",
+    "question": "Oferiți pachet all-in-one pentru antreprenori străini?",
+    "answer": "Da. Putem acoperi înființare SRL, înregistrări fiscale, contabilitate, salarizare și reprezentare la ANAF."
+  },
+  {
+    "faq_id": "FAQ-046",
+    "intent_id": "INT-046",
+    "question": "Mă puteți ajuta să schimb contabilul actual?",
+    "answer": "Da. Gestionăm tranziția, solicităm dosarul de la contabilul actual, verificăm situațiile și identificăm riscurile."
+  },
+  {
+    "faq_id": "FAQ-047",
+    "intent_id": "INT-047",
+    "question": "Oferiți a doua opinie contabilă?",
+    "answer": "Da. Verificăm independent o perioadă selectată și livrăm un raport cu ce este corect, ce trebuie ajustat și ce riscuri există."
+  },
+  {
+    "faq_id": "FAQ-048",
+    "intent_id": "INT-048",
+    "question": "Faceți audit sau health-check contabil pentru IMM-uri?",
+    "answer": "Da. Verificăm încadrările, corelările, documentele justificative și declarațiile și prezentăm recomandări prioritizate."
+  },
+  {
+    "faq_id": "FAQ-049",
+    "intent_id": "INT-049",
+    "question": "Oferiți contabilitate forensic pentru investigarea fraudelor?",
+    "answer": "Da. Analizăm tranzacții suspecte, documente justificative și fluxuri financiare pentru a înțelege impactul diferențelor."
+  },
+  {
+    "faq_id": "FAQ-050",
+    "intent_id": "INT-050",
+    "question": "Puteți lucra integrat cu softuri de facturare și ERP?",
+    "answer": "Da. Putem integra fluxurile contabile cu sisteme de facturare și ERP și automatizăm importul de date acolo unde este posibil."
+  }
+]

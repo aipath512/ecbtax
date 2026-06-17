@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-02",
+  "category_name": "Outsourcing and Monthly Accounting",
+  "industry": "Accounting Services",
+  "country_context": "Romania",
+  "entities": {
+    "business_types": [
+      "IMM",
+      "Microîntreprindere",
+      "SRL cu 1-10 angajați"
+    ],
+    "commercial_models": [
+      "Abonament lunar",
+      "Pachet contabil lunar",
+      "Pachet integrat contabilitate salarizare raportare anuală",
+      "Externalizare contabilitate"
+    ],
+    "accounting_processes": [
+      "Contabilitate lunară",
+      "Înregistrare facturi",
+      "Extrase bancare",
+      "Reconcilieri",
+      "Declarații fiscale",
+      "Rapoarte financiare lunare",
+      "Curățenie contabilă",
+      "Reorganizare evidență contabilă"
+    ],
+    "digital_accounting": [
+      "Cabinet contabil digital",
+      "Automatizare contabilă",
+      "Soft contabil",
+      "Migrare de la Excel",
+      "Contabilitate în cloud",
+      "Dashboard financiar",
+      "Acces online contabilitate",
+      "Fluxuri de lucru digitale"
+    ],
+    "financial_control": [
+      "Registru clienți",
+      "Registru furnizori",
+      "Facturi neîncasate",
+      "Creanțe",
+      "Datorii",
+      "Cash-flow",
+      "Indicatori financiari"
+    ],
+    "tax_and_advisory_concepts": [
+      "Optimizare fiscală legală",
+      "Consultanță fiscală",
+      "Structura veniturilor",
+      "Structura cheltuielilor",
+      "Remunerarea asociaților",
+      "Contracte furnizori"
+    ],
+    "services": [
+      "Accounting Outsourcing",
+      "Monthly Accounting Package for Microenterprises",
+      "Legal Tax Optimization",
+      "Digital Accounting Provider Comparison",
+      "Integrated Accounting, Payroll and Annual Reporting Package",
+      "Monthly Bookkeeping for Small SRLs",
+      "Accounting Cleanup and Reorganization",
+      "Accounting Software Migration",
+      "Cloud Accounting",
+      "Accounts Receivable and Payable Management"
+    ]
+  }
+}

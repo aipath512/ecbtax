@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-02",
+  "category_name": "Outsourcing and Monthly Accounting",
+  "industry": "Accounting Services",
+  "country": "Romania",
+  "total_intents": 10,
+  "intents": [
+    {
+      "intent_id": "INT-011",
+      "funnel_stage": "Awareness",
+      "service": "Accounting Outsourcing",
+      "intent": "Vreau să reduc costurile administrative și să externalizez contabilitatea în loc să angajez contabil intern.",
+      "keywords_ro": ["externalizare contabilitate IMM", "cost contabilitate mic"],
+      "keywords_en": ["outsourced accounting SME Romania", "reduce admin costs"],
+      "entities": ["externalizare contabilitate", "IMM", "contabil intern", "abonament lunar", "costuri administrative"],
+      "canonical_answer": "Înlocuiești costul unui post full-time, cu salariu, contribuții și training, cu un abonament lunar transparent. Ai la dispoziție o echipă întreagă și fluxuri deja puse la punct, cu cost total mai mic și risc operațional redus."
+    },
+    {
+      "intent_id": "INT-012",
+      "funnel_stage": "Decision",
+      "service": "Monthly Accounting Package for Microenterprises",
+      "intent": "Caut un abonament lunar de contabilitate pentru o microîntreprindere (pachet fix de servicii).",
+      "keywords_ro": ["abonament contabilitate microintreprindere", "pachet contabil lunar"],
+      "keywords_en": ["monthly accounting package micro company"],
+      "entities": ["abonament contabilitate", "microîntreprindere", "pachet lunar", "declarații fiscale", "consultanță de bază"],
+      "canonical_answer": "Oferim pachete standard pentru microîntreprinderi, cu preț fix pe lună, în funcție de volum și complexitate. Fiecare pachet include contabilitate curentă, declarații fiscale și consultanță de bază."
+    },
+    {
+      "intent_id": "INT-013",
+      "funnel_stage": "Consideration",
+      "service": "Legal Tax Optimization",
+      "intent": "Am nevoie de contabil care să identifice soluții legale de optimizare fiscală pentru firma mea.",
+      "keywords_ro": ["optimizare fiscala legala IMM", "consultanta fiscala"],
+      "keywords_en": ["legal tax optimization SME Romania"],
+      "entities": ["optimizare fiscală", "consultanță fiscală", "IMM", "venituri", "cheltuieli", "asociați"],
+      "canonical_answer": "Analizăm structura veniturilor și cheltuielilor, modul de remunerare a asociaților și contractele cu furnizorii. Propunem optimizări 100% legale și îți arătăm impactul lor în bani."
+    },
+    {
+      "intent_id": "INT-014",
+      "funnel_stage": "Decision",
+      "service": "Digital Accounting Provider Comparison",
+      "intent": "Vreau să compar costurile și beneficiile între contabilul actual și un cabinet mai digitalizat/automatizat.",
+      "keywords_ro": ["schimbare contabil", "cabinet contabil digital"],
+      "keywords_en": ["switch to digital accounting firm Romania"],
+      "entities": ["schimbare contabil", "cabinet contabil digital", "automatizare", "costuri", "riscuri", "digitalizare"],
+      "canonical_answer": "Facem un mini-audit al situației actuale, inclusiv costuri, timp și riscuri, și îl comparăm cu modul nostru de lucru digital. Îți arătăm cum se schimbă procesul și ce beneficii concrete ai din digitalizare."
+    },
+    {
+      "intent_id": "INT-015",
+      "funnel_stage": "Decision",
+      "service": "Integrated Accounting, Payroll and Annual Reporting Package",
+      "intent": "Caut o ofertă cu preț predictibil care să includă contabilitate, salarizare și raportare anuală la pachet.",
+      "keywords_ro": ["pachet contabilitate salarizare raportare anuala"],
+      "keywords_en": ["bundle accounting payroll annual reports"],
+      "entities": ["contabilitate", "salarizare", "raportare anuală", "abonament", "pachet integrat"],
+      "canonical_answer": "Avem pachete integrate care includ contabilitatea lunară, salarizarea și pregătirea situațiilor financiare anuale. Plătești un singur abonament, fără costuri suplimentare ascunse pentru servicii extra."
+    },
+    {
+      "intent_id": "INT-016",
+      "funnel_stage": "Decision",
+      "service": "Monthly Bookkeeping for Small SRLs",
+      "intent": "Am nevoie de contabilitate lunară pentru un SRL cu 1–10 angajați (facturi, extrase bancare, reconcilieri).",
+      "keywords_ro": ["contabilitate lunara SRL", "servicii contabilitate complete"],
+      "keywords_en": ["monthly bookkeeping SRL", "full accounting services"],
+      "entities": ["SRL", "contabilitate lunară", "facturi", "extrase bancare", "reconcilieri", "declarații fiscale"],
+      "canonical_answer": "Preluăm complet fluxul de contabilitate lunară: înregistrăm facturile, extrasele bancare, facem reconcilieri și pregătim declarațiile. Îți livrăm un raport financiar simplu, cu ce s-a întâmplat în luna respectivă."
+    },
+    {
+      "intent_id": "INT-017",
+      "funnel_stage": "Consideration",
+      "service": "Accounting Cleanup and Reorganization",
+      "intent": "Caut ajutor să pun în ordine evidențele contabile haotice și să le aliniez la regulile din România.",
+      "keywords_ro": ["reorganizare evidenta contabila", "curatenie contabilitate"],
+      "keywords_en": ["clean up messy books Romania"],
+      "entities": ["evidențe contabile", "curățenie contabilă", "reorganizare contabilitate", "reguli contabile România", "erori contabile"],
+      "canonical_answer": "Facem o analiză a înregistrărilor existente, identificăm erorile și lipsurile și propunem un plan de corecție. Reorganizăm evidența astfel încât să fie aliniată cu legislația și standardele contabile locale."
+    },
+    {
+      "intent_id": "INT-018",
+      "funnel_stage": "Consideration",
+      "service": "Accounting Software Migration",
+      "intent": "Am nevoie de cineva care să mă ajute să migrez de la Excel la un soft integrat de contabilitate.",
+      "keywords_ro": ["migrare la soft contabil", "implementare program contabil"],
+      "keywords_en": ["migrate from Excel to accounting software"],
+      "entities": ["Excel", "soft contabil", "migrare date", "implementare contabilitate", "fluxuri de lucru"],
+      "canonical_answer": "Te ajutăm să alegi un soft de contabilitate potrivit pentru nivelul și nevoile firmei tale. Pregătim structura de date, importăm informațiile din Excel și definim fluxurile de lucru."
+    },
+    {
+      "intent_id": "INT-019",
+      "funnel_stage": "Consideration",
+      "service": "Cloud Accounting",
+      "intent": "Vreau contabilitate în cloud ca să pot vedea în timp real situația financiară a firmei.",
+      "keywords_ro": ["contabilitate in cloud Romania", "acces online contabilitate"],
+      "keywords_en": ["cloud accounting Romania", "real time numbers"],
+      "entities": ["contabilitate în cloud", "acces online", "situație financiară", "facturi", "încasări", "cheltuieli", "dashboard financiar"],
+      "canonical_answer": "Lucrăm cu soluții cloud care îți permit să vezi în timp real facturile, încasările și cheltuielile. Primești acces securizat la tabloul de bord financiar și poți urmări indicatorii de bază."
+    },
+    {
+      "intent_id": "INT-020",
+      "funnel_stage": "Decision",
+      "service": "Accounts Receivable and Payable Management",
+      "intent": "Caut un contabil care să gestioneze registrele de furnizori/clienți și urmărirea facturilor neîncasate.",
+      "keywords_ro": ["urmarire facturi neincasate", "evidenta clienti furnizori"],
+      "keywords_en": ["accounts receivable and payable tracking"],
+      "entities": ["registru clienți", "registru furnizori", "facturi neîncasate", "creanțe", "datorii", "cash-flow"],
+      "canonical_answer": "Menținem la zi registrele de clienți și furnizori și îți evidențiem clar facturile scadente și cele întârziate. Pregătim rapoarte periodice astfel încât să știi exact de unde trebuie recuperați banii."
+    }
+  ]
+}

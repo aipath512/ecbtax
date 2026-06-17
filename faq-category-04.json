@@ -1,0 +1,62 @@
+[
+  {
+    "faq_id": "FAQ-031",
+    "intent_id": "INT-031",
+    "question": "Oferiți rapoarte lunare de management și indicatori financiari?",
+    "answer": "Da. Transformăm datele contabile în rapoarte de management cu venituri, marje, cheltuieli principale, cash-flow și indicatori relevanți."
+  },
+  {
+    "faq_id": "FAQ-032",
+    "intent_id": "INT-032",
+    "question": "Oferiți servicii de CFO part-time?",
+    "answer": "Da. Punem la dispoziție suport financiar extern pentru bugetare, cash-flow, prognoze, discuții cu banca și interpretarea indicatorilor."
+  },
+  {
+    "faq_id": "FAQ-033",
+    "intent_id": "INT-033",
+    "question": "Mă puteți ajuta cu previziuni financiare pentru credit bancar sau finanțare?",
+    "answer": "Da. Construim proiecții financiare realiste și le adaptăm formatelor cerute de bănci sau consultanți de fonduri."
+  },
+  {
+    "faq_id": "FAQ-034",
+    "intent_id": "INT-034",
+    "question": "Îmi puteți explica bilanțul și contul de profit și pierdere?",
+    "answer": "Da. Traducem bilanțul și contul de profit și pierdere în termeni de business, astfel încât să poți lua decizii mai bune."
+  },
+  {
+    "faq_id": "FAQ-035",
+    "intent_id": "INT-035",
+    "question": "Oferiți suport de due diligence financiar pentru cumpărarea sau vânzarea unei afaceri?",
+    "answer": "Da. Analizăm situațiile financiare, calitatea profitului, datoriile și riscurile fiscale și pregătim un rezumat clar."
+  },
+  {
+    "faq_id": "FAQ-036",
+    "intent_id": "INT-036",
+    "question": "Aveți experiență cu firme din IT, software și freelanceri?",
+    "answer": "Da. Lucrăm cu modele de business din IT, inclusiv contracte externe, facturare internațională, freelancing și abonamente recurente."
+  },
+  {
+    "faq_id": "FAQ-037",
+    "intent_id": "INT-037",
+    "question": "Oferiți contabilitate pentru e-commerce și marketplace-uri?",
+    "answer": "Da. Gestionăm particularități precum comisioane, retururi, TVA pentru vânzări transfrontaliere și evidența stocurilor."
+  },
+  {
+    "faq_id": "FAQ-038",
+    "intent_id": "INT-038",
+    "question": "Aveți experiență cu restaurante, cafenele și HoReCa?",
+    "answer": "Da. Cunoaștem gestiunea, bonurile fiscale, marjele pe produse, TVA-ul specific și regulile contabile pentru HoReCa."
+  },
+  {
+    "faq_id": "FAQ-039",
+    "intent_id": "INT-039",
+    "question": "Puteți urmări costurile pe proiecte sau șantiere în construcții?",
+    "answer": "Da. Configurăm contabilitatea pentru urmărirea separată a costurilor, veniturilor și marjei pe fiecare proiect sau șantier."
+  },
+  {
+    "faq_id": "FAQ-040",
+    "intent_id": "INT-040",
+    "question": "Oferiți contabilitate pentru cabinete medicale sau stomatologice?",
+    "answer": "Da. Avem experiență cu specificul veniturilor, cheltuielilor, dotărilor medicale și tratamentului fiscal pentru cabinete medicale și stomatologice."
+  }
+]

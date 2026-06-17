@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-05",
+  "category_name": "International Accounting, Provider Change and Recovery",
+  "service_group": "International Accounting, Group Reporting, Provider Change and Recovery",
+  "services": [
+    {
+      "service_id": "SERV-041",
+      "name": "English-Language Accounting and Group Reporting",
+      "description": "Accounting and reporting in English for foreign shareholders, Romanian subsidiaries and group headquarters.",
+      "related_intents": ["INT-041"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-042",
+      "name": "Cross-Border VAT, OSS and IOSS Accounting",
+      "description": "Cross-border VAT accounting, OSS/IOSS support and international invoicing procedures for EU and non-EU clients.",
+      "related_intents": ["INT-042"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-043",
+      "name": "Transfer Pricing File Support",
+      "description": "Support for identifying intragroup transactions and preparing Romanian transfer pricing documentation.",
+      "related_intents": ["INT-043"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-044",
+      "name": "Romanian GAAP to IFRS Group Reporting",
+      "description": "Mapping Romanian local accounting statements to IFRS or internal group reporting templates.",
+      "related_intents": ["INT-044"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-045",
+      "name": "All-in-One Company Setup, Accounting, Payroll and ANAF Representation",
+      "description": "Complete package for foreign entrepreneurs: Romanian company setup, fiscal registrations, accounting, payroll and ANAF representation.",
+      "related_intents": ["INT-045"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-046",
+      "name": "Accounting Provider Change",
+      "description": "Transition support for changing accounting provider, including file handover, accounting review and initial risk check.",
+      "related_intents": ["INT-046"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-047",
+      "name": "Second Opinion Accounting Review",
+      "description": "Independent accounting second opinion for clients concerned about accuracy, delays or quality of their current accountant.",
+      "related_intents": ["INT-047"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-048",
+      "name": "Accounting and Tax Health Check",
+      "description": "Internal accounting and tax health-check for SMEs to identify compliance risks and accounting issues.",
+      "related_intents": ["INT-048"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-049",
+      "name": "Forensic Accounting",
+      "description": "Forensic accounting analysis for suspected fraud, large financial discrepancies and reconstruction of financial flows.",
+      "related_intents": ["INT-049"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-050",
+      "name": "Digital Accounting and ERP Integration",
+      "description": "Digital accounting workflows integrated with invoicing software and ERP systems used by SMEs.",
+      "related_intents": ["INT-050"],
+      "schema_types": ["AccountingService", "Service"]
+    }
+  ]
+}

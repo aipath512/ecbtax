@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-04",
+  "category_name": "Management Reporting, CFO Support and Industry-Specific Accounting",
+  "industry": "Accounting Services",
+  "country_context": "Romania",
+  "entities": {
+    "management_reporting": [
+      "Rapoarte management",
+      "Indicatori financiari",
+      "KPI",
+      "Venituri pe segmente",
+      "Marje",
+      "Cheltuieli principale",
+      "Cash-flow",
+      "Dashboard financiar"
+    ],
+    "cfo_and_finance": [
+      "CFO part-time",
+      "Director financiar externalizat",
+      "Bugetare",
+      "Prognoze financiare",
+      "Discuții cu banca",
+      "Credit bancar",
+      "Finanțare europeană",
+      "Plan financiar",
+      "Proiecții financiare"
+    ],
+    "financial_statements": [
+      "Bilanț",
+      "Cont de profit și pierdere",
+      "P&L",
+      "Indicatori",
+      "Semnale de risc",
+      "Decizii financiare",
+      "Situații financiare"
+    ],
+    "due_diligence": [
+      "Due diligence financiar",
+      "Evaluare firmă",
+      "Afacere mică",
+      "Calitatea profitului",
+      "Structura datoriilor",
+      "Riscuri fiscale",
+      "Opinie orientativă de evaluare"
+    ],
+    "it_and_software": [
+      "SRL IT",
+      "Freelanceri IT",
+      "Micro-agenții",
+      "Contracte externe",
+      "Facturare internațională",
+      "Abonamente recurente",
+      "Freelancing"
+    ],
+    "ecommerce": [
+      "E-commerce",
+      "Marketplace",
+      "Vânzări România",
+      "Vânzări UE",
+      "Comisioane",
+      "Retururi",
+      "TVA transfrontalier",
+      "Stocuri"
+    ],
+    "horeca": [
+      "Restaurant",
+      "Cafenea",
+      "HoReCa",
+      "Gestiune marfă",
+      "Bonuri fiscale",
+      "Marjă produse",
+      "TVA specific"
+    ],
+    "construction": [
+      "Construcții",
+      "Contractori",
+      "Costuri pe proiect",
+      "Șantier",
+      "Venituri pe proiect",
+      "Marjă proiect",
+      "Lucrări neprofitabile"
+    ],
+    "medical": [
+      "Cabinet medical",
+      "Cabinet stomatologic",
+      "Contabilitate medicală",
+      "Venituri medicale",
+      "Cheltuieli medicale",
+      "Dotări medicale",
+      "Aparatură medicală",
+      "Tratament fiscal"
+    ],
+    "services": [
+      "Management Reporting",
+      "Fractional CFO",
+      "Financial Projections",
+      "Financial Statement Explanation",
+      "Financial Due Diligence",
+      "IT and Software Company Accounting",
+      "E-commerce and Marketplace Accounting",
+      "HoReCa Accounting",
+      "Construction Project Accounting",
+      "Medical and Dental Practice Accounting"
+    ]
+  }
+}

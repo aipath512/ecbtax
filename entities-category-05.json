@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-05",
+  "category_name": "International Accounting, Provider Change and Recovery",
+  "industry": "Accounting Services",
+  "country_context": "Romania",
+  "entities": {
+    "international_accounting": [
+      "Acționar străin",
+      "Antreprenor străin",
+      "Contabilitate în engleză",
+      "Sediu central",
+      "Companie mamă",
+      "Filială România",
+      "Raportare grup",
+      "Template-uri de grup"
+    ],
+    "cross_border_vat": [
+      "TVA transfrontalier",
+      "UE",
+      "Non-UE",
+      "OSS",
+      "IOSS",
+      "Facturare internațională",
+      "Dublă impunere",
+      "Coduri TVA"
+    ],
+    "transfer_pricing": [
+      "Prețuri de transfer",
+      "Dosar prețuri de transfer",
+      "Tranzacții intragrup",
+      "IMM",
+      "Preț de piață",
+      "Documentare tranzacții intragrup"
+    ],
+    "group_reporting": [
+      "Romanian GAAP",
+      "IFRS",
+      "Raportare grup",
+      "Șabloane interne",
+      "Punți de conversie",
+      "Note explicative",
+      "Departament financiar grup"
+    ],
+    "company_setup_package": [
+      "Înființare SRL",
+      "Înregistrări fiscale",
+      "Contabilitate",
+      "Salarizare",
+      "Reprezentare ANAF",
+      "Pachet complet",
+      "Comunicare în engleză"
+    ],
+    "provider_change": [
+      "Schimbare contabil",
+      "Firmă de contabilitate",
+      "Tarife",
+      "Tranziție contabilă",
+      "Dosar contabil",
+      "Audit inițial",
+      "Volum real de lucru"
+    ],
+    "review_and_recovery": [
+      "A doua opinie",
+      "Verificare contabil",
+      "Acuratețe contabilă",
+      "Promptitudine",
+      "Raport de verificare",
+      "Health-check contabil",
+      "Conformare fiscală",
+      "Documente justificative",
+      "Declarații",
+      "Riscuri"
+    ],
+    "forensic_accounting": [
+      "Contabilitate forensic",
+      "Investigarea fraudei",
+      "Tranzacții suspecte",
+      "Fluxuri financiare",
+      "Diferențe financiare",
+      "Impact financiar"
+    ],
+    "digital_integration": [
+      "Cabinet contabil digital",
+      "ERP",
+      "Soft facturare",
+      "Integrare date",
+      "Automatizare",
+      "Import de date",
+      "Rapoarte consistente"
+    ],
+    "services": [
+      "English-Language Accounting and Group Reporting",
+      "Cross-Border VAT, OSS and IOSS Accounting",
+      "Transfer Pricing File Support",
+      "Romanian GAAP to IFRS Group Reporting",
+      "All-in-One Company Setup, Accounting, Payroll and ANAF Representation",
+      "Accounting Provider Change",
+      "Second Opinion Accounting Review",
+      "Accounting and Tax Health Check",
+      "Forensic Accounting",
+      "Digital Accounting and ERP Integration"
+    ]
+  }
+}
