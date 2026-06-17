@@ -1,33 +1,365 @@
 {
-  "version": "1.0.0",
+  "schema": "ecbtax-ai-signals-v1",
+  "version": "1.0",
   "site": "https://ecbtax.com",
-  "levels": {
-    "L1 Discovery": [
-      "robots.txt",
-      "sitemap.xml",
-      "llms.txt",
-      "HTTPS",
-      "homepage reachable"
-    ],
-    "L2 Understanding": [
-      "JSON-LD",
-      "Organization",
-      "Service",
-      "Person",
-      "FAQPage",
-      "BreadcrumbList"
-    ],
-    "L3 Declaration": [
-      "ai.json",
-      "authority.json",
-      "entities.json",
-      "adn.json"
-    ],
-    "L4 Intent": [
-      "intents.json",
-      "FAQ mapping",
-      "service-intent mapping",
-      "answer blocks"
-    ]
-  }
+  "total_signals": 50,
+  "signals": [
+    {
+      "signal_id": "SIG-001",
+      "name": "Organization Identity",
+      "category": "Identity",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-002",
+      "name": "Legal Business Name",
+      "category": "Identity",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-003",
+      "name": "Accounting Service Definition",
+      "category": "Offer",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-004",
+      "name": "Payroll Service Definition",
+      "category": "Offer",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-005",
+      "name": "Tax Advisory Definition",
+      "category": "Offer",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-006",
+      "name": "VAT Compliance Definition",
+      "category": "Offer",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-007",
+      "name": "ANAF Representation Definition",
+      "category": "Offer",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-008",
+      "name": "Target SME Definition",
+      "category": "Audience",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-009",
+      "name": "Target Startup Definition",
+      "category": "Audience",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-010",
+      "name": "Target Foreign Investor Definition",
+      "category": "Audience",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+
+    {
+      "signal_id": "SIG-011",
+      "name": "Intent Router Present",
+      "category": "Intent",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-012",
+      "name": "Intent Registry Present",
+      "category": "Intent",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-013",
+      "name": "FAQ Registry Present",
+      "category": "Intent",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-014",
+      "name": "Entity Registry Present",
+      "category": "Knowledge",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-015",
+      "name": "Service Registry Present",
+      "category": "Knowledge",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-016",
+      "name": "Knowledge Graph Present",
+      "category": "Knowledge",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-017",
+      "name": "Accounting Industry Entity Coverage",
+      "category": "Knowledge",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-018",
+      "name": "Tax Concept Coverage",
+      "category": "Knowledge",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-019",
+      "name": "Authority Coverage",
+      "category": "Knowledge",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-020",
+      "name": "Document Coverage",
+      "category": "Knowledge",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+
+    {
+      "signal_id": "SIG-021",
+      "name": "VAT Expertise",
+      "category": "Expertise",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-022",
+      "name": "Payroll Expertise",
+      "category": "Expertise",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-023",
+      "name": "SME Accounting Expertise",
+      "category": "Expertise",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-024",
+      "name": "Ecommerce Accounting Expertise",
+      "category": "Expertise",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-025",
+      "name": "HoReCa Accounting Expertise",
+      "category": "Expertise",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-026",
+      "name": "Construction Accounting Expertise",
+      "category": "Expertise",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-027",
+      "name": "Medical Accounting Expertise",
+      "category": "Expertise",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-028",
+      "name": "International Reporting Expertise",
+      "category": "Expertise",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-029",
+      "name": "Transfer Pricing Expertise",
+      "category": "Expertise",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-030",
+      "name": "Fractional CFO Expertise",
+      "category": "Expertise",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+
+    {
+      "signal_id": "SIG-031",
+      "name": "AI Profile Present",
+      "category": "AI Layer",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-032",
+      "name": "AI Services Present",
+      "category": "AI Layer",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-033",
+      "name": "AI Intents Present",
+      "category": "AI Layer",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-034",
+      "name": "AI Signals Present",
+      "category": "AI Layer",
+      "criticality": "CRITICAL",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-035",
+      "name": "Worker Integration",
+      "category": "AI Layer",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-036",
+      "name": "Intent API Operational",
+      "category": "AI Layer",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+
+    {
+      "signal_id": "SIG-037",
+      "name": "Bucharest Location Defined",
+      "category": "Local",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-038",
+      "name": "Romania Service Area Defined",
+      "category": "Local",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-039",
+      "name": "English Language Support",
+      "category": "Trust",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-040",
+      "name": "Foreign Investor Support",
+      "category": "Trust",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+
+    {
+      "signal_id": "SIG-041",
+      "name": "ERP Integration Capability",
+      "category": "Digital",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-042",
+      "name": "Cloud Accounting Capability",
+      "category": "Digital",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-043",
+      "name": "Software Migration Capability",
+      "category": "Digital",
+      "criticality": "LOW",
+      "status": "PASS"
+    },
+
+    {
+      "signal_id": "SIG-044",
+      "name": "Financial Reporting Capability",
+      "category": "Reporting",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-045",
+      "name": "Management Reporting Capability",
+      "category": "Reporting",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-046",
+      "name": "Forecasting Capability",
+      "category": "Reporting",
+      "criticality": "MEDIUM",
+      "status": "PASS"
+    },
+
+    {
+      "signal_id": "SIG-047",
+      "name": "FAQ Knowledge Coverage",
+      "category": "Coverage",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-048",
+      "name": "Intent Coverage",
+      "category": "Coverage",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-049",
+      "name": "Service Coverage",
+      "category": "Coverage",
+      "criticality": "HIGH",
+      "status": "PASS"
+    },
+    {
+      "signal_id": "SIG-050",
+      "name": "Entity Coverage",
+      "category": "Coverage",
+      "criticality": "HIGH",
+      "status": "PASS"
+    }
+  ]
 }
