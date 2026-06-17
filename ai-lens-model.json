@@ -1,0 +1,118 @@
+{
+  "schema": "ecbtax-ai-lens-model-v1",
+  "version": "1.0",
+
+  "purpose": "Map business information requirements to buyer intents, services, entities and recommendation readiness.",
+
+  "layers": [
+
+    {
+      "layer": "L1",
+      "name": "Findable",
+      "question": "Can AI find this business?",
+      "required_information": [
+        "Business Name",
+        "Website",
+        "Contact Information",
+        "Location",
+        "Services",
+        "Organization Identity"
+      ],
+      "files": [
+        "/ai.json",
+        "/llms.txt"
+      ]
+    },
+
+    {
+      "layer": "L2",
+      "name": "Understandable",
+      "question": "Can AI understand what this business does?",
+      "required_information": [
+        "Services",
+        "Target Clients",
+        "Industries",
+        "Problems Solved",
+        "Business Vocabulary"
+      ],
+      "files": [
+        "/ai-services.json",
+        "/entities.json",
+        "/accounting-ontology.json"
+      ]
+    },
+
+    {
+      "layer": "L3",
+      "name": "Verifiable",
+      "question": "Can AI verify claims?",
+      "required_information": [
+        "Proof",
+        "Documents",
+        "References",
+        "Business Facts",
+        "Relationships"
+      ],
+      "files": [
+        "/ai-proof.json",
+        "/context-graph.json",
+        "/ai-routes.json"
+      ]
+    },
+
+    {
+      "layer": "L4",
+      "name": "Trustable",
+      "question": "Can AI trust this business?",
+      "required_information": [
+        "Legal Identity",
+        "Credentials",
+        "Memberships",
+        "Reviews",
+        "Ratings"
+      ]
+    },
+
+    {
+      "layer": "L5",
+      "name": "Recommendable",
+      "question": "Would AI recommend this business?",
+      "required_information": [
+        "Intent Coverage",
+        "Industry Expertise",
+        "External Citations",
+        "Testimonials",
+        "Case Studies"
+      ]
+    },
+
+    {
+      "layer": "L6",
+      "name": "Selectable",
+      "question": "Would AI choose this business over competitors?",
+      "required_information": [
+        "Competitive Advantages",
+        "Outcome Proof",
+        "Differentiators",
+        "Specialization"
+      ]
+    }
+  ],
+
+  "buyer_intent_count": 50,
+  "faq_count": 50,
+  "service_count": 28,
+  "entity_count_estimate": 250,
+
+  "source_files": [
+    "/ai-intents-category-01.json",
+    "/ai-intents-category-02.json",
+    "/ai-intents-category-03.json",
+    "/ai-intents-category-04.json",
+    "/ai-intents-category-05.json",
+    "/entities.json",
+    "/ai-services.json",
+    "/context-graph.json",
+    "/accounting-ontology.json"
+  ]
+}
