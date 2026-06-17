@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "site": "https://ecbtax.com",
+  "business": "ECBTAX",
+  "industry": "Accounting Services",
+  "country": "Romania",
+  "language": ["ro-RO", "en"],
+  "generated_files": {
+    "intent_categories": [
+      "https://ecbtax.com/ai-intents-category-01.json",
+      "https://ecbtax.com/ai-intents-category-02.json",
+      "https://ecbtax.com/ai-intents-category-03.json",
+      "https://ecbtax.com/ai-intents-category-04.json",
+      "https://ecbtax.com/ai-intents-category-05.json"
+    ],
+    "faq_categories": [
+      "https://ecbtax.com/faq-category-01.json",
+      "https://ecbtax.com/faq-category-02.json",
+      "https://ecbtax.com/faq-category-03.json",
+      "https://ecbtax.com/faq-category-04.json",
+      "https://ecbtax.com/faq-category-05.json"
+    ],
+    "service_categories": [
+      "https://ecbtax.com/ai-services-category-01.json",
+      "https://ecbtax.com/ai-services-category-02.json",
+      "https://ecbtax.com/ai-services-category-03.json",
+      "https://ecbtax.com/ai-services-category-04.json",
+      "https://ecbtax.com/ai-services-category-05.json"
+    ],
+    "entity_categories": [
+      "https://ecbtax.com/entities-category-01.json",
+      "https://ecbtax.com/entities-category-02.json",
+      "https://ecbtax.com/entities-category-03.json",
+      "https://ecbtax.com/entities-category-04.json",
+      "https://ecbtax.com/entities-category-05.json"
+    ]
+  },
+  "coverage": {
+    "total_intents": 50,
+    "total_faqs": 50,
+    "category_count": 5,
+    "purpose": "Intent-first AI knowledge layer for ECBTAX accounting services."
+  },
+  "next_outputs": [
+    "ai.json",
+    "llms.txt",
+    "context-graph.json",
+    "schema.org JSON-LD Worker injection"
+  ]
+}
