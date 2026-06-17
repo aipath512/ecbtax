@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-01",
+  "category_name": "Company Formation and Compliance",
+  "industry": "Accounting Services",
+  "country_context": "Romania",
+  "entities": {
+    "business_types": [
+      "SRL",
+      "PFA",
+      "Microîntreprindere",
+      "Companie plătitoare de impozit pe profit",
+      "Antreprenor străin",
+      "Expat"
+    ],
+    "authorities": [
+      "ANAF"
+    ],
+    "tax_concepts": [
+      "TVA",
+      "TVA intracomunitar",
+      "Impozit pe profit",
+      "Regim de microîntreprindere",
+      "Contribuții",
+      "Deduceri TVA",
+      "Restanțe fiscale"
+    ],
+    "documents_and_forms": [
+      "D100",
+      "D112",
+      "D300",
+      "Dosar TVA",
+      "Declarații inițiale",
+      "Bilanț",
+      "Cont de profit și pierdere",
+      "Documente justificative"
+    ],
+    "accounting_concepts": [
+      "Plan de conturi",
+      "Contabilitate SRL",
+      "Înregistrări contabile",
+      "Încadrări contabile",
+      "Standarde contabile românești",
+      "Corelare declarații fiscale"
+    ],
+    "international_concepts": [
+      "UE",
+      "VIES",
+      "OSS",
+      "IOSS",
+      "Facturare transfrontalieră",
+      "English accounting"
+    ],
+    "services": [
+      "Company Formation Accounting",
+      "PFA vs SRL Advisory",
+      "VAT Registration",
+      "Tax Regime Advisory",
+      "English-Speaking Expat Accounting",
+      "Tax Compliance Monitoring",
+      "Tax Declaration Filing",
+      "ANAF Representation",
+      "Intra-EU VAT Accounting",
+      "Annual Financial Statement Review"
+    ]
+  }
+}
