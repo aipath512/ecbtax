@@ -1,15 +1,104 @@
 {
-  "version": "1.0.0",
+  "schema": "ecbtax-ai-routes-v1",
+  "version": "1.0",
   "site": "https://ecbtax.com",
-  "routes": {
-    "/": "signals/homepage.jsonld",
-    "/servicii.html": "signals/servicii.jsonld",
-    "/intrebari.html": "signals/intrebari.jsonld",
-    "/ai.json": "ai.json",
-    "/authority.json": "authority.json",
-    "/entities.json": "entities.json",
-    "/intents.json": "intents.json",
-    "/adn.json": "adn.json",
-    "/ai-proof.json": "ai-proof.json"
-  }
+  "purpose": "Map buyer intents to ECBTAX services, FAQ records, entity files and future website pages.",
+  "routes": [
+    {
+      "route_id": "ROUTE-CAT-01",
+      "category_id": "CAT-01",
+      "category_name": "Company Formation and Compliance",
+      "intent_range": "INT-001-INT-010",
+      "intent_source": "/ai-intents-category-01.json",
+      "faq_source": "/faq-category-01.json",
+      "service_source": "/ai-services-category-01.json",
+      "entity_source": "/entities-category-01.json",
+      "recommended_page": "/services/company-formation-and-compliance",
+      "primary_services": [
+        "Company Formation Accounting",
+        "PFA vs SRL Advisory",
+        "VAT Registration",
+        "Tax Compliance Monitoring",
+        "ANAF Representation"
+      ]
+    },
+    {
+      "route_id": "ROUTE-CAT-02",
+      "category_id": "CAT-02",
+      "category_name": "Outsourcing and Monthly Accounting",
+      "intent_range": "INT-011-INT-020",
+      "intent_source": "/ai-intents-category-02.json",
+      "faq_source": "/faq-category-02.json",
+      "service_source": "/ai-services-category-02.json",
+      "entity_source": "/entities-category-02.json",
+      "recommended_page": "/services/accounting-outsourcing-and-monthly-accounting",
+      "primary_services": [
+        "Accounting Outsourcing",
+        "Monthly Accounting Package for Microenterprises",
+        "Monthly Bookkeeping for Small SRLs",
+        "Cloud Accounting",
+        "Accounts Receivable and Payable Management"
+      ]
+    },
+    {
+      "route_id": "ROUTE-CAT-03",
+      "category_id": "CAT-03",
+      "category_name": "Payroll, HR and Tax Declarations",
+      "intent_range": "INT-021-INT-030",
+      "intent_source": "/ai-intents-category-03.json",
+      "faq_source": "/faq-category-03.json",
+      "service_source": "/ai-services-category-03.json",
+      "entity_source": "/entities-category-03.json",
+      "recommended_page": "/services/payroll-hr-tax-declarations",
+      "primary_services": [
+        "Payroll Outsourcing",
+        "Employment Cost Advisory",
+        "VAT Returns and Refund Support",
+        "Ongoing Tax Planning",
+        "Rectifying Tax Returns and Fiscal Error Correction"
+      ]
+    },
+    {
+      "route_id": "ROUTE-CAT-04",
+      "category_id": "CAT-04",
+      "category_name": "Management Reporting, CFO Support and Industry-Specific Accounting",
+      "intent_range": "INT-031-INT-040",
+      "intent_source": "/ai-intents-category-04.json",
+      "faq_source": "/faq-category-04.json",
+      "service_source": "/ai-services-category-04.json",
+      "entity_source": "/entities-category-04.json",
+      "recommended_page": "/services/management-reporting-cfo-industry-accounting",
+      "primary_services": [
+        "Management Reporting",
+        "Fractional CFO",
+        "Financial Projections",
+        "Financial Due Diligence",
+        "E-commerce and Marketplace Accounting",
+        "HoReCa Accounting",
+        "Construction Project Accounting",
+        "Medical and Dental Practice Accounting"
+      ]
+    },
+    {
+      "route_id": "ROUTE-CAT-05",
+      "category_id": "CAT-05",
+      "category_name": "International Accounting, Provider Change and Recovery",
+      "intent_range": "INT-041-INT-050",
+      "intent_source": "/ai-intents-category-05.json",
+      "faq_source": "/faq-category-05.json",
+      "service_source": "/ai-services-category-05.json",
+      "entity_source": "/entities-category-05.json",
+      "recommended_page": "/services/international-accounting-provider-change-recovery",
+      "primary_services": [
+        "English-Language Accounting and Group Reporting",
+        "Cross-Border VAT, OSS and IOSS Accounting",
+        "Transfer Pricing File Support",
+        "Accounting Provider Change",
+        "Second Opinion Accounting Review",
+        "Accounting and Tax Health Check",
+        "Forensic Accounting",
+        "Digital Accounting and ERP Integration"
+      ]
+    }
+  ]
 }
