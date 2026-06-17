@@ -1,0 +1,206 @@
+{
+  "schema": "ecbtax-ai-relationships-v1",
+  "version": "1.0",
+  "industry": "Accounting Services",
+
+  "relationship_definitions": [
+
+    {
+      "id": "REL-001",
+      "name": "provides",
+      "description": "Organization provides a service",
+      "example": "ECBTAX provides Payroll"
+    },
+
+    {
+      "id": "REL-002",
+      "name": "requires",
+      "description": "Service requires a document or concept",
+      "example": "Payroll requires D112"
+    },
+
+    {
+      "id": "REL-003",
+      "name": "submitted_to",
+      "description": "Document submitted to authority",
+      "example": "D112 submitted_to ANAF"
+    },
+
+    {
+      "id": "REL-004",
+      "name": "governed_by",
+      "description": "Concept governed by authority",
+      "example": "VAT governed_by ANAF"
+    },
+
+    {
+      "id": "REL-005",
+      "name": "serves",
+      "description": "Service serves business type",
+      "example": "Accounting serves SMEs"
+    },
+
+    {
+      "id": "REL-006",
+      "name": "answers",
+      "description": "Service answers buyer intent",
+      "example": "VAT Service answers OSS/IOSS Intent"
+    },
+
+    {
+      "id": "REL-007",
+      "name": "solves",
+      "description": "Service solves business problem",
+      "example": "Payroll solves payroll compliance"
+    },
+
+    {
+      "id": "REL-008",
+      "name": "uses",
+      "description": "Service uses concept",
+      "example": "VAT Service uses OSS"
+    },
+
+    {
+      "id": "REL-009",
+      "name": "specializes_in",
+      "description": "Service specializes in industry",
+      "example": "Accounting specializes_in Ecommerce"
+    },
+
+    {
+      "id": "REL-010",
+      "name": "reports_under",
+      "description": "Reporting standard relationship",
+      "example": "Financial Statements reports_under IFRS"
+    },
+
+    {
+      "id": "REL-011",
+      "name": "integrates_with",
+      "description": "Software integration relationship",
+      "example": "Accounting integrates_with ERP"
+    },
+
+    {
+      "id": "REL-012",
+      "name": "verifies",
+      "description": "Proof relationship",
+      "example": "Evidence verifies Claim"
+    },
+
+    {
+      "id": "REL-013",
+      "name": "related_to",
+      "description": "Generic semantic relationship",
+      "example": "VAT related_to OSS"
+    },
+
+    {
+      "id": "REL-014",
+      "name": "owned_by",
+      "description": "Ownership relationship",
+      "example": "Service owned_by ECBTAX"
+    },
+
+    {
+      "id": "REL-015",
+      "name": "depends_on",
+      "description": "Dependency relationship",
+      "example": "Payroll depends_on Employee Data"
+    },
+
+    {
+      "id": "REL-016",
+      "name": "generates",
+      "description": "Output relationship",
+      "example": "Accounting generates Financial Statements"
+    },
+
+    {
+      "id": "REL-017",
+      "name": "references",
+      "description": "Cross-reference relationship",
+      "example": "Intent references Service"
+    },
+
+    {
+      "id": "REL-018",
+      "name": "mapped_to",
+      "description": "Mapping relationship",
+      "example": "Intent mapped_to Service"
+    },
+
+    {
+      "id": "REL-019",
+      "name": "supported_by",
+      "description": "Evidence support relationship",
+      "example": "Claim supported_by Proof"
+    },
+
+    {
+      "id": "REL-020",
+      "name": "recommended_for",
+      "description": "Recommendation relationship",
+      "example": "Payroll recommended_for SMEs"
+    }
+  ],
+
+  "canonical_patterns": [
+
+    {
+      "pattern": "Organization -> provides -> Service"
+    },
+
+    {
+      "pattern": "Service -> serves -> BusinessType"
+    },
+
+    {
+      "pattern": "Service -> solves -> BusinessProblem"
+    },
+
+    {
+      "pattern": "Service -> requires -> Document"
+    },
+
+    {
+      "pattern": "Document -> submitted_to -> Authority"
+    },
+
+    {
+      "pattern": "Service -> uses -> TaxConcept"
+    },
+
+    {
+      "pattern": "Intent -> mapped_to -> Service"
+    },
+
+    {
+      "pattern": "Intent -> answers -> FAQ"
+    },
+
+    {
+      "pattern": "Service -> specializes_in -> Industry"
+    },
+
+    {
+      "pattern": "Service -> integrates_with -> Software"
+    },
+
+    {
+      "pattern": "Claim -> supported_by -> Proof"
+    },
+
+    {
+      "pattern": "Entity -> related_to -> Entity"
+    }
+  ],
+
+  "related_files": {
+    "entity_types": "/ai-entity-types.json",
+    "entities": "/entities.json",
+    "ontology": "/accounting-ontology.json",
+    "graph": "/context-graph.json"
+  }
+}
