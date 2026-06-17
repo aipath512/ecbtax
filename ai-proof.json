@@ -1,14 +1,83 @@
 {
-  "version": "1.0.0",
-  "site": "https://ecbtax.com",
-  "provenance_layer": {
-    "category": "AI Delivery Infrastructure",
-    "initial_state_hash_sha256": "f4db435c5d0f92de24a6c2cfc18abb075a4e884c8aa658c4191f7dc9839884b5",
-    "protocols": [
-      "SHA-256",
-      "OpenTimestamps",
-      "Bitcoin-anchored timestamping"
-    ],
-    "description": "BEFORE state hash used for future AI visibility before/after comparison."
+  "schema": "ecbtax-ai-proof-v1",
+  "version": "1.0",
+
+  "organization": {
+    "name": "ECBTAX",
+    "website": "https://ecbtax.com",
+    "industry": "Accounting Services",
+    "country": "Romania"
+  },
+
+  "knowledge_layer_proof": {
+    "intent_categories": 5,
+    "total_intents": 50,
+    "total_faqs": 50,
+    "service_categories": 5,
+    "entity_categories": 5,
+    "estimated_entities": 250,
+    "context_graph": "/context-graph.json",
+    "routes": "/ai-routes.json"
+  },
+
+  "ai_resources": {
+    "manifest": "/ai-layer-manifest.json",
+    "ai_profile": "/ai.json",
+    "llms": "/llms.txt",
+    "routes": "/ai-routes.json",
+    "context_graph": "/context-graph.json"
+  },
+
+  "business_capabilities": [
+    "Accounting",
+    "Payroll",
+    "Tax Advisory",
+    "VAT Compliance",
+    "VAT Registration",
+    "VAT Recovery",
+    "ANAF Representation",
+    "Company Formation",
+    "Monthly Accounting",
+    "Accounting Outsourcing",
+    "Management Reporting",
+    "Fractional CFO",
+    "Financial Forecasting",
+    "Financial Due Diligence",
+    "Transfer Pricing",
+    "IFRS Reporting",
+    "Forensic Accounting",
+    "ERP Integration"
+  ],
+
+  "coverage": {
+    "startup_and_company_formation": true,
+    "tax_compliance": true,
+    "vat_services": true,
+    "payroll_services": true,
+    "monthly_accounting": true,
+    "outsourced_accounting": true,
+    "financial_reporting": true,
+    "fractional_cfo": true,
+    "international_accounting": true,
+    "transfer_pricing": true,
+    "forensic_accounting": true,
+    "industry_specific_accounting": true
+  },
+
+  "evidence": {
+    "source": "Human-curated buyer intent registry",
+    "intent_count": 50,
+    "faq_count": 50,
+    "service_count": 50,
+    "knowledge_graph_present": true,
+    "context_relationships_present": true
+  },
+
+  "verification": {
+    "verify_ai_profile": "https://ecbtax.com/ai.json",
+    "verify_llms": "https://ecbtax.com/llms.txt",
+    "verify_manifest": "https://ecbtax.com/ai-layer-manifest.json",
+    "verify_routes": "https://ecbtax.com/ai-routes.json",
+    "verify_graph": "https://ecbtax.com/context-graph.json"
   }
 }
