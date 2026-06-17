@@ -1,0 +1,174 @@
+{
+  "schema": "ecbtax-accounting-ontology-v1",
+  "version": "1.0",
+  "industry": "Accounting Services",
+  "country_context": "Romania",
+  "root_business": "ECBTAX",
+
+  "ontology_layers": {
+    "buyer_intents": "/ai-layer-manifest.json",
+    "services": "/ai-services.json",
+    "entities": "/entities.json",
+    "relationships": "/context-graph.json",
+    "signals": "/ai-signals.json",
+    "routes": "/ai-routes.json",
+    "proof": "/ai-proof.json"
+  },
+
+  "core_domain_model": {
+    "business_entities": [
+      "SRL",
+      "PFA",
+      "Microîntreprindere",
+      "IMM",
+      "Startup",
+      "Foreign Investor",
+      "Expat Entrepreneur"
+    ],
+    "authorities": [
+      "ANAF",
+      "ONRC"
+    ],
+    "taxes": [
+      "VAT",
+      "Corporate Income Tax",
+      "Microenterprise Tax",
+      "Payroll Contributions",
+      "Dividend Tax"
+    ],
+    "documents": [
+      "D100",
+      "D112",
+      "D300",
+      "SAF-T",
+      "D406",
+      "VAT Return",
+      "Balance Sheet",
+      "Profit and Loss Statement",
+      "Transfer Pricing File"
+    ],
+    "services": [
+      "Accounting",
+      "Payroll",
+      "Tax Advisory",
+      "VAT Compliance",
+      "ANAF Representation",
+      "Management Reporting",
+      "Fractional CFO",
+      "Due Diligence",
+      "Transfer Pricing",
+      "Forensic Accounting",
+      "ERP Integration"
+    ],
+    "international_concepts": [
+      "OSS",
+      "IOSS",
+      "VIES",
+      "IFRS",
+      "Romanian GAAP",
+      "Cross-Border VAT",
+      "Group Reporting"
+    ],
+    "industry_verticals": [
+      "IT",
+      "Ecommerce",
+      "HoReCa",
+      "Construction",
+      "Medical Practice",
+      "Dental Practice"
+    ]
+  },
+
+  "relationship_patterns": [
+    {
+      "pattern": "business_needs_service",
+      "example": "SME needs Accounting"
+    },
+    {
+      "pattern": "service_requires_document",
+      "example": "Payroll requires D112"
+    },
+    {
+      "pattern": "document_submitted_to_authority",
+      "example": "D300 submitted to ANAF"
+    },
+    {
+      "pattern": "service_handles_tax_concept",
+      "example": "VAT Compliance handles VAT"
+    },
+    {
+      "pattern": "business_type_has_tax_regime",
+      "example": "Microenterprise has Microenterprise Tax"
+    },
+    {
+      "pattern": "international_operation_requires_reporting",
+      "example": "EU sales may require OSS/IOSS"
+    }
+  ],
+
+  "schema_org_generation_targets": [
+    "Organization",
+    "LocalBusiness",
+    "ProfessionalService",
+    "AccountingService",
+    "WebSite",
+    "WebPage",
+    "Service",
+    "Offer",
+    "OfferCatalog",
+    "FAQPage",
+    "Question",
+    "Answer",
+    "DefinedTerm",
+    "DefinedTermSet",
+    "DigitalDocument",
+    "Audience"
+  ],
+
+  "ai_readiness_mapping": {
+    "L1_Findable": [
+      "Organization",
+      "WebSite",
+      "WebPage",
+      "ContactPoint"
+    ],
+    "L2_Understandable": [
+      "Service",
+      "OfferCatalog",
+      "DefinedTermSet",
+      "FAQPage"
+    ],
+    "L3_Verifiable": [
+      "DigitalDocument",
+      "ai-proof.json",
+      "context-graph.json"
+    ],
+    "L4_Trustable": [
+      "Legal identity",
+      "Credentials",
+      "Reviews",
+      "External proof"
+    ],
+    "L5_Recommendable": [
+      "Case studies",
+      "Testimonials",
+      "External citations",
+      "Market reputation"
+    ],
+    "L6_Selectable": [
+      "Differentiation",
+      "Competitive proof",
+      "Industry specialization",
+      "Outcome evidence"
+    ]
+  },
+
+  "reuse_purpose": [
+    "ECBTAX AI layer",
+    "Accounting-firm schema generation",
+    "AI LENS accounting audit",
+    "AI AUDIT signal coverage",
+    "AI READY automatic transformation",
+    "Future accounting client templates"
+  ]
+}
