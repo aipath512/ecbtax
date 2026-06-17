@@ -1,0 +1,62 @@
+[
+  {
+    "faq_id": "FAQ-001",
+    "intent_id": "INT-001",
+    "question": "Mă puteți ajuta cu contabilitatea unui SRL nou înființat?",
+    "answer": "Da. Organizăm documentele, configurăm planul de conturi și depunem declarațiile inițiale la ANAF pentru SRL-uri nou înființate."
+  },
+  {
+    "faq_id": "FAQ-002",
+    "intent_id": "INT-002",
+    "question": "Mă puteți ajuta să aleg între PFA și SRL?",
+    "answer": "Da. Analizăm activitatea, veniturile estimate și planurile de creștere și comparăm taxele pentru PFA și SRL."
+  },
+  {
+    "faq_id": "FAQ-003",
+    "intent_id": "INT-003",
+    "question": "Mă puteți ajuta cu înregistrarea firmei în scopuri de TVA?",
+    "answer": "Da. Pregătim dosarul de TVA și reprezentăm firma în relația cu ANAF până la obținerea deciziei."
+  },
+  {
+    "faq_id": "FAQ-004",
+    "intent_id": "INT-004",
+    "question": "Cum aleg între microîntreprindere și impozit pe profit?",
+    "answer": "Simulăm ambele regimuri fiscale pe baza cifrei de afaceri, marjei și cheltuielilor și recomandăm varianta potrivită."
+  },
+  {
+    "faq_id": "FAQ-005",
+    "intent_id": "INT-005",
+    "question": "Lucrați cu antreprenori străini sau expați în România?",
+    "answer": "Da. Oferim servicii de contabilitate și consultanță în limba engleză pentru antreprenori străini și expați."
+  },
+  {
+    "faq_id": "FAQ-006",
+    "intent_id": "INT-006",
+    "question": "Cum mă ajutați să evit problemele cu ANAF?",
+    "answer": "Monitorizăm obligațiile fiscale, verificăm soldurile și notificăm termenele importante pentru a evita restanțele și riscurile."
+  },
+  {
+    "faq_id": "FAQ-007",
+    "intent_id": "INT-007",
+    "question": "Depuneți declarațiile D100, D112 și D300?",
+    "answer": "Da. Pregătim și depunem declarațiile fiscale obligatorii și verificăm corelarea datelor între formulare."
+  },
+  {
+    "faq_id": "FAQ-008",
+    "intent_id": "INT-008",
+    "question": "Mă puteți reprezenta în relația cu ANAF la controale?",
+    "answer": "Da. Pregătim documentele necesare și asistăm firma în relația cu ANAF la controale sau inspecții."
+  },
+  {
+    "faq_id": "FAQ-009",
+    "intent_id": "INT-009",
+    "question": "Aveți experiență cu TVA intracomunitar și clienți din UE?",
+    "answer": "Da. Gestionăm facturare în UE, coduri TVA, VIES, OSS/IOSS și tratamentul TVA pentru operațiuni transfrontaliere."
+  },
+  {
+    "faq_id": "FAQ-010",
+    "intent_id": "INT-010",
+    "question": "Verificați bilanțurile anuale?",
+    "answer": "Da. Revizuim bilanțul și contul de profit și pierdere, verificăm încadrările contabile și identificăm eventuale riscuri."
+  }
+]

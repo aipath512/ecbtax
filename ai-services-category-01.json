@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "category_id": "CAT-01",
+  "category_name": "Company Formation and Compliance",
+  "service_group": "Startup, Tax Setup and Compliance",
+  "services": [
+    {
+      "service_id": "SERV-001",
+      "name": "Company Formation Accounting",
+      "description": "Accounting setup and initial tax filing support for newly formed Romanian SRLs.",
+      "related_intents": ["INT-001"],
+      "schema_types": ["AccountingService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-002",
+      "name": "PFA vs SRL Advisory",
+      "description": "Advisory support for choosing between PFA and SRL based on activity, income, taxes and growth plans.",
+      "related_intents": ["INT-002"],
+      "schema_types": ["ProfessionalService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-003",
+      "name": "VAT Registration",
+      "description": "Preparation and representation for Romanian VAT registration with ANAF.",
+      "related_intents": ["INT-003"],
+      "schema_types": ["AccountingService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-004",
+      "name": "Tax Regime Advisory",
+      "description": "Comparison between microenterprise tax and corporate profit tax regimes in Romania.",
+      "related_intents": ["INT-004"],
+      "schema_types": ["ProfessionalService", "Service", "Offer"]
+    },
+    {
+      "service_id": "SERV-005",
+      "name": "English-Speaking Expat Accounting",
+      "description": "Accounting and tax support in English for foreign entrepreneurs and expats operating in Romania.",
+      "related_intents": ["INT-005"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-006",
+      "name": "Tax Compliance Monitoring",
+      "description": "Ongoing monitoring of tax deadlines, fiscal balances and compliance obligations.",
+      "related_intents": ["INT-006"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-007",
+      "name": "Tax Declaration Filing",
+      "description": "Preparation and filing of Romanian tax declarations including D100, D112 and D300.",
+      "related_intents": ["INT-007"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-008",
+      "name": "ANAF Representation",
+      "description": "Representation and support during ANAF controls, audits and tax inspections.",
+      "related_intents": ["INT-008"],
+      "schema_types": ["ProfessionalService", "Service"]
+    },
+    {
+      "service_id": "SERV-009",
+      "name": "Intra-EU VAT Accounting",
+      "description": "VAT and accounting support for intra-EU operations, VIES, OSS/IOSS and cross-border invoicing.",
+      "related_intents": ["INT-009"],
+      "schema_types": ["AccountingService", "Service"]
+    },
+    {
+      "service_id": "SERV-010",
+      "name": "Annual Financial Statement Review",
+      "description": "Annual review of balance sheet, profit and loss account and Romanian accounting compliance.",
+      "related_intents": ["INT-010"],
+      "schema_types": ["AccountingService", "ProfessionalService", "Service"]
+    }
+  ]
+}
