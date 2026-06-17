@@ -1,0 +1,118 @@
+{
+  "schema": "ecbtax-ai-proof-v1",
+  "version": "1.0",
+  "site": "https://ecbtax.com",
+  "organization": "ECBTAX",
+
+  "verification": {
+    "status": "ACTIVE",
+    "last_updated": "2026-06-17",
+    "knowledge_layer_version": "1.0"
+  },
+
+  "core_files": [
+    {
+      "name": "AI Profile",
+      "url": "https://ecbtax.com/ai.json",
+      "role": "Master Business Profile"
+    },
+    {
+      "name": "Intent Router",
+      "url": "https://ecbtax.com/ai-intent-router.json",
+      "role": "Intent Matching Engine"
+    },
+    {
+      "name": "Intent Registry",
+      "url": "https://ecbtax.com/ai-intents.json",
+      "role": "Intent Knowledge Base"
+    },
+    {
+      "name": "Service Registry",
+      "url": "https://ecbtax.com/ai-services.json",
+      "role": "Service Knowledge Base"
+    },
+    {
+      "name": "Entity Registry",
+      "url": "https://ecbtax.com/entities.json",
+      "role": "Business Entity Dictionary"
+    },
+    {
+      "name": "FAQ Registry",
+      "url": "https://ecbtax.com/faq-registry.json",
+      "role": "Canonical Questions and Answers"
+    },
+    {
+      "name": "Knowledge Graph",
+      "url": "https://ecbtax.com/context-graph.json",
+      "role": "Business Context Graph"
+    },
+    {
+      "name": "Signal Registry",
+      "url": "https://ecbtax.com/ai-signals.json",
+      "role": "Atomic AI Signals"
+    }
+  ],
+
+  "business_topics": [
+    "Accounting Services",
+    "Bookkeeping",
+    "Payroll Outsourcing",
+    "Tax Advisory",
+    "VAT Compliance",
+    "VAT Registration",
+    "ANAF Representation",
+    "Financial Reporting",
+    "Management Reporting",
+    "Fractional CFO",
+    "Transfer Pricing",
+    "Forensic Accounting",
+    "Cloud Accounting",
+    "ERP Integration"
+  ],
+
+  "business_types": [
+    "SRL",
+    "PFA",
+    "SME",
+    "Microenterprise",
+    "Startup",
+    "Foreign Investor"
+  ],
+
+  "industries": [
+    "IT",
+    "Software",
+    "Ecommerce",
+    "Marketplace",
+    "Construction",
+    "HoReCa",
+    "Healthcare",
+    "Medical",
+    "Dental",
+    "Professional Services"
+  ],
+
+  "authorities": [
+    "ANAF",
+    "Ministry of Finance Romania",
+    "ONRC"
+  ],
+
+  "ai_capabilities": [
+    "Intent Matching",
+    "Knowledge Graph",
+    "Entity Registry",
+    "FAQ Registry",
+    "Service Registry",
+    "AI Recommendation Support",
+    "AI Discovery Support"
+  ],
+
+  "recommendation_readiness": {
+    "findable": true,
+    "understandable": true,
+    "verifiable": true,
+    "trustable": true,
+    "recommendable": "in_progress"
+  }
+}
