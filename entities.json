@@ -1,44 +1,159 @@
 {
-  "version": "1.0.0",
-  "entities": [
-    {
-      "id": "ecbtax-organization",
-      "type": "Organization",
-      "name": "ECB TAX, ACCOUNTING & HR SRL",
-      "alternateName": "ECBTAX",
-      "url": "https://ecbtax.com",
-      "taxID": "RO35136588"
-    },
-    {
-      "id": "elena-roxana-deak",
-      "type": "Person",
-      "name": "Elena Roxana Deak",
-      "role": "CEO & Founder",
-      "credentials": [
-        "FCCA",
-        "CPA",
-        "CCF"
-      ]
-    },
-    {
-      "id": "aiventure",
-      "type": "Organization",
-      "name": "AiVenture SRL",
-      "url": "https://aiventure.ro",
-      "role": "Technology Delivery Partner"
-    },
-    {
-      "id": "5thelement",
-      "type": "Organization",
-      "name": "5thelement.ai",
-      "url": "https://5thelement.ai",
-      "role": "ADI Flagship Authority"
-    },
-    {
-      "id": "adi",
-      "type": "TechnologyCategory",
-      "name": "AI Delivery Infrastructure",
-      "acronym": "ADI"
-    }
-  ]
+  "schema": "ecbtax-entities-v1",
+  "version": "1.0",
+  "organization": {
+    "id": "ORG-001",
+    "name": "ECBTAX",
+    "type": "AccountingService",
+    "website": "https://ecbtax.com",
+    "industry": "Accounting Services",
+    "country": "Romania"
+  },
+  "entity_sources": [
+    "/entities-category-01.json",
+    "/entities-category-02.json",
+    "/entities-category-03.json",
+    "/entities-category-04.json",
+    "/entities-category-05.json"
+  ],
+  "core_entities": {
+    "authorities": [
+      "ANAF"
+    ],
+    "business_types": [
+      "SRL",
+      "PFA",
+      "Microîntreprindere",
+      "IMM",
+      "Startup",
+      "Antreprenor străin",
+      "Expat",
+      "Filială România"
+    ],
+    "services": [
+      "Accounting",
+      "Accounting Outsourcing",
+      "Monthly Bookkeeping",
+      "Payroll Outsourcing",
+      "Tax Advisory",
+      "VAT Registration",
+      "VAT Returns",
+      "VAT Recovery",
+      "ANAF Representation",
+      "Management Reporting",
+      "Fractional CFO",
+      "Financial Projections",
+      "Financial Due Diligence",
+      "Transfer Pricing",
+      "IFRS Reporting",
+      "Forensic Accounting",
+      "ERP Integration"
+    ],
+    "tax_concepts": [
+      "TVA",
+      "TVA intracomunitar",
+      "OSS",
+      "IOSS",
+      "VIES",
+      "Impozit pe profit",
+      "Regim de microîntreprindere",
+      "Contribuții",
+      "Deduceri TVA",
+      "Restanțe fiscale",
+      "Optimizare fiscală legală",
+      "Planificare fiscală",
+      "Declarații rectificative"
+    ],
+    "documents_and_forms": [
+      "D100",
+      "D112",
+      "D300",
+      "SAF-T",
+      "D406",
+      "Dosar TVA",
+      "Decont TVA",
+      "Bilanț",
+      "Cont de profit și pierdere",
+      "Declarații fiscale",
+      "Documente justificative",
+      "Dosar prețuri de transfer"
+    ],
+    "financial_concepts": [
+      "Cash-flow",
+      "KPI",
+      "Bugetare",
+      "Previziuni financiare",
+      "Marjă",
+      "Indicatori financiari",
+      "Due diligence financiar",
+      "Evaluare firmă",
+      "Calitatea profitului",
+      "Structura datoriilor"
+    ],
+    "international_concepts": [
+      "UE",
+      "Non-UE",
+      "IFRS",
+      "Romanian GAAP",
+      "Raportare grup",
+      "Sediu central",
+      "Companie mamă",
+      "Transfer Pricing",
+      "Tranzacții intragrup"
+    ],
+    "industry_verticals": [
+      "IT",
+      "Software",
+      "Freelanceri IT",
+      "E-commerce",
+      "Marketplace",
+      "HoReCa",
+      "Restaurant",
+      "Cafenea",
+      "Construcții",
+      "Contractori",
+      "Cabinet medical",
+      "Cabinet stomatologic"
+    ],
+    "digital_concepts": [
+      "Contabilitate în cloud",
+      "Soft contabil",
+      "Migrare de la Excel",
+      "ERP",
+      "Soft facturare",
+      "Integrare date",
+      "Automatizare contabilă",
+      "Dashboard financiar"
+    ]
+  },
+  "schema_org_mapping": {
+    "organization": [
+      "Organization",
+      "LocalBusiness",
+      "ProfessionalService",
+      "AccountingService"
+    ],
+    "services": [
+      "Service",
+      "Offer",
+      "OfferCatalog"
+    ],
+    "questions": [
+      "FAQPage",
+      "Question",
+      "Answer"
+    ],
+    "people_and_credentials": [
+      "Person",
+      "Credential",
+      "EducationalOccupationalCredential"
+    ],
+    "proof": [
+      "Review",
+      "AggregateRating",
+      "DigitalDocument",
+      "DefinedTerm",
+      "DefinedTermSet"
+    ]
+  }
 }
