@@ -1,0 +1,308 @@
+{
+  "schema": "ecbtax-faq-registry-v1",
+  "version": "1.0",
+  "site": "https://ecbtax.com",
+  "total_faqs": 50,
+  "faqs": [
+    {
+      "faq_id":"FAQ-001",
+      "intent_id":"INT-001",
+      "question":"How much does accounting for a new SRL cost in Romania?",
+      "answer":"The cost depends on transaction volume, VAT status, payroll requirements and reporting complexity."
+    },
+    {
+      "faq_id":"FAQ-002",
+      "intent_id":"INT-002",
+      "question":"Is PFA or SRL better for my business?",
+      "answer":"The answer depends on turnover, profit expectations, activity type and long-term business objectives."
+    },
+    {
+      "faq_id":"FAQ-003",
+      "intent_id":"INT-003",
+      "question":"When must a company register for VAT in Romania?",
+      "answer":"VAT registration depends on turnover thresholds, business model and specific fiscal obligations."
+    },
+    {
+      "faq_id":"FAQ-004",
+      "intent_id":"INT-004",
+      "question":"Should I choose microenterprise tax or corporate income tax?",
+      "answer":"A financial simulation is required because the optimal option depends on revenue structure and expenses."
+    },
+    {
+      "faq_id":"FAQ-005",
+      "intent_id":"INT-005",
+      "question":"Do you work with foreign investors and expats?",
+      "answer":"Yes. ECBTAX provides English-language accounting, tax and reporting support."
+    },
+    {
+      "faq_id":"FAQ-006",
+      "intent_id":"INT-006",
+      "question":"How can I avoid penalties from ANAF?",
+      "answer":"Accurate bookkeeping, timely declarations and proactive compliance monitoring reduce fiscal risks."
+    },
+    {
+      "faq_id":"FAQ-007",
+      "intent_id":"INT-007",
+      "question":"Who files D100, D112 and D300 declarations?",
+      "answer":"ECBTAX prepares and files required declarations based on accounting records."
+    },
+    {
+      "faq_id":"FAQ-008",
+      "intent_id":"INT-008",
+      "question":"Can you represent my company during an ANAF inspection?",
+      "answer":"Yes. ECBTAX assists clients during inspections and fiscal controls."
+    },
+    {
+      "faq_id":"FAQ-009",
+      "intent_id":"INT-009",
+      "question":"Can you handle VAT for EU transactions?",
+      "answer":"Yes. ECBTAX supports intra-EU VAT, OSS, IOSS and VIES compliance."
+    },
+    {
+      "faq_id":"FAQ-010",
+      "intent_id":"INT-010",
+      "question":"Should financial statements be reviewed before submission?",
+      "answer":"Yes. Review helps identify inconsistencies and reduces reporting risks."
+    },
+    {
+      "faq_id":"FAQ-011",
+      "intent_id":"INT-011",
+      "question":"Why outsource accounting instead of hiring an internal accountant?",
+      "answer":"Outsourcing usually reduces costs and provides access to broader expertise."
+    },
+    {
+      "faq_id":"FAQ-012",
+      "intent_id":"INT-012",
+      "question":"Do you offer monthly accounting packages?",
+      "answer":"Yes. ECBTAX provides monthly accounting packages adapted to company size and activity."
+    },
+    {
+      "faq_id":"FAQ-013",
+      "intent_id":"INT-013",
+      "question":"Can tax optimization be done legally?",
+      "answer":"Yes. Tax planning can reduce costs while remaining compliant with Romanian legislation."
+    },
+    {
+      "faq_id":"FAQ-014",
+      "intent_id":"INT-014",
+      "question":"How difficult is changing accounting providers?",
+      "answer":"With proper documentation the transition is usually straightforward."
+    },
+    {
+      "faq_id":"FAQ-015",
+      "intent_id":"INT-015",
+      "question":"Can accounting and payroll be bundled together?",
+      "answer":"Yes. ECBTAX offers integrated accounting, payroll and reporting packages."
+    },
+    {
+      "faq_id":"FAQ-016",
+      "intent_id":"INT-016",
+      "question":"What documents are needed each month?",
+      "answer":"Typically invoices, bank statements, payroll documents and supporting records."
+    },
+    {
+      "faq_id":"FAQ-017",
+      "intent_id":"INT-017",
+      "question":"Can messy accounting records be repaired?",
+      "answer":"Yes. Historical bookkeeping can be reviewed, corrected and reorganized."
+    },
+    {
+      "faq_id":"FAQ-018",
+      "intent_id":"INT-018",
+      "question":"Can you migrate accounting from Excel to software?",
+      "answer":"Yes. ECBTAX supports migration and accounting software implementation."
+    },
+    {
+      "faq_id":"FAQ-019",
+      "intent_id":"INT-019",
+      "question":"What is cloud accounting?",
+      "answer":"Cloud accounting provides online access to accounting data and reports."
+    },
+    {
+      "faq_id":"FAQ-020",
+      "intent_id":"INT-020",
+      "question":"Can you track unpaid invoices?",
+      "answer":"Yes. ECBTAX can monitor receivables and supplier balances."
+    },
+    {
+      "faq_id":"FAQ-021",
+      "intent_id":"INT-021",
+      "question":"Can payroll be fully outsourced?",
+      "answer":"Yes. ECBTAX handles payroll calculations, documents and filings."
+    },
+    {
+      "faq_id":"FAQ-022",
+      "intent_id":"INT-022",
+      "question":"How much does an employee really cost?",
+      "answer":"Total cost includes salary, social contributions, taxes and benefits."
+    },
+    {
+      "faq_id":"FAQ-023",
+      "intent_id":"INT-023",
+      "question":"Can you help with benefits and HR tax reporting?",
+      "answer":"Yes. ECBTAX advises on benefits taxation and related reporting."
+    },
+    {
+      "faq_id":"FAQ-024",
+      "intent_id":"INT-024",
+      "question":"Do you monitor payroll legislation changes?",
+      "answer":"Yes. ECBTAX tracks relevant changes affecting employers."
+    },
+    {
+      "faq_id":"FAQ-025",
+      "intent_id":"INT-025",
+      "question":"Can you manage payroll for remote teams?",
+      "answer":"Yes. Remote employee payroll is supported."
+    },
+    {
+      "faq_id":"FAQ-026",
+      "intent_id":"INT-026",
+      "question":"Who prepares corporate tax returns?",
+      "answer":"ECBTAX prepares corporate and microenterprise tax returns."
+    },
+    {
+      "faq_id":"FAQ-027",
+      "intent_id":"INT-027",
+      "question":"Can you help recover VAT?",
+      "answer":"Yes. ECBTAX assists with VAT recovery and VAT corrections."
+    },
+    {
+      "faq_id":"FAQ-028",
+      "intent_id":"INT-028",
+      "question":"What is tax planning?",
+      "answer":"Tax planning helps structure operations efficiently while remaining compliant."
+    },
+    {
+      "faq_id":"FAQ-029",
+      "intent_id":"INT-029",
+      "question":"Should I take dividends or salary?",
+      "answer":"The answer depends on taxation, cash needs and long-term objectives."
+    },
+    {
+      "faq_id":"FAQ-030",
+      "intent_id":"INT-030",
+      "question":"Can old fiscal errors be corrected?",
+      "answer":"Yes. Rectifying declarations can often resolve historical mistakes."
+    },
+    {
+      "faq_id":"FAQ-031",
+      "intent_id":"INT-031",
+      "question":"What management reports do you provide?",
+      "answer":"Cash-flow, profitability, KPIs, budget tracking and financial dashboards."
+    },
+    {
+      "faq_id":"FAQ-032",
+      "intent_id":"INT-032",
+      "question":"What does a Fractional CFO do?",
+      "answer":"A Fractional CFO supports planning, forecasting and strategic financial decisions."
+    },
+    {
+      "faq_id":"FAQ-033",
+      "intent_id":"INT-033",
+      "question":"Can you prepare financial forecasts?",
+      "answer":"Yes. Forecasts can be prepared for banks, investors and internal planning."
+    },
+    {
+      "faq_id":"FAQ-034",
+      "intent_id":"INT-034",
+      "question":"Can you explain financial statements in plain language?",
+      "answer":"Yes. ECBTAX translates accounting figures into business insights."
+    },
+    {
+      "faq_id":"FAQ-035",
+      "intent_id":"INT-035",
+      "question":"What is financial due diligence?",
+      "answer":"It is an analysis of financial, fiscal and operational risks before a transaction."
+    },
+    {
+      "faq_id":"FAQ-036",
+      "intent_id":"INT-036",
+      "question":"Do you work with IT companies?",
+      "answer":"Yes. ECBTAX supports software firms, agencies and freelancers."
+    },
+    {
+      "faq_id":"FAQ-037",
+      "intent_id":"INT-037",
+      "question":"Do you support ecommerce businesses?",
+      "answer":"Yes. ECBTAX handles ecommerce VAT, inventory and marketplace accounting."
+    },
+    {
+      "faq_id":"FAQ-038",
+      "intent_id":"INT-038",
+      "question":"Do you work with restaurants and cafes?",
+      "answer":"Yes. ECBTAX provides HoReCa-specific accounting support."
+    },
+    {
+      "faq_id":"FAQ-039",
+      "intent_id":"INT-039",
+      "question":"Do you support construction companies?",
+      "answer":"Yes. ECBTAX tracks costs, revenues and margins per project."
+    },
+    {
+      "faq_id":"FAQ-040",
+      "intent_id":"INT-040",
+      "question":"Do you work with medical practices?",
+      "answer":"Yes. ECBTAX supports clinics, doctors and dental practices."
+    },
+    {
+      "faq_id":"FAQ-041",
+      "intent_id":"INT-041",
+      "question":"Can reporting be provided in English?",
+      "answer":"Yes. English-language reporting and communication are available."
+    },
+    {
+      "faq_id":"FAQ-042",
+      "intent_id":"INT-042",
+      "question":"What are OSS and IOSS?",
+      "answer":"OSS and IOSS simplify VAT reporting for certain cross-border transactions."
+    },
+    {
+      "faq_id":"FAQ-043",
+      "intent_id":"INT-043",
+      "question":"Do I need transfer pricing documentation?",
+      "answer":"It depends on transaction volume and Romanian transfer pricing rules."
+    },
+    {
+      "faq_id":"FAQ-044",
+      "intent_id":"INT-044",
+      "question":"Can Romanian accounts be converted to IFRS reporting?",
+      "answer":"Yes. ECBTAX supports Romanian GAAP to IFRS reporting alignment."
+    },
+    {
+      "faq_id":"FAQ-045",
+      "intent_id":"INT-045",
+      "question":"Do you offer an all-in-one package for foreign investors?",
+      "answer":"Yes. ECBTAX can combine incorporation, accounting, payroll and fiscal support."
+    },
+    {
+      "faq_id":"FAQ-046",
+      "intent_id":"INT-046",
+      "question":"Can you take over accounting from another firm?",
+      "answer":"Yes. ECBTAX manages accounting provider transitions."
+    },
+    {
+      "faq_id":"FAQ-047",
+      "intent_id":"INT-047",
+      "question":"What is a second opinion accounting review?",
+      "answer":"An independent review of accounting records, filings and risks."
+    },
+    {
+      "faq_id":"FAQ-048",
+      "intent_id":"INT-048",
+      "question":"What is an accounting health-check?",
+      "answer":"A structured review of accounting and tax compliance status."
+    },
+    {
+      "faq_id":"FAQ-049",
+      "intent_id":"INT-049",
+      "question":"What is forensic accounting?",
+      "answer":"Forensic accounting investigates irregularities, discrepancies and possible fraud."
+    },
+    {
+      "faq_id":"FAQ-050",
+      "intent_id":"INT-050",
+      "question":"Can you integrate accounting with ERP systems?",
+      "answer":"Yes. ECBTAX supports ERP and invoicing integrations."
+    }
+  ]
+}
