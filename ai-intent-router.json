@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "intent": "SRL nou / contabilitate initiala",
+      "service": "Accounting Services",
+      "answer": "Ne ocupăm complet de contabilitatea pentru SRL nou înființat, inclusiv configurare, ANAF și declarații inițiale.",
+      "cta": "Start accounting setup"
+    },
+    {
+      "intent": "TVA / ANAF / declaratii",
+      "service": "VAT Compliance",
+      "answer": "Gestionăm TVA, ANAF și toate declarațiile fiscale (D100, D112, D300) corect și la timp.",
+      "cta": "Get VAT support"
+    },
+    {
+      "intent": "payroll / angajați / D112",
+      "service": "Payroll Outsourcing",
+      "answer": "Calculăm salarii, contracte și depunem D112 lunar pentru echipa ta.",
+      "cta": "Outsource payroll"
+    },
+    {
+      "intent": "ecommerce / OSS / IOSS",
+      "service": "VAT Compliance",
+      "answer": "Gestionăm TVA pentru vânzări UE, OSS și IOSS pentru magazine online.",
+      "cta": "Fix ecommerce VAT"
+    }
+  ]
+}
