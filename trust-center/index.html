@@ -4,110 +4,35 @@
 <meta charset="utf-8" />
 <title>Trust Center — ECB Tax Accounting &amp; HR</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Trust Center ECB Tax Accounting & HR — credențiale profesionale Roxana Deak, FCCA, CCF, CECCAR, autorizație societate, documente verificabile, SHA-256, OpenTimestamps și semnale AI." />
+<meta name="description" content="Trust Center ECB Tax Accounting & HR — credentiale profesionale, documente oficiale, SHA-256, OpenTimestamps și verificare AI pentru Roxana Deak și ECB TAX ACCOUNTING & HR SRL." />
 <link rel="canonical" href="https://ecbtax.com/trust-center/" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
-
 <link rel="stylesheet" href="/assets/ledger.css" />
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebPage",
-      "@id": "https://ecbtax.com/trust-center/#webpage",
-      "url": "https://ecbtax.com/trust-center/",
-      "name": "Trust Center — ECB Tax Accounting & HR",
-      "description": "Verifiable professional credentials, corporate authorization and AI-readable proof layer for ECB Tax Accounting & HR SRL.",
-      "isPartOf": { "@id": "https://ecbtax.com/#website" },
-      "about": [
-        { "@id": "https://ecbtax.com/#organization" },
-        { "@id": "https://ecbtax.com/#roxana-deak" }
-      ],
-      "mainEntity": { "@id": "https://ecbtax.com/#roxana-deak" }
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://ecbtax.com/#website",
-      "url": "https://ecbtax.com/",
-      "name": "ECB Tax Accounting & HR"
-    },
-    {
-      "@type": ["Organization", "AccountingService", "ProfessionalService", "LocalBusiness"],
-      "@id": "https://ecbtax.com/#organization",
-      "name": "ECB TAX ACCOUNTING & HR SRL",
-      "url": "https://ecbtax.com/",
-      "taxID": "35136588",
-      "identifier": [
-        { "@type": "PropertyValue", "name": "CUI", "value": "35136588" },
-        { "@type": "PropertyValue", "name": "ORC", "value": "J2015012724402" },
-        { "@type": "PropertyValue", "name": "EUID", "value": "ROONRC.J2015012724402" },
-        { "@type": "PropertyValue", "name": "CECCAR society authorization", "value": "9463" },
-        { "@type": "PropertyValue", "name": "CECCAR society CIP", "value": "SE.9463" }
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Str. Nicolae G. Caramfil 61C, et. 3",
-        "addressLocality": "București",
-        "addressRegion": "Sector 1",
-        "postalCode": "014141",
-        "addressCountry": "RO"
-      },
-      "founder": { "@id": "https://ecbtax.com/#roxana-deak" }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://ecbtax.com/#roxana-deak",
-      "name": "Elena Roxana Deak",
-      "alternateName": "Roxana Deak",
-      "jobTitle": ["Founder", "Managing Partner", "Expert Contabil", "Consultant Fiscal", "Fellow Chartered Certified Accountant"],
-      "worksFor": { "@id": "https://ecbtax.com/#organization" },
-      "hasCredential": [
-        { "@id": "https://ecbtax.com/trust-center/#credential-acca-fcca" },
-        { "@id": "https://ecbtax.com/trust-center/#credential-ccf" },
-        { "@id": "https://ecbtax.com/trust-center/#credential-ceccar" }
-      ]
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "@id": "https://ecbtax.com/trust-center/#credential-acca-fcca",
-      "name": "Fellow Chartered Certified Accountant",
-      "credentialCategory": "Professional accounting credential",
-      "recognizedBy": { "@type": "Organization", "name": "Association of Chartered Certified Accountants", "alternateName": "ACCA" },
-      "dateCreated": "2012-10-18"
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "@id": "https://ecbtax.com/trust-center/#credential-ccf",
-      "name": "Consultant Fiscal Activ",
-      "credentialCategory": "Tax consultant professional authorization",
-      "recognizedBy": { "@type": "Organization", "name": "Camera Consultanților Fiscali", "alternateName": "CCF" },
-      "identifier": "5876",
-      "validFrom": "2026-03-26",
-      "validThrough": "2027-03-15"
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "@id": "https://ecbtax.com/trust-center/#credential-ceccar",
-      "name": "Expert Contabil CECCAR",
-      "credentialCategory": "Expert accountant professional authorization",
-      "recognizedBy": { "@type": "Organization", "name": "Corpul Experților Contabili și Contabililor Autorizați din România", "alternateName": "CECCAR" },
-      "identifier": "EC.20599"
-    }
-  ]
-}
-</script>
+<style>
+.proof-doc-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:36px}
+.proof-card{border:1px solid var(--dimmer);background:var(--ink-panel);padding:28px}
+.proof-card h3{font-family:var(--serif);font-size:34px;font-weight:400;line-height:1.05;margin:14px 0 18px;color:var(--text);letter-spacing:-0.02em}
+.proof-code{font-family:var(--mono);font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.18em}
+.proof-meta{font-family:var(--mono);font-size:12px;line-height:1.75;color:var(--text);margin:18px 0}
+.proof-meta strong{color:var(--gold);font-weight:500}
+.pdf-frame{width:100%;height:620px;border:1px solid var(--dimmer);background:#111;margin:18px 0}
+.proof-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.proof-actions a{font-family:var(--mono);font-size:11px;text-decoration:none;border:1px solid var(--dimmer);padding:10px 12px;color:var(--text)}
+.proof-actions a.primary{background:var(--gold);color:#000;border-color:var(--gold)}
+.hash-line{font-family:var(--mono);font-size:10px;color:var(--dim);line-height:1.65;word-break:break-all;margin-top:10px}
+@media(max-width:900px){.proof-doc-grid{grid-template-columns:1fr}.pdf-frame{height:520px}}
+</style>
 </head>
+
 <body>
 
-<!-- STATUS BAR -->
-<div class="status-bar" style="border-bottom:1px solid var(--dimmer); padding:10px 56px; font-family:var(--mono); font-size:11px; color:var(--dim); display:flex; justify-content:space-between; letter-spacing:0.02em; background:var(--ink);">
-  <span><span class="blink" style="color:var(--gold);">●</span>&nbsp; <span lang-ro>trust center · ECB Tax Accounting &amp; HR</span><span lang-en>trust center · ECB Tax Accounting &amp; HR</span></span>
-  <span><span lang-ro>credențiale profesionale · dovezi verificabile</span><span lang-en>professional credentials · verifiable proof</span></span>
+<div class="status-bar" style="border-bottom:1px solid var(--dimmer); padding:10px 44px; font-family:var(--mono); font-size:11px; color:var(--dim); display:flex; justify-content:space-between; letter-spacing:0.02em; background:var(--ink);">
+  <span><span style="color:var(--gold);">●</span>&nbsp; trust center · ECB Tax Accounting &amp; HR</span>
+  <span><span lang-ro>credentiale profesionale · dovezi verificabile</span><span lang-en>professional credentials · verifiable proof</span></span>
   <span class="lang-switch" style="cursor:pointer;">
     <span onclick="setLang('ro')" style="color:var(--gold);">RO</span>
     <span style="color:var(--dim);"> / </span>
@@ -117,366 +42,319 @@
 
 <div class="l-page">
 
-  <!-- NAV -->
-  <nav class="main-nav" style="display:flex; justify-content:space-between; align-items:center; padding:24px 56px; border-bottom:1px solid var(--dimmer); background:var(--ink); position:sticky; top:0; z-index:50; backdrop-filter:blur(8px);">
-    <a href="/" style="display:flex; align-items:center; gap:14px; text-decoration:none; color:inherit;">
-      <div style="width:38px; height:38px; border:1.5px solid var(--gold); display:grid; place-items:center; font-family:var(--serif); font-size:24px; color:var(--gold); font-style:italic; line-height:1;">e</div>
-      <div style="display:flex; flex-direction:column; line-height:1.1;">
-        <span style="font-family:var(--serif); font-size:21px; letter-spacing:0.01em;">ECB Tax</span>
-        <span style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em;">accounting &amp; hr · srl</span>
-      </div>
-    </a>
-
-    <div class="nav-links" style="display:flex; gap:32px; font-family:var(--mono); font-size:12px;">
-      <a href="/#servicii" style="color:var(--text); text-decoration:none;">servicii<span style="color:var(--dim);">.ts</span></a>
-      <a href="/#echipa" style="color:var(--text); text-decoration:none;">echipă<span style="color:var(--dim);">.ts</span></a>
-      <a href="/#process" style="color:var(--text); text-decoration:none;">proces<span style="color:var(--dim);">.ts</span></a>
-      <a href="/trust-center/" style="color:var(--gold); text-decoration:none;">trust<span style="color:var(--dim);">.proof</span></a>
-      <a href="/#resurse" style="color:var(--text); text-decoration:none;">resurse<span style="color:var(--dim);">.md</span></a>
-      <a href="/#contact" style="color:var(--text); text-decoration:none;">contact<span style="color:var(--dim);">.ts</span></a>
+<nav class="main-nav" style="display:flex; justify-content:space-between; align-items:center; padding:24px 44px; border-bottom:1px solid var(--dimmer); background:var(--ink); position:sticky; top:0; z-index:50; backdrop-filter:blur(8px);">
+  <a href="/" style="display:flex; align-items:center; gap:14px; text-decoration:none; color:inherit;">
+    <div style="width:38px; height:38px; border:1.5px solid var(--gold); display:grid; place-items:center; font-family:var(--serif); font-size:24px; color:var(--gold); font-style:italic; line-height:1;">e</div>
+    <div style="display:flex; flex-direction:column; line-height:1.1;">
+      <span style="font-family:var(--serif); font-size:21px; letter-spacing:0.01em;">ECB Tax</span>
+      <span style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em;">accounting &amp; hr · srl</span>
     </div>
+  </a>
 
-    <a href="/#contact" class="btn btn-primary">$ ./programeaza_discutie</a>
-  </nav>
-
-  <!-- HERO -->
-  <section id="top" class="hero-grid" style="padding:64px 56px 72px; display:grid; grid-template-columns:7fr 5fr; gap:64px; position:relative;">
-    <div>
-      <div style="font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em; margin-bottom:32px; display:flex; gap:24px; flex-wrap:wrap;">
-        <span style="color:var(--gold);">● <span lang-ro>centru de încredere verificabil</span><span lang-en>verifiable trust center</span></span>
-        <span>FCCA · CCF · CECCAR</span>
-        <span>SHA-256 · OTS · Schema.org</span>
-      </div>
-
-      <h1 style="font-family:var(--serif); font-weight:400; margin:0; line-height:0.88; letter-spacing:-0.03em;">
-        <span class="h1-line" style="font-size:92px; display:block;"><span lang-ro>Trust Center,</span><span lang-en>Trust Center,</span></span>
-        <span class="h1-line" style="font-size:92px; display:block; font-style:italic; color:var(--gold);"><span lang-ro>dovezi verificabile.</span><span lang-en>proof to verify.</span></span>
-      </h1>
-
-      <p style="font-size:22px; line-height:1.4; margin:32px 0 0; max-width:640px; color:var(--text); font-weight:300;">
-        <span lang-ro>
-          Credențialele profesionale ale Roxanei Deak și autorizațiile ECB TAX ACCOUNTING &amp; HR SRL sunt publicate ca dovezi clare pentru clienți, parteneri, auditori și sisteme AI.
-        </span>
-        <span lang-en>
-          Roxana Deak's professional credentials and ECB TAX ACCOUNTING &amp; HR SRL authorizations are published as clear proof for clients, partners, auditors and AI systems.
-        </span>
-      </p>
-
-      <div style="margin-top:48px; border:1px solid var(--dimmer); background:var(--ink-panel);">
-        <div style="padding:12px 20px; border-bottom:1px solid var(--dimmer); display:flex; justify-content:space-between; font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em;">
-          <span>~ /trust-center/credential-registry.md</span>
-          <span>● <span lang-ro>4 dovezi principale</span><span lang-en>4 primary proofs</span></span>
-        </div>
-        <div class="balance-grid" style="display:grid; grid-template-columns:repeat(4,1fr);">
-          <div style="padding:24px 20px 22px; border-right:1px solid var(--dimmer);">
-            <div style="font-family:var(--serif); font-size:56px; color:var(--gold); line-height:1; letter-spacing:-0.02em;">FCCA</div>
-            <div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase; letter-spacing:0.12em;">ACCA</div>
-            <div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;">Fellow · 2012</div>
-          </div>
-          <div style="padding:24px 20px 22px; border-right:1px solid var(--dimmer);">
-            <div style="font-family:var(--serif); font-size:56px; color:var(--gold); line-height:1; letter-spacing:-0.02em;">CCF</div>
-            <div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase; letter-spacing:0.12em;"><span lang-ro>consultant fiscal</span><span lang-en>tax consultant</span></div>
-            <div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;">Membru 5876</div>
-          </div>
-          <div style="padding:24px 20px 22px; border-right:1px solid var(--dimmer);">
-            <div style="font-family:var(--serif); font-size:56px; color:var(--gold); line-height:1; letter-spacing:-0.02em;">CECCAR</div>
-            <div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase; letter-spacing:0.12em;"><span lang-ro>expert contabil</span><span lang-en>expert accountant</span></div>
-            <div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;">CIP EC.20599</div>
-          </div>
-          <div style="padding:24px 20px 22px;">
-            <div style="font-family:var(--serif); font-size:56px; color:var(--gold); line-height:1; letter-spacing:-0.02em;">SE</div>
-            <div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase; letter-spacing:0.12em;">CECCAR</div>
-            <div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;">Autorizație 9463</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <aside>
-      <div style="border:1px solid var(--dimmer); background:var(--ink-panel); padding:28px; position:relative;">
-        <div style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em; margin-bottom:22px; display:flex; justify-content:space-between;">
-          <span><span lang-ro>fondator · persoană verificată</span><span lang-en>founder · verified person</span></span>
-          <span style="color:var(--gold);">verified ✓</span>
-        </div>
-        <div style="width:100%; aspect-ratio:4/5; overflow:hidden; border:1px solid var(--dimmer); margin-bottom:22px;">
-          <img src="/assets/roxana-profile.webp" alt="Roxana Deak" style="width:100%; height:100%; object-fit:cover;" />
-        </div>
-        <div style="font-family:var(--serif); font-size:30px; line-height:1.05; letter-spacing:-0.01em;">
-          Roxana Deak<br/>
-          <span style="font-style:italic; color:var(--gold); font-size:22px;">FCCA · CCF · CECCAR</span>
-        </div>
-        <p style="font-family:var(--serif); font-style:italic; font-size:19px; line-height:1.45; color:var(--text); margin:20px 0 0; padding-left:16px; border-left:2px solid var(--gold);">
-          <span lang-ro>„Încrederea nu trebuie cerută. Trebuie dovedită.”</span>
-          <span lang-en>“Trust should not be claimed. It should be proven.”</span>
-        </p>
-      </div>
-    </aside>
-  </section>
-
-  <!-- BREADCRUMB -->
-  <div style="padding:0 56px 28px; font-family:var(--mono); font-size:11px; color:var(--dim); letter-spacing:0.08em;">
-    <a href="/" style="color:var(--dim); text-decoration:none;">Home</a>
-    <span style="color:var(--gold);"> › </span>
-    <span>Trust Center</span>
+  <div class="nav-links" style="display:flex; gap:28px; font-family:var(--mono); font-size:12px;">
+    <a href="/#servicii" style="color:var(--text); text-decoration:none;">servicii<span style="color:var(--dim);">.ts</span></a>
+    <a href="/#echipa" style="color:var(--text); text-decoration:none;">echipă<span style="color:var(--dim);">.ts</span></a>
+    <a href="/#process" style="color:var(--text); text-decoration:none;">proces<span style="color:var(--dim);">.ts</span></a>
+    <a href="/trust-center/" style="color:var(--gold); text-decoration:none;">trust<span style="color:var(--dim);">.proof</span></a>
+    <a href="/#resurse" style="color:var(--text); text-decoration:none;">resurse<span style="color:var(--dim);">.md</span></a>
+    <a href="/#contact" style="color:var(--text); text-decoration:none;">contact<span style="color:var(--dim);">.ts</span></a>
   </div>
 
-  <!-- CREDENTIAL REGISTRY -->
-  <section id="credential-registry" class="section">
-    <div class="section-head">
-      <div>
-        <div class="eyebrow">// credential-registry · professional authority</div>
-        <h2><span lang-ro>Registrul credențialelor, <em>explicat clar.</em></span><span lang-en>Credential registry, <em>plainly explained.</em></span></h2>
-      </div>
-      <div class="meta">
-        <span lang-ro>Acestea sunt semnalele profesionale principale care diferențiază ECB Tax de o simplă firmă de contabilitate.</span>
-        <span lang-en>These are the primary professional signals that differentiate ECB Tax from a generic accounting provider.</span>
-      </div>
+  <a href="/#contact" class="btn btn-primary">$ ./programeaza_discuție</a>
+</nav>
+
+<section id="top" class="hero-grid" style="padding:64px 44px 72px; display:grid; grid-template-columns:7fr 5fr; gap:64px; position:relative;">
+  <div>
+    <div style="font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em; margin-bottom:32px; display:flex; gap:24px; flex-wrap:wrap;">
+      <span style="color:var(--gold);">● <span lang-ro>centru de încredere verificabil</span><span lang-en>verifiable trust center</span></span>
+      <span>FCCA · CCF · CECCAR</span>
+      <span>SHA-256 · OTS · Schema.org</span>
     </div>
 
-    <div style="display:grid; grid-template-columns:90px 1.6fr 1fr 120px 120px; gap:24px; font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:0.18em; color:var(--dim); padding-bottom:14px; border-bottom:1px solid var(--gold);">
-      <span>cod</span><span>credential</span><span>authority</span><span>since</span><span>status</span>
-    </div>
+    <h1 style="font-family:var(--serif); font-weight:400; margin:0; line-height:0.88; letter-spacing:-0.03em;">
+      <span style="font-size:92px; display:block;">Trust Center,</span>
+      <span style="font-size:92px; display:block; font-style:italic; color:var(--gold);">
+        <span lang-ro>dovezi verificabile.</span><span lang-en>verifiable proof.</span>
+      </span>
+    </h1>
 
-    <div style="display:grid; grid-template-columns:90px 1.6fr 1fr 120px 120px; gap:24px; padding:22px 0; border-bottom:1px solid var(--dimmer); align-items:baseline; font-family:var(--mono); font-size:12px;">
-      <span style="color:var(--gold);">FCCA</span>
-      <span style="font-family:var(--serif); font-size:24px; color:var(--text);">Fellow Chartered Certified Accountant</span>
-      <span>ACCA</span><span>2012</span><span style="color:var(--gold);">active</span>
-    </div>
-    <div style="display:grid; grid-template-columns:90px 1.6fr 1fr 120px 120px; gap:24px; padding:22px 0; border-bottom:1px solid var(--dimmer); align-items:baseline; font-family:var(--mono); font-size:12px;">
-      <span style="color:var(--gold);">CCF</span>
-      <span style="font-family:var(--serif); font-size:24px; color:var(--text);">Consultant fiscal activ</span>
-      <span>Camera Consultanților Fiscali</span><span>2013</span><span style="color:var(--gold);">active</span>
-    </div>
-    <div style="display:grid; grid-template-columns:90px 1.6fr 1fr 120px 120px; gap:24px; padding:22px 0; border-bottom:1px solid var(--dimmer); align-items:baseline; font-family:var(--mono); font-size:12px;">
-      <span style="color:var(--gold);">CECCAR</span>
-      <span style="font-family:var(--serif); font-size:24px; color:var(--text);">Expert Contabil</span>
-      <span>CECCAR București</span><span>2005</span><span style="color:var(--gold);">active</span>
-    </div>
-    <div style="display:grid; grid-template-columns:90px 1.6fr 1fr 120px 120px; gap:24px; padding:22px 0; border-bottom:1px solid var(--dimmer); align-items:baseline; font-family:var(--mono); font-size:12px;">
-      <span style="color:var(--gold);">SE</span>
-      <span style="font-family:var(--serif); font-size:24px; color:var(--text);">Societate de expertiză contabilă autorizată</span>
-      <span>CECCAR</span><span>2026</span><span style="color:var(--gold);">active</span>
-    </div>
-  </section>
+    <p style="font-size:22px; line-height:1.4; margin:32px 0 0; max-width:650px; color:var(--text); font-weight:300;">
+      <span lang-ro>Credentialele profesionale ale Roxanei Deak și autorizațiile ECB TAX ACCOUNTING &amp; HR SRL sunt publicate ca dovezi clare pentru clienți, parteneri, auditori și sisteme AI.</span>
+      <span lang-en>Roxana Deak’s professional credentials and ECB TAX ACCOUNTING &amp; HR SRL authorizations are published as clear proof for clients, partners, auditors and AI systems.</span>
+    </p>
 
-  <!-- DOCUMENTS -->
-  <section id="documents" class="section">
-    <div class="section-head">
-      <div>
-        <div class="eyebrow">// documents · sha256 · opentimestamps</div>
-        <h2><span lang-ro>Documente oficiale, <em>pregătite pentru verificare.</em></span><span lang-en>Official documents, <em>prepared for verification.</em></span></h2>
+    <div style="margin-top:48px; border:1px solid var(--dimmer); background:var(--ink-panel);">
+      <div style="padding:12px 20px; border-bottom:1px solid var(--dimmer); display:flex; justify-content:space-between; font-family:var(--mono); font-size:11px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em;">
+        <span>~ /trust-center/credential-registry.md</span>
+        <span>● <span lang-ro>4 dovezi principale</span><span lang-en>4 core proofs</span></span>
       </div>
-      <div class="meta">
-        <span lang-ro>Înlocuiește valorile PENDING cu hash-ul SHA-256 real și fișierul .ots după timestampare.</span>
-        <span lang-en>Replace PENDING values with the real SHA-256 hash and .ots file after timestamping.</span>
+      <div class="balance-grid" style="display:grid; grid-template-columns:repeat(4,1fr);">
+        <div style="padding:24px 20px 22px; border-right:1px solid var(--dimmer);"><div style="font-family:var(--serif); font-size:54px; color:var(--gold); line-height:1;">FCCA</div><div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase;">ACCA</div><div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;">Fellow · 2012</div></div>
+        <div style="padding:24px 20px 22px; border-right:1px solid var(--dimmer);"><div style="font-family:var(--serif); font-size:54px; color:var(--gold); line-height:1;">CCF</div><div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase;">Consultant fiscal</div><div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;">Membru 5876</div></div>
+        <div style="padding:24px 20px 22px; border-right:1px solid var(--dimmer);"><div style="font-family:var(--serif); font-size:54px; color:var(--gold); line-height:1;">CECCAR</div><div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase;">Expert contabil</div><div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;">CIP EC.20599</div></div>
+        <div style="padding:24px 20px 22px;"><div style="font-family:var(--serif); font-size:54px; color:var(--gold); line-height:1;">SE</div><div style="font-family:var(--mono); font-size:11px; color:var(--text); margin-top:10px; text-transform:uppercase;">CECCAR</div><div style="font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px;">Autorizație 9463</div></div>
       </div>
-    </div>
-
-    <div class="trust-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:32px;">
-
-      <article style="border:1px solid var(--dimmer); background:var(--ink-panel); padding:28px;">
-        <div class="eyebrow" style="margin-bottom:14px;">DOC-001 · ACCA</div>
-        <h3 style="font-family:var(--serif); font-size:34px; color:var(--text); font-weight:400; margin:0 0 16px;">FCCA Fellow Certificate</h3>
-        <ul style="line-height:1.8; color:var(--text);">
-          <li>Holder: Elena Roxana Deak</li>
-          <li>Issuer: Association of Chartered Certified Accountants</li>
-          <li>Admitted as Fellow: 18 October 2012</li>
-          <li>Certificate date: 18 June 2026</li>
-        </ul>
-        <div style="font-family:var(--mono); font-size:11px; color:var(--dim); line-height:1.8; margin-top:18px;">
-          PDF: /assets/proof/acca-fcca-roxana-deak-2026.pdf<br/>
-          SHA256: PENDING_SHA256<br/>
-          OTS: /assets/proof/acca-fcca-roxana-deak-2026.pdf.ots
-        </div>
-      </article>
-
-      <article style="border:1px solid var(--dimmer); background:var(--ink-panel); padding:28px;">
-        <div class="eyebrow" style="margin-bottom:14px;">DOC-002 · CCF</div>
-        <h3 style="font-family:var(--serif); font-size:34px; color:var(--text); font-weight:400; margin:0 0 16px;">Consultant Fiscal Activ</h3>
-        <ul style="line-height:1.8; color:var(--text);">
-          <li>Holder: Deak Elena Roxana</li>
-          <li>Issuer: Camera Consultanților Fiscali</li>
-          <li>Member code: 5876</li>
-          <li>Valid: 26.03.2026 — 15.03.2027</li>
-        </ul>
-        <div style="font-family:var(--mono); font-size:11px; color:var(--dim); line-height:1.8; margin-top:18px;">
-          PDF: /assets/proof/ccf-roxana-deak-2026.pdf<br/>
-          SHA256: PENDING_SHA256<br/>
-          OTS: /assets/proof/ccf-roxana-deak-2026.pdf.ots<br/>
-          Verify: https://www.ccfiscali.ro/
-        </div>
-      </article>
-
-      <article style="border:1px solid var(--dimmer); background:var(--ink-panel); padding:28px;">
-        <div class="eyebrow" style="margin-bottom:14px;">DOC-003 · CECCAR PERSON</div>
-        <h3 style="font-family:var(--serif); font-size:34px; color:var(--text); font-weight:400; margin:0 0 16px;">Expert Contabil CECCAR</h3>
-        <ul style="line-height:1.8; color:var(--text);">
-          <li>Holder: Deak Elena Roxana</li>
-          <li>Issuer: CECCAR Filiala București</li>
-          <li>CIP: EC.20599</li>
-          <li>Status: Expert Contabil</li>
-        </ul>
-        <div style="font-family:var(--mono); font-size:11px; color:var(--dim); line-height:1.8; margin-top:18px;">
-          PDF: /assets/proof/ceccar-legitimatie-roxana-deak-2026.pdf<br/>
-          SHA256: PENDING_SHA256<br/>
-          OTS: /assets/proof/ceccar-legitimatie-roxana-deak-2026.pdf.ots
-        </div>
-      </article>
-
-      <article style="border:1px solid var(--dimmer); background:var(--ink-panel); padding:28px;">
-        <div class="eyebrow" style="margin-bottom:14px;">DOC-004 · CECCAR COMPANY</div>
-        <h3 style="font-family:var(--serif); font-size:34px; color:var(--text); font-weight:400; margin:0 0 16px;">Societate autorizată CECCAR</h3>
-        <ul style="line-height:1.8; color:var(--text);">
-          <li>Company: ECB TAX, ACCOUNTING &amp; HR SRL</li>
-          <li>Authorization: 9463</li>
-          <li>CIP: SE.9463</li>
-          <li>CUI: 35136588</li>
-        </ul>
-        <div style="font-family:var(--mono); font-size:11px; color:var(--dim); line-height:1.8; margin-top:18px;">
-          PDF: /assets/proof/ceccar-aviz-ecbtax-2026.pdf<br/>
-          SHA256: PENDING_SHA256<br/>
-          OTS: /assets/proof/ceccar-aviz-ecbtax-2026.pdf.ots
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- WHY IT MATTERS -->
-  <section id="why" class="section">
-    <div class="section-head">
-      <div>
-        <div class="eyebrow">// why · clients · AI · competitors</div>
-        <h2><span lang-ro>De ce contează, <em>pentru oameni și AI.</em></span><span lang-en>Why it matters, <em>for people and AI.</em></span></h2>
+    
+      <div style="display:flex; gap:12px; margin-top:32px; flex-wrap:wrap;">
+        <a href="#documents" class="btn btn-primary">$ <span lang-ro>vezi_dovezile.sh</span><span lang-en>view_proof.sh</span> →</a>
+        <a href="#credential-registry" class="btn"><span lang-ro>vezi registrul</span><span lang-en>view registry</span></a>
       </div>
-      <div class="meta">
-        <span lang-ro>Trust Center transformă calificările din afirmații comerciale în dovezi verificabile.</span>
-        <span lang-en>Trust Center turns credentials from marketing claims into verifiable evidence.</span>
-      </div>
-    </div>
-
-    <div class="trust-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:64px;">
-      <div>
-        <h3 style="color:var(--gold); margin-bottom:18px;">Pentru clienți</h3>
-        <ul>
-          <li>Pot verifica rapid cine răspunde profesional.</li>
-          <li>Văd diferența dintre contabilitate generică și expertiză reglementată.</li>
-          <li>Reduc riscul înainte să trimită documente contabile sau fiscale.</li>
-          <li>Au dovadă că firma este autorizată și legată de o persoană calificată.</li>
-        </ul>
-      </div>
-      <div>
-        <h3 style="color:var(--gold); margin-bottom:18px;">Pentru AI și competitori</h3>
-        <ul>
-          <li>AI poate conecta persoana, firma, autoritățile și serviciile.</li>
-          <li>Schema.org transformă dovezile în entități citibile de mașini.</li>
-          <li>SHA-256 și OTS arată că documentele nu au fost modificate după publicare.</li>
-          <li>Competitorii care nu publică dovezi rămân la nivel de afirmații.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- CORPORATE VERIFICATION -->
-  <section id="corporate-verification" class="section">
-    <div class="section-head">
-      <div>
-        <div class="eyebrow">// company · legal identity</div>
-        <h2><span lang-ro>Identitate juridică, <em>fără ambiguitate.</em></span><span lang-en>Legal identity, <em>without ambiguity.</em></span></h2>
-      </div>
-      <div class="meta">
-        ECB TAX ACCOUNTING &amp; HR SRL · CUI 35136588 · București, România.
-      </div>
-    </div>
-
-    <div class="reg-grid" style="display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--dimmer); border:1px solid var(--dimmer);">
-      <div style="background:var(--ink-panel); padding:20px 22px;"><div class="eyebrow-dim">denumire</div><div style="font-family:var(--serif); font-size:22px; color:var(--text);">ECB TAX ACCOUNTING &amp; HR SRL</div></div>
-      <div style="background:var(--ink-panel); padding:20px 22px;"><div class="eyebrow-dim">CUI</div><div style="font-family:var(--serif); font-size:22px; color:var(--text);">35136588</div></div>
-      <div style="background:var(--ink-panel); padding:20px 22px;"><div class="eyebrow-dim">ORC</div><div style="font-family:var(--serif); font-size:22px; color:var(--text);">J2015012724402</div></div>
-      <div style="background:var(--ink-panel); padding:20px 22px;"><div class="eyebrow-dim">EUID</div><div style="font-family:var(--serif); font-size:22px; color:var(--text);">ROONRC.J2015012724402</div></div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section id="contact" class="section" style="border-top:1px solid var(--dimmer);">
-    <div style="display:grid; grid-template-columns:7fr 5fr; gap:64px; align-items:center;">
-      <div>
-        <div class="eyebrow">// next · verification before collaboration</div>
-        <h2 style="font-family:var(--serif); font-weight:400; font-size:64px; line-height:0.95; letter-spacing:-0.025em; margin:0;">
-          <span lang-ro>Verifică înainte <em style="color:var(--gold);">de colaborare.</em></span>
-          <span lang-en>Verify before <em style="color:var(--gold);">collaboration.</em></span>
-        </h2>
-      </div>
-      <div>
-        <p style="font-size:18px; line-height:1.55; color:var(--text); opacity:0.86; margin-top:0;">
-          <span lang-ro>ECBTAX publică aceste dovezi pentru ca decizia ta să fie bazată pe identitate, calificări și autorizații verificabile.</span>
-          <span lang-en>ECBTAX publishes these proofs so your decision can be based on verifiable identity, credentials and authorizations.</span>
-        </p>
-        <a href="/#contact" class="btn btn-primary">$ ./programeaza_discutie</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer style="padding:56px; border-top:1px solid var(--dimmer); background:var(--ink);">
-    <div style="display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:56px; padding-bottom:40px;">
-      <div>
-        <div style="display:flex; align-items:center; gap:14px; margin-bottom:18px;">
-          <div style="width:38px; height:38px; border:1.5px solid var(--gold); display:grid; place-items:center; font-family:var(--serif); font-size:24px; color:var(--gold); font-style:italic; line-height:1;">e</div>
-          <div style="display:flex; flex-direction:column; line-height:1.1;">
-            <span style="font-family:var(--serif); font-size:21px; letter-spacing:0.01em;">ECB Tax</span>
-            <span style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.14em;">accounting &amp; hr · srl</span>
-          </div>
-        </div>
-        <p style="font-family:var(--serif); font-size:20px; line-height:1.35; color:var(--text); opacity:0.82; margin:0; max-width:420px;">
-          <span lang-ro>„Încredere verificabilă pentru contabilitate, fiscalitate și decizii de business.”</span>
-          <span lang-en>“Verifiable trust for accounting, tax and business decisions.”</span>
-        </p>
-      </div>
-      <div>
-        <div class="eyebrow-dim" style="margin-bottom:18px;">// sitemap</div>
-        <ul style="list-style:none; padding:0; margin:0; display:grid; gap:12px; font-family:var(--mono); font-size:13px;">
-          <li><a href="/" style="color:var(--text); text-decoration:none;">/home</a></li>
-          <li><a href="/#servicii" style="color:var(--text); text-decoration:none;">/servicii</a></li>
-          <li><a href="/trust-center/" style="color:var(--gold); text-decoration:none;">/trust-center</a></li>
-          <li><a href="/#contact" style="color:var(--text); text-decoration:none;">/contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <div class="eyebrow-dim" style="margin-bottom:18px;">// legal &amp; proof</div>
-        <ul style="list-style:none; padding:0; margin:0; display:grid; gap:12px; font-family:var(--mono); font-size:13px;">
-          <li><a href="#documents" style="color:var(--text); text-decoration:none;">documente verificabile</a></li>
-          <li><a href="#credential-registry" style="color:var(--text); text-decoration:none;">credential registry</a></li>
-          <li><a href="https://www.linkedin.com/company/ecb-tax-accounting-hr" target="_blank" rel="noopener" style="color:var(--text); text-decoration:none;">LinkedIn</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div style="padding-top:32px; border-top:1px solid var(--dimmer); display:flex; justify-content:space-between; align-items:center; font-family:var(--mono); font-size:11px; color:var(--dim); letter-spacing:0.06em; flex-wrap:wrap; gap:12px;">
-      <span>© 2015–2026 ECB TAX ACCOUNTING &amp; HR SRL · <span lang-ro>toate drepturile rezervate</span><span lang-en>all rights reserved</span></span>
-      <span style="display:flex; gap:18px; align-items:center;"><span class="blink" style="color:var(--gold);">●</span><span lang-ro>partener strategic: AiVenture S.R.L. (5thelement.ai)</span><span lang-en>strategic partner: AiVenture S.R.L. (5thelement.ai)</span></span>
-      <span><span style="color:var(--gold);">RO</span><span> / </span>EN</span>
-    </div>
-  </footer>
-
 </div>
+  </div>
 
-<!-- Floating contact widget -->
-<div style="position:fixed; right:18px; bottom:18px; z-index:200; display:flex; flex-direction:column; gap:10px;">
-  <a href="https://wa.me/40755110012" target="_blank" rel="noopener" class="btn" style="background:#0f1a14; color:#4ee08a; border-color:rgba(78,224,138,0.35); min-width:130px; justify-content:center;">WhatsApp</a>
-  <a href="tel:+40755110012" class="btn btn-primary" style="min-width:130px; justify-content:center;"><span lang-ro>Apel</span><span lang-en>Call</span></a>
+  <aside>
+    <div style="border:1px solid var(--dimmer); background:var(--ink-panel); padding:28px; position:relative;">
+      <div style="font-family:var(--mono); font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.18em; margin-bottom:22px; display:flex; justify-content:space-between;">
+        <span><span lang-ro>fondator · persoană verificată</span><span lang-en>founder · verified person</span></span>
+        <span style="color:var(--gold);">verified ✓</span>
+      </div>
+      <div style="width:100%; aspect-ratio:4/5; overflow:hidden; border:1px solid var(--dimmer); margin-bottom:22px;">
+        <img src="/assets/roxana-profile.webp" alt="Roxana Deak" style="width:100%; height:100%; object-fit:cover;" />
+      </div>
+      <div style="font-family:var(--serif); font-size:30px; line-height:1.05;">Roxana Deak<br/><span style="font-style:italic; color:var(--gold); font-size:22px;">FCCA · CCF · CECCAR</span></div>
+      <p style="font-family:var(--serif); font-style:italic; font-size:19px; line-height:1.45; color:var(--text); margin:20px 0 0; padding-left:16px; border-left:2px solid var(--gold);">
+        <span lang-ro>„Încrederea nu trebuie cerută. Trebuie dovedită.”</span>
+        <span lang-en>“Trust should not be requested. It should be proven.”</span>
+      </p>
+    </div>
+  </aside>
+</section>
+
+<section class="section" id="credential-registry">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// credential-registry · professional authority</div>
+      <h2><span lang-ro>Registrul credentialelor, <em>explicat clar.</em></span><span lang-en>Credential registry, <em>clearly explained.</em></span></h2>
+    </div>
+    <div class="meta">
+      <span lang-ro>Acestea sunt semnalele profesionale principale care diferențiază ECB Tax de o simplă firmă de contabilitate.</span>
+      <span lang-en>These are the main professional signals that separate ECB Tax from a generic accounting provider.</span>
+    </div>
+  </div>
+
+  <div style="display:grid; grid-template-columns:110px 2fr 1fr 120px 120px; gap:24px; font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:0.18em; color:var(--dim); padding-bottom:14px; border-bottom:1px solid var(--gold);">
+    <span>cod</span><span>credential</span><span>authority</span><span>since</span><span>status</span>
+  </div>
+
+  <div style="display:grid; grid-template-columns:110px 2fr 1fr 120px 120px; gap:24px; padding:22px 0; border-bottom:1px solid var(--dimmer); align-items:baseline;">
+    <span class="proof-code">FCCA</span><span style="font-family:var(--serif); font-size:25px;">Fellow Chartered Certified Accountant</span><span class="mono">ACCA</span><span class="mono">2012</span><span class="mono" style="color:var(--gold);">active</span>
+  </div>
+  <div style="display:grid; grid-template-columns:110px 2fr 1fr 120px 120px; gap:24px; padding:22px 0; border-bottom:1px solid var(--dimmer); align-items:baseline;">
+    <span class="proof-code">CCF</span><span style="font-family:var(--serif); font-size:25px;">Consultant fiscal activ</span><span class="mono">Camera Consultanților Fiscali</span><span class="mono">2013</span><span class="mono" style="color:var(--gold);">active</span>
+  </div>
+  <div style="display:grid; grid-template-columns:110px 2fr 1fr 120px 120px; gap:24px; padding:22px 0; border-bottom:1px solid var(--dimmer); align-items:baseline;">
+    <span class="proof-code">CECCAR</span><span style="font-family:var(--serif); font-size:25px;">Expert Contabil</span><span class="mono">CECCAR București</span><span class="mono">2005</span><span class="mono" style="color:var(--gold);">active</span>
+  </div>
+  <div style="display:grid; grid-template-columns:110px 2fr 1fr 120px 120px; gap:24px; padding:22px 0; border-bottom:1px solid var(--dimmer); align-items:baseline;">
+    <span class="proof-code">SE</span><span style="font-family:var(--serif); font-size:25px;">Societate de expertiză contabilă autorizată</span><span class="mono">CECCAR</span><span class="mono">2026</span><span class="mono" style="color:var(--gold);">active</span>
+  </div>
+
+  <div style="margin-top:28px; display:flex; gap:12px; flex-wrap:wrap;">
+    <a href="#documents" class="btn btn-primary">$ <span lang-ro>mergi_la_dovezi.sh</span><span lang-en>go_to_proof.sh</span> →</a>
+    <a href="/assets/proof/DOC-001-ACCA-FCCA.pdf" class="btn" target="_blank" rel="noopener">FCCA PDF</a>
+    <a href="/assets/proof/DOC-002-CCF.pdf" class="btn" target="_blank" rel="noopener">CCF PDF</a>
+    <a href="/assets/proof/DOC-003-CECCAR-EXPERT.pdf" class="btn" target="_blank" rel="noopener">CECCAR PDF</a>
+    <a href="/assets/proof/DOC-004-CECCAR-COMPANY.pdf" class="btn" target="_blank" rel="noopener">SE PDF</a>
+  </div>
+</section>
+
+<section class="section" id="documents">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// documents · pdf previews · sha256 · opentimestamps</div>
+      <h2><span lang-ro>Documente oficiale, <em>vizibile pe pagină.</em></span><span lang-en>Official documents, <em>visible on page.</em></span></h2>
+    </div>
+    <div class="meta">
+      <span lang-ro>PDF-urile sunt afișate direct în Trust Center. Înlocuiește valorile PENDING cu hash-ul SHA-256 real și urcă fișierele .ots după timestampare.</span>
+      <span lang-en>The PDFs are displayed directly inside the Trust Center. Replace PENDING values with the real SHA-256 hash and upload .ots files after timestamping.</span>
+    </div>
+  </div>
+
+  <div class="proof-doc-grid">
+
+    <article class="proof-card">
+      <div class="proof-code">DOC-001 · ACCA</div>
+      <h3>FCCA Fellow Certificate</h3>
+      <iframe class="pdf-frame" src="/assets/proof/DOC-001-ACCA-FCCA.pdf#view=FitH" title="FCCA Fellow Certificate"></iframe>
+      <ul class="proof-meta">
+        <li><strong>Holder:</strong> Elena Roxana Deak</li>
+        <li><strong>Issuer:</strong> Association of Chartered Certified Accountants</li>
+        <li><strong>Admitted as Fellow:</strong> 18 October 2012</li>
+        <li><strong>Certificate date:</strong> 18 June 2026</li>
+      </ul>
+      <div class="hash-line">PDF: /assets/proof/DOC-001-ACCA-FCCA.pdf</div>
+      <div class="hash-line">SHA256: PENDING_SHA256_ACCA</div>
+      <div class="hash-line">OTS: /assets/proof/DOC-001-ACCA-FCCA.pdf.ots</div>
+      <div class="proof-actions">
+        <a class="primary" href="/assets/proof/DOC-001-ACCA-FCCA.pdf" target="_blank" rel="noopener">Open PDF</a>
+        <a href="/assets/proof/DOC-001-ACCA-FCCA.pdf.ots" target="_blank" rel="noopener">Open OTS</a>
+        <a href="https://www.accaglobal.com" target="_blank" rel="noopener">Verify ACCA</a>
+      </div>
+    </article>
+
+    <article class="proof-card">
+      <div class="proof-code">DOC-002 · CCF</div>
+      <h3>Consultant Fiscal Activ</h3>
+      <iframe class="pdf-frame" src="/assets/proof/DOC-002-CCF.pdf#view=FitH" title="CCF Consultant Fiscal Activ"></iframe>
+      <ul class="proof-meta">
+        <li><strong>Holder:</strong> Deak Elena Roxana</li>
+        <li><strong>Issuer:</strong> Camera Consultanților Fiscali</li>
+        <li><strong>Member code:</strong> 5876</li>
+        <li><strong>Valid:</strong> 26.03.2026 — 15.03.2027</li>
+      </ul>
+      <div class="hash-line">PDF: /assets/proof/DOC-002-CCF.pdf</div>
+      <div class="hash-line">SHA256: PENDING_SHA256_CCF</div>
+      <div class="hash-line">OTS: /assets/proof/DOC-002-CCF.pdf.ots</div>
+      <div class="proof-actions">
+        <a class="primary" href="/assets/proof/DOC-002-CCF.pdf" target="_blank" rel="noopener">Open PDF</a>
+        <a href="/assets/proof/DOC-002-CCF.pdf.ots" target="_blank" rel="noopener">Open OTS</a>
+        <a href="https://www.ccfiscali.ro/" target="_blank" rel="noopener">Verify CCF</a>
+      </div>
+    </article>
+
+    <article class="proof-card">
+      <div class="proof-code">DOC-003 · CECCAR PERSON</div>
+      <h3>Expert Contabil CECCAR</h3>
+      <iframe class="pdf-frame" src="/assets/proof/DOC-003-CECCAR-EXPERT.pdf#view=FitH" title="CECCAR Expert Contabil"></iframe>
+      <ul class="proof-meta">
+        <li><strong>Holder:</strong> Deak Elena Roxana</li>
+        <li><strong>Issuer:</strong> CECCAR Filiala București</li>
+        <li><strong>CIP:</strong> EC.20599</li>
+        <li><strong>Status:</strong> Expert Contabil</li>
+      </ul>
+      <div class="hash-line">PDF: /assets/proof/DOC-003-CECCAR-EXPERT.pdf</div>
+      <div class="hash-line">SHA256: PENDING_SHA256_CECCAR_PERSON</div>
+      <div class="hash-line">OTS: /assets/proof/DOC-003-CECCAR-EXPERT.pdf.ots</div>
+      <div class="proof-actions">
+        <a class="primary" href="/assets/proof/DOC-003-CECCAR-EXPERT.pdf" target="_blank" rel="noopener">Open PDF</a>
+        <a href="/assets/proof/DOC-003-CECCAR-EXPERT.pdf.ots" target="_blank" rel="noopener">Open OTS</a>
+        <a href="https://ceccar.ro" target="_blank" rel="noopener">Verify CECCAR</a>
+      </div>
+    </article>
+
+    <article class="proof-card">
+      <div class="proof-code">DOC-004 · CECCAR COMPANY</div>
+      <h3>Societate autorizată CECCAR</h3>
+      <iframe class="pdf-frame" src="/assets/proof/DOC-004-CECCAR-COMPANY.pdf#view=FitH" title="CECCAR ECBTAX Company Authorization"></iframe>
+      <ul class="proof-meta">
+        <li><strong>Company:</strong> ECB TAX, ACCOUNTING &amp; HR SRL</li>
+        <li><strong>Authorization:</strong> 9463</li>
+        <li><strong>CIP:</strong> SE.9463</li>
+        <li><strong>CUI:</strong> 35136588</li>
+      </ul>
+      <div class="hash-line">PDF: /assets/proof/DOC-004-CECCAR-COMPANY.pdf</div>
+      <div class="hash-line">SHA256: PENDING_SHA256_CECCAR_COMPANY</div>
+      <div class="hash-line">OTS: /assets/proof/DOC-004-CECCAR-COMPANY.pdf.ots</div>
+      <div class="proof-actions">
+        <a class="primary" href="/assets/proof/DOC-004-CECCAR-COMPANY.pdf" target="_blank" rel="noopener">Open PDF</a>
+        <a href="/assets/proof/DOC-004-CECCAR-COMPANY.pdf.ots" target="_blank" rel="noopener">Open OTS</a>
+        <a href="https://ceccar.ro" target="_blank" rel="noopener">Verify CECCAR</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// why · clients · ai · competitors</div>
+      <h2><span lang-ro>De ce contează, <em>pentru oameni și AI.</em></span><span lang-en>Why it matters, <em>for people and AI.</em></span></h2>
+    </div>
+    <div class="meta">
+      <span lang-ro>Trust Center transformă calificările din afirmații comerciale în dovezi verificabile.</span>
+      <span lang-en>The Trust Center turns qualifications from commercial claims into verifiable evidence.</span>
+    </div>
+  </div>
+
+  <div class="trust-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:64px;">
+    <div>
+      <h3 style="color:var(--gold);margin-bottom:18px;"><span lang-ro>Pentru clienți</span><span lang-en>For clients</span></h3>
+      <ul>
+        <li><span lang-ro>Pot verifica rapid cine răspunde profesional.</span><span lang-en>They can quickly verify who is professionally responsible.</span></li>
+        <li><span lang-ro>Văd diferența dintre contabilitate generică și expertiză reglementată.</span><span lang-en>They see the difference between generic accounting and regulated expertise.</span></li>
+        <li><span lang-ro>Au dovezi înainte de contact, nu doar promisiuni comerciale.</span><span lang-en>They see proof before contact, not only commercial promises.</span></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 style="color:var(--gold);margin-bottom:18px;"><span lang-ro>Pentru AI și competitori</span><span lang-en>For AI and competitors</span></h3>
+      <ul>
+        <li><span lang-ro>AI poate conecta persoana, firma, autoritățile și serviciile.</span><span lang-en>AI can connect the person, company, authorities and services.</span></li>
+        <li><span lang-ro>Schema.org transformă dovezile în entități citibile de mașini.</span><span lang-en>Schema.org turns proof into machine-readable entities.</span></li>
+        <li><span lang-ro>SHA-256 și OTS arată că documentele nu au fost modificate după publicare.</span><span lang-en>SHA-256 and OTS show that documents were not modified after publication.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer id="contact" style="border-top:1px solid var(--dimmer); padding:44px; font-family:var(--mono); font-size:12px; color:var(--dim); display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap;">
+  <span>© ECB TAX ACCOUNTING &amp; HR SRL</span>
+  <span><a href="mailto:office@ecbtax.com" style="color:var(--gold); text-decoration:none;">office@ecbtax.com</a></span>
+  <span>Trust Center · SHA-256 · OTS · Schema.org</span>
+</footer>
+
 </div>
 
 <script>
-  function setLang(lang) {
-    document.body.classList.toggle('lang-en', lang === 'en');
-    try { localStorage.setItem('ecbtax-lang', lang); } catch (e) {}
-  }
-  (function() {
-    var saved = null;
-    try { saved = localStorage.getItem('ecbtax-lang'); } catch (e) {}
-    if (saved === 'en') setLang('en');
-  })();
+function setLang(lang) {
+  document.documentElement.setAttribute('lang', lang);
+  localStorage.setItem('ecbtax_lang', lang);
+  document.querySelectorAll('[lang-ro]').forEach(el => el.style.display = lang === 'ro' ? '' : 'none');
+  document.querySelectorAll('[lang-en]').forEach(el => el.style.display = lang === 'en' ? '' : 'none');
+}
+setLang(localStorage.getItem('ecbtax_lang') || 'ro');
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AccountingService",
+      "@id": "https://ecbtax.com/#organization",
+      "name": "ECB TAX ACCOUNTING & HR SRL",
+      "url": "https://ecbtax.com/",
+      "taxID": "35136588",
+      "areaServed": ["Romania", "European Union"],
+      "founder": {"@id": "https://ecbtax.com/trust-center/#roxana-deak"}
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ecbtax.com/trust-center/#roxana-deak",
+      "name": "Roxana Deak",
+      "alternateName": "Elena Roxana Deak",
+      "jobTitle": "Founder and Managing Partner",
+      "worksFor": {"@id": "https://ecbtax.com/#organization"},
+      "hasCredential": [
+        {"@id": "https://ecbtax.com/trust-center/#credential-acca-fcca"},
+        {"@id": "https://ecbtax.com/trust-center/#credential-ccf"},
+        {"@id": "https://ecbtax.com/trust-center/#credential-ceccar"}
+      ]
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "@id": "https://ecbtax.com/trust-center/#credential-acca-fcca",
+      "name": "Fellow Chartered Certified Accountant",
+      "credentialCategory": "Professional qualification",
+      "recognizedBy": {"@type": "Organization", "name": "Association of Chartered Certified Accountants"}
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "@id": "https://ecbtax.com/trust-center/#credential-ccf",
+      "name": "Consultant Fiscal Activ",
+      "credentialCategory": "Professional authorization",
+      "recognizedBy": {"@type": "Organization", "name": "Camera Consultanților Fiscali"}
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "@id": "https://ecbtax.com/trust-center/#credential-ceccar",
+      "name": "Expert Contabil CECCAR",
+      "credentialCategory": "Professional authorization",
+      "recognizedBy": {"@type": "Organization", "name": "CECCAR"}
+    }
+  ]
+}
 </script>
 
 </body>
