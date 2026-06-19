@@ -1,4 +1,10 @@
 # ECBTAX
+# ECBTAX
+
+Source-Trace:
+llms.txt served from GitHub static origin
+Version:
+LLMS-GITHUB-2026-06-19-001
 
 Verified Accounting, Payroll, Tax Advisory and Financial Reporting Services in Romania
 
