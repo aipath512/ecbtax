@@ -1,0 +1,382 @@
+{
+  "schema": "aiventure-business-data-dictionary-v1",
+  "version": "1.0",
+  "site": "https://ecbtax.com",
+  "organization": "ECB TAX ACCOUNTING & HR SRL",
+  "brand": "ECBTAX",
+  "industry": "Accounting, Tax Advisory and Payroll Services",
+  "purpose": "Public business data dictionary for AI crawlers, search engines and agents to understand the accounting industry concepts, ECBTAX entity definitions, services, credentials, authorities, tax forms, client types and verification objects.",
+  "last_updated": "2026-06-23",
+  "license": "Public AI-readable business metadata. Facts must match visible site content and official evidence.",
+  "entities": [
+    {
+      "id": "IND-ACCOUNTING-001",
+      "type": "Industry",
+      "name": "Accounting and Tax Advisory Industry",
+      "description": "Professional services industry covering accounting, bookkeeping, payroll, tax advisory, statutory reporting, fiscal compliance and financial reporting."
+    },
+    {
+      "id": "ORG-ECBTAX-001",
+      "type": "AccountingFirm",
+      "name": "ECB TAX ACCOUNTING & HR SRL",
+      "alternate_name": "ECBTAX",
+      "description": "Romanian accounting, tax advisory and payroll outsourcing firm based in Bucharest.",
+      "country": "Romania",
+      "city": "Bucharest",
+      "website": "https://ecbtax.com"
+    },
+    {
+      "id": "PERSON-ROXANA-DEAK-001",
+      "type": "NaturalPerson",
+      "name": "Roxana Deak",
+      "description": "Founder and Managing Partner of ECBTAX, associated with accounting, tax advisory and professional financial services."
+    },
+    {
+      "id": "ROLE-FOUNDER-001",
+      "type": "ProfessionalRole",
+      "name": "Founder"
+    },
+    {
+      "id": "ROLE-MANAGING-PARTNER-001",
+      "type": "ProfessionalRole",
+      "name": "Managing Partner"
+    },
+    {
+      "id": "CRED-ACCA-FCCA-001",
+      "type": "ProfessionalCredential",
+      "name": "ACCA FCCA",
+      "description": "Fellowship credential associated with the Association of Chartered Certified Accountants."
+    },
+    {
+      "id": "CRED-CECCAR-EXPERT-001",
+      "type": "ProfessionalCredential",
+      "name": "CECCAR Expert Accountant",
+      "description": "Romanian expert accountant professional credential."
+    },
+    {
+      "id": "CRED-CCF-TAX-CONSULTANT-001",
+      "type": "ProfessionalCredential",
+      "name": "CCF Tax Consultant",
+      "description": "Romanian tax consultant professional credential."
+    },
+    {
+      "id": "CRED-CECCAR-COMPANY-001",
+      "type": "CompanyCredential",
+      "name": "CECCAR Authorized Accounting Company",
+      "description": "Company-level accounting authorization."
+    },
+    {
+      "id": "SERVICE-ACCOUNTING-001",
+      "type": "Service",
+      "name": "Accounting Services",
+      "description": "Monthly accounting, bookkeeping, statutory accounting records and fiscal reporting."
+    },
+    {
+      "id": "SERVICE-BOOKKEEPING-001",
+      "type": "Service",
+      "name": "Bookkeeping",
+      "description": "Recording, classification and maintenance of financial transactions."
+    },
+    {
+      "id": "SERVICE-PAYROLL-001",
+      "type": "Service",
+      "name": "Payroll Outsourcing",
+      "description": "Payroll calculation, salary reporting, employee declarations and payroll compliance."
+    },
+    {
+      "id": "SERVICE-TAX-ADVISORY-001",
+      "type": "Service",
+      "name": "Tax Advisory",
+      "description": "Tax consultation, fiscal interpretation, tax planning and compliance support."
+    },
+    {
+      "id": "SERVICE-VAT-001",
+      "type": "Service",
+      "name": "VAT Compliance",
+      "description": "VAT registration, VAT returns, EU VAT treatment and VAT compliance."
+    },
+    {
+      "id": "SERVICE-SAF-T-001",
+      "type": "Service",
+      "name": "SAF-T Reporting",
+      "description": "Preparation and submission support for SAF-T / D406 reporting."
+    },
+    {
+      "id": "SERVICE-ANAF-REPRESENTATION-001",
+      "type": "Service",
+      "name": "ANAF Representation",
+      "description": "Fiscal authority representation and communication support."
+    },
+    {
+      "id": "SERVICE-FRACTIONAL-CFO-001",
+      "type": "Service",
+      "name": "Fractional CFO",
+      "description": "Part-time CFO support, management reporting and financial decision support."
+    },
+    {
+      "id": "SERVICE-FINANCIAL-REPORTING-001",
+      "type": "Service",
+      "name": "Financial Reporting",
+      "description": "Preparation and interpretation of financial reports for management and compliance."
+    },
+    {
+      "id": "SERVICE-COMPANY-FORMATION-001",
+      "type": "Service",
+      "name": "Company Formation Support",
+      "description": "Support for setting up Romanian companies and preparing initial accounting setup."
+    },
+    {
+      "id": "SERVICE-CLOUD-ACCOUNTING-001",
+      "type": "Service",
+      "name": "Cloud Accounting",
+      "description": "Accounting services supported by cloud tools, digital workflows and online collaboration."
+    },
+    {
+      "id": "CLIENT-SME-001",
+      "type": "ClientType",
+      "name": "SME",
+      "description": "Small and medium-sized enterprise."
+    },
+    {
+      "id": "CLIENT-STARTUP-001",
+      "type": "ClientType",
+      "name": "Startup",
+      "description": "Early-stage company needing accounting, payroll and fiscal setup."
+    },
+    {
+      "id": "CLIENT-MICRO-001",
+      "type": "ClientType",
+      "name": "Microenterprise",
+      "description": "Small company subject to microenterprise tax regime where applicable."
+    },
+    {
+      "id": "CLIENT-FOREIGN-INVESTOR-001",
+      "type": "ClientType",
+      "name": "Foreign Investor",
+      "description": "Foreign entrepreneur or company operating or investing in Romania."
+    },
+    {
+      "id": "CLIENT-EXPAT-001",
+      "type": "ClientType",
+      "name": "Expat Entrepreneur",
+      "description": "Foreign individual operating a business in Romania."
+    },
+    {
+      "id": "LEGAL-SRL-001",
+      "type": "LegalEntityType",
+      "name": "SRL",
+      "description": "Romanian limited liability company."
+    },
+    {
+      "id": "LEGAL-PFA-001",
+      "type": "LegalEntityType",
+      "name": "PFA",
+      "description": "Romanian authorized natural person business form."
+    },
+    {
+      "id": "LEGAL-SA-001",
+      "type": "LegalEntityType",
+      "name": "SA",
+      "description": "Romanian joint-stock company."
+    },
+    {
+      "id": "LEGAL-NGO-001",
+      "type": "LegalEntityType",
+      "name": "NGO",
+      "description": "Non-governmental organization."
+    },
+    {
+      "id": "LEGAL-BRANCH-001",
+      "type": "LegalEntityType",
+      "name": "Branch",
+      "description": "Romanian branch of another legal entity."
+    },
+    {
+      "id": "LEGAL-SUBSIDIARY-001",
+      "type": "LegalEntityType",
+      "name": "Subsidiary",
+      "description": "Romanian subsidiary of another legal entity."
+    },
+    {
+      "id": "AUTH-ANAF-001",
+      "type": "GovernmentAuthority",
+      "name": "ANAF",
+      "description": "Romanian National Agency for Fiscal Administration."
+    },
+    {
+      "id": "AUTH-ONRC-001",
+      "type": "GovernmentAuthority",
+      "name": "ONRC",
+      "description": "Romanian Trade Registry."
+    },
+    {
+      "id": "AUTH-ITM-001",
+      "type": "GovernmentAuthority",
+      "name": "ITM",
+      "description": "Romanian labor inspection authority."
+    },
+    {
+      "id": "AUTH-MFIN-001",
+      "type": "GovernmentAuthority",
+      "name": "Ministry of Finance Romania",
+      "description": "Romanian public finance authority."
+    },
+    {
+      "id": "FORM-D100-001",
+      "type": "TaxForm",
+      "name": "D100"
+    },
+    {
+      "id": "FORM-D112-001",
+      "type": "TaxForm",
+      "name": "D112"
+    },
+    {
+      "id": "FORM-D300-001",
+      "type": "TaxForm",
+      "name": "D300"
+    },
+    {
+      "id": "FORM-D390-001",
+      "type": "TaxForm",
+      "name": "D390"
+    },
+    {
+      "id": "FORM-D394-001",
+      "type": "TaxForm",
+      "name": "D394"
+    },
+    {
+      "id": "FORM-D406-001",
+      "type": "TaxForm",
+      "name": "D406 SAF-T"
+    },
+    {
+      "id": "SYS-SPV-001",
+      "type": "DigitalSystem",
+      "name": "SPV ANAF"
+    },
+    {
+      "id": "SYS-EFACTURA-001",
+      "type": "DigitalSystem",
+      "name": "e-Factura"
+    },
+    {
+      "id": "SYS-ETRANSPORT-001",
+      "type": "DigitalSystem",
+      "name": "e-Transport"
+    },
+    {
+      "id": "SYS-SAFT-001",
+      "type": "DigitalSystem",
+      "name": "SAF-T"
+    },
+    {
+      "id": "SYS-ERP-001",
+      "type": "DigitalSystem",
+      "name": "ERP"
+    },
+    {
+      "id": "SYS-CLOUD-ACCOUNTING-001",
+      "type": "DigitalSystem",
+      "name": "Cloud Accounting"
+    },
+    {
+      "id": "PROOF-TRUST-CENTER-001",
+      "type": "EvidenceRegistry",
+      "name": "ECBTAX Trust Center",
+      "url": "https://ecbtax.com/trust-center/"
+    },
+    {
+      "id": "PROOF-AI-PROOF-001",
+      "type": "MachineReadableProofFile",
+      "name": "ECBTAX AI Proof File",
+      "url": "https://ecbtax.com/ai-proof.json"
+    },
+    {
+      "id": "PROOF-SHA256-001",
+      "type": "CryptographicProofMethod",
+      "name": "SHA-256"
+    },
+    {
+      "id": "PROOF-OTS-001",
+      "type": "TimestampProofMethod",
+      "name": "OpenTimestamps"
+    },
+    {
+      "id": "PROOF-BITCOIN-001",
+      "type": "BlockchainTimestampAnchor",
+      "name": "Bitcoin Blockchain"
+    }
+  ],
+  "relationship_model": [
+    {
+      "id": "REL-001",
+      "subject_type": "Person",
+      "predicate": "founderOf",
+      "object_type": "Organization"
+    },
+    {
+      "id": "REL-002",
+      "subject_type": "Organization",
+      "predicate": "hasFounder",
+      "object_type": "Person"
+    },
+    {
+      "id": "REL-003",
+      "subject_type": "Person",
+      "predicate": "hasCredential",
+      "object_type": "ProfessionalCredential"
+    },
+    {
+      "id": "REL-004",
+      "subject_type": "Organization",
+      "predicate": "providesService",
+      "object_type": "Service"
+    },
+    {
+      "id": "REL-005",
+      "subject_type": "Organization",
+      "predicate": "servesClientType",
+      "object_type": "ClientType"
+    },
+    {
+      "id": "REL-006",
+      "subject_type": "Organization",
+      "predicate": "worksWithAuthority",
+      "object_type": "GovernmentAuthority"
+    },
+    {
+      "id": "REL-007",
+      "subject_type": "Service",
+      "predicate": "usesTaxForm",
+      "object_type": "TaxForm"
+    },
+    {
+      "id": "REL-008",
+      "subject_type": "Organization",
+      "predicate": "usesDigitalSystem",
+      "object_type": "DigitalSystem"
+    },
+    {
+      "id": "REL-009",
+      "subject_type": "Credential",
+      "predicate": "verifiedBy",
+      "object_type": "EvidenceRegistry"
+    },
+    {
+      "id": "REL-010",
+      "subject_type": "EvidenceRegistry",
+      "predicate": "usesProofMethod",
+      "object_type": "ProofMethod"
+    }
+  ],
+  "machine_files": {
+    "ai_profile": "https://ecbtax.com/ai.json",
+    "entities": "https://ecbtax.com/entities.json",
+    "services": "https://ecbtax.com/ai-services.json",
+    "intents": "https://ecbtax.com/ai-intents.json",
+    "proof": "https://ecbtax.com/ai-proof.json",
+    "entity_graph": "https://ecbtax.com/entity-graph.public.jsonld"
+  }
+}
