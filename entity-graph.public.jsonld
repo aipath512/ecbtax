@@ -58,22 +58,40 @@
       },
       "makesOffer": [
         {
-          "@id": "https://ecbtax.com/#service-accounting"
+          "@type": "Offer",
+          "itemOffered": {
+            "@id": "https://ecbtax.com/#service-accounting"
+          }
         },
         {
-          "@id": "https://ecbtax.com/#service-payroll"
+          "@type": "Offer",
+          "itemOffered": {
+            "@id": "https://ecbtax.com/#service-payroll"
+          }
         },
         {
-          "@id": "https://ecbtax.com/#service-tax-advisory"
+          "@type": "Offer",
+          "itemOffered": {
+            "@id": "https://ecbtax.com/#service-tax-advisory"
+          }
         },
         {
-          "@id": "https://ecbtax.com/#service-vat"
+          "@type": "Offer",
+          "itemOffered": {
+            "@id": "https://ecbtax.com/#service-vat"
+          }
         },
         {
-          "@id": "https://ecbtax.com/#service-saft"
+          "@type": "Offer",
+          "itemOffered": {
+            "@id": "https://ecbtax.com/#service-saft"
+          }
         },
         {
-          "@id": "https://ecbtax.com/#service-fractional-cfo"
+          "@type": "Offer",
+          "itemOffered": {
+            "@id": "https://ecbtax.com/#service-fractional-cfo"
+          }
         }
       ],
       "sameAs": [
@@ -138,7 +156,8 @@
         {
           "@id": "https://ecbtax.com/#system-cloud-accounting"
         }
-      ]
+      ],
+      "disambiguatingDescription": "ECBTAX (ECB TAX ACCOUNTING & HR SRL) is a Romanian accounting, tax advisory and payroll firm based in Bucharest. Not affiliated with the European Central Bank (ECB)."
     },
     {
       "@id": "https://ecbtax.com/#roxana-deak",
@@ -188,9 +207,6 @@
         "@type": "Organization",
         "name": "Association of Chartered Certified Accountants"
       },
-      "holder": {
-        "@id": "https://ecbtax.com/#roxana-deak"
-      },
       "subjectOf": {
         "@id": "https://ecbtax.com/#trust-center"
       },
@@ -203,9 +219,6 @@
       "@type": "EducationalOccupationalCredential",
       "name": "CECCAR Expert Accountant",
       "credentialCategory": "Professional accounting credential",
-      "holder": {
-        "@id": "https://ecbtax.com/#roxana-deak"
-      },
       "subjectOf": {
         "@id": "https://ecbtax.com/#trust-center"
       },
@@ -218,9 +231,6 @@
       "@type": "EducationalOccupationalCredential",
       "name": "CCF Tax Consultant",
       "credentialCategory": "Professional tax consultant credential",
-      "holder": {
-        "@id": "https://ecbtax.com/#roxana-deak"
-      },
       "subjectOf": {
         "@id": "https://ecbtax.com/#trust-center"
       },
@@ -233,9 +243,6 @@
       "@type": "EducationalOccupationalCredential",
       "name": "CECCAR Authorized Accounting Company",
       "credentialCategory": "Company accounting authorization",
-      "holder": {
-        "@id": "https://ecbtax.com/#organization"
-      },
       "subjectOf": {
         "@id": "https://ecbtax.com/#trust-center"
       },
@@ -538,6 +545,59 @@
       "about": {
         "@id": "https://ecbtax.com/#organization"
       }
+    },
+    {
+      "@id": "https://ecbtax.com/#service-bookkeeping",
+      "@type": "Service",
+      "name": "Bookkeeping",
+      "serviceType": "Bookkeeping",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "areaServed": "Romania"
+    },
+    {
+      "@id": "https://ecbtax.com/#service-financial-reporting",
+      "@type": "Service",
+      "name": "Financial Reporting",
+      "serviceType": "Financial Reporting",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "areaServed": "Romania"
+    },
+    {
+      "@id": "https://ecbtax.com/#service-cloud-accounting",
+      "@type": "Service",
+      "name": "Cloud Accounting",
+      "serviceType": "Cloud Accounting",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "areaServed": "Romania"
+    },
+    {
+      "@id": "https://ecbtax.com/#service-company-formation",
+      "@type": "Service",
+      "name": "Company Formation Support",
+      "serviceType": "Company Formation",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "areaServed": "Romania"
+    },
+    {
+      "@id": "https://ecbtax.com/#service-anaf-representation",
+      "@type": "Service",
+      "name": "ANAF Representation",
+      "serviceType": "Fiscal Authority Representation",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "kg:worksWithAuthority": {
+        "@id": "https://ecbtax.com/#authority-anaf"
+      },
+      "areaServed": "Romania"
     }
   ]
 }
