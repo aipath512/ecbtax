@@ -1,197 +1,543 @@
 {
-  "@context": "https://schema.org",
-  "@id": "https://ecbtax.com/entity-graph.public.jsonld",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "kg": "https://ecbtax.com/vocab#",
+    "aiv": "https://5thelement.ai/vocab#"
+  },
   "@graph": [
     {
-      "@type": "Organization",
       "@id": "https://ecbtax.com/#organization",
-      "name": "ECB TAX, ACCOUNTING & HR SRL",
-      "alternateName": [
-        "ECBTAX",
-        "ECB Tax Accounting & HR"
+      "@type": [
+        "Organization",
+        "LocalBusiness",
+        "ProfessionalService",
+        "AccountingService"
       ],
-      "url": "https://ecbtax.com/",
-      "taxID": "RO35136588",
-      "founder": {
-        "@id": "https://ecbtax.com/#founder"
+      "name": "ECB TAX ACCOUNTING & HR SRL",
+      "alternateName": "ECBTAX",
+      "url": "https://ecbtax.com",
+      "email": "ecbtax@gmail.com",
+      "telephone": "+40755110012",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Str. Nicolae G. Caramfil 61C, et. 3",
+        "addressLocality": "Bucharest",
+        "addressRegion": "Sector 1",
+        "postalCode": "014141",
+        "addressCountry": "RO"
       },
-      "sameAs": [
-        "https://ecbtax.com/",
-        "https://aiventure.ro",
-        "https://5thelement.ai"
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Romania"
+        },
+        {
+          "@type": "City",
+          "name": "Bucharest"
+        }
       ],
+      "industry": "Accounting, Tax Advisory and Payroll Services",
+      "knowsAbout": [
+        "Accounting Services",
+        "Bookkeeping",
+        "Payroll Outsourcing",
+        "Tax Advisory",
+        "VAT Compliance",
+        "SAF-T Reporting",
+        "ANAF Representation",
+        "Financial Reporting",
+        "Fractional CFO",
+        "Cloud Accounting",
+        "Romanian Tax Compliance"
+      ],
+      "founder": {
+        "@id": "https://ecbtax.com/#roxana-deak"
+      },
+      "employee": {
+        "@id": "https://ecbtax.com/#roxana-deak"
+      },
+      "makesOffer": [
+        {
+          "@id": "https://ecbtax.com/#service-accounting"
+        },
+        {
+          "@id": "https://ecbtax.com/#service-payroll"
+        },
+        {
+          "@id": "https://ecbtax.com/#service-tax-advisory"
+        },
+        {
+          "@id": "https://ecbtax.com/#service-vat"
+        },
+        {
+          "@id": "https://ecbtax.com/#service-saft"
+        },
+        {
+          "@id": "https://ecbtax.com/#service-fractional-cfo"
+        }
+      ],
+      "sameAs": [
+        "https://ecbtax.com",
+        "https://ecbtax.com/trust-center/",
+        "https://ecbtax.com/ai.json",
+        "https://ecbtax.com/entities.json",
+        "https://ecbtax.com/ai-proof.json"
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://ecbtax.com/#trust-center"
+        },
+        {
+          "@id": "https://ecbtax.com/#ai-proof"
+        }
+      ],
+      "kg:servesClientType": [
+        {
+          "@id": "https://ecbtax.com/#client-sme"
+        },
+        {
+          "@id": "https://ecbtax.com/#client-startup"
+        },
+        {
+          "@id": "https://ecbtax.com/#client-microenterprise"
+        },
+        {
+          "@id": "https://ecbtax.com/#client-foreign-investor"
+        },
+        {
+          "@id": "https://ecbtax.com/#client-expat"
+        }
+      ],
+      "kg:worksWithAuthority": [
+        {
+          "@id": "https://ecbtax.com/#authority-anaf"
+        },
+        {
+          "@id": "https://ecbtax.com/#authority-onrc"
+        },
+        {
+          "@id": "https://ecbtax.com/#authority-itm"
+        },
+        {
+          "@id": "https://ecbtax.com/#authority-ministry-finance"
+        }
+      ],
+      "kg:usesDigitalSystem": [
+        {
+          "@id": "https://ecbtax.com/#system-spv"
+        },
+        {
+          "@id": "https://ecbtax.com/#system-efactura"
+        },
+        {
+          "@id": "https://ecbtax.com/#system-etransport"
+        },
+        {
+          "@id": "https://ecbtax.com/#system-saft"
+        },
+        {
+          "@id": "https://ecbtax.com/#system-cloud-accounting"
+        }
+      ]
+    },
+    {
+      "@id": "https://ecbtax.com/#roxana-deak",
+      "@type": "Person",
+      "name": "Roxana Deak",
+      "jobTitle": "Founder and Managing Partner",
+      "worksFor": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "affiliation": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "founder": {
+        "@id": "https://ecbtax.com/#organization"
+      },
       "knowsAbout": [
         "Accounting",
         "Tax Advisory",
         "Payroll",
-        "Human Resources",
-        "REVISAL",
-        "ANAF",
-        "e-Factura",
-        "SAF-T"
+        "Romanian Tax Compliance",
+        "Financial Reporting",
+        "Business Accounting"
+      ],
+      "hasCredential": [
+        {
+          "@id": "https://ecbtax.com/#credential-acca-fcca"
+        },
+        {
+          "@id": "https://ecbtax.com/#credential-ceccar-expert"
+        },
+        {
+          "@id": "https://ecbtax.com/#credential-ccf-tax-consultant"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://ecbtax.com/#trust-center"
+        }
       ]
     },
     {
-      "@type": "ProfessionalService",
-      "@id": "https://ecbtax.com/#professionalservice",
-      "name": "ECBTAX București",
-      "url": "https://ecbtax.com/",
-      "parentOrganization": {
-        "@id": "https://ecbtax.com/#organization"
+      "@id": "https://ecbtax.com/#credential-acca-fcca",
+      "@type": "EducationalOccupationalCredential",
+      "name": "ACCA FCCA",
+      "credentialCategory": "Professional accounting credential",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Association of Chartered Certified Accountants"
       },
-      "areaServed": [
-        "Romania",
-        "Bucharest",
-        "European Union"
-      ],
-      "priceRange": "$$"
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://ecbtax.com/#localbusiness",
-      "name": "ECBTAX București",
-      "parentOrganization": {
-        "@id": "https://ecbtax.com/#organization"
+      "holder": {
+        "@id": "https://ecbtax.com/#roxana-deak"
       },
-      "address": {
-        "@id": "https://ecbtax.com/#address"
+      "subjectOf": {
+        "@id": "https://ecbtax.com/#trust-center"
+      },
+      "kg:verifiedBy": {
+        "@id": "https://ecbtax.com/#ai-proof"
       }
     },
     {
-      "@type": "Person",
-      "@id": "https://ecbtax.com/#founder",
-      "name": "Elena Roxana Deak",
-      "jobTitle": "CEO & Founder",
-      "worksFor": {
-        "@id": "https://ecbtax.com/#organization"
+      "@id": "https://ecbtax.com/#credential-ceccar-expert",
+      "@type": "EducationalOccupationalCredential",
+      "name": "CECCAR Expert Accountant",
+      "credentialCategory": "Professional accounting credential",
+      "holder": {
+        "@id": "https://ecbtax.com/#roxana-deak"
       },
-      "honorificSuffix": [
-        "FCCA",
-        "CPA",
-        "CCF"
-      ],
-      "knowsAbout": [
-        "Accounting",
-        "Tax Law",
-        "Macroeconomics",
-        "Digital Currencies",
-        "Bitcoin",
-        "AI-Ready Accounting Systems"
-      ]
+      "subjectOf": {
+        "@id": "https://ecbtax.com/#trust-center"
+      },
+      "kg:verifiedBy": {
+        "@id": "https://ecbtax.com/#ai-proof"
+      }
     },
     {
-      "@type": "Service",
+      "@id": "https://ecbtax.com/#credential-ccf-tax-consultant",
+      "@type": "EducationalOccupationalCredential",
+      "name": "CCF Tax Consultant",
+      "credentialCategory": "Professional tax consultant credential",
+      "holder": {
+        "@id": "https://ecbtax.com/#roxana-deak"
+      },
+      "subjectOf": {
+        "@id": "https://ecbtax.com/#trust-center"
+      },
+      "kg:verifiedBy": {
+        "@id": "https://ecbtax.com/#ai-proof"
+      }
+    },
+    {
+      "@id": "https://ecbtax.com/#credential-ceccar-company",
+      "@type": "EducationalOccupationalCredential",
+      "name": "CECCAR Authorized Accounting Company",
+      "credentialCategory": "Company accounting authorization",
+      "holder": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "subjectOf": {
+        "@id": "https://ecbtax.com/#trust-center"
+      },
+      "kg:verifiedBy": {
+        "@id": "https://ecbtax.com/#ai-proof"
+      }
+    },
+    {
       "@id": "https://ecbtax.com/#service-accounting",
-      "name": "Contabilitate",
-      "serviceType": "Accounting services",
+      "@type": "Service",
+      "name": "Accounting Services",
+      "serviceType": "Accounting",
       "provider": {
         "@id": "https://ecbtax.com/#organization"
-      }
+      },
+      "areaServed": "Romania",
+      "audience": [
+        {
+          "@id": "https://ecbtax.com/#client-sme"
+        },
+        {
+          "@id": "https://ecbtax.com/#client-startup"
+        },
+        {
+          "@id": "https://ecbtax.com/#client-microenterprise"
+        }
+      ]
     },
     {
-      "@type": "Service",
-      "@id": "https://ecbtax.com/#service-tax",
-      "name": "Consultanță Fiscală",
-      "serviceType": "Tax advisory services",
-      "provider": {
-        "@id": "https://ecbtax.com/#organization"
-      }
-    },
-    {
-      "@type": "Service",
       "@id": "https://ecbtax.com/#service-payroll",
-      "name": "Salarizare și REVISAL",
-      "serviceType": "Payroll and HR administration",
+      "@type": "Service",
+      "name": "Payroll Outsourcing",
+      "serviceType": "Payroll",
       "provider": {
         "@id": "https://ecbtax.com/#organization"
+      },
+      "kg:usesTaxForm": {
+        "@id": "https://ecbtax.com/#form-d112"
       }
     },
     {
+      "@id": "https://ecbtax.com/#service-tax-advisory",
       "@type": "Service",
-      "@id": "https://ecbtax.com/#service-hr",
-      "name": "Administrare HR",
-      "serviceType": "Human resources administration",
+      "name": "Tax Advisory",
+      "serviceType": "Tax Advisory",
       "provider": {
         "@id": "https://ecbtax.com/#organization"
+      },
+      "kg:worksWithAuthority": {
+        "@id": "https://ecbtax.com/#authority-anaf"
       }
     },
     {
+      "@id": "https://ecbtax.com/#service-vat",
       "@type": "Service",
-      "@id": "https://ecbtax.com/#service-cfo",
+      "name": "VAT Compliance",
+      "serviceType": "VAT Compliance",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "kg:usesTaxForm": [
+        {
+          "@id": "https://ecbtax.com/#form-d300"
+        },
+        {
+          "@id": "https://ecbtax.com/#form-d390"
+        },
+        {
+          "@id": "https://ecbtax.com/#form-d394"
+        }
+      ]
+    },
+    {
+      "@id": "https://ecbtax.com/#service-saft",
+      "@type": "Service",
+      "name": "SAF-T Reporting",
+      "serviceType": "SAF-T / D406 Reporting",
+      "provider": {
+        "@id": "https://ecbtax.com/#organization"
+      },
+      "kg:usesTaxForm": {
+        "@id": "https://ecbtax.com/#form-d406"
+      }
+    },
+    {
+      "@id": "https://ecbtax.com/#service-fractional-cfo",
+      "@type": "Service",
       "name": "Fractional CFO",
-      "serviceType": "Financial management advisory",
+      "serviceType": "Financial management and reporting support",
       "provider": {
         "@id": "https://ecbtax.com/#organization"
       }
     },
     {
+      "@id": "https://ecbtax.com/#authority-anaf",
+      "@type": "GovernmentOrganization",
+      "name": "ANAF",
+      "description": "Romanian National Agency for Fiscal Administration."
+    },
+    {
+      "@id": "https://ecbtax.com/#authority-onrc",
+      "@type": "GovernmentOrganization",
+      "name": "ONRC",
+      "description": "Romanian Trade Registry."
+    },
+    {
+      "@id": "https://ecbtax.com/#authority-itm",
+      "@type": "GovernmentOrganization",
+      "name": "ITM",
+      "description": "Romanian labor inspection authority."
+    },
+    {
+      "@id": "https://ecbtax.com/#authority-ministry-finance",
+      "@type": "GovernmentOrganization",
+      "name": "Ministry of Finance Romania"
+    },
+    {
+      "@id": "https://ecbtax.com/#form-d100",
       "@type": "DefinedTerm",
-      "@id": "https://ecbtax.com/#adi",
-      "name": "AI Delivery Infrastructure",
-      "alternateName": "ADI",
-      "description": "Technology layer used to structure business information for AI discovery, understanding, verification and answer readiness."
+      "name": "D100",
+      "termCode": "D100",
+      "inDefinedTermSet": "Romanian tax forms"
     },
     {
-      "@type": "DigitalDocument",
-      "@id": "https://ecbtax.com/llms.txt",
-      "url": "https://ecbtax.com/llms.txt",
-      "name": "ECBTAX llms.txt"
+      "@id": "https://ecbtax.com/#form-d112",
+      "@type": "DefinedTerm",
+      "name": "D112",
+      "termCode": "D112",
+      "inDefinedTermSet": "Romanian tax forms"
     },
     {
-      "@type": "DigitalDocument",
-      "@id": "https://ecbtax.com/ai.json",
-      "url": "https://ecbtax.com/ai.json",
-      "name": "ECBTAX AI Declaration"
+      "@id": "https://ecbtax.com/#form-d300",
+      "@type": "DefinedTerm",
+      "name": "D300",
+      "termCode": "D300",
+      "inDefinedTermSet": "Romanian tax forms"
     },
     {
-      "@type": "DigitalDocument",
-      "@id": "https://ecbtax.com/authority.json",
-      "url": "https://ecbtax.com/authority.json",
-      "name": "ECBTAX Authority Declaration"
+      "@id": "https://ecbtax.com/#form-d390",
+      "@type": "DefinedTerm",
+      "name": "D390",
+      "termCode": "D390",
+      "inDefinedTermSet": "Romanian tax forms"
     },
     {
-      "@type": "DigitalDocument",
-      "@id": "https://ecbtax.com/entities.json",
-      "url": "https://ecbtax.com/entities.json",
-      "name": "ECBTAX Entities Declaration"
+      "@id": "https://ecbtax.com/#form-d394",
+      "@type": "DefinedTerm",
+      "name": "D394",
+      "termCode": "D394",
+      "inDefinedTermSet": "Romanian tax forms"
     },
     {
-      "@type": "DigitalDocument",
-      "@id": "https://ecbtax.com/intents.json",
-      "url": "https://ecbtax.com/intents.json",
-      "name": "ECBTAX Intent Map"
+      "@id": "https://ecbtax.com/#form-d406",
+      "@type": "DefinedTerm",
+      "name": "D406 SAF-T",
+      "termCode": "D406",
+      "inDefinedTermSet": "Romanian tax forms"
     },
     {
-      "@type": "DigitalDocument",
-      "@id": "https://ecbtax.com/adn.json",
-      "url": "https://ecbtax.com/adn.json",
-      "name": "ECBTAX ADN Network Declaration"
+      "@id": "https://ecbtax.com/#system-spv",
+      "@type": "SoftwareApplication",
+      "name": "SPV ANAF",
+      "applicationCategory": "Government digital tax platform"
     },
     {
+      "@id": "https://ecbtax.com/#system-efactura",
+      "@type": "SoftwareApplication",
+      "name": "e-Factura",
+      "applicationCategory": "Electronic invoicing system"
+    },
+    {
+      "@id": "https://ecbtax.com/#system-etransport",
+      "@type": "SoftwareApplication",
+      "name": "e-Transport",
+      "applicationCategory": "Transport reporting system"
+    },
+    {
+      "@id": "https://ecbtax.com/#system-saft",
+      "@type": "SoftwareApplication",
+      "name": "SAF-T",
+      "applicationCategory": "Tax reporting standard"
+    },
+    {
+      "@id": "https://ecbtax.com/#system-cloud-accounting",
+      "@type": "SoftwareApplication",
+      "name": "Cloud Accounting",
+      "applicationCategory": "Accounting software and workflow"
+    },
+    {
+      "@id": "https://ecbtax.com/#client-sme",
+      "@type": "Audience",
+      "name": "SME"
+    },
+    {
+      "@id": "https://ecbtax.com/#client-startup",
+      "@type": "Audience",
+      "name": "Startup"
+    },
+    {
+      "@id": "https://ecbtax.com/#client-microenterprise",
+      "@type": "Audience",
+      "name": "Microenterprise"
+    },
+    {
+      "@id": "https://ecbtax.com/#client-foreign-investor",
+      "@type": "Audience",
+      "name": "Foreign Investor"
+    },
+    {
+      "@id": "https://ecbtax.com/#client-expat",
+      "@type": "Audience",
+      "name": "Expat Entrepreneur"
+    },
+    {
+      "@id": "https://ecbtax.com/#trust-center",
+      "@type": "WebPage",
+      "name": "ECBTAX Trust Center",
+      "url": "https://ecbtax.com/trust-center/",
+      "about": [
+        {
+          "@id": "https://ecbtax.com/#organization"
+        },
+        {
+          "@id": "https://ecbtax.com/#roxana-deak"
+        },
+        {
+          "@id": "https://ecbtax.com/#credential-acca-fcca"
+        },
+        {
+          "@id": "https://ecbtax.com/#credential-ceccar-expert"
+        },
+        {
+          "@id": "https://ecbtax.com/#credential-ccf-tax-consultant"
+        },
+        {
+          "@id": "https://ecbtax.com/#credential-ceccar-company"
+        }
+      ]
+    },
+    {
+      "@id": "https://ecbtax.com/#ai-proof",
       "@type": "DigitalDocument",
-      "@id": "https://ecbtax.com/ai-proof.json",
+      "name": "ECBTAX AI Proof Registry",
       "url": "https://ecbtax.com/ai-proof.json",
-      "name": "ECBTAX AI Proof File"
+      "encodingFormat": "application/json",
+      "about": [
+        {
+          "@id": "https://ecbtax.com/#organization"
+        },
+        {
+          "@id": "https://ecbtax.com/#roxana-deak"
+        }
+      ],
+      "kg:usesProofMethod": [
+        {
+          "@id": "https://ecbtax.com/#proof-sha256"
+        },
+        {
+          "@id": "https://ecbtax.com/#proof-opentimestamps"
+        },
+        {
+          "@id": "https://ecbtax.com/#proof-bitcoin"
+        }
+      ]
     },
     {
-      "@type": "DataFeed",
-      "@id": "https://ecbtax.com/entity-graph.public.jsonld",
+      "@id": "https://ecbtax.com/#proof-sha256",
+      "@type": "DefinedTerm",
+      "name": "SHA-256",
+      "description": "Cryptographic hash method used to fingerprint evidence files."
+    },
+    {
+      "@id": "https://ecbtax.com/#proof-opentimestamps",
+      "@type": "DefinedTerm",
+      "name": "OpenTimestamps",
+      "description": "Timestamping method used to prove existence of files at a point in time."
+    },
+    {
+      "@id": "https://ecbtax.com/#proof-bitcoin",
+      "@type": "DefinedTerm",
+      "name": "Bitcoin Blockchain",
+      "description": "Public blockchain anchor used by OpenTimestamps proofs."
+    },
+    {
+      "@id": "https://ecbtax.com/#data-dictionary",
+      "@type": "DigitalDocument",
+      "name": "ECBTAX Data Dictionary",
+      "url": "https://ecbtax.com/data-dictionary.json",
+      "encodingFormat": "application/json",
+      "about": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@id": "https://ecbtax.com/#entity-graph",
+      "@type": "DigitalDocument",
+      "name": "ECBTAX Public Entity Graph",
       "url": "https://ecbtax.com/entity-graph.public.jsonld",
-      "name": "ECBTAX Public Entity Graph"
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://aiventure.ro/#organization",
-      "name": "AiVenture SRL",
-      "url": "https://aiventure.ro",
-      "roleName": "Technology delivery partner"
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://5thelement.ai/#organization",
-      "name": "5thelement.ai",
-      "url": "https://5thelement.ai",
-      "roleName": "ADI flagship authority"
+      "encodingFormat": "application/ld+json",
+      "about": {
+        "@id": "https://ecbtax.com/#organization"
+      }
     }
   ]
 }
