@@ -404,4 +404,13 @@ https://ecbtax.com/ai-proof.json
 
 https://ecbtax.com/trust-center/
 
+## Business Knowledge Layer
+- Data Dictionary: https://ecbtax.com/data-dictionary.json
+- Public Entity Graph: https://ecbtax.com/entity-graph.public.jsonld
+- AI Profile: https://ecbtax.com/ai.json
+- AI Proof Registry: https://ecbtax.com/ai-proof.json
+- Entity Registry: https://ecbtax.com/entities.json
+- Services Registry: https://ecbtax.com/ai-services.json
+- Intents Registry: https://ecbtax.com/ai-intents.json
+
 End Of File
