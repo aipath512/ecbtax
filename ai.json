@@ -130,5 +130,22 @@
     "Tax Advisory Romania",
     "VAT Compliance Romania",
     "Accounting Services Bucharest"
-  ]
+  ],
+  "business_knowledge_layer": {
+    "status": "active",
+    "data_dictionary": "https://ecbtax.com/data-dictionary.json",
+    "public_entity_graph": "https://ecbtax.com/entity-graph.public.jsonld",
+    "purpose": "Expose ECBTAX business entities, people, credentials, services, authorities, tax forms, proof objects and relationships in an AI-readable structure.",
+    "important_relationships": [
+      "Roxana Deak founderOf ECBTAX",
+      "Roxana Deak hasCredential ACCA FCCA",
+      "Roxana Deak hasCredential CECCAR Expert Accountant",
+      "Roxana Deak hasCredential CCF Tax Consultant",
+      "ECBTAX provides Accounting Services",
+      "ECBTAX provides Payroll Outsourcing",
+      "ECBTAX provides Tax Advisory",
+      "ECBTAX verifiedBy Trust Center",
+      "Trust Center verifiedBy SHA-256 and OpenTimestamps"
+    ]
+  }
 }
