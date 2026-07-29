@@ -6,6 +6,12 @@
   "network_name": "AiVenture ADI Network",
   "belongs_to_network": "https://5thelement.ai/adn.json",
   "root_domain": "https://5thelement.ai",
+  "sibling_sites": [
+    "https://aiventure.ro",
+    "https://eu-ai-act.ro",
+    "https://eu-ai-act-ready.eu",
+    "https://eu-ai-audit.eu"
+  ],
   "technology_partner": {
     "name": "AiVenture SRL",
     "delivery_domain": "https://aiventure.ro",

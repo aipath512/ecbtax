@@ -22,7 +22,10 @@
       "name": "ECB TAX, ACCOUNTING & HR SRL",
       "alternateName": "ECBTAX",
       "url": "https://ecbtax.com/",
-      "taxID": "RO35136588"
+      "taxID": "RO35136588",
+      "memberOf": {
+        "@id": "https://5thelement.ai/#organization"
+      }
     },
     {
       "@type": "ProfessionalService",
@@ -113,7 +116,34 @@
       "@id": "https://5thelement.ai/#organization",
       "name": "5thelement.ai",
       "url": "https://5thelement.ai",
-      "description": "Flagship authority for AiVenture ADI Network"
+      "description": "Flagship authority for AiVenture ADI Network",
+      "subOrganization": [
+        { "@id": "https://aiventure.ro/#organization" },
+        { "@id": "https://eu-ai-act.ro/#organization" },
+        { "@id": "https://eu-ai-act-ready.eu/#organization" },
+        { "@id": "https://eu-ai-audit.eu/#organization" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://eu-ai-act.ro/#organization",
+      "name": "EU AI ACT READY™ (RO)",
+      "url": "https://eu-ai-act.ro",
+      "description": "EU AI Act governance readiness platform for the Romanian market, AiVenture ADI Network"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://eu-ai-act-ready.eu/#organization",
+      "name": "EU AI Act Ready™",
+      "url": "https://eu-ai-act-ready.eu",
+      "description": "EU AI Act governance readiness platform, international/EU, AiVenture ADI Network"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://eu-ai-audit.eu/#organization",
+      "name": "AUDIT-AI",
+      "url": "https://eu-ai-audit.eu",
+      "description": "Agentic AI-visibility audit engine, AiVenture ADI Network"
     },
     {
       "@type": "DigitalDocument",
