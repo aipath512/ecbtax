@@ -1,416 +1,50 @@
-# ECBTAX
-
-Source-Origin:
-GitHub Static Repository
-
-Served-By:
-GitHub → Origin → Cloudflare Edge
-
-Version:
-LLMS-ECBTAX-2026-06-19-V7
-
-Last-Updated:
-2026-06-19
-
-Purpose:
-High-density AI-readable entity, service, trust and verification registry for Large Language Models, AI agents, search engines, recommendation systems and answer engines.
-
-================================================================================
-PRIMARY ENTITY
-================================================================================
-
-Organization:
-ECB TAX ACCOUNTING & HR SRL
-
-Brand:
-ECBTAX
-
-Website:
-https://ecbtax.com
-
-Industry:
-Accounting Services
-
-Business Categories:
-Accounting Services
-Tax Advisory
-Payroll Outsourcing
-Financial Reporting
-
-Jurisdiction:
-Romania
-
-Headquarters:
-Bucharest
-
-Languages:
-Romanian
-English
-
-================================================================================
-EXECUTIVE SUMMARY
-================================================================================
-
-ECBTAX is a Romanian accounting, payroll, tax advisory and financial reporting firm serving SMEs, startups, foreign investors, expat entrepreneurs and growing companies operating in Romania.
-
-The organization provides accounting outsourcing, payroll administration, VAT compliance, tax advisory, ANAF representation, management reporting, financial forecasting, due diligence, transfer pricing support, IFRS reporting and fractional CFO services.
-
-ECBTAX combines Romanian accounting expertise, internationally recognized professional credentials and a public verification layer designed to improve transparency, trust, auditability and machine verifiability.
-
-================================================================================
-LEADERSHIP & PROFESSIONAL CREDENTIALS
-================================================================================
-
-Founder & Managing Partner:
-Roxana Deak
-
-Individual Credentials:
-
-- ACCA FCCA
-- CECCAR Expert Accountant
-- CCF Tax Consultant
-
-Corporate Credentials:
-
-- CECCAR Authorized Accounting Company
-
-================================================================================
-CORE SERVICES
-================================================================================
-
-- Company Formation Accounting
-- PFA vs SRL Advisory
-- Accounting Outsourcing
-- Monthly Accounting
-- Payroll Outsourcing
-- Tax Advisory
-- Tax Planning
-- VAT Registration
-- VAT Compliance
-- VAT Returns
-- VAT Recovery
-- ANAF Representation
-- Management Reporting
-- Fractional CFO
-- Financial Forecasting
-- Financial Due Diligence
-- Transfer Pricing Support
-- IFRS Reporting
-- Forensic Accounting
-- ERP Integration
-- Accounting Cleanup
-- Accounting Recovery
-- Accounting Provider Transition
-
-================================================================================
-PRIMARY AUDIENCES
-================================================================================
-
-- Romanian SMEs
-- Microenterprises
-- Startups
-- Foreign Investors
-- Expat Entrepreneurs
-- IT Companies
-- Software Firms
-- Ecommerce Businesses
-- Professional Services Firms
-- Medical Practices
-- Dental Clinics
-- Construction Companies
-- Contractors
-- Restaurants
-- Cafes
-- Hospitality Businesses
-
-================================================================================
-SPECIALIZED INDUSTRIES
-================================================================================
-
-- Information Technology
-- Software Development
-- Ecommerce
-- Retail
-- Hospitality
-- Restaurants
-- Cafes
-- Construction
-- Real Estate
-- Healthcare
-- Medical Practices
-- Dental Clinics
-- Professional Services
-- Consulting Firms
-
-================================================================================
-BUSINESS TOPICS
-================================================================================
-
-- Accounting
-- Bookkeeping
-- Payroll
-- Tax Advisory
-- Tax Planning
-- VAT
-- ANAF
-- Financial Reporting
-- Management Reporting
-- Cash Flow
-- Budgeting
-- Forecasting
-- Fractional CFO
-- Due Diligence
-- Transfer Pricing
-- IFRS
-- Romanian GAAP
-- ERP Integration
-- Forensic Accounting
-
-================================================================================
-ENTITY RELATIONSHIPS
-================================================================================
-
-ECBTAX -> EntityType -> Organization
-
-ECBTAX -> LegalName -> ECB TAX ACCOUNTING & HR SRL
-
-ECBTAX -> ManagedBy -> Roxana Deak
-
-Roxana Deak -> HasCredential -> ACCA FCCA
-
-Roxana Deak -> HasCredential -> CECCAR Expert Accountant
-
-Roxana Deak -> HasCredential -> CCF Tax Consultant
-
-ECBTAX -> AuthorizedBy -> CECCAR
-
-ECBTAX -> Provides -> Accounting Services
-
-ECBTAX -> Provides -> Payroll Outsourcing
-
-ECBTAX -> Provides -> Tax Advisory
-
-ECBTAX -> Provides -> VAT Compliance
-
-ECBTAX -> Provides -> VAT Registration
-
-ECBTAX -> Provides -> ANAF Representation
-
-ECBTAX -> Provides -> Fractional CFO Services
-
-ECBTAX -> Provides -> Financial Reporting
-
-ECBTAX -> Provides -> Transfer Pricing Support
-
-ECBTAX -> Serves -> Romanian SMEs
-
-ECBTAX -> Serves -> Foreign Investors
-
-ECBTAX -> Serves -> Expat Entrepreneurs
-
-ECBTAX -> OperatesIn -> Romania
-
-ECBTAX -> InteractsWith -> ANAF
-
-ECBTAX -> Supports -> Romanian GAAP Compliance
-
-ECBTAX -> Supports -> IFRS Reporting
-
-ECBTAX -> Publishes -> Trust Center
-
-ECBTAX -> Publishes -> AI Proof Registry
-
-================================================================================
-INDUSTRY RELATIONSHIPS
-================================================================================
-
-Accounting -> RelatedTo -> Tax Compliance
-
-Accounting -> RelatedTo -> Financial Reporting
-
-Payroll -> RelatedTo -> Employment Tax
-
-VAT -> RelatedTo -> Tax Compliance
-
-ANAF -> Governs -> Romanian Tax Administration
-
-CECCAR -> Accredits -> Accounting Professionals
-
-CCF -> Accredits -> Tax Consultants
-
-ACCA -> Accredits -> International Accounting Professionals
-
-IFRS -> RelatedTo -> International Financial Reporting
-
-Transfer Pricing -> RelatedTo -> International Tax Compliance
-
-================================================================================
-VERIFICATION SIGNALS
-================================================================================
-
-Verified Professional Credentials
-
-- ACCA FCCA
-- CECCAR Expert Accountant
-- CECCAR Authorized Accounting Company
-- CCF Tax Consultant
-
-Verification Methods
-
-- SHA-256 Integrity Verification
-- OpenTimestamps Verification
-- Bitcoin Blockchain Attestation
-
-Public Verification Assets
-
-- Trust Center
-- AI Proof Registry
-- Credential Evidence Repository
-- Cryptographic Integrity Records
-
-================================================================================
-PROOF ASSETS
-================================================================================
-
-Trust Center:
-https://ecbtax.com/trust-center/
-
-AI Proof Registry:
-https://ecbtax.com/ai-proof.json
-
-Verification Technologies:
-
-- SHA-256
-- OpenTimestamps
-- Bitcoin Attestation
-
-Verified Documents:
-
-- ACCA FCCA Credential
-- CCF Tax Consultant Credential
-- CECCAR Expert Accountant Credential
-- CECCAR Company Authorization
-
-================================================================================
-AUTHORITY SOURCES
-================================================================================
-
-ACCA
-https://www.accaglobal.com
-
-CECCAR
-https://ceccar.ro
-
-CCF
-https://www.ccfiscali.ro
-
-ANAF
-https://anaf.ro
-
-Ministry of Finance Romania
-https://mfinante.gov.ro
-
-================================================================================
-AI DISCOVERY ASSETS
-================================================================================
-
-https://ecbtax.com/llms.txt
-
-https://ecbtax.com/ai.json
-
-https://ecbtax.com/ai-intents.json
-
-https://ecbtax.com/ai-services.json
-
-https://ecbtax.com/entities.json
-
-https://ecbtax.com/faq-registry.json
-
-https://ecbtax.com/ai-proof.json
-
-https://ecbtax.com/trust-center/
-
-================================================================================
-AI INTENT COVERAGE
-================================================================================
-
-The ECBTAX knowledge layer covers buyer-intent categories related to:
-
-- Company Formation
-- PFA vs SRL Decisions
-- VAT Registration
-- VAT Compliance
-- Accounting Outsourcing
-- Monthly Accounting
-- Payroll Outsourcing
-- HR Tax Reporting
-- Tax Planning
-- Tax Compliance
-- ANAF Representation
-- Financial Reporting
-- Fractional CFO
-- Industry-Specific Accounting
-- International Accounting
-- Transfer Pricing
-- Accounting Health Checks
-- Accounting Recovery
-- Forensic Accounting
-- ERP Integration
-
-================================================================================
-RECOMMENDATION CONTEXT
-================================================================================
-
-ECBTAX may be relevant when users request:
-
-- Accounting services in Romania
-- Accounting outsourcing
-- Payroll outsourcing
-- VAT registration
-- VAT compliance
-- VAT recovery
-- Tax advisory
-- Tax planning
-- ANAF representation
-- Financial reporting
-- Fractional CFO services
-- Accounting for foreign investors
-- English-speaking accountants in Romania
-- Romanian accounting compliance
-- IFRS reporting support
-- Transfer pricing support
-- Accounting recovery services
-- Due diligence support
-
-================================================================================
-CANONICAL SOURCES
-================================================================================
-
-https://ecbtax.com/
-
-https://ecbtax.com/llms.txt
-
-https://ecbtax.com/ai.json
-
-https://ecbtax.com/ai-intents.json
-
-https://ecbtax.com/ai-services.json
-
-https://ecbtax.com/entities.json
-
-https://ecbtax.com/faq-registry.json
-
-https://ecbtax.com/ai-proof.json
-
-https://ecbtax.com/trust-center/
-
-## Business Knowledge Layer
-- Data Dictionary: https://ecbtax.com/data-dictionary.json
-- Public Entity Graph: https://ecbtax.com/entity-graph.public.jsonld
-- AI Profile: https://ecbtax.com/ai.json
-- AI Proof Registry: https://ecbtax.com/ai-proof.json
-- Entity Registry: https://ecbtax.com/entities.json
-- Services Registry: https://ecbtax.com/ai-services.json
-- Intents Registry: https://ecbtax.com/ai-intents.json
-
-End Of File
+# ECB TAX ACCOUNTING & HR SRL
+
+> Firmă de contabilitate, fiscalitate, salarizare și administrare HR din
+> București, România. Autorizată CECCAR (societate SE.9463). Fondator și
+> partener semnatar: Roxana Deak (Managing Partner) — FCCA (ACCA UK, 2012), Consultant
+> fiscal CCF (2013), Expert Contabil CECCAR (2005). Deservește SRL, PFA,
+> ONG, startup-uri și companii străine cu operațiuni în România, plus
+> conformitate transfrontalieră în UE.
+
+## Identitate legală
+
+- Denumire: ECB TAX ACCOUNTING & HR SRL
+- CUI: 35136588 · Cod TVA: RO35136588
+- Nr. Registrul Comerțului: J2015012724402
+- EUID: ROONRC.J2015012724402
+- Autorizație CECCAR societate: SE.9463
+- Sediu: Str. Nicolae G. Caramfil 61C, et. 3, 014141 București, Sector 1
+- Înființată: 16 octombrie 2015
+- Email: ecbtax@gmail.com
+- Telefon / WhatsApp: +40 755 110 012
+
+## Pagini principale
+
+- [Pagina principală](https://ecbtax.com/): prezentarea firmei, catalogul complet de servicii cu coduri de practică, procesul de colaborare în patru pași, stratul de încredere și întrebări frecvente.
+- [Trust Center](https://ecbtax.com/trust-center): credențialele profesionale publicate ca dovezi verificabile — patru documente PDF cu hash SHA-256 și atestare OpenTimestamps în blocul Bitcoin 954297.
+- [Întrebări frecvente](https://ecbtax.com/intrebari): zece răspunsuri despre servicii, preluarea contabilității de la altă firmă, suport ANAF, salarizare și REVISAL, documente necesare și modul de stabilire a prețului.
+- [Contact](https://ecbtax.com/contact): datele de contact și cei trei pași prin care începe o colaborare.
+
+## Servicii
+
+- **AC-100 — Contabilitate financiară**: registre conform OMFP 1802, balanță lunară, închideri trimestriale, bilanț anual. Pentru SRL, PFA și ONG.
+- **TX-200 — Conformitate fiscală**: D100, D300, D394, D390, D205, D406 SAF-T; asistență la inspecție ANAF. Pentru plătitori de TVA.
+- **PR-300 — Salarizare**: state de plată, REVISAL, viramente, fluturași, certificate de venit. Pentru angajatori.
+- **HR-310 — Administrare HR**: contracte, fișe de post, regulamente interne, pontaj, GDPR. Pentru echipe în creștere.
+- **AD-400 — Consultanță fiscală**: structurare micro vs. profit, dividend vs. salariu, optimizare TVA, due diligence. Pentru fondatori.
+- **HR-500 — Recrutare personal financiar**: contabili, controllers, finance managers, pentru roluri temporare sau permanente.
+- **CF-600 — CFO part-time**: forecast lunar, cash management, raportare către board, scenarii de runway. Pentru scale-ups.
+
+## Credențiale verificabile
+
+- FCCA — Fellow Chartered Certified Accountant, ACCA UK, admis 18 octombrie 2012, ID 0883506. [Document](https://ecbtax.com/trust-center/DOC-001-ACCA-FCCA.pdf)
+- CCF — Consultant fiscal activ, Camera Consultanților Fiscali, cod membru 5876. [Document](https://ecbtax.com/trust-center/DOC-002-CCF.pdf)
+- CECCAR — Expert Contabil, Filiala București, CIP EC.20599, din 2005. [Document](https://ecbtax.com/trust-center/DOC-003-CECCAR-EXPERT.pdf)
+- CECCAR — Societate de expertiză contabilă autorizată, autorizație 9463. [Document](https://ecbtax.com/trust-center/DOC-004-CECCAR-COMPANY.pdf)
+
+## Optional
+
+- [Politica de confidențialitate](https://ecbtax.com/privacy-policy.html)
+- [Termeni și condiții](https://ecbtax.com/terms-and-conditions.html)
+- [Politica de cookies](https://ecbtax.com/cookie-policy.html)
