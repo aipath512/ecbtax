@@ -45,24 +45,35 @@
       "id": "CRED-ACCA-FCCA-001",
       "type": "ProfessionalCredential",
       "name": "ACCA FCCA",
+      "identifier": "0883506",
+      "issued_by": "Association of Chartered Certified Accountants",
+      "since": "2012",
       "description": "Fellowship credential associated with the Association of Chartered Certified Accountants."
     },
     {
       "id": "CRED-CECCAR-EXPERT-001",
       "type": "ProfessionalCredential",
       "name": "CECCAR Expert Accountant",
+      "identifier": "EC.20599",
+      "issued_by": "CECCAR Filiala Bucuresti",
+      "since": "2005",
       "description": "Romanian expert accountant professional credential."
     },
     {
       "id": "CRED-CCF-TAX-CONSULTANT-001",
       "type": "ProfessionalCredential",
       "name": "CCF Tax Consultant",
+      "identifier": "5876",
+      "issued_by": "Camera Consultantilor Fiscali",
+      "since": "2013",
       "description": "Romanian tax consultant professional credential."
     },
     {
       "id": "CRED-CECCAR-COMPANY-001",
       "type": "CompanyCredential",
       "name": "CECCAR Authorized Accounting Company",
+      "identifier": "SE.9463",
+      "issued_by": "CECCAR",
       "description": "Company-level accounting authorization."
     },
     {
