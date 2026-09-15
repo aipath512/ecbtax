@@ -27,33 +27,24 @@ export async function onRequestPost({request}){
     const p=body.params||{};
     if(!p.period) return reply({jsonrpc:"2.0",id:body.id,error:{code:-32602,message:"PERIOD_REQUIRED"}},400);
     return reply({jsonrpc:"2.0",id:body.id,result:{
-      event:"QUOTE_ISSUED",seller:"ECBTAX Seller Agent",provider:"ECBTAX",
-      quote:{
-        quote_id:"Q-1042",service:"Calcul salarial",country:"RO",
-        employees:Number(p.employees||5),period:String(p.period),
-        currency:"EUR",price_status:"REQUIRES_PROVIDER_PRICE",price:null,
-        billing_period:"month",status:"AVAILABLE",human_approval_required:true
-      },
-      evidence_status:"SELLER_QUOTE_ISSUED",next_event:"BUYER_QUOTE_VERIFICATION"
-    }});
-  }
-
-  if(body?.method==="quote.accept"){
-    const p=body.params||{};
-    if(p.human_approved!==true)
-      return reply({jsonrpc:"2.0",id:body.id,error:{code:-32602,message:"HUMAN_APPROVAL_REQUIRED"}},403);
-    if(p.quote_id!=="Q-1042")
-      return reply({jsonrpc:"2.0",id:body.id,error:{code:-32602,message:"UNKNOWN_QUOTE"}},404);
-
-    return reply({jsonrpc:"2.0",id:body.id,result:{
-      event:"QUOTE_ACCEPTED",
-      quote_id:p.quote_id,
+      event:"QUOTE_ISSUED",
       seller:"ECBTAX Seller Agent",
-      buyer:p.buyer,
-      human_approved:true,
-      accepted_at:new Date().toISOString(),
-      status:"ACCEPTED",
-      next_event:"TRANSACTION_EVIDENCE"
+      provider:"ECBTAX",
+      quote:{
+        quote_id:"Q-1042",
+        service:"Calcul salarial",
+        country:"RO",
+        employees:Number(p.employees||5),
+        period:String(p.period),
+        currency:"EUR",
+        price_status:"COMMUNICATED",
+        price:50,
+        billing_period:"month",
+        status:"AVAILABLE",
+        human_approval_required:true
+      },
+      evidence_status:"SELLER_QUOTE_ISSUED",
+      next_event:"BUYER_QUOTE_VERIFICATION"
     }});
   }
 
