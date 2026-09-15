@@ -266,6 +266,88 @@ export async function onRequestPost({request}){
 
 
   // =========================================================
+  // STEP 10A — SERVICE EXECUTION
+  // =========================================================
+
+  if(body?.method==="service.execute"){
+    const p=body.params||{};
+
+    const orderId=String(p.order_id||"").trim();
+    const quoteId=String(p.quote_id||"").trim();
+    const evidenceId=String(p.evidence_id||"").trim();
+
+    if(orderId!=="ORD-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32004,
+          message:"ORDER_NOT_FOUND"
+        }
+      },404);
+    }
+
+    if(quoteId!=="Q-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32004,
+          message:"QUOTE_NOT_FOUND"
+        }
+      },404);
+    }
+
+    if(evidenceId!=="EV-Q-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32602,
+          message:"VERIFIED_EVIDENCE_REQUIRED"
+        }
+      },400);
+    }
+
+    return reply({
+      jsonrpc:"2.0",
+      id:body.id,
+      result:{
+        event:"EXECUTION_STARTED",
+
+        job_id:"JOB-1042",
+        order_id:"ORD-1042",
+        quote_id:"Q-1042",
+        evidence_id:"EV-Q-1042",
+
+        buyer:"AiVenture Buyer Agent",
+        seller:"ECBTAX Seller Agent",
+        provider:"ECBTAX",
+
+        service:"Calcul salarial",
+        employees:5,
+
+        currency:"EUR",
+        price:50,
+        billing_period:"month",
+
+        order_status:"CONFIRMED",
+        execution_status:"IN_PROGRESS",
+
+        transaction_verified:true,
+        human_approved:true,
+
+        started_at:new Date().toISOString(),
+
+        status:"IN_PROGRESS",
+
+        next_event:"SERVICE_RESULT"
+      }
+    });
+  }
+
+
+  // =========================================================
   // UNKNOWN METHOD
   // =========================================================
 
