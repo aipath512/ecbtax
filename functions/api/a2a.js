@@ -69,8 +69,23 @@ export async function onRequestPost({request}){
       status:"ACCEPTED",
       human_approved:true,
       accepted_at:new Date().toISOString(),
-      evidence_status:"SELLER_ACCEPTANCE_CONFIRMED",
-      next_event:"TRANSACTION_EVIDENCE"
+      evidence:{
+        evidence_id:"EV-Q-1042",
+        quote_id:quoteId,
+        service:"Calcul salarial",
+        employees:5,
+        currency:"EUR",
+        price:50,
+        billing_period:"month",
+        human_approved:true,
+        seller_accepted:true,
+        seller:"ECBTAX Seller Agent",
+        buyer:"AiVenture Buyer Agent",
+        status:"VERIFIED",
+        generated_at:new Date().toISOString()
+      },
+      evidence_status:"VERIFIED",
+      next_event:"TRANSACTION_VERIFIED"
     }});
   }
 
