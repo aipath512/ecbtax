@@ -1,0 +1,12 @@
+{
+  "name":"ECBTAX Seller Agent",
+  "description":"Agent A2A pentru servicii ECBTAX.",
+  "url":"https://ecbtax.com/api/a2a",
+  "version":"0.1.0",
+  "capabilities":{"serviceDiscovery":true,"quotes":true},
+  "skills":[{
+    "id":"payroll-ro",
+    "name":"Calcul salarial România",
+    "description":"Servicii payroll pentru companii cu angajați în România."
+  }]
+}
