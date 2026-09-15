@@ -48,5 +48,31 @@ export async function onRequestPost({request}){
     }});
   }
 
+  if(body?.method==="quote.accept"){
+    const p=body.params||{};
+    const quoteId=String(p.quote_id||"").trim();
+
+    if(!quoteId)
+      return reply({jsonrpc:"2.0",id:body.id,error:{code:-32602,message:"QUOTE_ID_REQUIRED"}},400);
+
+    if(p.human_approved!==true)
+      return reply({jsonrpc:"2.0",id:body.id,error:{code:-32602,message:"HUMAN_APPROVAL_REQUIRED"}},403);
+
+    if(quoteId!=="Q-1042")
+      return reply({jsonrpc:"2.0",id:body.id,error:{code:-32004,message:"QUOTE_NOT_FOUND"}},404);
+
+    return reply({jsonrpc:"2.0",id:body.id,result:{
+      event:"QUOTE_ACCEPTED",
+      quote_id:quoteId,
+      seller:"ECBTAX Seller Agent",
+      provider:"ECBTAX",
+      status:"ACCEPTED",
+      human_approved:true,
+      accepted_at:new Date().toISOString(),
+      evidence_status:"SELLER_ACCEPTANCE_CONFIRMED",
+      next_event:"TRANSACTION_EVIDENCE"
+    }});
+  }
+
   return reply({error:"METHOD_NOT_SUPPORTED"},400);
 }
