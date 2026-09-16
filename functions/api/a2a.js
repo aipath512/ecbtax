@@ -456,6 +456,142 @@ export async function onRequestPost({request}){
 
 
   // =========================================================
+  // STEP 12A — TRANSACTION RECEIPT / AUDIT TRAIL
+  // =========================================================
+
+  if(body?.method==="transaction.receipt"){
+    const p=body.params||{};
+
+    const orderId=String(p.order_id||"").trim();
+    const jobId=String(p.job_id||"").trim();
+    const resultId=String(p.result_id||"").trim();
+    const deliveryEvidenceId=
+      String(p.delivery_evidence_id||"").trim();
+
+    if(orderId!=="ORD-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32004,
+          message:"ORDER_NOT_FOUND"
+        }
+      },404);
+    }
+
+    if(jobId!=="JOB-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32004,
+          message:"JOB_NOT_FOUND"
+        }
+      },404);
+    }
+
+    if(resultId!=="RES-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32004,
+          message:"RESULT_NOT_FOUND"
+        }
+      },404);
+    }
+
+    if(deliveryEvidenceId!=="DEL-EV-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32602,
+          message:"DELIVERY_EVIDENCE_REQUIRED"
+        }
+      },400);
+    }
+
+    const issuedAt=new Date().toISOString();
+
+    return reply({
+      jsonrpc:"2.0",
+      id:body.id,
+      result:{
+        event:"TRANSACTION_RECEIPT_ISSUED",
+
+        receipt_id:"RCP-1042",
+
+        quote_id:"Q-1042",
+        evidence_id:"EV-Q-1042",
+        order_id:"ORD-1042",
+        job_id:"JOB-1042",
+        result_id:"RES-1042",
+        delivery_evidence_id:"DEL-EV-1042",
+
+        buyer:"AiVenture Buyer Agent",
+        seller:"ECBTAX Seller Agent",
+        provider:"ECBTAX",
+
+        service:"Calcul salarial",
+        period:"Iunie 2026",
+        employees:5,
+
+        currency:"EUR",
+        price:50,
+        billing_period:"month",
+
+        human_approved:true,
+        transaction_verified:true,
+        delivery_verified:true,
+
+        status:"COMPLETE",
+        audit_status:"VERIFIED",
+
+        issued_at:issuedAt,
+
+        audit_trail:{
+          quote:{
+            id:"Q-1042",
+            status:"ACCEPTED"
+          },
+
+          transaction_evidence:{
+            id:"EV-Q-1042",
+            status:"VERIFIED"
+          },
+
+          order:{
+            id:"ORD-1042",
+            status:"CONFIRMED"
+          },
+
+          execution:{
+            job_id:"JOB-1042",
+            status:"COMPLETED"
+          },
+
+          result:{
+            id:"RES-1042",
+            type:"PAYROLL_DEMO_RESULT",
+            status:"COMPLETED"
+          },
+
+          delivery:{
+            evidence_id:"DEL-EV-1042",
+            delivered:true,
+            verified:true,
+            status:"VERIFIED"
+          }
+        },
+
+        next_event:"AUDIT_COMPLETE"
+      }
+    });
+  }
+
+
+  // =========================================================
   // UNKNOWN METHOD
   // =========================================================
 
