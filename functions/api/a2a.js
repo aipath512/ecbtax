@@ -89,7 +89,6 @@ export async function onRequestPost({request}){
 
         quote:{
           quote_id:"Q-1042",
-
           service:"Calcul salarial",
           country:"RO",
           employees:Number(p.employees||5),
@@ -112,7 +111,7 @@ export async function onRequestPost({request}){
 
 
   // =========================================================
-  // STEP 7/8 — HUMAN APPROVAL + QUOTE ACCEPTANCE + EVIDENCE
+  // STEP 7/8 — HUMAN APPROVAL + ACCEPTANCE + EVIDENCE
   // =========================================================
 
   if(body?.method==="quote.accept"){
@@ -170,7 +169,6 @@ export async function onRequestPost({request}){
 
         evidence:{
           evidence_id:"EV-Q-1042",
-
           quote_id:quoteId,
 
           service:"Calcul salarial",
@@ -199,7 +197,7 @@ export async function onRequestPost({request}){
 
 
   // =========================================================
-  // STEP 9A — ORDER CREATE / SELLER CONFIRMATION
+  // STEP 9A — ORDER CREATE
   // =========================================================
 
   if(body?.method==="order.create"){
@@ -342,6 +340,116 @@ export async function onRequestPost({request}){
         status:"IN_PROGRESS",
 
         next_event:"SERVICE_RESULT"
+      }
+    });
+  }
+
+
+  // =========================================================
+  // STEP 11A — SERVICE RESULT / DELIVERY
+  // =========================================================
+
+  if(body?.method==="service.result"){
+    const p=body.params||{};
+
+    const jobId=String(p.job_id||"").trim();
+    const orderId=String(p.order_id||"").trim();
+    const evidenceId=String(p.evidence_id||"").trim();
+
+    if(jobId!=="JOB-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32004,
+          message:"JOB_NOT_FOUND"
+        }
+      },404);
+    }
+
+    if(orderId!=="ORD-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32004,
+          message:"ORDER_NOT_FOUND"
+        }
+      },404);
+    }
+
+    if(evidenceId!=="EV-Q-1042"){
+      return reply({
+        jsonrpc:"2.0",
+        id:body.id,
+        error:{
+          code:-32602,
+          message:"VERIFIED_EVIDENCE_REQUIRED"
+        }
+      },400);
+    }
+
+    const completedAt=new Date().toISOString();
+
+    return reply({
+      jsonrpc:"2.0",
+      id:body.id,
+      result:{
+        event:"SERVICE_RESULT",
+
+        job_id:"JOB-1042",
+        order_id:"ORD-1042",
+        quote_id:"Q-1042",
+        evidence_id:"EV-Q-1042",
+
+        buyer:"AiVenture Buyer Agent",
+        seller:"ECBTAX Seller Agent",
+        provider:"ECBTAX",
+
+        service:"Calcul salarial",
+        employees:5,
+
+        status:"COMPLETED",
+        execution_status:"COMPLETED",
+
+        result:{
+          result_id:"RES-1042",
+
+          type:"PAYROLL_DEMO_RESULT",
+
+          description:
+            "Rezultat demonstrativ pentru validarea fluxului A2A. Nu reprezintă un calcul salarial real.",
+
+          period:"Iunie 2026",
+          employees:5,
+
+          deliverable:{
+            format:"application/json",
+            status:"DELIVERED"
+          }
+        },
+
+        delivery_evidence:{
+          delivery_evidence_id:"DEL-EV-1042",
+
+          job_id:"JOB-1042",
+          order_id:"ORD-1042",
+          result_id:"RES-1042",
+
+          seller:"ECBTAX Seller Agent",
+          buyer:"AiVenture Buyer Agent",
+
+          delivered:true,
+          verified:true,
+
+          delivered_at:completedAt,
+
+          status:"VERIFIED"
+        },
+
+        completed_at:completedAt,
+
+        next_event:"BUYER_RECEIPT"
       }
     });
   }
