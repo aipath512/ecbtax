@@ -1,0 +1,16 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ECBTAX A2A Admin — Payroll Offer</title>
+<style>body{font-family:Arial,sans-serif;background:#0b1020;color:#eef2ff;margin:0}.wrap{max-width:760px;margin:48px auto;padding:24px}.card{background:#151c31;border:1px solid #33405f;border-radius:18px;padding:28px}h1{margin:0 0 8px}.muted{color:#9eabc8}.row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0}label{display:block;font-weight:700;margin-bottom:7px}input{width:100%;box-sizing:border-box;padding:14px;border-radius:10px;border:1px solid #52617e;background:#0d1426;color:#fff;font-size:18px}button{padding:14px 20px;border:0;border-radius:10px;font-weight:800;cursor:pointer}#save{background:#58e58b;color:#07130b}.box{background:#0d1426;border-radius:12px;padding:16px;margin-top:16px}.big{font-size:28px;font-weight:800}.ok{color:#58e58b}.err{color:#ff7b7b}@media(max-width:650px){.row{grid-template-columns:1fr}}</style></head>
+<body><main class="wrap"><div class="card"><h1>ECBTAX A2A ADMIN</h1><div class="muted">Payroll Seller Agent · Commercial Offer Control</div>
+<div class="row"><div><label>Admin token</label><input id="token" type="password" autocomplete="current-password" placeholder="ECBTAX_ADMIN_TOKEN"></div><div><label>Price / employee / month (€)</label><input id="price" type="number" min="0" step="0.01" value="10"></div></div>
+<button id="load">LOAD CURRENT</button> <button id="save">SAVE & ACTIVATE</button>
+<div class="box"><div class="muted">Offer preview — 5 employees</div><div class="big" id="preview">€50.00 / month</div></div>
+<div class="box"><div>Active price: <b id="active">—</b></div><div>Last update: <span id="updated">—</span></div><div id="status" class="muted">Enter admin token.</div></div>
+</div></main><script>
+const $=id=>document.getElementById(id); const api='/api/a2a-admin';
+function preview(){const p=Number($('price').value||0);$('preview').textContent=`€${(5*p).toFixed(2)} / month`;}$('price').addEventListener('input',preview);
+function headers(){return {'Authorization':'Bearer '+$('token').value,'Content-Type':'application/json'};}
+async function load(){try{const r=await fetch(api,{headers:headers(),cache:'no-store'});const d=await r.json();if(!r.ok)throw Error(d.error||r.status);$('price').value=d.price_per_employee;$('active').textContent=`€${Number(d.price_per_employee).toFixed(2)} / employee / month`;$('updated').textContent=d.updated_at;$('status').textContent='ACTIVE';$('status').className='ok';preview();}catch(e){$('status').textContent=e.message;$('status').className='err';}}
+async function save(){try{const p=Number($('price').value);const r=await fetch(api,{method:'POST',headers:headers(),body:JSON.stringify({price_per_employee:p})});const d=await r.json();if(!r.ok)throw Error(d.error||r.status);$('active').textContent=`€${Number(d.price_per_employee).toFixed(2)} / employee / month`;$('updated').textContent=d.updated_at;$('status').textContent='SAVED & ACTIVE — applies to new quotes';$('status').className='ok';preview();}catch(e){$('status').textContent=e.message;$('status').className='err';}}
+$('load').onclick=load;$('save').onclick=save;preview();
+</script></body></html>
