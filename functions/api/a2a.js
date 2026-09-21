@@ -73,6 +73,31 @@ async function byJob(db,id){
 }
 
 
+async function ensurePricing(db){
+  await db.prepare(`
+    CREATE TABLE IF NOT EXISTS a2a_settings(
+      setting_key TEXT PRIMARY KEY,
+      setting_value TEXT NOT NULL,
+      updated_at TEXT NOT NULL
+    )
+  `).run();
+
+  await db.prepare(`
+    INSERT OR IGNORE INTO a2a_settings(setting_key,setting_value,updated_at)
+    VALUES('payroll_price_per_employee_eur','10',?)
+  `).bind(new Date().toISOString()).run();
+}
+
+async function payrollUnitPrice(db){
+  await ensurePricing(db);
+  const row=await db.prepare(`
+    SELECT setting_value FROM a2a_settings
+    WHERE setting_key='payroll_price_per_employee_eur'
+  `).first();
+  const value=Number(row?.setting_value||10);
+  return Number.isFinite(value) && value>=0 ? value : 10;
+}
+
 export async function onRequestPost({request,env}){
 
   let body={};
@@ -146,6 +171,12 @@ export async function onRequestPost({request,env}){
       const employees=
         Number(p.employees||5);
 
+      const unitPrice=
+        await payrollUnitPrice(db);
+
+      const calculatedPrice=
+        Number((employees*unitPrice).toFixed(2));
+
 
       await db.prepare(`
         INSERT INTO a2a_transactions(
@@ -184,7 +215,7 @@ export async function onRequestPost({request,env}){
         employees,
 
         "EUR",
-        50,
+        calculatedPrice,
 
         0,
         0,
@@ -315,6 +346,14 @@ export async function onRequestPost({request,env}){
       const period=
         String(p.period);
 
+      // PRICE IS CONTROLLED BY ECBTAX ADMIN.
+      // THE EDGE MUST NEVER INVENT THE OFFER DURING A TRANSACTION.
+      const unitPrice=
+        await payrollUnitPrice(db);
+
+      const calculatedPrice=
+        Number((employees*unitPrice).toFixed(2));
+
 
       const at=
         new Date().toISOString();
@@ -327,6 +366,8 @@ export async function onRequestPost({request,env}){
           quote_id=?,
           period=?,
           employees=?,
+          price=?,
+          currency='EUR',
 
           status='QUOTE_ISSUED',
           current_event='QUOTE_ISSUED',
@@ -339,6 +380,7 @@ export async function onRequestPost({request,env}){
         quoteId,
         period,
         employees,
+        calculatedPrice,
         at,
         txId
       )
@@ -354,7 +396,8 @@ export async function onRequestPost({request,env}){
           quote_id:quoteId,
           period,
           employees,
-          price:50,
+          unit_price_per_employee:unitPrice,
+          price:calculatedPrice,
           currency:"EUR"
         }
       );
@@ -384,7 +427,8 @@ export async function onRequestPost({request,env}){
             currency:"EUR",
 
             price_status:"COMMUNICATED",
-            price:50,
+            unit_price_per_employee:unitPrice,
+            price:calculatedPrice,
 
             billing_period:"month",
 
