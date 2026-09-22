@@ -1,7 +1,7 @@
 {
   "pack_name": "ECBTAX Payroll Seller AI Agent Public Evidence",
-  "pack_version": "2026-09-22.2",
-  "public_path": "/seller-agent",
+  "pack_version": "2026-09-22.3",
+  "public_path": "/a2a-proof",
   "seller_agent": {
     "name": "ECBTAX Seller Agent",
     "version": "0.1.0",
@@ -41,7 +41,7 @@
   },
   "ai_reviewers": ["ChatGPT", "Claude", "Gemini", "Perplexity"],
   "discovery": {
-    "public_page": "https://ecbtax.com/seller-agent.html",
+    "public_page": "https://ecbtax.com/a2a-proof",
     "sitemap": "https://ecbtax.com/sitemap.xml",
     "agent_card": "https://ecbtax.com/.well-known/agent-card.json"
   },
