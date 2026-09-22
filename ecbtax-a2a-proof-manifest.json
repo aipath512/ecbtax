@@ -1,0 +1,49 @@
+{
+  "pack_name": "ECBTAX Payroll Seller AI Agent Public Evidence",
+  "pack_version": "2026-09-22.2",
+  "public_path": "/seller-agent",
+  "seller_agent": {
+    "name": "ECBTAX Seller Agent",
+    "version": "0.1.0",
+    "agent_card": "https://ecbtax.com/.well-known/agent-card.json",
+    "skill": "payroll-ro",
+    "capabilities": ["serviceDiscovery", "quotes"]
+  },
+  "tested_commercial_configuration": {
+    "service": "payroll calculation",
+    "country": "Romania",
+    "period": "2026-09",
+    "employees": 5,
+    "currency": "EUR",
+    "unit_price": "11.00",
+    "unit": "employee/month",
+    "quote_total": "55.00",
+    "human_approval_required": true,
+    "claim_boundary": "Values describe the published test run and are not a universal offer."
+  },
+  "runtime_evidence": {
+    "pdf_sha256": "9c9ac6c47f9dfedf9adef79e4dfff22f865b3d75506d38e200658abbdea2cad7",
+    "ots_status": "BITCOIN_CONFIRMED",
+    "ots_proof_sha256": "1c72a9c0f636fff7576c435b3e2ebc355daa6e5e187822ddb8c20ec922355b52",
+    "bitcoin_first_attestation_block": 968130,
+    "bitcoin_additional_attestation_blocks": [968132],
+    "claim_boundary": "File integrity and timestamp existence; not independent proof of semantic runtime truth."
+  },
+  "transaction_ids": {
+    "transaction": "TX-6419878A0708",
+    "quote": "Q-5F809AFB34AB",
+    "order": "ORD-034BD82866AF",
+    "execution": "JOB-9BD0C5B7E1CB",
+    "result": "RES-895BE47CBED1",
+    "evidence": "EV-DD22FB7EA5A8",
+    "delivery_evidence": "DEL-EV-97FDF02CB16A",
+    "receipt": "RCP-6D500CD52EF5"
+  },
+  "ai_reviewers": ["ChatGPT", "Claude", "Gemini", "Perplexity"],
+  "discovery": {
+    "public_page": "https://ecbtax.com/seller-agent.html",
+    "sitemap": "https://ecbtax.com/sitemap.xml",
+    "agent_card": "https://ecbtax.com/.well-known/agent-card.json"
+  },
+  "hash_inventory": "ecbtax-a2a-proof-SHA256SUMS.txt"
+}
