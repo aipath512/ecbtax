@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Biblioteca UTM ECBTAX</title>
+<link rel="canonical" href="https://ecbtax.com/utm/">
+<style>
+:root{--bg:#f6f7f9;--fg:#1b2430;--muted:#5b6675;--card:#fff;--line:#d9dee6;--accent:#0a5ea8;--accent-fg:#fff;--hl:#ffe14d;--hl-fg:#1b1b1b}
+@media (prefers-color-scheme:dark){:root{--bg:#11151b;--fg:#e8ecf2;--muted:#9aa5b4;--card:#1a2029;--line:#2b3441;--accent:#6db3f2;--accent-fg:#0b1a2a;--hl:#f2d13a;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;padding:24px 16px}
+main{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:18px;min-width:0}
+h1{font-size:1.45rem;margin:0;line-height:1.25}
+h2{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.lead,.note{color:var(--muted);margin:4px 0 0}
+.note{font-size:.88rem}
+.bar{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+label{display:block;font-size:.8rem;color:var(--muted);margin-bottom:4px}
+input,select{font:inherit;width:100%;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:9px 10px;font-size:.88rem}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wide{grid-column:1/-1}
+.stages{display:flex;flex-wrap:wrap;gap:8px}
+.stage{font:inherit;font-weight:600;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:7px 14px;cursor:pointer}
+.stage[aria-pressed=true]{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+.hint{margin:0;color:var(--muted);font-size:.9rem}
+.hook{margin:0;padding:10px 12px;border-left:4px solid var(--hl);background:var(--bg);border-radius:4px}
+.group{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;padding:10px 0;border-top:1px solid var(--line);align-items:start}
+.row:first-of-type{border-top:0}
+.name{font-weight:600}.name small{font-weight:400;color:var(--muted);margin-left:6px}
+.url{grid-column:1;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.78rem;overflow-wrap:anywhere;word-break:break-word;color:var(--muted)}
+mark{background:var(--hl);color:var(--hl-fg);padding:0 2px;border-radius:3px}
+.cp{grid-column:2;grid-row:1/3;font:inherit;font-weight:600;background:var(--accent);color:var(--accent-fg);border:0;border-radius:8px;padding:8px 14px;cursor:pointer;align-self:center}
+.cp.done{background:var(--hl);color:var(--hl-fg)}
+@media (max-width:480px){.row{grid-template-columns:minmax(0,1fr)}.cp{grid-column:1;grid-row:auto;justify-self:start}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.card h2{font-size:1.05rem;letter-spacing:0;text-transform:none;color:var(--fg);margin:0 0 10px}
+.card p{margin:0 0 10px}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.85rem}th,td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}th{background:var(--bg)}
+.item{border-top:1px solid var(--line);padding:10px 0}.item:first-of-type{border-top:0}.item h3{font-size:.98rem;margin:0 0 4px}.item h3 small{font-weight:400;color:var(--muted);margin-left:6px}.item p{margin:0 0 4px}.code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.78rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Biblioteca UTM ECBTAX</h1>
+<p class="lead">Alegeți etapa din funnel (TOF, MOF, BOF), apoi intenția clientului la care răspunde mesajul, apoi copiați linkul canalului pe care postați. Partea galbenă este eticheta UTM.</p>
+</header>
+<section class="card" aria-labelledby="t1"><h2 id="t1">Ce este UTM și la ce folosește</h2>
+<p>UTM este o etichetă (tag) care se adaugă la finalul unui mesaj de tip „Vedeți mai multe…”, postat pe un canal, de exemplu LinkedIn. Când cel interesat dă click, la aterizarea pe site adresa arată de unde vine vizitatorul.</p>
+<p>Ideea: într-o campanie puteți identifica de pe ce canal vin vizitatorii și puteți optimiza investiția în funcție de canalul care aduce mai mulți. <b>Fără această măsurare, optimizarea este imposibilă.</b></p>
+<p>AiVenture atașează fiecărui site, la rădăcină (aici: <code>https://ecbtax.com/utm/</code>), o bibliotecă cu UTM-urile tuturor canalelor, care în momentul postării se lipesc în coada mesajului. UTM-ul corespunde atât canalului pe care postați, cât și etapei din palnia de vânzare (rece, cald, fierbinte). Identificarea etapei este secretul vânzărilor pe pilot automat: permite urmărirea digitală a vânzării, până la preluarea ștafetei de către livrarea fizică. Această automatizare este oferită de AiVenture la cost redus, fiind automatizată.</p>
+<p><b>Ce este „slug”?</b> Slug-ul este partea finală a adresei care dă nume paginii. Aici slug-ul este <code>utm</code>, iar pagina este fișierul <code>utm/index.html</code> din depozitul GitHub, publicat la <code>https://ecbtax.com/utm/</code>. Da, este o pagină HTML obișnuită a site-ului, dar ascunsă (noindex): nu apare în Google și nu este legată din meniu.</p></section>
+<section class="card" aria-labelledby="t2"><h2 id="t2">Ce s-a făcut, de ce, beneficii, pentru cine</h2>
+<div class="tw"><table><thead><tr><th>Ce s-a făcut</th><th>De ce</th><th>Beneficii</th><th>Pentru cine</th></tr></thead><tbody><tr><td>Pagină HTML la rădăcină, la adresa /utm/</td><td>Toate linkurile într-un singur loc, fără a le scrie de mână.</td><td>Fără greșeli de scriere, același format pentru toate canalele.</td><td>Echipa de marketing, patronul, partenerii.</td></tr><tr><td>29 de canale B2B, fiecare cu utm_source și utm_medium</td><td>Fiecare canal trebuie să aibă o etichetă proprie, altfel nu se pot separa.</td><td>Vedeți de pe ce canal vin vizitatorii și mutați banii pe canalul bun.</td><td>Oricine plătește sau muncește pentru o campanie.</td></tr><tr><td>Etape TOF / MOF / BOF, potrivite cu etapele din ai-intents.json (Awareness / Consideration / Decision)</td><td>Mesajul trebuie să se potrivească cu momentul în care se află omul.</td><td>Știți dacă canalul aduce oameni noi sau oameni gata să cumpere.</td><td>Vânzări, conducere.</td></tr><tr><td>Listă cu cele 50 de intenții reale ale clienților ECBTAX, plus două mesaje gata făcute (general și Start-Up Pack)</td><td>Fiecare mesaj răspunde la o nevoie cunoscută a clientului, nu la una inventată.</td><td>Aterizarea se alege singură pe pagina potrivită; raportul arată ce nevoie aduce vizite.</td><td>Cine scrie postările ECBTAX.</td></tr><tr><td>Butonul Copiază</td><td>Pe telefon sau fără computer, linkul se ia dintr-o atingere.</td><td>Rapiditate, fără pași manuali.</td><td>Toți utilizatorii.</td></tr><tr><td>utm_content = etapă + acțiune (de exemplu tof_learn)</td><td>Un singur câmp păstrează două informații.</td><td>În raport filtrați după etapă sau după acțiune.</td><td>Analiști, AiVenture pentru raportare.</td></tr><tr><td>noindex, canonical fără parametri, în afara sitemap-ului</td><td>Pagina este un instrument intern, nu conținut public.</td><td>Nu apare în Google, nu strică SEO, validatoarele rămân verzi.</td><td>Proprietarul site-ului.</td></tr></tbody></table></div>
+<p class="note">Atenție: eticheta doar marchează vizita. Numărarea se face într-un instrument de măsurare (contorul comun AiVenture sau Google Analytics). Pe ecbtax.com contorul comun este activ.</p></section>
+
+<section class="bar" aria-label="Setări">
+<div class="wide"><label>Etapa din funnel</label><div class="stages" id="stages" role="group"></div><p class="hint" id="hint"></p></div>
+<div class="wide"><label for="intent">Intenția clientului la care răspunde mesajul (din ai-intents.json)</label><select id="intent"></select></div>
+<div class="wide"><p class="hook" id="hook"></p></div>
+<div><label for="camp">Campanie (utm_campaign)</label><input id="camp" value="2610_ecb_parteneriat" autocomplete="off"></div>
+<div><label for="path">Pagina de aterizare (se completează singură)</label><input id="path" value="/" autocomplete="off"></div>
+</section>
+<div id="list" style="display:flex;flex-direction:column;gap:14px"></div>
+<section class="card" aria-labelledby="t3"><h2 id="t3">Cele 4 etape, una câte una</h2><article class="item"><h3>TOF · Rece</h3><p>Antreprenorul nu vă cunoaște. Caută un răspuns la o întrebare („ce înseamnă”, „cum funcționează”). Mesajul educă, nu vinde. Exemplu: „Ce înseamnă să fii plătitor de TVA?”. Ținta: pagina principală sau articolele din blog. Măsura: câți oameni noi ajung pe site.</p></article>
+<article class="item"><h3>MOF · Cald</h3><p>Antreprenorul vă cunoaște și compară contabili sau variante („PFA sau SRL”, „ce include un pachet lunar”). Mesajul oferă dovezi și comparații. Ținta: Start-Up Pack, întrebări frecvente. Măsura: câți se întorc și citesc mai mult.</p></article>
+<article class="item"><h3>BOF · Fierbinte</h3><p>Antreprenorul vrea un contabil acum („caut contabil pentru SRL nou”). Mesajul îl duce direct la contact. Măsura: câți cer o ofertă.</p></article>
+<article class="item"><h3>Client</h3><p>Omul este deja client ECBTAX. Mesaje de bun venit, noutăți legislative, suport. Măsura: câți clienți revin și pe ce canal.</p></article>
+</section>
+<section class="card" aria-labelledby="t4"><h2 id="t4">Cele 29 de canale, unul câte unul</h2><article class="item"><h3>1. Profil personal <small>LinkedIn</small></h3><p>Postările de pe profilul dumneavoastră personal. Au de obicei cea mai mare încredere, pentru că omul vede o persoană, nu o firmă. Folosiți-l pentru povești, cazuri și opinii. În raport vedeți câți vizitatori vin din postările personale, separat de pagina firmei.</p><p class="code">utm_source=<b>linkedin_personal</b> · utm_medium=<b>social</b></p></article>
+<article class="item"><h3>2. Pagina de firmă <small>LinkedIn</small></h3><p>Postările de pe pagina oficială a firmei. Au acoperire mai mică decât profilul personal, dar sunt canalul „oficial”. Folosiți-l pentru anunțuri, oferte și noutăți. Separat de profilul personal, ca să știți care dintre ele aduce mai mult.</p><p class="code">utm_source=<b>linkedin_company</b> · utm_medium=<b>social</b></p></article>
+<article class="item"><h3>3. Pagina showcase <small>LinkedIn</small></h3><p>Pagina showcase este o sub-pagină LinkedIn dedicată unui produs sau unei linii de servicii. Folosiți-l când aveți o audiență distinctă pentru acel produs.</p><p class="code">utm_source=<b>linkedin_showcase</b> · utm_medium=<b>social</b></p></article>
+<article class="item"><h3>4. Articole / newsletter LinkedIn <small>LinkedIn</small></h3><p>Articolele și newsletter-ul publicate direct în LinkedIn. Cititorii sunt abonați, deci mai interesați. Linkul din articol este singurul loc unde puteți măsura cât trimit spre site.</p><p class="code">utm_source=<b>linkedin_newsletter</b> · utm_medium=<b>social</b></p></article>
+<article class="item"><h3>5. Reclame LinkedIn <small>LinkedIn</small></h3><p>Reclame plătite pe LinkedIn. Aici contează fiecare euro, deci eticheta este obligatorie. Medium-ul este „paid_social”, ca să nu se amestece cu postările gratuite. Opțional adăugați utm_term.</p><p class="code">utm_source=<b>linkedin_ads</b> · utm_medium=<b>paid_social</b></p></article>
+<article class="item"><h3>6. Mesaje directe / InMail <small>LinkedIn</small></h3><p>Mesaje directe și InMail către o persoană anume. Sunt de obicei pentru etapa caldă sau fierbinte. Eticheta arată ce răspuns vine după un mesaj personal.</p><p class="code">utm_source=<b>linkedin_dm</b> · utm_medium=<b>dm</b></p></article>
+<article class="item"><h3>7. Email către ținte <small>Email și mesagerie</small></h3><p>Emailuri trimise direct către ținte (prospectare). Eticheta arată ce campanie de email a adus vizite, util pentru a decide ce subiect funcționează.</p><p class="code">utm_source=<b>email_outreach</b> · utm_medium=<b>email</b></p></article>
+<article class="item"><h3>8. Newsletter <small>Email și mesagerie</small></h3><p>Newsletter-ul trimis abonaților dumneavoastră. Publicul vă cunoaște deja, deci de obicei convertește mai bine. Folosiți câte o campanie pentru fiecare ediție.</p><p class="code">utm_source=<b>newsletter</b> · utm_medium=<b>email</b></p></article>
+<article class="item"><h3>9. Semnătura de email <small>Email și mesagerie</small></h3><p>Linkul din semnătura emailurilor zilnice. Este un canal care lucrează singur: fiecare email trimis poartă un link. Arată câți oameni dau click pe semnătură.</p><p class="code">utm_source=<b>email_signature</b> · utm_medium=<b>email</b></p></article>
+<article class="item"><h3>10. WhatsApp <small>Email și mesagerie</small></h3><p>Mesaje și grupuri WhatsApp. Aplicația nu transmite sursa vizitatorului, deci fără UTM vizitele apar ca „direct”. Cu UTM, WhatsApp devine vizibil în raport.</p><p class="code">utm_source=<b>whatsapp</b> · utm_medium=<b>dm</b></p></article>
+<article class="item"><h3>11. Google Ads <small>Reclame și rețele</small></h3><p>Reclame plătite Google (cpc). Adăugați utm_term cu cuvântul cheie. Ajută la compararea cuvintelor cheie care aduc vizitatori reali.</p><p class="code">utm_source=<b>google</b> · utm_medium=<b>cpc</b></p></article>
+<article class="item"><h3>12. Microsoft Ads <small>Reclame și rețele</small></h3><p>Reclame plătite Microsoft Ads (cpc), inclusiv pe Bing. Folosiți aceeași campanie ca la Google, ca să comparați cele două canale.</p><p class="code">utm_source=<b>bing</b> · utm_medium=<b>cpc</b></p></article>
+<article class="item"><h3>13. Facebook <small>Reclame și rețele</small></h3><p>Postări sau reclame pe Facebook. Pentru reclame plătite schimbați manual medium-ul în „paid_social” sau folosiți o campanie distinctă.</p><p class="code">utm_source=<b>facebook</b> · utm_medium=<b>social</b></p></article>
+<article class="item"><h3>14. X <small>Reclame și rețele</small></h3><p>Postări pe X (fost Twitter). Textele sunt scurte, deci un link scurt cu UTM este important. Arată dacă X merită efortul.</p><p class="code">utm_source=<b>x</b> · utm_medium=<b>social</b></p></article>
+<article class="item"><h3>15. YouTube <small>Reclame și rețele</small></h3><p>Linkul din descrierea videoclipurilor sau din comentariul fixat. Arată ce video aduce vizitatori pe site.</p><p class="code">utm_source=<b>youtube</b> · utm_medium=<b>video</b></p></article>
+<article class="item"><h3>16. Medium <small>Conținut și profiluri</small></h3><p>Articole publicate pe Medium cu link către site. Au rol de conținut de autoritate, iar eticheta arată dacă aduc și trafic.</p><p class="code">utm_source=<b>medium</b> · utm_medium=<b>content</b></p></article>
+<article class="item"><h3>17. Crunchbase <small>Conținut și profiluri</small></h3><p>Profilul firmei pe Crunchbase. Link permanent; arată cât trafic vine din directorul de startup-uri.</p><p class="code">utm_source=<b>crunchbase</b> · utm_medium=<b>referral</b></p></article>
+<article class="item"><h3>18. Zenodo <small>Conținut și profiluri</small></h3><p>Publicații sau documente depuse pe Zenodo (cu DOI). Public academic și tehnic. Folosiți linkul în descriere sau în câmpul de resurse.</p><p class="code">utm_source=<b>zenodo</b> · utm_medium=<b>referral</b></p></article>
+<article class="item"><h3>19. ORCID <small>Conținut și profiluri</small></h3><p>Profilul ORCID al autorului. Public de cercetare; linkul se pune la „Websites &amp; social links”.</p><p class="code">utm_source=<b>orcid</b> · utm_medium=<b>referral</b></p></article>
+<article class="item"><h3>20. GitHub <small>Conținut și profiluri</small></h3><p>Linkul din README sau din profilul GitHub. Public tehnic și dezvoltatori.</p><p class="code">utm_source=<b>github</b> · utm_medium=<b>referral</b></p></article>
+<article class="item"><h3>21. Carte KDP <small>Cărți și cursuri</small></h3><p>Linkul din cartea publicată pe Amazon KDP (în text, în biografia autorului sau la final). Singura cale de a ști că un cititor a trecut de la carte la site.</p><p class="code">utm_source=<b>kdp_book</b> · utm_medium=<b>book</b></p></article>
+<article class="item"><h3>22. Curs Udemy <small>Cărți și cursuri</small></h3><p>Linkul din descrierea sau materialele cursului Udemy. Arată câți cursanți ajung pe site. Verificați regulile Udemy privind linkurile externe.</p><p class="code">utm_source=<b>udemy</b> · utm_medium=<b>course</b></p></article>
+<article class="item"><h3>23. Directoare B2B <small>Parteneri și directoare</small></h3><p>Directoare B2B și liste de firme unde sunteți înscris. Folosiți câte o campanie pe director, dacă vreți să știți care merită.</p><p class="code">utm_source=<b>directory</b> · utm_medium=<b>referral</b></p></article>
+<article class="item"><h3>24. Partener <small>Parteneri și directoare</small></h3><p>Linkurile puse de parteneri pe site-urile lor. Dați fiecărui partener o campanie proprie, ca să vedeți cât aduce fiecare.</p><p class="code">utm_source=<b>partner</b> · utm_medium=<b>partner</b></p></article>
+<article class="item"><h3>25. Ofertă PDF / prezentare <small>Offline</small></h3><p>Linkul din oferte PDF și prezentări trimise clienților. Arată dacă destinatarul a deschis și a dat click.</p><p class="code">utm_source=<b>pdf_proposal</b> · utm_medium=<b>document</b></p></article>
+<article class="item"><h3>26. Cod QR tipărit <small>Offline</small></h3><p>Codul QR de pe materiale tipărite (carte de vizită, flyer, panou). Fără UTM, vizita din QR apare ca „direct”. Folosiți un cod QR distinct pentru fiecare material.</p><p class="code">utm_source=<b>qr_print</b> · utm_medium=<b>qr</b></p></article>
+<article class="item"><h3>27. Eveniment / webinar <small>Offline</small></h3><p>Evenimente, conferințe și webinarii: linkul din prezentare sau din mesajul de după. Arată ce eveniment a adus oameni.</p><p class="code">utm_source=<b>event</b> · utm_medium=<b>event</b></p></article>
+<article class="item"><h3>28. Agent Card A2A <small>Agenți AI (experimental)</small></h3><p>Experimental: linkuri din fișa de agent (Agent Card) pentru agenții AI. Arată dacă agenții urmează linkul. Mulți agenți nu transmit sursa, deci cifrele pot fi mici.</p><p class="code">utm_source=<b>a2a_agent_card</b> · utm_medium=<b>agent</b></p></article>
+<article class="item"><h3>29. llms.txt <small>Agenți AI (experimental)</small></h3><p>Experimental: linkuri din llms.txt, fișierul destinat modelelor AI. Folosiți cu atenție: eticheta apare în adresa citată de AI și poate ajunge copiată pe alte pagini.</p><p class="code">utm_source=<b>llms_txt</b> · utm_medium=<b>ai_web</b></p></article>
+</section>
+<p class="note">Site: ecbtax.com. Etapa și acțiunea intră în <code>utm_content</code> (exemplu <code>tof_learn</code>), deci în raport vedeți ce tip de întrebare aduce vizitatori de pe fiecare canal. Pentru reclame plătite adăugați manual la final <code>&amp;utm_term=cuvantul_cheie</code>. Pagina nu este în sitemap și are noindex.</p>
+</main>
+<script>
+(function(){
+var HOST='ecbtax.com';
+var STAGES=[
+['tof','TOF · Rece','Antreprenorul nu vă cunoaște și caută un răspuns (Awareness). Folosiți sfaturi și explicații: ce înseamnă, cum funcționează.'],
+['mof','MOF · Cald','Antreprenorul compară contabili și variante (Consideration). Folosiți comparații, cazuri rezolvate, Start-Up Pack.'],
+['bof','BOF · Fierbinte','Antreprenorul vrea un contabil acum (Decision). Folosiți oferta, formularul de contact și WhatsApp.'],
+['client','Client','Omul este deja client ECBTAX. Folosiți mesaje de bun venit, noutăți legislative, contact.']
+];
+var I=[["00","tof","general","Mesaj general ECBTAX (pagina principală)","/"],["00","tof","startuppack","Start-Up Pack: contabilitate, site, hosting, email și asistent AI într-un contract","/#startup-pack"],["00","mof","general","Mesaj general ECBTAX (pagina principală)","/"],["00","mof","startuppack","Start-Up Pack: contabilitate, site, hosting, email și asistent AI într-un contract","/#startup-pack"],["00","bof","general","Mesaj general ECBTAX (pagina principală)","/"],["00","bof","startuppack","Start-Up Pack: contabilitate, site, hosting, email și asistent AI într-un contract","/#startup-pack"],["","bof","setup_srl_acc","Company Formation · Caut un contabil care să îmi pună la punct toată contabilitatea pentru un SRL nou înființat.","/contact"],["","mof","advisory_pfa_vs_srl","Tax Advisory · Am nevoie de sfat de la un contabil dacă e mai avantajos PFA sau SRL pentru activitatea mea.","/contact"],["","bof","vat_registration","VAT · Caut pe cineva care să se ocupe de înregistrarea firmei mele în scopuri de TVA.","/contact"],["","mof","advisory_tax_regime","Tax Advisory · Am nevoie de ajutor să aleg între regimul de microîntreprindere și impozit pe profit.","/contact"],["","bof","expat_accounting_en","Expat Services · Caut contabil vorbitor de engleză care să mă ajute să deschid și să administrez o mică firmă ca expat în România.","/contact"],["","mof","tax_compliance_anaf","Tax Compliance · Vreau să evit problemele și datoriile la ANAF și să deleg contabilitatea la un specialist.","/contact"],["","bof","tax_declarations_d100_d112_d300","Tax Declarations · Caut un contabil care să se asigure că toate declarațiile D100, D112, D300 etc. sunt depuse corect și la timp.","/contact"],["","bof","anaf_representation","ANAF Representation · Vreau pe cineva care să mă reprezinte și să gestioneze relația cu ANAF la controale sau inspecții.","/contact"],["","bof","vat_intraeu","VAT · Am clienți în UE și îmi trebuie contabil cu experiență pe operațiuni intracomunitare și TVA.","/contact"],["","mof","annual_financials_review","Financial Reporting · Caut un contabil care să verifice anual bilanțurile ca să fiu sigur că respect standardele contabile românești.","/contact"],["","mof","accounting_outsourcing","Outsourcing · Vreau să reduc costurile administrative și să externalizez contabilitatea în loc să angajez contabil intern.","/contact"],["","bof","monthly_pkg_micro","Monthly Packages · Caut un abonament lunar de contabilitate pentru o microîntreprindere.","/contact"],["","mof","tax_optimization_legal","Tax Advisory · Am nevoie de contabil care să identifice soluții legale de optimizare fiscală pentru firma mea.","/contact"],["","bof","switch_digital_accountant","Provider Change · Vreau să compar costurile și beneficiile între contabilul actual și un cabinet mai digitalizat.","/contact"],["","bof","bundle_acc_payroll_annual","Monthly Packages · Caut o ofertă cu preț predictibil care să includă contabilitate, salarizare și raportare anuală la pachet.","/contact"],["","bof","monthly_bookkeeping_srl","Monthly Packages · Am nevoie de contabilitate lunară pentru un SRL cu 1–10 angajați.","/contact"],["","mof","accounting_cleanup","Accounting Cleanup · Caut ajutor să pun în ordine evidențele contabile haotice.","/contact"],["","mof","software_migration_acc","Digital Transformation · Am nevoie de cineva care să mă ajute să migrez de la Excel la un soft integrat de contabilitate.","/contact"],["","mof","cloud_accounting","Digital Transformation · Vreau contabilitate în cloud ca să pot vedea în timp real situația financiară a firmei.","/contact"],["","bof","ar_ap_management","Bookkeeping · Caut un contabil care să gestioneze registrele de furnizori și clienți și urmărirea facturilor neîncasate.","/contact"],["","bof","payroll_outsourcing","Payroll · Vreau să externalizez calculul salariilor, contractele și declarațiile salariale D112.","/contact"],["","tof","employment_cost_advisory","Payroll · Am nevoie de consultanță contabilă pentru angajarea primilor angajați și calculul costului total al muncii.","/contact"],["","mof","hr_tax_reporting","Payroll · Caut pe cineva care să mă ajute cu raportările legate de HR, beneficii și impozitarea angajaților.","/contact"],["","tof","payroll_legislation_monitor","Payroll · Vreau să fiu informat la timp când apar modificări legislative care afectează salariile și taxele pe muncă.","/contact"],["","mof","remote_employee_payroll","Payroll · Am angajați remote din mai multe orașe și am nevoie de servicii de salarizare care să acopere aceste situații.","/contact"],["","bof","corporate_tax_returns","Tax Declarations · Am nevoie de contabil care să pregătească declarațiile trimestriale și anuale pentru impozitul pe profit sau microîntreprindere.","/contact"],["","bof","vat_returns_refund","VAT · Caut ajutor pentru deconturile de TVA, recuperare TVA și corectarea erorilor vechi.","/contact"],["","tof","tax_planning_ongoing","Tax Advisory · Vreau planificare fiscală continuă ca să reduc legal povara fiscală pentru firmă și asociați.","/contact"],["","mof","advisory_salary_vs_dividends","Tax Advisory · Am nevoie de sfat privind mixul optim între salariu de administrator și dividende.","/contact"],["","bof","tax_returns_rectification","Tax Declarations · Caut contabil care să mă ajute cu declarații rectificative și corectarea greșelilor fiscale din trecut.","/contact"],["","mof","management_reporting","Financial Reporting · Vreau rapoarte lunare de management și indicatori, nu doar contabilitate de bază.","/contact"],["","bof","fractional_cfo","CFO Services · Caut un CFO part-time extern pentru bugetare, cash-flow și discuții cu banca.","/contact"],["","mof","financial_projections","CFO Services · Am nevoie de previziuni financiare pentru a obține credit bancar sau finanțare europeană.","/contact"],["","mof","financials_explanation","Financial Reporting · Vreau pe cineva care să îmi explice bilanțul și contul de profit și pierdere.","/contact"],["","bof","due_diligence_financial","Advisory · Caut suport de evaluare și due diligence financiar pentru cumpărarea sau vânzarea unei afaceri.","/contact"],["","bof","it_accounting","Industry Specific · Am nevoie de contabil specializat pe SRL-uri din IT, freelanceri și micro-agenții.","/contact"],["","bof","ecommerce_accounting","Industry Specific · Caut contabilitate adaptată pentru e-commerce și marketplace-uri.","/contact"],["","bof","horeca_accounting","Industry Specific · Am restaurant sau cafenea și îmi trebuie contabil obișnuit cu HoReCa.","/contact"],["","bof","construction_accounting","Industry Specific · Caut contabil cu experiență în construcții și urmărire de costuri pe proiect.","/contact"],["","bof","medical_dental_accounting","Industry Specific · Am cabinet medical sau stomatologic și vreau contabil specializat.","/contact"],["","bof","group_reporting_en","International · Sunt acționar străin și caut o firmă de contabilitate care lucrează în engleză.","/contact"],["","bof","vat_oss_ioss_crossborder","VAT · Am nevoie de contabil care să gestioneze OSS, IOSS și TVA transfrontalier.","/contact"],["","mof","transfer_pricing","International · Caut contabil care să mă ajute cu dosarele de prețuri de transfer.","/contact"],["","mof","ifrs_group_reporting","International · Am nevoie să aliniez contabilitatea locală cu IFRS și raportarea de grup.","/contact"],["","bof","allinone_foreign_entrepreneur","Expat Services · Sunt antreprenor străin și caut pachet complet all-in-one.","/contact"],["","bof","provider_change","Provider Change · Vreau să schimb actualul contabil și să păstrez sau să îmbunătățesc serviciile.","/contact"],["","mof","second_opinion_accounting","Quality Assurance · Am nevoie de a doua opinie contabilă.","/contact"],["","mof","tax_health_check","Quality Assurance · Caut un audit sau health-check contabil pentru identificarea riscurilor.","/contact"],["","bof","forensic_accounting","Advisory · Am nevoie de contabilitate forensic pentru investigarea unor posibile fraude.","/contact"],["","bof","digital_acc_erp_integration","Digital Transformation · Vreau un cabinet contabil digital care se integrează cu ERP și facturare.","/contact"]];
+var CH=[
+
+    ['LinkedIn','Profil personal','linkedin_personal','social'],
+    ['LinkedIn','Pagina de firmă','linkedin_company','social'],
+    ['LinkedIn','Pagina showcase','linkedin_showcase','social'],
+    ['LinkedIn','Articole / newsletter LinkedIn','linkedin_newsletter','social'],
+    ['LinkedIn','Reclame LinkedIn','linkedin_ads','paid_social'],
+    ['LinkedIn','Mesaje directe / InMail','linkedin_dm','dm'],
+    ['Email și mesagerie','Email către ținte','email_outreach','email'],
+    ['Email și mesagerie','Newsletter','newsletter','email'],
+    ['Email și mesagerie','Semnătura de email','email_signature','email'],
+    ['Email și mesagerie','WhatsApp','whatsapp','dm'],
+    ['Reclame și rețele','Google Ads','google','cpc'],
+    ['Reclame și rețele','Microsoft Ads','bing','cpc'],
+    ['Reclame și rețele','Facebook','facebook','social'],
+    ['Reclame și rețele','X','x','social'],
+    ['Reclame și rețele','YouTube','youtube','video'],
+    ['Conținut și profiluri','Medium','medium','content'],
+    ['Conținut și profiluri','Crunchbase','crunchbase','referral'],
+    ['Conținut și profiluri','Zenodo','zenodo','referral'],
+    ['Conținut și profiluri','ORCID','orcid','referral'],
+    ['Conținut și profiluri','GitHub','github','referral'],
+    ['Cărți și cursuri','Carte KDP','kdp_book','book'],
+    ['Cărți și cursuri','Curs Udemy','udemy','course'],
+    ['Parteneri și directoare','Directoare B2B','directory','referral'],
+    ['Parteneri și directoare','Partener','partner','partner'],
+    ['Offline','Ofertă PDF / prezentare','pdf_proposal','document'],
+    ['Offline','Cod QR tipărit','qr_print','qr'],
+    ['Offline','Eveniment / webinar','event','event'],
+    ['Agenți AI (experimental)','Agent Card A2A','a2a_agent_card','agent'],
+    ['Agenți AI (experimental)','llms.txt','llms_txt','ai_web']
+];
+var stage='tof',cur=null;
+var $=function(id){return document.getElementById(id)};
+function clean(v){return String(v||'').toLowerCase().replace(/[^a-z0-9_.\-]/g,'')}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function content(){ if(stage==='client') return 'client_general'; return cur?stage+'_'+cur[2]:stage+'_general'; }
+function tail(s,m){return 'utm_source='+s+'&utm_medium='+m+'&utm_campaign='+(clean($('camp').value)||'campanie')+'&utm_content='+content();}
+function base(){var p=$('path').value.trim()||'/'; if(p.charAt(0)!=='/')p='/'+p; var h=''; var i=p.indexOf('#'); if(i>-1){h=p.slice(i);p=p.slice(0,i);} return {pre:'https://'+HOST+p+'?',hash:h};}
+function link(c){var b=base();return b.pre+tail(c[2],c[3])+b.hash;}
+function drawIntents(){
+ var sel=$('intent');
+ if(stage==='client'){sel.innerHTML='<option>Nu se aplică</option>';sel.disabled=true;cur=null;$('hook').textContent='Mesaj către clienți existenți. Aterizare recomandată: /contact.';$('path').value='/contact';return;}
+ sel.disabled=false;
+ var L=I.filter(function(x){return x[1]===stage});
+ sel.innerHTML=L.map(function(x,k){return '<option value="'+k+'">'+esc(x[3])+'</option>'}).join('');
+ pick();
+}
+function pick(){
+ if(stage==='client')return;
+ var L=I.filter(function(x){return x[1]===stage});
+ cur=L[+$('intent').value||0];
+ $('hook').textContent='Intenția mesajului: '+cur[3];
+ $('path').value=cur[4];
+}
+function render(){
+ var h='',g='';
+ CH.forEach(function(c,i){
+  if(c[0]!==g){if(g)h+='</section>';g=c[0];h+='<section class="group"><h2>'+esc(g)+'</h2>';}
+  var b=base();
+  h+='<div class="row"><div class="name">'+esc(c[1])+'<small>'+esc(c[2])+'</small></div><div class="url">'+esc(b.pre)+'<mark>'+esc(tail(c[2],c[3]))+'</mark>'+esc(b.hash)+'</div><button type="button" class="cp" data-i="'+i+'">Copiază</button></div>';
+ });
+ $('list').innerHTML=h+'</section>';
+ $('hint').textContent=STAGES.filter(function(s){return s[0]===stage})[0][2];
+}
+function drawStages(){$('stages').innerHTML=STAGES.map(function(s){return '<button type="button" class="stage" data-s="'+s[0]+'" aria-pressed="'+(s[0]===stage)+'">'+esc(s[1])+'</button>'}).join('');}
+$('stages').addEventListener('click',function(e){var b=e.target.closest('.stage');if(!b)return;stage=b.getAttribute('data-s');drawStages();drawIntents();render();});
+$('intent').addEventListener('change',function(){pick();render();});
+['camp','path'].forEach(function(id){$(id).addEventListener('input',render)});
+$('list').addEventListener('click',function(e){
+ var b=e.target.closest('.cp');if(!b)return;var t=link(CH[+b.getAttribute('data-i')]);
+ function ok(){b.textContent='Copiat';b.classList.add('done');setTimeout(function(){b.textContent='Copiază';b.classList.remove('done')},1500)}
+ function fb(){var r=document.createRange();r.selectNodeContents(b.parentNode.querySelector('.url'));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selectat';}
+ if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(ok,fb);else fb();
+});
+drawStages();drawIntents();render();
+})();
+</script>
+</body>
+</html>
