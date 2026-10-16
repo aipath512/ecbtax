@@ -1,0 +1,44 @@
+name: Sitemap
+
+# La fiecare push pe main regenerează sitemap.xml (lastmod = data ultimului commit
+# al fiecărei pagini; articolele noi din blog/ apar singure) și îl comite dacă s-a schimbat.
+# Nu se re-declanșează singur: ignoră push-urile care ating doar sitemap.xml,
+# iar commit-urile făcute cu GITHUB_TOKEN nu pornesc alte workflow-uri.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - sitemap.xml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sitemap
+  cancel-in-progress: false
+
+jobs:
+  sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generează sitemap.xml
+        run: python3 .github/scripts/gen_sitemap.py
+
+      - name: Comite dacă s-a schimbat
+        run: |
+          if git diff --quiet -- sitemap.xml; then
+            echo "sitemap.xml neschimbat — nimic de comis"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml
+          git commit -m "sitemap: actualizare automată lastmod din data ultimului commit"
+          git pull --rebase origin main
+          git push
