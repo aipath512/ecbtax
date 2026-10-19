@@ -7,6 +7,9 @@
 <meta name="description" content="Ghiduri ECBTAX despre contabilitate, salarizare, TVA, ANAF, taxe, investitori străini și dovezi profesionale verificabile.">
 <link rel="canonical" href="https://ecbtax.com/blog/">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ECBTAX">
+<meta property="og:locale" content="ro_RO">
 <style>:root{--ink:#0b0d10;--panel:#12161b;--text:#f4efe7;--dim:#aaa39a;--gold:#d4af37;--line:#2a2e35}
 *{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.65}
 a{color:var(--gold)}.wrap{max-width:980px;margin:0 auto;padding:36px 22px}
@@ -18,16 +21,41 @@ h3{font-size:22px;margin-top:30px;color:var(--gold)}p,li{font-size:18px}.lead{fo
 .cta{border:1px solid var(--gold);padding:22px;background:rgba(212,175,55,.08);margin-top:42px}
 footer{border-top:1px solid var(--line);margin-top:60px;padding-top:22px;color:var(--dim);font-size:14px}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}@media(max-width:800px){.grid{grid-template-columns:1fr}}</style>
-<script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
-  "@type": "Blog",
-  "name": "ECBTAX Blog",
-  "url": "https://ecbtax.com/blog/",
-  "publisher": {
-    "@type": "AccountingService",
-    "name": "ECB TAX ACCOUNTING & HR SRL"
-  }
-}</script>
+  "@graph": [
+    {
+      "@type": "Blog",
+      "name": "ECBTAX Blog",
+      "url": "https://ecbtax.com/blog/",
+      "publisher": {
+        "@type": "AccountingService",
+        "name": "ECB TAX ACCOUNTING & HR SRL"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ecbtax.com/#website",
+      "url": "https://ecbtax.com/",
+      "name": "ECBTAX",
+      "inLanguage": "ro-RO",
+      "publisher": {
+        "@id": "https://ecbtax.com/#organization"
+      }
+    },
+    {
+      "@type": [
+        "Organization",
+        "AccountingService"
+      ],
+      "@id": "https://ecbtax.com/#organization",
+      "name": "ECB TAX ACCOUNTING & HR SRL",
+      "url": "https://ecbtax.com/"
+    }
+  ]
+}
+</script>
 </head>
 <body><div class="wrap">
 <nav><a href="/">Acasă</a> → Blog</nav>
