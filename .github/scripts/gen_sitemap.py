@@ -36,6 +36,13 @@ STATIC = [
     ("/blog/", "blog/index.html", "weekly", "0.8"),
 ]
 
+# Pagini servite de Worker (aiventure-legal-worker), nu din fisiere din repo.
+# Data trebuie sa fie identica cu LEGAL_DATE din Worker (= dateModified din pagina).
+WORKER_PAGES = [
+    ("/legal/terms/", "2026-10-19", "yearly", "0.5"),
+    ("/legal/ai-transparency/", "2026-10-19", "yearly", "0.5"),
+]
+
 BLOG_DIR = "blog"
 BLOG_CHANGEFREQ = "monthly"
 BLOG_PRIORITY = "0.7"
@@ -98,6 +105,9 @@ def main() -> int:
             skipped.append(f"{path}: noindex")
             continue
         entries.append(entry(path, last_commit_date(src), cf, pr))
+
+    for path, lm, cf, pr in WORKER_PAGES:
+        entries.append(entry(path, lm, cf, pr))
 
     blog = ROOT / BLOG_DIR
     if blog.is_dir():
