@@ -2772,6 +2772,17 @@ import {AnnotationMode} from '../constants.js';
   </div>
 </section>
 
+<section class="section" id="faq">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">// faq</div>
+      <h2><span lang-ro="" lang="ro">Întrebare <em>frecventă.</em></span><span lang-en="" lang="en" style="display: none;">Frequently asked <em>question.</em></span></h2>
+    </div>
+  </div>
+  <h3><span lang-ro="" lang="ro">Cum verific ECBTAX?</span><span lang-en="" lang="en" style="display: none;">How do I verify ECBTAX?</span></h3>
+  <p><span lang-ro="" lang="ro">Prin Trust Center, SHA-256, OpenTimestamps și Bitcoin block 954297.</span><span lang-en="" lang="en" style="display: none;">Through the Trust Center, SHA-256, OpenTimestamps and Bitcoin block 954297.</span></p>
+</section>
+
 <footer id="contact" style="border-top:1px solid var(--dimmer); padding:44px; font-family:var(--mono); font-size:12px; color:var(--dim); display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap;">
   <span>© ECB TAX ACCOUNTING &amp; HR SRL</span>
   <span><a href="mailto:ecbtax@gmail.com" style="color:var(--gold); text-decoration:none;">ecbtax@gmail.com</a></span>
@@ -3099,6 +3110,21 @@ setLang(localStorage.getItem('ecbtax_lang') || 'ro');
           "position": 2,
           "name": "Trust Center",
           "item": "https://ecbtax.com/trust-center"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ecbtax.com/trust-center/#faq",
+      "inLanguage": "ro-RO",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cum verific ECBTAX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prin Trust Center, SHA-256, OpenTimestamps și Bitcoin block 954297."
+          }
         }
       ]
     }

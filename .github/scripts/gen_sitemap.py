@@ -31,7 +31,7 @@ STATIC = [
     ("/rapoarte.html", "rapoarte.html", "weekly", "0.9"),
     ("/intrebari", "intrebari.html", "monthly", "0.8"),
     ("/contact", "contact.html", "yearly", "0.7"),
-    ("/a2a-proof.html", "a2a-proof.html", "monthly", "0.9"),
+    ("/a2a-proof", "a2a-proof.html", "monthly", "0.9"),
     ("/servicii/", "servicii/index.html", "monthly", "0.9"),
     ("/blog/", "blog/index.html", "weekly", "0.8"),
 ]
