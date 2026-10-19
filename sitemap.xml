@@ -65,6 +65,20 @@
   </url>
 
   <url>
+    <loc>https://ecbtax.com/legal/terms/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ecbtax.com/legal/ai-transparency/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
     <loc>https://ecbtax.com/blog/accounting-services-romania-for-foreign-investors/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
