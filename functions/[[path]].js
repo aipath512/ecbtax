@@ -1,4 +1,10 @@
 export async function onRequest(context) {
+  const url = new URL(context.request.url);
+  if (url.hostname === 'www.ecbtax.com') {
+    url.hostname = 'ecbtax.com';
+    return Response.redirect(url.toString(), 308);
+  }
+
   const response = await context.next();
   const contentType = response.headers.get('content-type') || '';
 
