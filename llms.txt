@@ -22,19 +22,26 @@
 ## Pagini principale
 
 - [Pagina principală](https://ecbtax.com/): prezentarea firmei, catalogul complet de servicii cu coduri de practică, procesul de colaborare în patru pași, stratul de încredere și întrebări frecvente.
+- [Servicii](https://ecbtax.com/servicii/): cele șapte linii comerciale aprobate și 50 de răspunsuri despre livrabile, eligibilitate și colaborare.
 - [Trust Center](https://ecbtax.com/trust-center): credențialele profesionale publicate ca dovezi verificabile — patru documente PDF cu hash SHA-256 și atestare OpenTimestamps în blocul Bitcoin 954297.
-- [Întrebări frecvente](https://ecbtax.com/intrebari): zece răspunsuri despre servicii, preluarea contabilității de la altă firmă, suport ANAF, salarizare și REVISAL, documente necesare și modul de stabilire a prețului.
+- [Întrebări frecvente](https://ecbtax.com/intrebari): zece răspunsuri despre servicii, preluarea contabilității de la altă firmă, suport ANAF, salarizare și REGES-ONLINE, documente necesare și modul de stabilire a prețului.
 - [Contact](https://ecbtax.com/contact): datele de contact și cei trei pași prin care începe o colaborare.
+- [Blog](https://ecbtax.com/blog/): ghiduri despre contabilitate, TVA, payroll, ANAF și companii străine; informațiile fiscale trebuie interpretate la data de verificare afișată.
+- [A2A Proof](https://ecbtax.com/a2a-proof): dovada publicată a rulajului de test pentru seller agent, cu limitările probei explicate.
+- [Agent Card](https://ecbtax.com/.well-known/agent-card.json): manifestul public al agentului ECBTAX.
+- [A2A Endpoint](https://ecbtax.com/api/a2a): descriere JSON la GET; tranzacțiile folosesc POST și necesită aprobare umană.
 
 ## Servicii
 
 - **AC-100 — Contabilitate financiară**: registre conform OMFP 1802, balanță lunară, închideri trimestriale, bilanț anual. Pentru SRL, PFA și ONG.
 - **TX-200 — Conformitate fiscală**: D100, D300, D394, D390, D205, D406 SAF-T; asistență la inspecție ANAF. Pentru plătitori de TVA.
-- **PR-300 — Salarizare**: state de plată, REVISAL, viramente, fluturași, certificate de venit. Pentru angajatori.
+- **PR-300 — Salarizare**: state de plată, REGES-ONLINE, viramente, fluturași, certificate de venit. Pentru angajatori.
 - **HR-310 — Administrare HR**: contracte, fișe de post, regulamente interne, pontaj, GDPR. Pentru echipe în creștere.
 - **AD-400 — Consultanță fiscală**: structurare micro vs. profit, dividend vs. salariu, optimizare TVA, due diligence. Pentru fondatori.
 - **HR-500 — Recrutare personal financiar**: contabili, controllers, finance managers, pentru roluri temporare sau permanente.
 - **CF-600 — CFO part-time**: forecast lunar, cash management, raportare către board, scenarii de runway. Pentru scale-ups.
+
+Aceste șapte linii reprezintă catalogul comercial public. Fișierele de intenții nu extind automat oferta și nu constituie permisiune de contractare pentru servicii care nu apar în acest catalog.
 
 ## Credențiale verificabile
 

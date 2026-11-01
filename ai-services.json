@@ -1,153 +1,23 @@
 {
-  "schema": "ecbtax-ai-services-v1",
-  "version": "1.0",
+  "schema": "ecbtax-ai-services-v2",
+  "version": "2.0",
+  "updated_at": "2026-11-01",
   "site": "https://ecbtax.com",
-  "organization": "ECBTAX",
-  "total_services": 18,
+  "organization": "ECB TAX ACCOUNTING & HR SRL",
+  "source_of_truth": "https://ecbtax.com/servicii/",
+  "policy": {
+    "rule": "Capability is not permission. A claim is not proof.",
+    "commercial_services_must_be_human_approved": true,
+    "services_outside_this_catalog": "not publicly offered"
+  },
+  "total_services": 7,
   "services": [
-    {
-      "service_id": "SERV-001",
-      "name": "Company Formation Accounting",
-      "category": "Startup and Company Formation",
-      "description": "Accounting setup and initial fiscal organization for newly incorporated Romanian SRLs.",
-      "related_intents": ["INT-001", "INT-045"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-002",
-      "name": "PFA vs SRL Advisory",
-      "category": "Startup and Company Formation",
-      "description": "Advisory comparing PFA and SRL based on taxes, contributions, activity type and growth plans.",
-      "related_intents": ["INT-002"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-003",
-      "name": "VAT and Cross-Border VAT Compliance",
-      "category": "VAT and Tax Compliance",
-      "description": "VAT registration, VAT returns, VAT recovery, intra-EU VAT, OSS/IOSS and cross-border VAT support.",
-      "related_intents": ["INT-003", "INT-009", "INT-027", "INT-042"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-004",
-      "name": "Tax Advisory and Fiscal Planning",
-      "category": "Tax Advisory",
-      "description": "Tax regime advisory, legal tax optimization, ongoing fiscal planning, administrator salary versus dividends and correction of fiscal errors.",
-      "related_intents": ["INT-004", "INT-013", "INT-028", "INT-029", "INT-030"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-005",
-      "name": "ANAF Representation and Tax Declaration Filing",
-      "category": "Tax Compliance",
-      "description": "Preparation and filing of Romanian tax declarations and support in relation with ANAF controls, inspections and clarifications.",
-      "related_intents": ["INT-006", "INT-007", "INT-008", "INT-026"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-006",
-      "name": "Accounting Outsourcing and Monthly Bookkeeping",
-      "category": "Monthly Accounting",
-      "description": "Outsourced accounting, monthly bookkeeping, accounting packages, invoice processing, bank reconciliation and financial reporting for Romanian SMEs.",
-      "related_intents": ["INT-011", "INT-012", "INT-015", "INT-016", "INT-020"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-007",
-      "name": "Accounting Cleanup and Software Migration",
-      "category": "Digital Accounting",
-      "description": "Cleanup of messy accounting records, migration from Excel to accounting software and cloud accounting workflows.",
-      "related_intents": ["INT-017", "INT-018", "INT-019", "INT-050"],
-      "priority": "MEDIUM"
-    },
-    {
-      "service_id": "SERV-008",
-      "name": "Payroll Outsourcing and HR Tax Reporting",
-      "category": "Payroll and HR",
-      "description": "Payroll calculation, employment documents, D112 filing, HR tax reporting, benefits taxation and payroll legislation monitoring.",
-      "related_intents": ["INT-021", "INT-022", "INT-023", "INT-024", "INT-025"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-009",
-      "name": "Management Reporting and Fractional CFO",
-      "category": "Financial Management",
-      "description": "Management reports, KPIs, cash-flow, budgeting, financial projections, bank discussions and part-time CFO support.",
-      "related_intents": ["INT-031", "INT-032", "INT-033", "INT-034"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-010",
-      "name": "Financial Due Diligence and Business Evaluation",
-      "category": "Transaction Support",
-      "description": "Financial due diligence, company evaluation support and analysis for buying or selling a small business.",
-      "related_intents": ["INT-035"],
-      "priority": "MEDIUM"
-    },
-    {
-      "service_id": "SERV-011",
-      "name": "IT and Software Company Accounting",
-      "category": "Industry Accounting",
-      "description": "Accounting for IT SRLs, software freelancers, micro-agencies, international contracts and recurring revenue models.",
-      "related_intents": ["INT-036"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-012",
-      "name": "E-commerce and Marketplace Accounting",
-      "category": "Industry Accounting",
-      "description": "Accounting for ecommerce and marketplace businesses, including commissions, returns, inventory and EU VAT issues.",
-      "related_intents": ["INT-037"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-013",
-      "name": "HoReCa Accounting",
-      "category": "Industry Accounting",
-      "description": "Accounting for restaurants, cafes and HoReCa businesses, including inventory, fiscal receipts, margins and VAT specifics.",
-      "related_intents": ["INT-038"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-014",
-      "name": "Construction Project Accounting",
-      "category": "Industry Accounting",
-      "description": "Accounting for construction companies and contractors with project-level cost, revenue and margin tracking.",
-      "related_intents": ["INT-039"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-015",
-      "name": "Medical and Dental Practice Accounting",
-      "category": "Industry Accounting",
-      "description": "Accounting for medical and dental practices, including income, expenses, medical equipment and fiscal treatment.",
-      "related_intents": ["INT-040"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-016",
-      "name": "International Accounting and Group Reporting",
-      "category": "International Accounting",
-      "description": "English-language accounting, reporting to headquarters, Romanian GAAP to IFRS mapping and group reporting support.",
-      "related_intents": ["INT-005", "INT-041", "INT-044"],
-      "priority": "HIGH"
-    },
-    {
-      "service_id": "SERV-017",
-      "name": "Transfer Pricing Support",
-      "category": "International Tax",
-      "description": "Support for identifying intragroup transactions and preparing Romanian transfer pricing documentation.",
-      "related_intents": ["INT-043"],
-      "priority": "MEDIUM"
-    },
-    {
-      "service_id": "SERV-018",
-      "name": "Accounting Provider Change, Review and Forensic Accounting",
-      "category": "Recovery and Risk Review",
-      "description": "Accounting provider transition, second opinion review, accounting and tax health-checks and forensic accounting analysis.",
-      "related_intents": ["INT-014", "INT-046", "INT-047", "INT-048", "INT-049"],
-      "priority": "HIGH"
-    }
+    {"service_id":"AC-100","name":"Contabilitate financiară","english_name":"Bookkeeping and financial accounting","status":"publicly_offered","audience":["SRL","PFA","ONG"],"url":"https://ecbtax.com/servicii/#ac-100","quote_url":"https://ecbtax.com/?serviciu=AC-100#contact"},
+    {"service_id":"TX-200","name":"Conformitate fiscală","english_name":"Tax compliance and filing","status":"publicly_offered","audience":["Companii și organizații"],"url":"https://ecbtax.com/servicii/#tx-200","quote_url":"https://ecbtax.com/?serviciu=TX-200#contact"},
+    {"service_id":"PR-300","name":"Calculul salariilor","english_name":"Payroll","status":"publicly_offered","audience":["Angajatori"],"url":"https://ecbtax.com/servicii/#pr-300","quote_url":"https://ecbtax.com/?serviciu=PR-300#contact"},
+    {"service_id":"HR-310","name":"Administrare HR","english_name":"HR administration","status":"publicly_offered","audience":["Angajatori","Echipe în creștere"],"url":"https://ecbtax.com/servicii/#hr-310","quote_url":"https://ecbtax.com/?serviciu=HR-310#contact"},
+    {"service_id":"AD-400","name":"Consultanță fiscală","english_name":"Tax advisory","status":"publicly_offered","audience":["Fondatori","Companii"],"url":"https://ecbtax.com/servicii/#ad-400","quote_url":"https://ecbtax.com/?serviciu=AD-400#contact"},
+    {"service_id":"HR-500","name":"Recrutare personal financiar","english_name":"Finance staffing and recruiting","status":"publicly_offered","audience":["Companii"],"url":"https://ecbtax.com/servicii/#hr-500","quote_url":"https://ecbtax.com/?serviciu=HR-500#contact"},
+    {"service_id":"CF-600","name":"CFO part-time","english_name":"Fractional CFO","status":"publicly_offered","audience":["Startup-uri","Scale-up-uri","IMM"],"url":"https://ecbtax.com/servicii/#cf-600","quote_url":"https://ecbtax.com/?serviciu=CF-600#contact"}
   ]
 }

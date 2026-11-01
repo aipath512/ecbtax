@@ -10,6 +10,29 @@ export async function onRequestOptions(){
   return reply({ok:true});
 }
 
+export function onRequestGet(){
+  return Response.json({
+    name:"ECBTAX Seller Agent",
+    version:"0.2.0",
+    status:"available",
+    protocol:"JSON-RPC 2.0",
+    endpoint:"https://ecbtax.com/api/a2a",
+    agent_card:"https://ecbtax.com/.well-known/agent-card.json",
+    human_approval_required:true,
+    skills:[{
+      id:"payroll-ro",
+      name:"Calcul salarial România",
+      availability:"quote-and-order",
+      methods:["service.request","service.answer","quote.accept","order.create","service.execute","service.result","transaction.receipt"]
+    }],
+    note:"GET describes the endpoint. Transactions require POST and human approval."
+  },{headers:{
+    "Access-Control-Allow-Origin":"*",
+    "Cache-Control":"public, max-age=300",
+    "X-Content-Type-Options":"nosniff"
+  }});
+}
+
 function makeId(prefix){
   return `${prefix}-${crypto.randomUUID()
     .replaceAll("-","")

@@ -43,7 +43,7 @@
         },
         {
           "@type": "Offer",
-          "name": "Salarizare și REVISAL"
+          "name": "Salarizare și REGES-ONLINE"
         },
         {
           "@type": "Offer",
@@ -76,7 +76,7 @@
     {
       "@type": "Service",
       "@id": "https://ecbtax.com/#service-payroll",
-      "name": "Salarizare și REVISAL",
+      "name": "Salarizare și REGES-ONLINE",
       "serviceType": "Payroll and HR administration",
       "provider": {
         "@id": "https://ecbtax.com/#organization"

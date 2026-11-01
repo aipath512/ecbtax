@@ -1,12 +1,15 @@
 {
   "name":"ECBTAX Seller Agent",
-  "description":"Agent A2A pentru servicii ECBTAX.",
+  "description":"Agent A2A ECBTAX pentru descoperire, ofertare și comenzi payroll cu aprobare umană obligatorie.",
   "url":"https://ecbtax.com/api/a2a",
-  "version":"0.1.0",
-  "capabilities":{"serviceDiscovery":true,"quotes":true},
+  "version":"0.2.0",
+  "protocol":"JSON-RPC 2.0",
+  "humanApprovalRequired":true,
+  "capabilities":{"serviceDiscovery":true,"quotes":true,"orders":true,"status":true},
   "skills":[{
     "id":"payroll-ro",
     "name":"Calcul salarial România",
-    "description":"Servicii payroll pentru companii cu angajați în România."
+    "description":"Servicii payroll pentru companii cu angajați în România. Prețul provine din configurația ECBTAX, iar comanda necesită aprobare umană.",
+    "methods":["service.request","service.answer","quote.accept","order.create","service.execute","service.result","transaction.receipt"]
   }]
 }

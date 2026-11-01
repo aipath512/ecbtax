@@ -1,6 +1,6 @@
 {
   "schema": "ecbtax-ai-profile-v1",
-  "version": "1.1",
+  "version": "2.0",
   "organization": {
     "name": "ECBTAX",
     "legal_name": "ECB TAX ACCOUNTING & HR SRL",
@@ -23,27 +23,19 @@
     "Startups",
     "Foreign Investors",
     "Expat Entrepreneurs",
-    "IT Companies",
-    "Ecommerce Businesses",
-    "Restaurants",
-    "Construction Companies",
-    "Medical Practices"
+    "PFA Professionals",
+    "NGOs",
+    "Employers",
+    "Scale-ups"
   ],
   "business_capabilities": [
-    "Accounting Services",
-    "Payroll Outsourcing",
+    "Financial Accounting",
+    "Tax Compliance and Filing",
+    "Payroll",
+    "HR Administration",
     "Tax Advisory",
-    "VAT Compliance",
-    "VAT Registration",
-    "ANAF Representation",
-    "Financial Reporting",
-    "Management Reporting",
-    "Fractional CFO",
-    "Financial Due Diligence",
-    "Transfer Pricing",
-    "Forensic Accounting",
-    "Cloud Accounting",
-    "ERP Integration"
+    "Finance Staffing and Recruiting",
+    "Fractional CFO"
   ],
   "trust_center": {
     "url": "https://ecbtax.com/trust-center/",

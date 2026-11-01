@@ -84,7 +84,7 @@
     {
       "@type": "Service",
       "@id": "https://ecbtax.com/#service-payroll",
-      "name": "Salarizare și REVISAL",
+      "name": "Salarizare și REGES-ONLINE",
       "provider": {
         "@id": "https://ecbtax.com/#organization"
       }
