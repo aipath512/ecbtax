@@ -21,6 +21,9 @@
 
 ## Pagini principale
 
+- [Transparență AI](https://ecbtax.com/legal/ai-transparency/): utilizarea asistentului AI, limitele răspunsurilor, intervenție umană și referințe EU AI Act/GDPR.
+
+
 - [Pagina principală](https://ecbtax.com/): prezentarea firmei, catalogul complet de servicii cu coduri de practică, procesul de colaborare în patru pași, stratul de încredere și întrebări frecvente.
 - [Servicii](https://ecbtax.com/servicii/): cele șapte linii comerciale aprobate și 50 de răspunsuri despre livrabile, eligibilitate și colaborare.
 - [Trust Center](https://ecbtax.com/trust-center): credențialele profesionale publicate ca dovezi verificabile — patru documente PDF cu hash SHA-256 și atestare OpenTimestamps în blocul Bitcoin 954297.
